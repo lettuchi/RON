@@ -84,6 +84,8 @@ label au_modern_epilogue_letterhead:
     voice "audio/voice/kaoru_575.mp3"
     kaoru "It was not, then. It is, now. I amended the filing. The letterhead caught up to the calendar. The calendar caught up to the harbor."
 
+    toa "You spent three cases teaching me what *on letterhead* meant. That filing us as real was the one motion you would not grant. And now you have granted it in your own hand, on the Council's own grid, where the building keeps the things it cannot take back. You did not keep us off the record to hide. You put us on it so no one could."
+
     voice "audio/voice/toa_445.mp3"
     toa "Effective when?"
 
@@ -169,6 +171,8 @@ label au_modern_epilogue_harbor:
 
     voice "audio/voice/kaoru_583.mp3"
     kaoru "Domestic filing."
+
+    toa "You still play sometimes. When you think the building has stopped listening. The same out-of-tune municipal piano, moved to the harbor place on a work order nobody questioned. You filed the piano under *equipment, surplus.* I filed it under the afternoon you stopped counting and started listening, which is the afternoon you decided to keep me. We have very different filing systems for the same instrument."
 
     voice "audio/voice/narrator_454.mp3"
     "Which was not a denial, which from him was a confession with the serial numbers left on. The blanket on the harbor sofa is no longer a loan against her noise. It is hers, or theirs, the distinction having quietly collapsed."

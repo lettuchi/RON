@@ -1,0 +1,11 @@
+# Metaphor + ballet/piano expansion pass (2026-06-07): EXISTING voiced lines whose
+# ON-SCREEN TEXT was changed by this pass and therefore need audio REGENERATED later
+# from the new displayed text. One bare voice ID per line; same "audio/voice/<id>.mp3"
+# path stays in the .rpy. Text-only pass: no audio/manifests/mp3s were touched.
+#
+# This pass was written ADDITIVELY. The metaphor was clarified and reinforced, the new
+# ballet/piano scene was added, and Kaoru's arc was deepened entirely via NEW silent
+# lines inserted after consumed say/voice statements (see au_metaphor_ballet_new_lines.txt).
+# No existing voiced line's on-screen text was altered, so NO existing audio needs regen.
+#
+# Total: 0 changed existing voiced IDs.

@@ -133,6 +133,8 @@ label au_modern_case2_friend_texts:
     voice "audio/voice/toa_404.mp3"
     toa "I text: *not a date. contract says not romance on letterhead. send snacks.*"
 
+    toa "She sends back *sure, Jan.* And she is not wrong. The contract says not romance on letterhead, and the contract is the most romantic thing anyone has ever written about me. That is the whole joke. We file it as procedure so we never have to call it the thing it plainly is."
+
     voice "audio/voice/kaoru_536.mp3"
     kaoru "Good. Now choose how we file the weekend before the island files us."
 
@@ -278,6 +280,10 @@ label au_modern_case2_balcony_audit:
 
     voice "audio/voice/toa_471.mp3"
     toa "Dependent. Signatory. Two boxes on one form, and a camera that turned them into a couple. I did not understand that my right to dance in this port was also your liability until you said it out loud on a balcony."
+
+    toa "I keep thinking about the studio. The afternoon you put down the clipboard and played the piano so I could take class. You stopped counting and started listening, and you have been a different kind of careful with me ever since. That is also not on any letterhead. I checked the file twice."
+
+    kaoru "The piano is not in the record. Neither is the reason I sat down at it. Some deliverables I keep in the drawer with no label, where the board cannot ask me to explain them. You are filed in that drawer. So is the afternoon."
 
     if au_modern_case2_weekend_mode == "roommate":
         voice "audio/voice/narrator_416.mp3"

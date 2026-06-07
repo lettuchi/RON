@@ -222,6 +222,8 @@ label au_modern_studio_audition:
     voice "audio/voice/kaoru_496.mp3"
     kaoru "Counting is witness work. Stop expecting applause from a licensing officer."
 
+    kaoru "I will say one thing for the record and deny it under oath later. You stopped apologizing on the second pass. That is discipline, not charm. Discipline is the one thing in this building I respect without a form ordering me to."
+
     voice "audio/voice/kaoru_594.mp3"
     kaoru "If I sign your sponsorship, I swear to the Council that you are an artist and not a story about fraud waiting to happen. The board takes my word because I do not give it cheaply. So give me an artist to swear to."
 
@@ -268,8 +270,12 @@ label au_modern_contract_menu:
             voice "audio/voice/kaoru_499.mp3"
             kaoru "You understand that clause includes my calendar, not romance on letterhead."
 
+            kaoru "Hear the word I used. *Not.* On letterhead would mean I filed us. Your name beside mine, a relationship of record, a thing the Council can open and read and rule on. The rider is the opposite of that. Calendar, clause, after-hours access. We keep the real word out of every box a clerk could subpoena, and we call the keeping-out a rider."
+
             voice "audio/voice/toa_467.mp3"
             toa "I understand paperwork. I am very good at paperwork when someone explains the boxes. *Direct deputy review.* I read that line three times, and my pulse did something unprofessional each time."
+
+            toa "So that is the trick of the letterhead. We file the courtship as procedure precisely so neither of us has to admit it is one. The clause is the flirting. The filing is the romance. I will not put that in writing. I am, as you keep noting, very good at not putting things in writing."
 
             $ show_cg_scene("au_modern_phone_date", fade)
             pause 1.5

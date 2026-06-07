@@ -118,6 +118,8 @@ She ran it again. Cleaner. Angrier, a little, which helped more than she wanted 
 
 "Counting is witness work." He closed the sponsorship draft on the tablet with one thumb. "It is half of what your permit will ask of you. Stop expecting applause from a licensing officer. You will only embarrass us both."
 
+He marked something, then surprised them both by adding to it. "I will say one thing for the record and deny it under oath later. You stopped apologizing on the second pass. That is discipline, not charm. Charm I can manage with two keystrokes and a mute button. Discipline is the only thing in this building I respect without a form ordering me to." He looked back down before the sentence could finish landing on his own face. "Again. From the top."
+
 He made her run the entrance twice more, then the turn, then the exit with her chin lifted to where pride could not duck behind it. Sweat gathered at her hairline and darkened the crane on her jacket. His suit did not wrinkle. His voice stayed level the whole hour, a metronome that happened to wear wool.
 
 Between passes he marked the tablet without complimenting her: a checkmark here, a checkmark there, then a deliberate pause on the phrase where her wrist had softened. "Again," he said. "Your sponsor will not forgive a soft wrist on the day someone decides the story is fraud."
@@ -139,6 +141,14 @@ The terms were procedural. They still made her breath catch, because *calendar i
 "I file better when I know which box I'm checking."
 
 He almost looked directly at her then. Almost. "The exclusive rehearsal sponsor rider is not a romance clause. I want that on the record between us before anything is on the record anywhere else. It is after-hours access and direct deputy review. It is my calendar. It is not dating on letterhead."
+
+"Say what that means," she said. "*On letterhead.* You keep using it like a wall, and I want to know which side of the wall I'm standing on."
+
+He set the stylus down, which from him was the equivalent of another man loosening his collar. "On letterhead would mean I filed us. Your name beside mine in a box, a relationship of record, a thing the Council can open and read and rule on, the way it rules on a permit or a grievance. The rider is the opposite of that. Calendar. Clause. Audit. After-hours access. Everything kept procedural, so that neither of us ever has to write the true word anywhere a clerk could subpoena it. We do not keep it off the record because it is small. We keep it off the record because it is the one thing I am not prepared to let the port hold over either of us."
+
+She heard the shape of it land, and laughed once, not unkindly. "So that is the trick. We file the courtship as procedure precisely so we never have to admit it is a courtship. The clause *is* the flirting. The audit *is* the date. *Not romance on letterhead* is just the most elaborate way two people have ever found to not say a word out loud." She tipped her head. "I will not put that in writing either. I am learning. The realest things go in the drawer with no label."
+
+"You learn quickly," he said, which was as close as Kitsu Kaoru came, that afternoon, to agreeing.
 
 Underneath both riders the thing itself was simple enough to say in one breath: the Ryoko Port Arts Council authorized her to work in the port as a performing artist, and his name on the permit was the Council's proof that she would not make them regret it. The sponsorship was the permission. The riders only decided how close the deputy who granted it would have to stand while she used it.
 

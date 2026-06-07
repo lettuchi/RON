@@ -241,6 +241,8 @@ label au_modern_case3_reconcile:
         voice "audio/voice/kaoru_563.mp3"
         kaoru "I wrote the disclosure in my own hand. *Personal relationship. Disclosed. Oversight accepted.* The port owns that sentence now. So, apparently, do I."
 
+        toa "On letterhead. After three cases of *not romance on letterhead,* you wrote the romance onto the letterhead yourself, in ink, where a clerk can read it. You spent a year keeping it off the record to protect us. Today you put it on the record to protect us. The whole metaphor just turned over in its sleep."
+
         $ show_cg_scene("au_modern_case3_disclosure_signed", fade)
         pause 2.0
 
@@ -249,6 +251,8 @@ label au_modern_case3_reconcile:
 
         voice "audio/voice/toa_431.mp3"
         toa "You put us on a form and signed it. That is the most romantic thing a deputy director can do. It is also, technically, paperwork. I am crying about paperwork."
+
+        kaoru "I stopped being able to file you as procedure somewhere around a studio piano. A man cannot accompany a woman through a whole class, badly and then well, and keep pretending the clause is the true version. So I amended the true version instead. It was the only honest filing left on the desk."
 
     $ show_cg_scene("au_modern_case3_after_hours", fade)
     pause 2.0

@@ -8,6 +8,7 @@
 default seen_au_modern_case1 = False
 default au_modern_case1_witness_style = ""
 default au_modern_case1_pushback = ""
+default au_modern_case1_piano_mode = ""   # "" / precise / fumble (studio piano accompaniment beat)
 
 label au_modern_case1_start:
 
@@ -220,7 +221,7 @@ label au_modern_case1_manager_pushback:
             voice "audio/voice/narrator_395.mp3"
             "He moves. The corridor exhales eucalyptus and defeat."
 
-            jump au_modern_case1_passed_witness
+            jump au_modern_case1_studio_session
 
 
 label au_modern_case1_hallway_tense:
@@ -243,6 +244,110 @@ label au_modern_case1_hallway_tense:
     voice "audio/voice/kaoru_525.mp3"
     kaoru "Shaking is human. Falsifying is not. Continue."
 
+    jump au_modern_case1_studio_session
+
+
+label au_modern_case1_studio_session:
+
+    # New beat: the witness clause inverts. He has made her document four of his
+    # inspections; today he witnesses one of hers, a ballet class, and ends up
+    # accompanying it himself at a studio piano. Emotional hinge for Kaoru's arc
+    # (duty -> respect -> care). Reuses existing studio CGs; no new art. All lines
+    # below are NEW and SILENT (no voice id yet); see scripts/au_metaphor_ballet_new_lines.txt.
+    scene black with dissolve
+    play music audio.bgm_canon_intimate fadein 2.0 loop volume 0.26
+    pause 0.5
+
+    $ show_cg_scene("au_modern_studio_audition", fade)
+    pause 2.0
+
+    "The city rents the corner studio by the hour, the same kind of room he had once made her audition in: mirror wall, a barre bolted along it, rain ticking the glass like a clerk tapping a stamp. The only new fact in the room is the upright piano against the far wall, municipal brown, a half-step out of tune, the lid already up as if it had been waiting for someone with a reason."
+
+    kaoru "Your witness clause runs both directions today. You have documented four of my inspections. An auditor who has never seen the deliverable cannot certify it. So I am here to witness one of yours. Run a class. I will sit where I can see you and the mirror."
+
+    toa "You want to witness a whole ballet class. Barre to reverence. Most of it is in French and none of it will hold still for your clipboard."
+
+    kaoru "Then translate as you go. I have audited stranger languages than yours, and most of them were also hiding something in the footnotes."
+
+    "She gave him the structure the way she would have given it to any inspector who asked, because narrating the next step was the only way to keep her hands from apologizing for the room."
+
+    toa "Barre first. It warms the instrument, slow before fast, small before large. Plie, to bend. Tendu, to stretch the foot along the floor without lifting it. Degage, the same stretch let off the ground. Rond de jambe, the toe drawing a half circle. Then fondu, frappe, and grand battement, which is the leg thrown up like an objection nobody bothered to sustain. The order is not negotiable. Even the Council would approve of the order."
+
+    $ show_cg_scene("toa_ballet_practice_room", fade)
+    pause 2.0
+
+    "He watched her run the barre with the flat attention he gave a hearing, counting under his breath, low and even, the way he had counted her once in this same kind of room. Plie and recover. Tendu front, side, back. Somewhere in the rond de jambe she stopped performing for the witness and simply worked, and he registered the difference the way he registered everything, and filed it where he filed the things he intended to keep."
+
+    "She set her phone on the barre to play the centre music, a tinny recording through a speaker that had survived three tours. Kaoru looked at it the way he looked at a capacity chart that had already lied to him once."
+
+    kaoru "That is a recording. A recording cannot tell whether you are early or whether you are apologizing. It plays the same eight bars at the same tempo whether you are a witness or a liability. It is a metronome that forgot it was supposed to be a human."
+
+    toa "And you could do better, Deputy Director-sama. You, who count witness work out loud and call it a duty."
+
+    kaoru "I read music. It is mostly counting with better penmanship and a key signature where the case number goes."
+
+    "He stood, crossed the room, and did the thing she had never once managed to make him do across a desk. He took off the charcoal jacket, folded it over the barre with more care than he gave most applicants, rolled his sleeves to the forearm, and sat down at the municipal piano as if it were one more office the Council had assigned him. He set the stamp down. He met her on her floor, in her medium, where no signature he owned was worth a single thing."
+
+    menu au_modern_case1_piano_menu:
+
+        "Ask him for a repetiteur's ticket (precise, clinical at first).":
+            $ au_modern_case1_piano_mode = "precise"
+
+            toa "Then take a ticket, the way a class accompanist does. A repetiteur plays the dancer's instruction the way you read a filing. I hand you meter, tempo, quality, count. Adagio: a slow waltz, three-four time, smooth, thirty-two counts. Then play it like you mean it, not like you are proving the meter is compliant."
+
+            kaoru "Three-four. Slow. Thirty-two. Noted."
+
+            "He played it correctly and without one ounce of feeling, every bar squared to the edge like a citation, a man performing the meter to prove the meter existed. She danced the adagio to it anyway, developpe and promenade and the long arabesque line, and it was fine, and fine was the most insulting word in either of their vocabularies."
+
+        "Let him fumble it and teach him by dancing (badly at first).":
+            $ au_modern_case1_piano_mode = "fumble"
+
+            toa "Adagio first. Slow waltz, three-four, smooth. Thirty-two counts. Try not to file the rests."
+
+            "He fumbled the first eight bars the way a deputy fumbles a language he has only ever read in translation, a half beat behind her line, the left hand too literal, the waltz vamp landing like a stamp instead of a breath. She did not stop. She lifted into the developpe a fraction early and let her arm finish the phrase his hand had clipped short, teaching him with her spine the thing the file could not put into French."
+
+    "And then, somewhere in the second pass, it happened, the small unscheduled thing. He stopped playing the count and started playing her. His left hand found the breath underneath the three-four and held the dancer instead of the meter. When she suspended at the top of the developpe he waited for her, the chord hanging until her balance asked for the next one, and he gave it to her exactly when she needed it and not a beat before. He was not a metronome anymore. He was listening. He was, against every clause he had ever drafted, accompanying her."
+
+    "She felt the shift the way you feel a room change temperature. The piano stopped telling her what the tempo was and started asking what she wanted it to be, and answering. For eight bars the deputy director of the Office of Arts and Licensing was nobody's signatory of record. He was the man at the piano who had decided, mid-phrase, to meet her where she actually lived."
+
+    $ show_cg_scene("toa_ballet_practice_room", dissolve)
+    pause 2.0
+
+    toa "You changed it. You stopped counting and started listening. Those are not the same skill. The first one keeps time. The second one keeps me."
+
+    kaoru "A recording cannot do the second one. I find I object to being outperformed by a speaker that survived three tours. File it under professional pride and let it stay there."
+
+    toa "I will file it wherever lets you keep doing it."
+
+    "She ran the rest of the centre to his hands: pirouettes that found their spot because he gave her the downbeat to spot to, petit allegro snapped tight to a brisk two-four march, grand allegro carried clear across the floor on a waltz that finally let her leave the ground like she meant to. He watched and played at once, the witness and the accompaniment collapsed into one man in rolled sleeves, which she would not have believed of him an hour ago."
+
+    kaoru "Grand allegro. You travel, I give you the bars to land in. Do not apologize on the descent. The descent is the part the board never watches and the only part that can hurt you."
+
+    toa "Noted, Deputy Director-sama. I will land like I am allowed to be in the room."
+
+    "When the class wound down he slowed without being asked, into something adagio and low, and she understood he had read far enough into the file to know what came last."
+
+    toa "Reverence. The end of every class. A bow to the teacher, and a bow to the accompanist, because a dancer never thanks the audience first. She thanks the two people who actually held the room. There is no audience here. There is only the accompanist."
+
+    "She curtsied to the piano. To him. He let the last chord ring out under the rain and did not deny the bow, did not rule against it, did not reach yet for the jacket folded over the barre and the title that lived in its breast pocket. For the length of one held chord he was only the man she had thanked, and he let himself be thanked, on no letterhead at all."
+
+    if au_modern_case1_piano_mode == "fumble":
+        kaoru "I played the first eight bars badly. Strike them from the witness log."
+
+        toa "Denied. The bad eight bars are how I know the good ones were real. I am keeping the whole take, Deputy Director-sama."
+    else:
+        kaoru "I played it correctly before I played it well. Note the difference in your log. It is the only review I will ever file on myself."
+
+        toa "Noted and entered. The correct version was compliant. The well version was you. I can tell them apart now, and I will never be able to stop."
+
+    "He rolled his sleeves back down, refastened the cuffs, and reassembled the deputy director one button at a time. But he was slower about it than the file required, and she saw that too, and said nothing, because some witness work is kinder kept off the record."
+
+    kaoru "We are due back at the tower. The inspection still has to close on paper. None of what just happened goes in that report. A studio with a piano is not a deliverable the Council keeps a box for."
+
+    toa "Then it stays off letterhead. Like everything else you mean. I am learning the filing system, Deputy Director-sama. The real things go in the drawer with no label, and you guard that drawer harder than you guard the seal."
+
+    "He did not confirm it. He held the studio door for her the way a gate holds weather, and the almost-smile got as far as his eyes before he filed it, and for once the filing took a visible second longer than it should have."
+
     jump au_modern_case1_passed_witness
 
 
@@ -253,6 +358,8 @@ label au_modern_case1_passed_witness:
 
     $ show_cg_scene("au_modern_case1_tower_debrief", fade)
     pause 2.0
+
+    "He did not mention the studio on the walk back, and neither did she, which was its own kind of minutes. But he booked the harbor weekend that same afternoon, and she would wonder, later, whether the piano had moved the date up by a week."
 
     voice "audio/voice/narrator_397.mp3"
     "Back at the tower, the inspection closes without blood, without bodies, and with three minor citations the Council will post as politely worded threats against a storefront's operating license."
@@ -297,6 +404,10 @@ label au_modern_case1_elevator_echo:
 
     voice "audio/voice/kaoru_530.mp3"
     kaoru "Correct. File that under rider compliance."
+
+    toa "Rider compliance. We have a clause for standing this close, a footnote for the elevator, a code for the harbor. The file has a word for everything we do except the one word for what it is."
+
+    kaoru "The file uses the words I can defend. The word you mean stays off letterhead, where the board cannot read it back to us in a hearing. That is not a denial. That is custody."
 
     voice "audio/voice/narrator_399.mp3"
     "Their reflections almost touch in the glass. Neither reaches. The lift dings like a stamp."
