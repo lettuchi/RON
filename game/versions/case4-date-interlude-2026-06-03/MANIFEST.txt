@@ -1,0 +1,3 @@
+case4-date-interlude-2026-06-03
+Edited: case4_date_interlude.rpy, case4_investigation.rpy, case_endings.rpy, stats.rpy, gallery.rpy, cgs-case4-date.rpy, docs/case4-date-interlude-design.md, docs/story-so-far.md
+CGs: cg-case4-date-canal-walk.png, cg-case4-date-toa-hopeful.png, cg-case4-date-almost-hands.png

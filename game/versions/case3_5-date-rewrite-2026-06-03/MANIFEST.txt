@@ -1,0 +1,15 @@
+Case 3.5 "Is this a date?" rewrite — 2026-06-03
+Backed up before Tear Drop Island / Discord-shaped port.
+
+Files:
+  case3_5_date_interlude.rpy (canal compression)
+  game/images/cgs-case4-date.rpy
+  gallery.rpy (Case 3.5 section, 3 CGs)
+  case3.5-date-interlude-design.md
+
+Edited:
+  game/case3_5_date_interlude.rpy
+  game/images/cgs-case3_5-date.rpy (new; cgs-case4-date.rpy removed)
+  game/gallery.rpy
+  docs/case3.5-date-interlude-design.md
+  game/images/cg/cg-case3_5-date-*.png (14, GenerateImage)

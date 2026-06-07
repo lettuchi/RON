@@ -1,0 +1,16 @@
+Case 3.5 voice wiring backup — 2026-06-03
+
+Pre-voice rpy (unwired):
+  case3_5_date_interlude.rpy
+
+Wired in game/case3_5_date_interlude.rpy:
+  toa_130–172 (43)
+  kaoru_162–205 (44)
+  narrator_144–173 (30)
+  Total: 117 lines
+
+Scripts touched:
+  scripts/build_manifest.py (SCRIPT_FILES + case3_5)
+  scripts/voice_performance_lib.py
+  scripts/generate_narrator_voice.py (RPY_FILES)
+  scripts/performance_tagging.py (Case 3.5 MANUAL_OVERRIDES)

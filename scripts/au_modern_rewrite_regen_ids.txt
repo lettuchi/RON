@@ -1,0 +1,38 @@
+# Modern AU rewrite pass (2026-06-05): EXISTING voiced lines whose ON-SCREEN TEXT changed.
+# These IDs keep their existing voice "audio/voice/<id>.mp3" line in the .rpy pointing at the
+# same file; the audio must be REGENERATED later from the new displayed text. No new IDs here.
+# One bare ID per line. Text-only pass; no audio/manifests were touched in this rewrite.
+#
+# --- au_modern_wrong_floor.rpy (11) ---
+narrator_367
+narrator_369
+narrator_370
+narrator_375
+narrator_380
+narrator_420
+narrator_422
+narrator_423
+kaoru_488
+kaoru_489
+kaoru_497
+#
+# --- au_modern_case1_compliance.rpy (5) ---
+narrator_386
+narrator_397
+kaoru_511
+kaoru_522
+kaoru_527
+#
+# --- au_modern_case2_island_weekend.rpy (2) ---
+narrator_400
+kaoru_546
+#
+# --- au_modern_case3_permits_hr.rpy (2) ---
+narrator_426
+kaoru_549
+#
+# --- au_modern_epilogue.rpy (2) ---
+narrator_446
+toa_443
+#
+# Total: 22 changed existing voiced IDs.

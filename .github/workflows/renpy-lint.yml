@@ -1,0 +1,21 @@
+name: renpy-lint
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Ren'Py 8.5.3 CLI
+        uses: remarkablegames/setup-renpy@v2
+        with:
+          cli-version: "8.5.3"
+
+      - name: Lint game script
+        run: renpy-cli . lint --error-code

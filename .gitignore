@@ -1,0 +1,70 @@
+﻿# Ren'Py compiled / runtime artifacts
+*.rpyc
+*.rpyb
+*.rpymc
+game/cache/
+game/saves/
+game/bytecode.rpyb
+
+# Build output
+/build/
+*.zip
+*.apk
+*.app
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+*~
+*.bak
+
+# Logs
+log.txt
+errors.txt
+traceback.txt
+
+# Secrets (ElevenLabs API key, etc.)
+.env
+scripts/.env
+
+# Python tooling (voice/CG scripts)
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Dev-only Ren'Py tools (see docs/actioneditor-dev.md)
+game/dev_actioneditor/
+
+# Rhubarb Lip Sync binaries (see docs/lip-sync-setup.md)
+game/lip-sync-plugin/Rhubarb-Lip-Sync-*/
+
+# Local full-tree backups (~GB zips); not source of truth
+backups/
+
+# Screenshot QA output (regeneratable; see test_screenshot*.rpy)
+screenshots/
+
+# Scratch / one-off analysis
+tmp_ed/
+tmp_ed_analysis/
+
+# Voice: track shipped clips under game/audio/voice/ (~180MB without staging).
+# Exclude regen staging and old iteration trees (rebuild from scripts + manifest).
+game/audio/voice/v2/
+game/audio/voice/versions/
+game/audio/voice/_backup_*/
+
+# Cursor: keep shared project skills; ignore local IDE state and secrets
+.cursor/*
+!.cursor/skills/
+!.cursor/skills/**
+!.cursor/mcp.json.example
+.cursor/mcp.json
+
+# Meshy / Tripo raw GLB outputs (regeneratable; see docs/meshy-setup.md)
+assets/3d/raw/meshy-*/
+
+# Local lint artifacts
+_lint_*.txt

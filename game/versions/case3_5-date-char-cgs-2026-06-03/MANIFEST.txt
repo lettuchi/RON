@@ -1,0 +1,18 @@
+Case 3.5 — character-focused date CGs (2026-06-03)
+================================================
+
+Backup of:
+  game/case3_5_date_interlude.rpy
+  game/images/cgs-case3_5-date.rpy
+  game/gallery.rpy
+
+New CG tags (character):
+  case3_5_date_arrival
+  case3_5_date_kaiseki_duo
+  case3_5_date_dance
+  case3_5_date_lesson
+  case3_5_date_gossip
+  case3_5_date_reassurance (PNG replaced with duo art)
+  case3_5_date_walk_duo
+
+Assets: game/images/cg/cg-case3_5-date-{arrival,kaiseki-duo,dance,lesson,gossip,reassurance,walk-duo}.png

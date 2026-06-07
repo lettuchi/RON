@@ -1,0 +1,3 @@
+# ElevenLabs voice generation + MP3 metadata (scripts/generate_voice.py,
+# scripts/regenerate_voice_with_metadata.py)
+mutagen>=1.47.0

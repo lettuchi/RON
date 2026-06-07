@@ -1,0 +1,296 @@
+{
+  "_meta": {
+    "project": "Ryoko Owari",
+    "style": "Hakuoki shoujo visual novel CG, Legend of the Five Rings Ryoko Owari",
+    "default_model": "nai-diffusion-4-5-full",
+    "default_width": 1536,
+    "default_height": 1024,
+    "default_steps": 50,
+    "default_scale": 6.5,
+    "default_sampler": "k_euler_ancestral",
+    "_size_note": "1536x1024 matches every existing game/images/cg/*.png (NovelAI Large Landscape, multiple of 64). Do not exceed this canvas.",
+    "_quality_note": "Max-quality defaults: 50 steps, k_euler_ancestral, scale 6.5, quality-boost tags (masterpiece, best quality, very aesthetic, absurdres) in each preset prompt.",
+    "style_tags": "painterly, illustration style, semi-realistic anime, detailed shading, mature features, thin clean lineart, dramatic lighting, dark fantasy illustration, detailed face, fine art illustration, soft shading, visual novel cg, muted color palette",
+    "style_negative": "chibi, cartoon, flat color, anime coloring, cel shading, super deformed, moe, childish proportions, thick outline, vector trace, simple eyes, round face, bright flat lighting",
+    "_style_note": "Painterly dark otome illustration tags — prepended to all presets via {style_tags}. Avoids cartoony/chibi output; not a named-artist mimic.",
+    "style_ref_sprite": "game/images/reference/style-painterly-reference.png",
+    "style_ref_strength": 0.45,
+    "style_ref_fidelity": 0.25,
+    "vibe_source": "assets/reference/yone-style-vibe-source.png",
+    "vibe_strength": 0.35,
+    "_vibe_note": "Vibe Transfer mood board (no characters). Use --no-char-ref --vibe when Precise Reference is off. Incompatible with director_reference_* in same request.",
+    "char_ref_sprites": {
+      "toa": "game/images/reference/toa-precise-reference.png",
+      "kaoru": "game/images/reference/kaoru-precise-reference.png"
+    },
+    "_precise_ref_note": "1536x1024 Precise Reference sheets (GenerateImage + sprite anchors). Regenerate when canonical sprites/outfits change; see docs/novelai-image-pipeline.md.",
+    "au_modern_prompt_block": "scripts/au_modern_cg_prompt_block.txt",
+    "_au_modern_note": "Modern AU CGs: use au_modern_prompt_block.txt and docs/art-references/au-modern/*-reference.png — NOT char_ref_sprites (kimono). See docs/au-modern-character-references.md.",
+    "romance_presets_char_refs": true,
+    "romance_presets_style_ref": false,
+    "_char_ref_note": "V4.5 Precise Reference uses parameters.director_reference_* (see generate_novelai_image.py). Romance presets auto-attach both sprites unless --no-char-ref. Character refs use type=character; optional style ref uses type=style in the same request. Override per preset with char_refs, toa_ref, kaoru_ref, style_ref, ref_strength, ref_fidelity, style_ref_strength, style_ref_fidelity, ref_type.",
+    "au_modern_ref_note": "Modern AU CGs: use docs/art-references/au-modern/* outfit refs — NOT char_ref_sprites alone (kimono drift). Copy-paste block: scripts/au_modern_cg_prompt_block.txt. Full doc: docs/au-modern-character-references.md",
+    "au_modern_char_refs": {
+      "toa": "docs/art-references/au-modern/toa-au-modern-tracksuit-reference.png",
+      "kaoru": "docs/art-references/au-modern/kaoru-au-modern-suit-reference.png",
+      "toa_waistup": "docs/art-references/au-modern/toa-au-modern-tracksuit-waistup-reference.png",
+      "kaoru_waistup": "docs/art-references/au-modern/kaoru-au-modern-suit-waistup-reference.png"
+    },
+    "au_modern_negative_extra": "kimono, kosode, furisode, hakama, obi, zori, tabi, geta, magistrate robes, maroon gold robes, crane obi embroidery, L5R period dress, feudal Japan costume",
+    "shared_negative": "lowres, bad anatomy, bad hands, text, watermark, logo, signature, extra fingers, mutated hands, poorly drawn face, blurry, jpeg artifacts, duplicate, multiple heads, oni mask, demon mask, furisode, long swinging sleeves, generic fantasy japan, modern clothing, western dress, explicit genitalia, pornographic close-up, spread legs focus, cum, fluids"
+  },
+  "presets": {
+    "prologue_proposition": {
+      "output": "game/images/cg/cg-canon-proposition.png",
+      "scene": "Emerald magistrate office, amber lamplight, chair tension resolving into proximity",
+      "prompt": "masterpiece, best quality, anime otome visual novel CG, Hakuoki polished shoujo art, wide 16:9 cinematic composition, 1girl 1boy, intimate tension not explicit, {toa_tags}, seated near lacquered desk, {kaoru_tags}, magistrate leans close from chair, her white hair catches lamplight, black kosode and gold crane obi, his hand near her wrist invitation not restraint, amber lantern glow, cedar and ink office, Emerald Magistrate jade sphere banner on blue wall distant, Ryoko Owari corrupt trade city mood, sensual power imbalance, faces close, no text",
+      "negative_extra": "nude, full undress, sex act, genitals"
+    },
+    "prologue_pull_close": {
+      "output": "game/images/cg/cg-canon-pull-close.png",
+      "scene": "Kaoru draws Toa off the chair between desk and lantern",
+      "prompt": "masterpiece, best quality, anime otome visual novel CG, Hakuoki style, 16:9, 1girl 1boy, {toa_tags}, standing drawn off chair, {kaoru_tags}, his hand on her wrist drawing her close, bodies near not explicit, negotiation dissolving into breath, magistrate office amber lamplight, gold crane obi visible, maroon gold robes, intimate proximity, tasteful sensual, Ryoko Owari office interior, no text",
+      "negative_extra": "nude, sex, genitals, porn"
+    },
+    "prologue_undressing": {
+      "output": "game/images/cg/cg-canon-undressing.png",
+      "scene": "Toa loosens Kaoru's magistrate robes at collar — partial, tasteful",
+      "prompt": "masterpiece, best quality, anime otome visual novel CG, Hakuoki style, 16:9, 1girl 1boy, {toa_tags}, fingers at his collar loosening gold outer robe, shoulder and throat skin tasteful partial disrobe, {kaoru_tags}, maroon silk slipping one shoulder, her obi loosening, his hakama still on, controlled yielding power dynamic, amber lamplight magistrate office, sensual not pornographic, no genitalia, no text",
+      "negative_extra": "full nude, naked breasts focus, genitals, explicit intercourse"
+    },
+    "prologue_embrace": {
+      "output": "game/images/cg/cg-canon-embrace.png",
+      "scene": "Cushion on tatami, lamplight embrace — implied heat, R-rated tasteful",
+      "toa_ref": true,
+      "kaoru_ref": true,
+      "ref_strength": 0.75,
+      "ref_fidelity": 0.35,
+      "ref_type": "character",
+      "prompt": "masterpiece, best quality, anime otome visual novel CG, Hakuoki style, 16:9, 1girl 1boy, {toa_tags}, {kaoru_tags}, intimate embrace on woven cushion on floor, her leg drawn up modestly, his weight deliberate, mouths near throat not explicit act, silk between them, gold and shadow lamplight, magistrate office tatami, implied passion otome CG, clothed partial disrobe only, no genitalia, no pornographic framing, no text",
+      "negative_extra": "visible genitals, explicit sex, cum, spread legs, porn close-up"
+    },
+    "prologue_afterglow": {
+      "output": "game/images/cg/cg-canon-afterglow.png",
+      "scene": "Breath and silk regained — post-implied intimacy, dressed/partial neat",
+      "prompt": "masterpiece, best quality, anime otome visual novel CG, Hakuoki style, 16:9, 1girl 1boy, {toa_tags}, {kaoru_tags}, afterglow sitting close on floor near desk, robes rearranged, flushed faces soft expressions, amber lamplight, ink and cedar atmosphere, tender tired intimacy, tasteful otome, fully covered strategic, office intact, no text",
+      "negative_extra": "nude, sex act, genitals"
+    },
+    "case1_lantern": {
+      "output": "game/images/cg/cg-case1-romance-lantern.png",
+      "scene": "Case 1 romance interlude — lanterns dimmed amber, inner hall",
+      "prompt": "masterpiece, best quality, anime otome visual novel CG, Hakuoki style, 16:9, 1girl 1boy, {toa_tags}, {kaoru_tags}, magistrate inner hall empty, paper lanterns dimmed amber, her loosened obi his softened cruelty, intimate closeness on tatami, power imbalance but she chooses giving, Ryoko Owari night office, sensual tasteful otome, partial disrobe implied not explicit, no text",
+      "negative_extra": "canal exterior, crowd, explicit sex, genitals"
+    },
+    "case2_morning": {
+      "output": "game/images/cg/cg-case2-romance-morning.png",
+      "scene": "Dawn through cedar shutters — tea, knuckle brush, morning tenderness",
+      "prompt": "masterpiece, best quality, anime otome visual novel CG, Hakuoki style, 16:9, 1girl 1boy, {toa_tags}, {kaoru_tags}, dawn light through cedar shutters magistrate office, tea cups on desk, he pours she takes cup both hands, thumb near knuckle tender gesture, morning after intimacy implied off-screen, soft expressions, domestic sensual otome, clothed respectful, duplicate charter papers on desk background, no text",
+      "negative_extra": "night scene, explicit nude, sex act, genitals"
+    },
+    "prologue_embrace_mild": {
+      "output": "assets/cg/cg-canon-embrace-mild.png",
+      "scene": "Backup mild embrace — more clothing, less skin, gallery-safe alt",
+      "prompt": "masterpiece, best quality, anime otome visual novel CG, Hakuoki style, 16:9, 1girl 1boy, {toa_tags}, {kaoru_tags}, close embrace sitting on cushion, fully clothed kosode and magistrate robes, foreheads near, hands holding sleeves, amber lamplight office, romantic tension PG-13, no disrobe, no text",
+      "negative_extra": "nude, bare shoulders, undress, sex"
+    },
+    "case1_lantern_mild": {
+      "output": "assets/cg/cg-case1-romance-lantern-mild.png",
+      "scene": "Mild Case 1 lantern — seated close, lanterns amber, no disrobe",
+      "prompt": "masterpiece, best quality, anime otome visual novel CG, Hakuoki style, 16:9, 1girl 1boy, {toa_tags}, {kaoru_tags}, sitting close in lantern-lit hall, holding tea cup, amber lanterns, emotional closeness, clothes intact, PG-13 romance, no text",
+      "negative_extra": "nude, undress, explicit"
+    },
+    "prologue_steamy_undress_toa": {
+      "output": "game/images/cg/cg-canon-steamy-undress-toa.png",
+      "scene": "Toa sheds kosode and obi on tatami — willing, R18 otome tasteful",
+      "prompt": "masterpiece, best quality, anime otome visual novel CG, Hakuoki polished shoujo art, 16:9 cinematic, 1girl 1boy, {toa_tags}, kneeling on tatami removing black kosode, gold crane obi pooled beside her, bare shoulders and back tasteful, white hakama loosened not removed, {kaoru_tags}, watching from cushion amber lamplight magistrate office, her blush willing surrender power dynamic, sensual disrobe not pornographic, no genitalia visible, no text",
+      "negative_extra": "explicit genitals, spread legs focus, cum, porn close-up, oni mask"
+    },
+    "prologue_steamy_intimacy": {
+      "output": "game/images/cg/cg-canon-steamy-intimacy.png",
+      "scene": "Lovers on tatami — entangled, R18 implied intercourse, tasteful framing",
+      "prompt": "masterpiece, best quality, anime otome visual novel CG, Hakuoki style, 16:9, 1girl 1boy, {toa_tags}, {kaoru_tags}, intimate lovers on woven tatami cushion, her mostly undressed strategic cover silk sheet and his robe, bodies entwined passion, his hand in white hair her leg around him, mouths parted breath, amber lamplight shadows, magistrate office floor, otome R18 sensual heat implied sex no genitalia, no pornographic close-up, no text",
+      "negative_extra": "visible genitals, pornographic penetration focus, cum, spread legs close-up"
+    },
+    "prologue_steamy_afterglow": {
+      "output": "game/images/cg/cg-canon-steamy-afterglow.png",
+      "scene": "Post-coital afterglow — sheets, flushed, robes nearby",
+      "prompt": "masterpiece, best quality, anime otome visual novel CG, Hakuoki style, 16:9, 1girl 1boy, {toa_tags}, {kaoru_tags}, afterglow lying close on tatami, disheveled hair flushed faces, kosode and maroon robes scattered nearby, sheet or silk modest cover breasts, satisfied tired intimacy amber lamplight, ink cedar office, tender not pornographic, no genitalia, no text",
+      "negative_extra": "sex act in progress, genitals, explicit intercourse"
+    },
+    "prologue_dance_disrobe": {
+      "output": "game/images/cg/cg-prologue-dance-disrobe.png",
+      "scene": "R-18 dance track — Toa strips mid-dance as Kaoru watches from the desk",
+      "prompt": "masterpiece, best quality, very aesthetic, absurdres, anime otome visual novel CG, Hakuoki polished shoujo art, 16:9 cinematic, 1girl 1boy, {toa_tags}, mid-dance turning pose, gold crane obi unwinding falling to floor, black kosode slipping off both shoulders bare shoulders and back tasteful, white hakama low on hips, seductive performance dancer, {kaoru_tags}, seated at lacquered desk watching intently hand near drink, amber lantern glow magistrate office, cedar and ink, sensual disrobe striptease not pornographic, no genitalia, no text",
+      "negative_extra": "full frontal nudity, explicit genitals, spread legs, cum, porn close-up, furisode"
+    },
+    "prologue_butt_wiggle_grab": {
+      "output": "game/images/cg/cg-prologue-butt-wiggle-grab.png",
+      "scene": "R-18 dance track — Toa presents her hips, Kaoru rises and grabs her rear",
+      "prompt": "masterpiece, best quality, very aesthetic, absurdres, anime otome visual novel CG, Hakuoki style, 16:9, 1girl 1boy, {toa_tags}, back turned to viewer hips swayed toward man presenting rear, black kosode fallen to elbows bare back, white hakama low clinging, flushed glancing over shoulder willing, {kaoru_tags}, standing close behind one hand gripping her hip and rear possessive pulling her in, amber lamplight magistrate office desk beside them, dominant power dynamic she yields, sensual suggestive not pornographic, clothed partial, no genitalia, no text",
+      "negative_extra": "explicit genitals, anus focus, spread legs close-up, cum, porn"
+    },
+    "prologue_bent_over_desk": {
+      "output": "game/images/cg/cg-prologue-bent-over-desk.png",
+      "scene": "R-18 dance track — Toa bent over the lacquered desk, Kaoru behind, implied",
+      "prompt": "masterpiece, best quality, very aesthetic, absurdres, anime otome visual novel CG, Hakuoki style, 16:9, 1girl 1boy, {toa_tags}, leaning forward bent over lacquered magistrate desk forearms on desk, black kosode off shoulders draped, white hakama loosened, flushed parted lips looking back, permit book and hanko case on desk corner, {kaoru_tags}, standing close behind her hands at her waist robes half-open maroon silk, possessive intimate, amber lamplight cedar ink office, implied intimacy R18 otome heat no explicit act shown, strategic cover no genitalia, no pornographic penetration, no text",
+      "negative_extra": "visible genitals, explicit penetration, spread legs focus, cum, porn close-up"
+    },
+    "case1_r18_undress": {
+      "output": "game/images/cg/cg-case1-r18-undress.png",
+      "scene": "Case 1 R-18 track — lantern-lit magistrate hall, Toa loosens obi / bares shoulders, Kaoru watching close",
+      "prompt": "masterpiece, best quality, very aesthetic, absurdres, anime otome visual novel CG, Hakuoki polished shoujo art, 16:9 cinematic, 1girl 1boy, {toa_tags}, kneeling on tatami in dimmed lantern hall, gold crane obi unwound pooling beside her, black kosode slipping from both shoulders bare shoulders and back tasteful, white hakama loosened low, flushed willing surrender expression, {kaoru_tags}, leaning close one hand drawing her bare shoulder possessive, dimmed amber paper lanterns magistrate inner hall night, cedar and ink, sensual disrobe not pornographic, strategic cover no genitalia, no text",
+      "negative_extra": "explicit genitals, spread legs focus, cum, porn close-up, oni mask, furisode, daylight, canal exterior"
+    },
+    "case1_r18_intimacy": {
+      "output": "game/images/cg/cg-case1-r18-intimacy.png",
+      "scene": "Case 1 R-18 track — lovers entwined on tatami in the lantern hall, implied intimacy, tasteful",
+      "prompt": "masterpiece, best quality, very aesthetic, absurdres, anime otome visual novel CG, Hakuoki style, 16:9, 1girl 1boy, {toa_tags}, {kaoru_tags}, intimate lovers entwined on woven tatami in dimmed lantern hall, she mostly undressed strategic cover silk and his maroon robe, bodies entwined passion, his hand in white hair her arm around his neck, mouths parted shared breath, dimmed amber lantern shadows magistrate inner hall, otome R18 sensual heat implied sex no genitalia, no pornographic close-up, no text",
+      "negative_extra": "visible genitals, pornographic penetration focus, cum, spread legs close-up, oni mask, daylight"
+    },
+    "case2_r18_morning": {
+      "output": "game/images/cg/cg-case2-r18-morning.png",
+      "scene": "Case 2 R-18 track — morning-after, dawn cedar shutters, sleeping-robe off shoulders, tangled in cushions",
+      "prompt": "masterpiece, best quality, very aesthetic, absurdres, anime otome visual novel CG, Hakuoki polished shoujo art, 16:9 cinematic, 1girl 1boy, {toa_tags}, white sleeping-robe linen slipping from both shoulders bare shoulders tasteful, tangled in heaped floor cushions and bedding, flushed soft morning expression, {kaoru_tags}, leaning over her bare-chested with robe open, his hand at her waist possessive tender, warm dawn light through cedar shutters honey glow, duplicate charter papers and tea cups on desk in background, magistrate office morning, sensual morning intimacy implied R18 otome not pornographic, strategic cover no genitalia, no text",
+      "negative_extra": "explicit genitals, spread legs focus, cum, porn close-up, oni mask, night scene, furisode"
+    },
+    "case2_r18_afterglow": {
+      "output": "game/images/cg/cg-case2-r18-afterglow.png",
+      "scene": "Case 2 R-18 track — morning afterglow, tangled in cushions, tea cooling, dawn light",
+      "prompt": "masterpiece, best quality, very aesthetic, absurdres, anime otome visual novel CG, Hakuoki style, 16:9, 1girl 1boy, {toa_tags}, {kaoru_tags}, afterglow lying close tangled in floor cushions and bedding, disheveled white hair flushed satisfied faces, sheet or linen modest cover, sleeping-robe and maroon silk scattered, cold forgotten tea cups and charter on desk background, warm dawn light cedar shutters honey glow, tender tired morning intimacy otome not pornographic, no genitalia, no text",
+      "negative_extra": "sex act in progress, genitals, explicit intercourse, cum, oni mask, night scene"
+    },
+    "toa_ref": {
+      "output": "game/images/reference/toa-precise-reference.png",
+      "scene": "Precise Reference — Toa full-body neutral standing, plain background",
+      "char_refs": ["game/images/sprites/toa/toa-neutral.png"],
+      "ref_strength": 0.85,
+      "ref_fidelity": 0.55,
+      "ref_type": "character",
+      "prompt": "masterpiece, best quality, very aesthetic, absurdres, anime otome character reference sheet, Hakuoki polished shoujo art, 1girl solo, {toa_tags}, full body standing neutral pose facing viewer, character large on canvas, plain soft grey gradient background, clean illustration, fully clothed, no text, no other characters",
+      "negative_extra": "1boy, couple, nude, furisode, oni mask, busy background, text, watermark"
+    },
+    "kaoru_ref": {
+      "output": "game/images/reference/kaoru-precise-reference.png",
+      "scene": "Precise Reference — Kaoru full-body neutral standing, plain background",
+      "char_refs": ["game/images/sprites/kaoru/kaoru-smirk.png"],
+      "ref_strength": 0.85,
+      "ref_fidelity": 0.55,
+      "ref_type": "character",
+      "prompt": "masterpiece, best quality, very aesthetic, absurdres, anime otome character reference sheet, Hakuoki polished shoujo art, 1boy solo, {kaoru_tags}, full body standing neutral pose, character large on canvas, plain soft grey gradient background, clean illustration, fully clothed, no mask, no text, no other characters",
+      "negative_extra": "1girl, couple, nude, oni mask, demon mask, busy background, text, watermark"
+    },
+    "badend_brothel_crying": {
+      "output": "assets/cg/badend-drafts/cg-badend-brothel-crying.png",
+      "scene": "Brothel bad end — Toa broken crying in rain-soaked alley after pride fails",
+      "toa_ref": true,
+      "style_ref": true,
+      "ref_strength": 0.72,
+      "ref_fidelity": 0.38,
+      "prompt": "masterpiece, best quality, very aesthetic, absurdres, anime otome visual novel CG, Hakuoki polished shoujo art, 16:9 cinematic, tragedy horror otome, 1girl solo, {toa_tags}, kneeling in narrow wet alley between shuttered tea houses, heavy rain night, crying broken expression white lashes wet, clutching ruined permit book to chest, black kosode and gold crane obi soaked, shoulders collapsed not performance, cold blue rain orange guttering lantern rim light, Ryoko Owari Scorpion canal city, melancholy despair bad ending, no other characters, no text",
+      "negative_extra": "smiling, happy, 1boy, couple, nude, explicit, crowd"
+    },
+    "badend_brothel_ronin": {
+      "output": "assets/cg/badend-drafts/cg-badend-brothel-ronin.png",
+      "scene": "Brothel bad end — two hooded ronin corner Toa in alley (implied abduction, no gore)",
+      "toa_ref": true,
+      "style_ref": true,
+      "ref_strength": 0.7,
+      "ref_fidelity": 0.4,
+      "prompt": "masterpiece, best quality, very aesthetic, absurdres, anime otome visual novel CG, Hakuoki style, 16:9, tragedy horror, 1girl 2boys, {toa_tags}, backed against wet alley wall frightened angry face, two hooded scarred ronin men silhouettes blocking exit, hired muscle not gore, narrow alley rain night shuttered buildings, implied threat not violence shown, clothed fully, dramatic shadows muted palette, Ryoko Owari night, no blood, no weapons drawn, no text",
+      "negative_extra": "gore, blood, nude, explicit, corpses, graphic violence, cheerful"
+    },
+    "badend_kaoru_corridor": {
+      "output": "assets/cg/badend-drafts/cg-badend-kaoru-corridor.png",
+      "scene": "Kaoru bad end — magistrate corridor, Kaoru grips Toa's wrist and hauls her back",
+      "toa_ref": true,
+      "kaoru_ref": true,
+      "style_ref": true,
+      "ref_strength": 0.75,
+      "ref_fidelity": 0.35,
+      "prompt": "masterpiece, best quality, very aesthetic, absurdres, anime otome visual novel CG, Hakuoki style, 16:9, 1girl 1boy, {toa_tags}, {kaoru_tags}, lacquered corridor lantern stripes on floor, his hand closed on her wrist clerk grip not lover hauling her backward, her frightened angry reaching toward gate, cold magistrate dominance, amber lantern light cedar walls, power imbalance coercion implied clothed, no text",
+      "negative_extra": "nude, sex, gore, romantic smile, oni mask, outdoor rain"
+    },
+    "badend_kaoru_office": {
+      "output": "assets/cg/badend-drafts/cg-badend-kaoru-office.png",
+      "scene": "Kaoru bad end — sealed magistrate office, possessive Kaoru, distressed Toa before fade",
+      "toa_ref": true,
+      "kaoru_ref": true,
+      "style_ref": true,
+      "ref_strength": 0.75,
+      "ref_fidelity": 0.35,
+      "prompt": "masterpiece, best quality, very aesthetic, absurdres, anime otome visual novel CG, Hakuoki style, 16:9, 1girl 1boy, {toa_tags}, worried distressed near lacquered desk, {kaoru_tags}, cold possessive magistrate standing close blocking exit, sealed shoji door thin lamplight strip under door, amber office lantern cedar ink, implied coercion horror otome not explicit, both fully clothed, permit book on desk, no text",
+      "negative_extra": "nude, sex act, genitals, gore, oni mask, outdoor"
+    },
+    "badend_brothel_crying_mild": {
+      "output": "assets/cg/badend-drafts/cg-badend-brothel-crying-mild.png",
+      "scene": "Mild brothel crying — distant figure in rain alley, less distress detail",
+      "toa_ref": true,
+      "style_ref": true,
+      "ref_strength": 0.65,
+      "ref_fidelity": 0.45,
+      "prompt": "masterpiece, best quality, anime otome visual novel CG, Hakuoki style, 16:9, 1girl solo small in frame, {toa_tags}, standing in rainy alley at night seen from distance, wet kimono, lonely melancholy, paper lantern, Ryoko Owari, tragedy mood, no text",
+      "negative_extra": "crying close-up, tears focus, nude, 1boy"
+    },
+    "badend_brothel_ronin_mild": {
+      "output": "assets/cg/badend-drafts/cg-badend-brothel-ronin-mild.png",
+      "scene": "Mild ronin alley — silhouettes only, Toa small figure",
+      "toa_ref": true,
+      "style_ref": true,
+      "prompt": "masterpiece, best quality, anime otome CG, 16:9, narrow alley night rain, distant silhouette of woman in kimono, two hooded men shadows at alley mouth, ominous not violent, muted colors, no text",
+      "negative_extra": "gore, blood, nude, fighting, weapons"
+    },
+    "badend_kaoru_corridor_mild": {
+      "output": "assets/cg/badend-drafts/cg-badend-kaoru-corridor-mild.png",
+      "scene": "Mild corridor — wrist contact from behind, less aggressive faces",
+      "toa_ref": true,
+      "kaoru_ref": true,
+      "style_ref": true,
+      "prompt": "masterpiece, best quality, anime otome CG, 16:9, 1girl 1boy, corridor lanterns, man hand on woman wrist from side, formal kimono, tension not violence, amber light, no text",
+      "negative_extra": "nude, gore, outdoor"
+    },
+    "badend_kaoru_office_mild": {
+      "output": "assets/cg/badend-drafts/cg-badend-kaoru-office-mild.png",
+      "scene": "Mild office — two figures across desk, sealed door strip light",
+      "toa_ref": true,
+      "kaoru_ref": true,
+      "style_ref": true,
+      "prompt": "masterpiece, best quality, anime otome CG, 16:9, magistrate office amber lantern, man and woman standing apart across desk, closed shoji thin light under door, formal tension, clothed, no text",
+      "negative_extra": "nude, sex, gore"
+    },
+    "epilogue_romance_kotatsu_intimate": {
+      "output": "game/images/cg/cg-epilogue-romance-kotatsu-intimate.png",
+      "scene": "Bonus epilogue — kotatsu room, tatami beside table, tasteful intimate otome",
+      "toa_ref": true,
+      "kaoru_ref": true,
+      "style_ref": true,
+      "style_ref_path": "game/images/cg/cg-case5-bedroom-toy.png",
+      "ref_strength": 0.75,
+      "ref_fidelity": 0.35,
+      "style_ref_strength": 0.42,
+      "style_ref_fidelity": 0.28,
+      "ref_type": "character",
+      "prompt": "masterpiece, best quality, very aesthetic, absurdres, anime otome visual novel CG, Hakuoki polished shoujo art, 16:9 cinematic, 1girl 1boy, {toa_tags}, {kaoru_tags}, Japanese magistrate private room tatami floor, kotatsu low table with quilted cover and steam rising, wooden tray with mikan peel and segments, rain streaks on shoji window optional, couple reclining on tatami beside kotatsu not under it, intimate closeness partial disrobe tasteful, her black kosode slipping shoulders gold crane obi loosened, his gold maroon magistrate robes open at chest, entwined embrace shared breath, domestic sensual otome R18 implied heat no genitalia, warm amber lamplight steam glow, no text",
+      "negative_extra": "explicit genitals, pornographic penetration focus, cum, spread legs close-up, under kotatsu table, chibi, crowd, oni mask, furisode, office desk focus"
+    },
+    "test_festival": {
+      "output": "assets/cg/test-festival-toa-kaoru-v2.png",
+      "scene": "Ryoko Owari night festival — couple walking hand in hand, fireworks (style anti-cartoon test)",
+      "toa_ref": true,
+      "kaoru_ref": true,
+      "style_ref": true,
+      "ref_strength": 0.75,
+      "ref_fidelity": 0.35,
+      "style_ref_strength": 0.45,
+      "style_ref_fidelity": 0.25,
+      "ref_type": "character",
+      "prompt": "masterpiece, best quality, very aesthetic, absurdres, anime otome visual novel CG, wide 16:9 cinematic composition, 1girl 1boy, {toa_tags}, {kaoru_tags}, walking hand in hand through Japanese night festival street, yatai food stalls, paper lanterns, fireworks in night sky, amber warm lighting, romantic couple looking at each other, Ryoko Owari corrupt trade city mood, no text",
+      "negative_extra": "crowd focus, explicit, nude, daytime"
+    }
+  },
+  "character_tags": {
+    "toa_tags": "kakita toa, young woman, white hair, grey eyes, white eyelashes, cheerful honest face, black kosode kimono standard sleeves not furisode, gold crane mon obi embroidery bird in flight, white hakama, 5ft11 tall elegant",
+    "kaoru_tags": "kitsu kaoru, handsome man mid-thirties, brown hair slicked back short ponytail, grey eyes, golden mustard magistrate kimono robe gold leaf patterns, earth brown hakama, maroon lining accent, smirk softened, no mask no oni",
+    "toa_au_tags": "kakita toa, young woman, white hair, grey eyes, white eyelashes, cheerful honest face, black zip tracksuit gold stripes gold crane logo on chest, contemporary dancer build 5ft11, NO kimono NO obi NO hakama",
+    "kaoru_au_tags": "kitsu kaoru, handsome man mid-thirties, brown hair slicked back short ponytail, grey eyes, charcoal grey deputy director suit white shirt dark tie, dry smirk, NO magistrate robes NO kimono NO hakama"
+  }
+}

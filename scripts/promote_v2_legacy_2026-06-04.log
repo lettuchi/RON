@@ -1,0 +1,16 @@
+﻿Promote v2 -> legacy started 2026-06-04 19:17:52
+v2 source: C:\Users\Amanda\Developer\ryoko-owari\game\audio\voice\v2\eve-donovan-2026-06-04
+legacy: C:\Users\Amanda\Developer\ryoko-owari\game\audio\voice
+backup: C:\Users\Amanda\Developer\ryoko-owari\game\audio\voice\versions\staged-regen-legacy-backup-2026-06-04
+
+Backed up count: 838
+Promoted count: 886
+Orphan files in v2 (skipped): 0
+Promote/backup errors: 0
+
+=== Spot-check (5 random promoted) ===
+toa_101 : legacy=98942 v2=98942 sizeMatch=True mtime=06/04/2026 18:20:22 mtimeOk=True
+toa_269 : legacy=106860 v2=106860 sizeMatch=True mtime=06/04/2026 18:27:26 mtimeOk=True
+narrator_084 : legacy=209682 v2=209682 sizeMatch=True mtime=06/04/2026 18:19:22 mtimeOk=True
+kaoru_210 : legacy=60326 v2=60326 sizeMatch=True mtime=06/04/2026 18:25:45 mtimeOk=True
+narrator_030 : legacy=151809 v2=151809 sizeMatch=True mtime=06/04/2026 12:33:18 mtimeOk=True

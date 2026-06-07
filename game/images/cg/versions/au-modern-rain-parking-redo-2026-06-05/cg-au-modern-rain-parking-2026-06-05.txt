@@ -1,0 +1,30 @@
+au_modern_rain_parking — regen 2026-06-05 (new composition: running into building)
+==================================================================================
+Tag: au_modern_rain_parking
+File: game/images/cg/cg-au-modern-rain-parking.png
+Backup: game/images/cg/versions/au-modern-rain-parking-redo-2026-06-05/cg-au-modern-rain-parking.png
+
+Reason: User request — new composition. Replace the static "standing in rainy harbor
+parking lot (raincoat + distant Kaoru silhouette)" beat with Toa in motion, hurrying
+through the glass entrance of the port-city licensing tower (Office of Arts & Licensing)
+to escape heavy rain. Energetic, "late and soaked" otome-heroine feel.
+
+Scene (au_modern_wrong_floor_start opening / title beat): Toa mid-stride, reaching/pushing
+through glass lobby doors into warm interior light; wet hair and shoulders, dance/gym bag;
+heavy rain outside, overcast port-city dusk, neon and sign reflections on wet pavement,
+blurred harbor towers. No Kaoru in frame.
+
+Wardrobe (hard requirement): black/gold zip-up tracksuit with gold crane chest logo,
+gold athletic stripes, white sneakers. Modern western port city. NO kimono/kosode/obi/hakama,
+NO L5R/Rokugan elements.
+
+Generator: Cursor GenerateImage (painterly Hakuoki AU style), resized/fit to 1536x1024
+landscape to match the AU CG set (fit_cg).
+Refs: docs/art-references/au-modern/toa-au-modern-tracksuit-reference.png (outfit, full),
+      docs/art-references/au-modern/toa-au-modern-tracksuit-waistup-reference.png (outfit, closeup),
+      game/images/sprites/toa/toa-neutral.png (face/hair only).
+Prompt: AU prefix/suffix + negative block from scripts/au_modern_cg_prompt_block.txt;
+        Toa AU character tags; running-into-lobby motion scene.
+
+Gallery / script path unchanged (au_modern_rain_parking; cg-au-modern-rain-parking.png).
+No .rpy edits, no git commit.

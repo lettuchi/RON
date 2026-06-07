@@ -1,0 +1,50 @@
+{
+  "duration": 190.015,
+  "source": "game/audio/bgm/ending_song.mp3",
+  "method": "faster-whisper small (Japanese, word timestamps); VAD pass + no-VAD tail pass; onsets mapped to docs/ending-song-lyrics.md",
+  "caveat": "English-only ED subs; pauses use gap − 0.28 s lead + 0.04 s lag.",
+  "onsets": {
+    "I-L1": 6.98,
+    "I-L2": 9.76,
+    "V1-L1": 17.96,
+    "V1-L2": 22.28,
+    "V1-L3": 25.58,
+    "V1-L4": 29.48,
+    "PC-L1": 33.94,
+    "PC-L2": 42.4,
+    "C-L1": 49.22,
+    "C-L2": 56.72,
+    "C-L3": 63.56,
+    "C-L4": 68.88,
+    "C-L5": 73.4,
+    "V2-L1": 82.08,
+    "V2-L2": 86.32,
+    "V2-L3": 89.96,
+    "V2-L4": 94.54,
+    "C2-L1": 99.28,
+    "C2-L2": 105.5,
+    "C2-L3": 113.34,
+    "C2-L4": 117.0,
+    "C2-L5": 121.38,
+    "B-L1": 128.4,
+    "B-L2": 131.54,
+    "B-L3": 137.02,
+    "B-L4": 139.24,
+    "FC-L1": 155.04,
+    "FC-L2": 159.74,
+    "FC-L3": 164.0,
+    "FC-L4": 167.54,
+    "FC-L5": 170.8,
+    "FC-L6": 174.58
+  },
+  "markers": {
+    "instr_after_ch1": 79.0,
+    "instr_break_start": 144.5,
+    "outro_visual": 180.0
+  },
+  "sync": {
+    "ed_sub_lead": 0.28,
+    "ed_sub_lag": 0.04,
+    "english_only": true
+  }
+}

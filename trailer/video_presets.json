@@ -1,0 +1,53 @@
+{
+  "_meta": {
+    "_comment": "Presets for scripts/generate_video_clip.py (fal.ai image-to-video). Each preset upgrades a trailer hero shot from procedural/hand-drawn cel motion to a real AI clip written to its 'out' path; scripts/build_trailer.py auto-picks up trailer/clips/<shot_id>.mp4 and falls back to procedural when absent. SCHEMA: presets are keyed by a short name (the --preset value). Each preset = { model?, prompt, negative_prompt?, duration (s), aspect_ratio?, start_image, end_image?, out }. 'start_image' is the first video frame (image_url); optional 'end_image' is the tail frame (tail_image_url) for Kling start+end interpolation, so keyframe-1 morphs into keyframe-3. Omit 'end_image' (or pass --no-end-image) for subtle single-frame motion. 'model' falls back to _meta.default_model; image field names come from _meta.image_key / tail_image_key. Prompts follow the cel/Hakuoki look in docs/cg-style-prompt-block.md and trailer/style/style-bible.md (Kaoru wears YELLOW/GOLD robes, never green). Model ids on fal.ai change over time; override with --model or edit default_model (browse https://fal.ai/models).",
+    "default_model": "fal-ai/kling-video/v2/standard/image-to-video",
+    "alt_model": "fal-ai/wan-i2v",
+    "image_key": "image_url",
+    "tail_image_key": "tail_image_url",
+    "aspect_ratio": "16:9",
+    "poll_interval": 4,
+    "timeout": 900
+  },
+  "presets": {
+    "toa_fan": {
+      "model": "fal-ai/kling-video/v2/standard/image-to-video",
+      "prompt": "2D anime cel-shaded otome illustration, Hakuoki style, painterly cel shading with clean colored linework: a cheerful white-haired woman with grey eyes in a black kosode with gold crane obi raises a folding fan and snaps it open across the lower half of her face, chin lifting and bright eyes rising to camera; gentle hair and sleeve movement, warm lantern backlight, fine rain bokeh behind, illustrated lantern glow not lens flare, smooth on-twos hand-drawn animation, no morphing artifacts",
+      "negative_prompt": "photorealistic, 3d render, live action, CGI, lens flare, extra fingers, malformed hands, fused fingers, warping face, flicker, furisode long swinging sleeves, oni mask, demon mask, western clothing, watermark, text, logo",
+      "duration": 5,
+      "aspect_ratio": "16:9",
+      "start_image": "trailer/frames/toa-fan-1.png",
+      "end_image": "trailer/frames/toa-fan-3.png",
+      "out": "trailer/clips/s04_toa_fan.mp4"
+    },
+    "kaoru_turn": {
+      "model": "fal-ai/kling-video/v2/standard/image-to-video",
+      "prompt": "2D anime cel-shaded otome illustration, Hakuoki style, painterly cel shading with clean colored linework: a mid-thirties man with brown hair in a short slicked-back ponytail and grey eyes, wearing opulent YELLOW and GOLD magistrate robes, turns his head from a cold three-quarter-away pose to face the camera with a slow predatory smirk; subtle candlelight flicker, gold thread catching the light, illustrated lantern glow not lens flare, smooth deliberate hand-drawn animation, no morphing artifacts",
+      "negative_prompt": "green robe, teal robe, emerald robe, photorealistic, 3d render, live action, CGI, lens flare, mask, oni mask, demon mask, warping face, extra fingers, malformed hands, flicker, western clothing, watermark, text, logo",
+      "duration": 5,
+      "aspect_ratio": "16:9",
+      "start_image": "trailer/frames/kaoru-turn-1.png",
+      "end_image": "trailer/frames/kaoru-turn-3.png",
+      "out": "trailer/clips/s07_kaoru_turn.mp4"
+    },
+    "toa_dance": {
+      "model": "fal-ai/kling-video/v2/standard/image-to-video",
+      "prompt": "2D anime cel-shaded otome illustration, Hakuoki style, painterly cel shading with clean colored linework: a white-haired woman with grey eyes in a black kosode and white hakama performs a crane dance, sweeping both arms upward and outward into a graceful full extension, long sleeves and obi trailing, silhouetted against red bridge lanterns over dark canal water, illustrated lantern glow not lens flare, flowing elegant hand-drawn animation, readable not busy, no morphing artifacts",
+      "negative_prompt": "photorealistic, 3d render, live action, CGI, lens flare, extra limbs, extra fingers, malformed hands, warping, flicker, oni mask, western clothing, watermark, text, logo",
+      "duration": 5,
+      "aspect_ratio": "16:9",
+      "start_image": "trailer/frames/toa-dance-1.png",
+      "end_image": "trailer/frames/toa-dance-3.png",
+      "out": "trailer/clips/s15_toa_dance.mp4"
+    },
+    "embrace": {
+      "model": "fal-ai/kling-video/v2/standard/image-to-video",
+      "prompt": "2D anime cel-shaded otome CG illustration, Hakuoki style, painterly cel shading with clean colored linework: a tender close embrace between a white-haired woman in a black kosode and a man in maroon and gold robes; only subtle living motion — slow breathing, a faint tightening of the embrace, drifting hair strands and gentle lantern-light shimmer, camera nearly still, illustrated lantern glow not lens flare, smooth restrained hand-drawn animation, no morphing artifacts, identities and pose unchanged",
+      "negative_prompt": "photorealistic, 3d render, live action, CGI, lens flare, large camera movement, pose change, identity drift, extra fingers, malformed hands, warping face, flicker, watermark, text, logo",
+      "duration": 5,
+      "aspect_ratio": "16:9",
+      "start_image": "game/images/cg/cg-canon-embrace.png",
+      "out": "trailer/clips/s11_embrace.mp4"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+# Modern AU NARRATOR rewrite pass (2026-06-05): NEW narrator lines added for scene
+# orientation / connective tissue. They are currently SILENT in the .rpy (no `voice` line,
+# no allocated ID). The final audio step should allocate fresh narrator IDs (max existing
+# narrator id is narrator_468, so next free is narrator_469+) and voice them, then add the
+# `voice` lines. TEXT-ONLY pass: no IDs allocated, no audio/manifests touched.
+# Each record: FILE | LABEL | SPEAKER | TEXT  (each placed as a bare narrator string,
+# never attached to a stray `voice` statement).
+#
+# ============================================================================
+# game/au_modern_wrong_floor.rpy  (2 new lines)
+# ============================================================================
+au_modern_wrong_floor.rpy | au_modern_wrong_floor_start | narrator | The public elevator lets her out on floor fourteen B, and on the wrong half of it. Intake, the counter where applicants take a number and wait their turn, is one wing over. Toa turns the other way, toward a glass door with a badge reader, and opens it without reading the plate.
+au_modern_wrong_floor.rpy | au_modern_contract_menu | narrator | Back in the licensing office, the audition behind her, the sponsorship draft waits on his desk. His signature is ready. The only thing still hers to decide is which rider hangs off it.
+#
+# ============================================================================
+# game/au_modern_case1_compliance.rpy  (1 new line)
+# ============================================================================
+au_modern_case1_compliance.rpy | au_modern_case1_inspection_floor | narrator | Inside the Velvet Lantern, the lobby smells of eucalyptus and money pretending to be mindfulness. Soft music hides the diesel and the ferries under panpipes. Toa raises her phone and waits to be told what counts as evidence.
+#
+# Total: 3 new silent narrator lines awaiting voicing.

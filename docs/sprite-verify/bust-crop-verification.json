@@ -1,0 +1,1216 @@
+{
+  "toa": {
+    "prefix": "toa",
+    "crop": [
+      568,
+      0,
+      601,
+      601
+    ],
+    "zoom": 0.2795341098169717,
+    "display_px": [
+      168.0,
+      168.0
+    ],
+    "bboxes": {
+      "toa-neutral.png": {
+        "x0": 592,
+        "y0": 3,
+        "x1": 1003,
+        "y1": 579,
+        "w": 412,
+        "h": 577,
+        "cx": 797,
+        "cy": 291
+      },
+      "toa-happy.png": {
+        "x0": 608,
+        "y0": 9,
+        "x1": 973,
+        "y1": 590,
+        "w": 366,
+        "h": 582,
+        "cx": 790,
+        "cy": 299
+      },
+      "toa-sad.png": {
+        "x0": 590,
+        "y0": 3,
+        "x1": 1004,
+        "y1": 580,
+        "w": 415,
+        "h": 578,
+        "cx": 797,
+        "cy": 291
+      },
+      "toa-angry.png": {
+        "x0": 591,
+        "y0": 3,
+        "x1": 1005,
+        "y1": 580,
+        "w": 415,
+        "h": 578,
+        "cx": 798,
+        "cy": 291
+      },
+      "toa-surprised.png": {
+        "x0": 593,
+        "y0": 6,
+        "x1": 1020,
+        "y1": 587,
+        "w": 428,
+        "h": 582,
+        "cx": 806,
+        "cy": 296
+      },
+      "toa-flustered.png": {
+        "x0": 578,
+        "y0": 1,
+        "x1": 991,
+        "y1": 579,
+        "w": 414,
+        "h": 579,
+        "cx": 784,
+        "cy": 290
+      },
+      "toa-worried.png": {
+        "x0": 592,
+        "y0": 3,
+        "x1": 1005,
+        "y1": 581,
+        "w": 414,
+        "h": 579,
+        "cx": 798,
+        "cy": 292
+      },
+      "toa-thinking.png": {
+        "x0": 613,
+        "y0": 3,
+        "x1": 983,
+        "y1": 583,
+        "w": 371,
+        "h": 581,
+        "cx": 798,
+        "cy": 293
+      },
+      "toa-determined.png": {
+        "x0": 591,
+        "y0": 3,
+        "x1": 1001,
+        "y1": 577,
+        "w": 411,
+        "h": 575,
+        "cx": 796,
+        "cy": 290
+      },
+      "toa-soft.png": {
+        "x0": 592,
+        "y0": 3,
+        "x1": 1002,
+        "y1": 578,
+        "w": 411,
+        "h": 576,
+        "cx": 797,
+        "cy": 290
+      }
+    },
+    "union": {
+      "x0": 578,
+      "y0": 1,
+      "x1": 1020,
+      "y1": 590,
+      "cx": 799,
+      "cy": 295
+    },
+    "optimal_crop": [
+      568,
+      0,
+      601,
+      601
+    ],
+    "optimal_zoom": 0.279534,
+    "pass_crop": 10,
+    "pass_slot": 10,
+    "total": 10,
+    "clipping": [],
+    "results": [
+      {
+        "expression": "neutral",
+        "file": "toa-neutral.png",
+        "bbox": {
+          "x0": 592,
+          "y0": 3,
+          "x1": 1003,
+          "y1": 579,
+          "w": 412,
+          "h": 577,
+          "cx": 797,
+          "cy": 291
+        },
+        "in_crop": true,
+        "in_slot": true,
+        "crop_clip": {
+          "left": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        "slot_clip": {
+          "left": 0.0,
+          "top": 0.0,
+          "right": 0.0,
+          "bottom": 0.0
+        }
+      },
+      {
+        "expression": "happy",
+        "file": "toa-happy.png",
+        "bbox": {
+          "x0": 608,
+          "y0": 9,
+          "x1": 973,
+          "y1": 590,
+          "w": 366,
+          "h": 582,
+          "cx": 790,
+          "cy": 299
+        },
+        "in_crop": true,
+        "in_slot": true,
+        "crop_clip": {
+          "left": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        "slot_clip": {
+          "left": 0.0,
+          "top": 0.0,
+          "right": 0.0,
+          "bottom": 0.0
+        }
+      },
+      {
+        "expression": "sad",
+        "file": "toa-sad.png",
+        "bbox": {
+          "x0": 590,
+          "y0": 3,
+          "x1": 1004,
+          "y1": 580,
+          "w": 415,
+          "h": 578,
+          "cx": 797,
+          "cy": 291
+        },
+        "in_crop": true,
+        "in_slot": true,
+        "crop_clip": {
+          "left": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        "slot_clip": {
+          "left": 0.0,
+          "top": 0.0,
+          "right": 0.0,
+          "bottom": 0.0
+        }
+      },
+      {
+        "expression": "angry",
+        "file": "toa-angry.png",
+        "bbox": {
+          "x0": 591,
+          "y0": 3,
+          "x1": 1005,
+          "y1": 580,
+          "w": 415,
+          "h": 578,
+          "cx": 798,
+          "cy": 291
+        },
+        "in_crop": true,
+        "in_slot": true,
+        "crop_clip": {
+          "left": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        "slot_clip": {
+          "left": 0.0,
+          "top": 0.0,
+          "right": 0.0,
+          "bottom": 0.0
+        }
+      },
+      {
+        "expression": "surprised",
+        "file": "toa-surprised.png",
+        "bbox": {
+          "x0": 593,
+          "y0": 6,
+          "x1": 1020,
+          "y1": 587,
+          "w": 428,
+          "h": 582,
+          "cx": 806,
+          "cy": 296
+        },
+        "in_crop": true,
+        "in_slot": true,
+        "crop_clip": {
+          "left": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        "slot_clip": {
+          "left": 0.0,
+          "top": 0.0,
+          "right": 0.0,
+          "bottom": 0.0
+        }
+      },
+      {
+        "expression": "flustered",
+        "file": "toa-flustered.png",
+        "bbox": {
+          "x0": 578,
+          "y0": 1,
+          "x1": 991,
+          "y1": 579,
+          "w": 414,
+          "h": 579,
+          "cx": 784,
+          "cy": 290
+        },
+        "in_crop": true,
+        "in_slot": true,
+        "crop_clip": {
+          "left": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        "slot_clip": {
+          "left": 0.0,
+          "top": 0.0,
+          "right": 0.0,
+          "bottom": 0.0
+        }
+      },
+      {
+        "expression": "worried",
+        "file": "toa-worried.png",
+        "bbox": {
+          "x0": 592,
+          "y0": 3,
+          "x1": 1005,
+          "y1": 581,
+          "w": 414,
+          "h": 579,
+          "cx": 798,
+          "cy": 292
+        },
+        "in_crop": true,
+        "in_slot": true,
+        "crop_clip": {
+          "left": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        "slot_clip": {
+          "left": 0.0,
+          "top": 0.0,
+          "right": 0.0,
+          "bottom": 0.0
+        }
+      },
+      {
+        "expression": "thinking",
+        "file": "toa-thinking.png",
+        "bbox": {
+          "x0": 613,
+          "y0": 3,
+          "x1": 983,
+          "y1": 583,
+          "w": 371,
+          "h": 581,
+          "cx": 798,
+          "cy": 293
+        },
+        "in_crop": true,
+        "in_slot": true,
+        "crop_clip": {
+          "left": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        "slot_clip": {
+          "left": 0.0,
+          "top": 0.0,
+          "right": 0.0,
+          "bottom": 0.0
+        }
+      },
+      {
+        "expression": "determined",
+        "file": "toa-determined.png",
+        "bbox": {
+          "x0": 591,
+          "y0": 3,
+          "x1": 1001,
+          "y1": 577,
+          "w": 411,
+          "h": 575,
+          "cx": 796,
+          "cy": 290
+        },
+        "in_crop": true,
+        "in_slot": true,
+        "crop_clip": {
+          "left": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        "slot_clip": {
+          "left": 0.0,
+          "top": 0.0,
+          "right": 0.0,
+          "bottom": 0.0
+        }
+      },
+      {
+        "expression": "soft",
+        "file": "toa-soft.png",
+        "bbox": {
+          "x0": 592,
+          "y0": 3,
+          "x1": 1002,
+          "y1": 578,
+          "w": 411,
+          "h": 576,
+          "cx": 797,
+          "cy": 290
+        },
+        "in_crop": true,
+        "in_slot": true,
+        "crop_clip": {
+          "left": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        "slot_clip": {
+          "left": 0.0,
+          "top": 0.0,
+          "right": 0.0,
+          "bottom": 0.0
+        }
+      }
+    ]
+  },
+  "kaoru": {
+    "prefix": "kaoru",
+    "crop": [
+      173,
+      0,
+      854,
+      854
+    ],
+    "zoom": 0.19672131147540983,
+    "display_px": [
+      168.0,
+      168.0
+    ],
+    "bboxes": {
+      "kaoru-neutral.png": {
+        "x0": 291,
+        "y0": 0,
+        "x1": 837,
+        "y1": 610,
+        "w": 547,
+        "h": 611,
+        "cx": 564,
+        "cy": 305
+      },
+      "kaoru-smirk.png": {
+        "x0": 359,
+        "y0": 2,
+        "x1": 864,
+        "y1": 603,
+        "w": 506,
+        "h": 602,
+        "cx": 611,
+        "cy": 302
+      },
+      "kaoru-cold.png": {
+        "x0": 253,
+        "y0": 4,
+        "x1": 699,
+        "y1": 600,
+        "w": 447,
+        "h": 597,
+        "cx": 476,
+        "cy": 302
+      },
+      "kaoru-charm.png": {
+        "x0": 411,
+        "y0": 0,
+        "x1": 846,
+        "y1": 589,
+        "w": 436,
+        "h": 590,
+        "cx": 628,
+        "cy": 294
+      },
+      "kaoru-cruel.png": {
+        "x0": 348,
+        "y0": 4,
+        "x1": 801,
+        "y1": 603,
+        "w": 454,
+        "h": 600,
+        "cx": 574,
+        "cy": 303
+      },
+      "kaoru-angry.png": {
+        "x0": 359,
+        "y0": 2,
+        "x1": 864,
+        "y1": 602,
+        "w": 506,
+        "h": 601,
+        "cx": 611,
+        "cy": 302
+      },
+      "kaoru-amused.png": {
+        "x0": 395,
+        "y0": 1,
+        "x1": 828,
+        "y1": 604,
+        "w": 434,
+        "h": 604,
+        "cx": 611,
+        "cy": 302
+      },
+      "kaoru-bored.png": {
+        "x0": 557,
+        "y0": 1,
+        "x1": 1006,
+        "y1": 557,
+        "w": 450,
+        "h": 557,
+        "cx": 781,
+        "cy": 279
+      },
+      "kaoru-thinking.png": {
+        "x0": 355,
+        "y0": 0,
+        "x1": 854,
+        "y1": 606,
+        "w": 500,
+        "h": 607,
+        "cx": 604,
+        "cy": 303
+      },
+      "kaoru-determined.png": {
+        "x0": 368,
+        "y0": 0,
+        "x1": 864,
+        "y1": 591,
+        "w": 497,
+        "h": 592,
+        "cx": 616,
+        "cy": 295
+      },
+      "kaoru-surprised.png": {
+        "x0": 360,
+        "y0": 0,
+        "x1": 765,
+        "y1": 599,
+        "w": 406,
+        "h": 600,
+        "cx": 562,
+        "cy": 299
+      },
+      "kaoru-commanding.png": {
+        "x0": 267,
+        "y0": 1,
+        "x1": 725,
+        "y1": 551,
+        "w": 459,
+        "h": 551,
+        "cx": 496,
+        "cy": 276
+      },
+      "kaoru-hungry.png": {
+        "x0": 183,
+        "y0": 5,
+        "x1": 840,
+        "y1": 611,
+        "w": 658,
+        "h": 607,
+        "cx": 511,
+        "cy": 308
+      },
+      "kaoru-satisfied.png": {
+        "x0": 333,
+        "y0": 8,
+        "x1": 792,
+        "y1": 578,
+        "w": 460,
+        "h": 571,
+        "cx": 562,
+        "cy": 293
+      },
+      "kaoru-furious.png": {
+        "x0": 446,
+        "y0": 4,
+        "x1": 969,
+        "y1": 600,
+        "w": 524,
+        "h": 597,
+        "cx": 707,
+        "cy": 302
+      },
+      "kaoru-contempt.png": {
+        "x0": 332,
+        "y0": 2,
+        "x1": 802,
+        "y1": 600,
+        "w": 471,
+        "h": 599,
+        "cx": 567,
+        "cy": 301
+      },
+      "kaoru-vicious.png": {
+        "x0": 665,
+        "y0": 6,
+        "x1": 1016,
+        "y1": 588,
+        "w": 352,
+        "h": 583,
+        "cx": 840,
+        "cy": 297
+      },
+      "kaoru-ravenous.png": {
+        "x0": 222,
+        "y0": 0,
+        "x1": 840,
+        "y1": 540,
+        "w": 619,
+        "h": 541,
+        "cx": 531,
+        "cy": 270
+      },
+      "kaoru-threatening.png": {
+        "x0": 492,
+        "y0": 3,
+        "x1": 980,
+        "y1": 588,
+        "w": 489,
+        "h": 586,
+        "cx": 736,
+        "cy": 295
+      },
+      "kaoru-sadistic.png": {
+        "x0": 278,
+        "y0": 0,
+        "x1": 713,
+        "y1": 584,
+        "w": 436,
+        "h": 585,
+        "cx": 495,
+        "cy": 292
+      }
+    },
+    "union": {
+      "x0": 183,
+      "y0": 0,
+      "x1": 1016,
+      "y1": 611,
+      "cx": 599,
+      "cy": 305
+    },
+    "optimal_crop": [
+      173,
+      0,
+      854,
+      854
+    ],
+    "optimal_zoom": 0.196721,
+    "pass_crop": 20,
+    "pass_slot": 20,
+    "total": 20,
+    "clipping": [],
+    "results": [
+      {
+        "expression": "neutral",
+        "file": "kaoru-neutral.png",
+        "bbox": {
+          "x0": 291,
+          "y0": 0,
+          "x1": 837,
+          "y1": 610,
+          "w": 547,
+          "h": 611,
+          "cx": 564,
+          "cy": 305
+        },
+        "in_crop": true,
+        "in_slot": true,
+        "crop_clip": {
+          "left": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        "slot_clip": {
+          "left": 0.0,
+          "top": 0.0,
+          "right": 0.0,
+          "bottom": 0.0
+        }
+      },
+      {
+        "expression": "smirk",
+        "file": "kaoru-smirk.png",
+        "bbox": {
+          "x0": 359,
+          "y0": 2,
+          "x1": 864,
+          "y1": 603,
+          "w": 506,
+          "h": 602,
+          "cx": 611,
+          "cy": 302
+        },
+        "in_crop": true,
+        "in_slot": true,
+        "crop_clip": {
+          "left": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        "slot_clip": {
+          "left": 0.0,
+          "top": 0.0,
+          "right": 0.0,
+          "bottom": 0.0
+        }
+      },
+      {
+        "expression": "cold",
+        "file": "kaoru-cold.png",
+        "bbox": {
+          "x0": 253,
+          "y0": 4,
+          "x1": 699,
+          "y1": 600,
+          "w": 447,
+          "h": 597,
+          "cx": 476,
+          "cy": 302
+        },
+        "in_crop": true,
+        "in_slot": true,
+        "crop_clip": {
+          "left": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        "slot_clip": {
+          "left": 0.0,
+          "top": 0.0,
+          "right": 0.0,
+          "bottom": 0.0
+        }
+      },
+      {
+        "expression": "charm",
+        "file": "kaoru-charm.png",
+        "bbox": {
+          "x0": 411,
+          "y0": 0,
+          "x1": 846,
+          "y1": 589,
+          "w": 436,
+          "h": 590,
+          "cx": 628,
+          "cy": 294
+        },
+        "in_crop": true,
+        "in_slot": true,
+        "crop_clip": {
+          "left": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        "slot_clip": {
+          "left": 0.0,
+          "top": 0.0,
+          "right": 0.0,
+          "bottom": 0.0
+        }
+      },
+      {
+        "expression": "cruel",
+        "file": "kaoru-cruel.png",
+        "bbox": {
+          "x0": 348,
+          "y0": 4,
+          "x1": 801,
+          "y1": 603,
+          "w": 454,
+          "h": 600,
+          "cx": 574,
+          "cy": 303
+        },
+        "in_crop": true,
+        "in_slot": true,
+        "crop_clip": {
+          "left": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        "slot_clip": {
+          "left": 0.0,
+          "top": 0.0,
+          "right": 0.0,
+          "bottom": 0.0
+        }
+      },
+      {
+        "expression": "angry",
+        "file": "kaoru-angry.png",
+        "bbox": {
+          "x0": 359,
+          "y0": 2,
+          "x1": 864,
+          "y1": 602,
+          "w": 506,
+          "h": 601,
+          "cx": 611,
+          "cy": 302
+        },
+        "in_crop": true,
+        "in_slot": true,
+        "crop_clip": {
+          "left": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        "slot_clip": {
+          "left": 0.0,
+          "top": 0.0,
+          "right": 0.0,
+          "bottom": 0.0
+        }
+      },
+      {
+        "expression": "amused",
+        "file": "kaoru-amused.png",
+        "bbox": {
+          "x0": 395,
+          "y0": 1,
+          "x1": 828,
+          "y1": 604,
+          "w": 434,
+          "h": 604,
+          "cx": 611,
+          "cy": 302
+        },
+        "in_crop": true,
+        "in_slot": true,
+        "crop_clip": {
+          "left": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        "slot_clip": {
+          "left": 0.0,
+          "top": 0.0,
+          "right": 0.0,
+          "bottom": 0.0
+        }
+      },
+      {
+        "expression": "bored",
+        "file": "kaoru-bored.png",
+        "bbox": {
+          "x0": 557,
+          "y0": 1,
+          "x1": 1006,
+          "y1": 557,
+          "w": 450,
+          "h": 557,
+          "cx": 781,
+          "cy": 279
+        },
+        "in_crop": true,
+        "in_slot": true,
+        "crop_clip": {
+          "left": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        "slot_clip": {
+          "left": 0.0,
+          "top": 0.0,
+          "right": 0.0,
+          "bottom": 0.0
+        }
+      },
+      {
+        "expression": "thinking",
+        "file": "kaoru-thinking.png",
+        "bbox": {
+          "x0": 355,
+          "y0": 0,
+          "x1": 854,
+          "y1": 606,
+          "w": 500,
+          "h": 607,
+          "cx": 604,
+          "cy": 303
+        },
+        "in_crop": true,
+        "in_slot": true,
+        "crop_clip": {
+          "left": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        "slot_clip": {
+          "left": 0.0,
+          "top": 0.0,
+          "right": 0.0,
+          "bottom": 0.0
+        }
+      },
+      {
+        "expression": "determined",
+        "file": "kaoru-determined.png",
+        "bbox": {
+          "x0": 368,
+          "y0": 0,
+          "x1": 864,
+          "y1": 591,
+          "w": 497,
+          "h": 592,
+          "cx": 616,
+          "cy": 295
+        },
+        "in_crop": true,
+        "in_slot": true,
+        "crop_clip": {
+          "left": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        "slot_clip": {
+          "left": 0.0,
+          "top": 0.0,
+          "right": 0.0,
+          "bottom": 0.0
+        }
+      },
+      {
+        "expression": "surprised",
+        "file": "kaoru-surprised.png",
+        "bbox": {
+          "x0": 360,
+          "y0": 0,
+          "x1": 765,
+          "y1": 599,
+          "w": 406,
+          "h": 600,
+          "cx": 562,
+          "cy": 299
+        },
+        "in_crop": true,
+        "in_slot": true,
+        "crop_clip": {
+          "left": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        "slot_clip": {
+          "left": 0.0,
+          "top": 0.0,
+          "right": 0.0,
+          "bottom": 0.0
+        }
+      },
+      {
+        "expression": "commanding",
+        "file": "kaoru-commanding.png",
+        "bbox": {
+          "x0": 267,
+          "y0": 1,
+          "x1": 725,
+          "y1": 551,
+          "w": 459,
+          "h": 551,
+          "cx": 496,
+          "cy": 276
+        },
+        "in_crop": true,
+        "in_slot": true,
+        "crop_clip": {
+          "left": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        "slot_clip": {
+          "left": 0.0,
+          "top": 0.0,
+          "right": 0.0,
+          "bottom": 0.0
+        }
+      },
+      {
+        "expression": "hungry",
+        "file": "kaoru-hungry.png",
+        "bbox": {
+          "x0": 183,
+          "y0": 5,
+          "x1": 840,
+          "y1": 611,
+          "w": 658,
+          "h": 607,
+          "cx": 511,
+          "cy": 308
+        },
+        "in_crop": true,
+        "in_slot": true,
+        "crop_clip": {
+          "left": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        "slot_clip": {
+          "left": 0.0,
+          "top": 0.0,
+          "right": 0.0,
+          "bottom": 0.0
+        }
+      },
+      {
+        "expression": "satisfied",
+        "file": "kaoru-satisfied.png",
+        "bbox": {
+          "x0": 333,
+          "y0": 8,
+          "x1": 792,
+          "y1": 578,
+          "w": 460,
+          "h": 571,
+          "cx": 562,
+          "cy": 293
+        },
+        "in_crop": true,
+        "in_slot": true,
+        "crop_clip": {
+          "left": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        "slot_clip": {
+          "left": 0.0,
+          "top": 0.0,
+          "right": 0.0,
+          "bottom": 0.0
+        }
+      },
+      {
+        "expression": "furious",
+        "file": "kaoru-furious.png",
+        "bbox": {
+          "x0": 446,
+          "y0": 4,
+          "x1": 969,
+          "y1": 600,
+          "w": 524,
+          "h": 597,
+          "cx": 707,
+          "cy": 302
+        },
+        "in_crop": true,
+        "in_slot": true,
+        "crop_clip": {
+          "left": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        "slot_clip": {
+          "left": 0.0,
+          "top": 0.0,
+          "right": 0.0,
+          "bottom": 0.0
+        }
+      },
+      {
+        "expression": "contempt",
+        "file": "kaoru-contempt.png",
+        "bbox": {
+          "x0": 332,
+          "y0": 2,
+          "x1": 802,
+          "y1": 600,
+          "w": 471,
+          "h": 599,
+          "cx": 567,
+          "cy": 301
+        },
+        "in_crop": true,
+        "in_slot": true,
+        "crop_clip": {
+          "left": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        "slot_clip": {
+          "left": 0.0,
+          "top": 0.0,
+          "right": 0.0,
+          "bottom": 0.0
+        }
+      },
+      {
+        "expression": "vicious",
+        "file": "kaoru-vicious.png",
+        "bbox": {
+          "x0": 665,
+          "y0": 6,
+          "x1": 1016,
+          "y1": 588,
+          "w": 352,
+          "h": 583,
+          "cx": 840,
+          "cy": 297
+        },
+        "in_crop": true,
+        "in_slot": true,
+        "crop_clip": {
+          "left": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        "slot_clip": {
+          "left": 0.0,
+          "top": 0.0,
+          "right": 0.0,
+          "bottom": 0.0
+        }
+      },
+      {
+        "expression": "ravenous",
+        "file": "kaoru-ravenous.png",
+        "bbox": {
+          "x0": 222,
+          "y0": 0,
+          "x1": 840,
+          "y1": 540,
+          "w": 619,
+          "h": 541,
+          "cx": 531,
+          "cy": 270
+        },
+        "in_crop": true,
+        "in_slot": true,
+        "crop_clip": {
+          "left": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        "slot_clip": {
+          "left": 0.0,
+          "top": 0.0,
+          "right": 0.0,
+          "bottom": 0.0
+        }
+      },
+      {
+        "expression": "threatening",
+        "file": "kaoru-threatening.png",
+        "bbox": {
+          "x0": 492,
+          "y0": 3,
+          "x1": 980,
+          "y1": 588,
+          "w": 489,
+          "h": 586,
+          "cx": 736,
+          "cy": 295
+        },
+        "in_crop": true,
+        "in_slot": true,
+        "crop_clip": {
+          "left": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        "slot_clip": {
+          "left": 0.0,
+          "top": 0.0,
+          "right": 0.0,
+          "bottom": 0.0
+        }
+      },
+      {
+        "expression": "sadistic",
+        "file": "kaoru-sadistic.png",
+        "bbox": {
+          "x0": 278,
+          "y0": 0,
+          "x1": 713,
+          "y1": 584,
+          "w": 436,
+          "h": 585,
+          "cx": 495,
+          "cy": 292
+        },
+        "in_crop": true,
+        "in_slot": true,
+        "crop_clip": {
+          "left": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0
+        },
+        "slot_clip": {
+          "left": 0.0,
+          "top": 0.0,
+          "right": 0.0,
+          "bottom": 0.0
+        }
+      }
+    ]
+  }
+}

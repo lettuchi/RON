@@ -1,0 +1,4 @@
+# CG post-generation QA (scripts/check_cg_hands.py — MediaPipe hand detection)
+mediapipe>=0.10.14
+opencv-python>=4.8.0
+Pillow>=10.0.0

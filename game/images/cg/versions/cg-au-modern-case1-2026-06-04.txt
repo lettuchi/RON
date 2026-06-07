@@ -1,0 +1,7 @@
+AU Case 1 Wellness Compliance CG batch — 2026-06-04
+=================================================
+Tags: au_modern_case1_club_exterior, clipboard, phone_notes, kaoru_doorway, hallway_tense, elevator_echo
+Files: game/images/cg/cg-au-modern-case1-*.png
+Generator: Cursor GenerateImage (1536x1024 landscape, fit_cg)
+Refs: toa-neutral.png, kaoru-smirk.png (face/hair)
+Attire: Western only — Toa black gold tracksuit; Kaoru charcoal grey suit. Negatives: kimono, kosode, furisode, hakama, obi.

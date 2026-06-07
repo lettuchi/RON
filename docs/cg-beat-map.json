@@ -1,0 +1,1079 @@
+{
+  "total_turns": 215,
+  "even_beats": 107,
+  "even_beats_need_cg": 99,
+  "first_half_end_turn": 147,
+  "first_half_need_cg": 68,
+  "beats": [
+    {
+      "turn": 2,
+      "line": 17,
+      "kind": "narrator",
+      "text": "Toa clutches her permit book and hanko case, turning in a corridor that refuses to end.",
+      "skip": true,
+      "skip_reason": "corridor_lost",
+      "file": "images/cg/cg-beat-002.png",
+      "tag": "beat_002"
+    },
+    {
+      "turn": 4,
+      "line": 24,
+      "kind": "narrator",
+      "text": "The noble quarter smells of ink and cedar. Somewhere behind these walls, someone holds the seal she needs.",
+      "skip": false,
+      "skip_reason": null,
+      "file": "images/cg/cg-beat-004.png",
+      "tag": "beat_004"
+    },
+    {
+      "turn": 6,
+      "line": 35,
+      "kind": "kaoru",
+      "text": "Done complaining?",
+      "skip": false,
+      "skip_reason": null,
+      "file": "images/cg/cg-beat-006.png",
+      "tag": "beat_006"
+    },
+    {
+      "turn": 8,
+      "line": 44,
+      "kind": "kaoru",
+      "text": "Wrong door. Again.",
+      "skip": false,
+      "skip_reason": null,
+      "file": "images/cg/cg-beat-008.png",
+      "tag": "beat_008"
+    },
+    {
+      "turn": 10,
+      "line": 63,
+      "kind": "toa",
+      "text": "Third time's the charm. Or the magistrate. Hopefully both.",
+      "skip": false,
+      "skip_reason": null,
+      "file": "images/cg/cg-beat-010.png",
+      "tag": "beat_010"
+    },
+    {
+      "turn": 12,
+      "line": 75,
+      "kind": "kaoru",
+      "text": "Still there? Knock if you want something.",
+      "skip": false,
+      "skip_reason": null,
+      "file": "images/cg/cg-beat-012.png",
+      "tag": "beat_012"
+    },
+    {
+      "turn": 14,
+      "line": 89,
+      "kind": "narrator",
+      "text": "Three offices later, a junior clerk squints at her permit book and points back the way she came.",
+      "skip": true,
+      "skip_reason": "corridor_lost",
+      "file": "images/cg/cg-beat-014.png",
+      "tag": "beat_014"
+    },
+    {
+      "turn": 16,
+      "line": 94,
+      "kind": "Clerk",
+      "text": "That's the one who stamps interclan renewals. Good luck. He eats petitioners for breakfast.",
+      "skip": false,
+      "skip_reason": null,
+      "file": "images/cg/cg-beat-016.png",
+      "tag": "beat_016"
+    },
+    {
+      "turn": 18,
+      "line": 101,
+      "kind": "narrator",
+      "text": "The corridor loops \u2014 of course it loops \u2014 and deposits her exactly where she started.",
+      "skip": false,
+      "skip_reason": null,
+      "file": "images/cg/cg-beat-018.png",
+      "tag": "beat_018"
+    },
+    {
+      "turn": 20,
+      "line": 119,
+      "kind": "toa",
+      "text": "Round two. Posture up. Smile optional.",
+      "skip": false,
+      "skip_reason": null,
+      "file": "images/cg/cg-beat-020.png",
+      "tag": "beat_020"
+    },
+    {
+      "turn": 22,
+      "line": 131,
+      "kind": "kaoru",
+      "text": "Smarter the second time. Knock.",
+      "skip": false,
+      "skip_reason": null,
+      "file": "images/cg/cg-beat-022.png",
+      "tag": "beat_022"
+    },
+    {
+      "turn": 24,
+      "line": 145,
+      "kind": "kaoru",
+      "text": "Enter. Since you can follow instructions when motivated.",
+      "skip": false,
+      "skip_reason": null,
+      "file": "images/cg/cg-beat-024.png",
+      "tag": "beat_024"
+    },
+    {
+      "turn": 26,
+      "line": 156,
+      "kind": "toa",
+      "text": "Honored sochira-no-kata, this unworthy petitioner begs a moment regarding her performer's permit renewal.",
+      "skip": false,
+      "skip_reason": null,
+      "file": "images/cg/cg-beat-026.png",
+      "tag": "beat_026"
+    },
+    {
+      "turn": 28,
+      "line": 164,
+      "kind": "kaoru",
+      "text": "At least your bow didn't wobble. Continue \u2014 briefly.",
+      "skip": false,
+      "skip_reason": null,
+      "file": "images/cg/cg-beat-028.png",
+      "tag": "beat_028"
+    },
+    {
+      "turn": 30,
+      "line": 176,
+      "kind": "kaoru",
+      "text": "Plain speech. You waste less of my evening than most.",
+      "skip": false,
+      "skip_reason": null,
+      "file": "images/cg/cg-beat-030.png",
+      "tag": "beat_030"
+    },
+    {
+      "turn": 32,
+      "line": 187,
+      "kind": "toa",
+      "text": "I promise I'm only lost geographically, not legally. May I present my renewal request?",
+      "skip": false,
+      "skip_reason": null,
+      "file": "images/cg/cg-beat-032.png",
+      "tag": "beat_032"
+    },
+    {
+      "turn": 34,
+      "line": 195,
+      "kind": "toa",
+      "text": "Crane training says brave. Unicorn roads say stupid is survivable.",
+      "skip": false,
+      "skip_reason": null,
+      "file": "images/cg/cg-beat-034.png",
+      "tag": "beat_034"
+    },
+    {
+      "turn": 36,
+      "line": 203,
+      "kind": "kaoru",
+      "text": "Emerald Magistrate Kitsu Kaoru. You will use my title if you wish to leave with a seal.",
+      "skip": false,
+      "skip_reason": null,
+      "file": "images/cg/cg-beat-036.png",
+      "tag": "beat_036"
+    },
+    {
+      "turn": 38,
+      "line": 212,
+      "kind": "kaoru",
+      "text": "State your business. Briefly.",
+      "skip": false,
+      "skip_reason": null,
+      "file": "images/cg/cg-beat-038.png",
+      "tag": "beat_038"
+    },
+    {
+      "turn": 40,
+      "line": 220,
+      "kind": "toa",
+      "text": "Post-gempukku, traveling from Unicorn lands. I mean to establish residence and perform legally.",
+      "skip": false,
+      "skip_reason": null,
+      "file": "images/cg/cg-beat-040.png",
+      "tag": "beat_040"
+    },
+    {
+      "turn": 42,
+      "line": 228,
+      "kind": "toa",
+      "text": "The roads taught me flexibility. The Crane taught me posture.",
+      "skip": false,
+      "skip_reason": null,
+      "file": "images/cg/cg-beat-042.png",
+      "tag": "beat_042"
+    },
+    {
+      "turn": 44,
+      "line": 237,
+      "kind": "kaoru",
+      "text": "Flexibility. Good. You'll need it \u2014 this city bends people until they snap or shine.",
+      "skip": false,
+      "skip_reason": null,
+      "file": "images/cg/cg-beat-044.png",
+      "tag": "beat_044"
+    },
+    {
+      "turn": 46,
+      "line": 246,
+      "kind": "kaoru",
+      "text": "Interclan residence requires Emerald approval. You knew that.",
+      "skip": false,
+      "skip_reason": null,
+      "file": "images/cg/cg-beat-046.png",
+      "tag": "beat_046"
+    },
+    {
+      "turn": 48,
+      "line": 254,
+      "kind": "kaoru",
+      "text": "It does. Door.",
+      "skip": false,
+      "skip_reason": null,
+      "file": "images/cg/cg-beat-048.png",
+      "tag": "beat_048"
+    },
+    {
+      "turn": 50,
+      "line": 263,
+      "kind": "narrator",
+      "text": "Toa keeps her gaze on the desk. Not on the shelves lined with case files and curios.",
+      "skip": false,
+      "skip_reason": null,
+      "file": "images/cg/cg-beat-050.png",
+      "tag": "beat_050"
+    },
+    {
+      "turn": 52,
+      "line": 273,
+      "kind": "narrator",
+      "text": "Her eyes snag on a row of scrolls \u2014 Lion mon here, Emerald seal there\u2014",
+      "skip": false,
+      "skip_reason": null,
+      "file": "images/cg/cg-beat-052.png",
+      "tag": "beat_052"
+    },
+    {
+      "turn": 54,
+      "line": 281,
+      "kind": "toa",
+      "text": "Yes, Magistrate.",
+      "skip": false,
+      "skip_reason": null,
+      "file": "images/cg/cg-beat-054.png",
+      "tag": "beat_054"
+    },
+    {
+      "turn": 56,
+      "line": 289,
+      "kind": "kaoru",
+      "text": "Cushion. Desk. You stand too much for someone begging favors.",
+      "skip": false,
+      "skip_reason": null,
+      "file": "images/cg/cg-beat-056.png",
+      "tag": "beat_056"
+    },
+    {
+      "turn": 58,
+      "line": 297,
+      "kind": "narrator",
+      "text": "Toa sets her permit book and hanko case on the desk \u2014 close enough to show, not close enough to surrender.",
+      "skip": true,
+      "skip_reason": "permit_desk",
+      "file": "images/cg/cg-beat-058.png",
+      "tag": "beat_058"
+    },
+    {
+      "turn": 60,
+      "line": 306,
+      "kind": "toa",
+      "text": "They should be current. I checked before leaving\u2014",
+      "skip": false,
+      "skip_reason": null,
+      "file": "images/cg/cg-beat-060.png",
+      "tag": "beat_060"
+    },
+    {
+      "turn": 62,
+      "line": 314,
+      "kind": "toa",
+      "text": "If I cannot renew locally, they'll send me back to the Academy. I can't\u2014 not yet.",
+      "skip": false,
+      "skip_reason": null,
+      "file": "images/cg/cg-beat-062.png",
+      "tag": "beat_062"
+    },
+    {
+      "turn": 64,
+      "line": 327,
+      "kind": "kaoru",
+      "text": "How obedient. The Unicorn taught you to yield before the fight begins.",
+      "skip": false,
+      "skip_reason": null,
+      "file": "images/cg/cg-beat-064.png",
+      "tag": "beat_064"
+    },
+    {
+      "turn": 66,
+      "line": 335,
+      "kind": "kaoru",
+      "text": "Unfortunately for your travel plans, I'm not finished with you.",
+      "skip": false,
+      "skip_reason": null,
+      "file": "images/cg/cg-beat-066.png",
+      "tag": "beat_066"
+    },
+    {
+      "turn": 68,
+      "line": 347,
+      "kind": "kaoru",
+      "text": "Requirements. Finally, a useful word.",
+      "skip": false,
+      "skip_reason": null,
+      "file": "images/cg/cg-beat-068.png",
+      "tag": "beat_068"
+    },
+    {
+      "turn": 70,
+      "line": 355,
+      "kind": "toa",
+      "text": "Almost is a start. I dance for a living \u2014 I know how to build toward a finale.",
+      "skip": false,
+      "skip_reason": null,
+      "file": "images/cg/cg-beat-070.png",
+      "tag": "beat_070"
+    },
+    {
+      "turn": 72,
+      "line": 366,
+      "kind": "kaoru",
+      "text": "Tragic. Continue.",
+      "skip": false,
+      "skip_reason": null,
+      "file": "images/cg/cg-beat-072.png",
+      "tag": "beat_072"
+    },
+    {
+      "turn": 74,
+      "line": 374,
+      "kind": "kaoru",
+      "text": "A curry shop and borrowed bedding. Ryoko Owari's finest import.",
+      "skip": false,
+      "skip_reason": null,
+      "file": "images/cg/cg-beat-074.png",
+      "tag": "beat_074"
+    },
+    {
+      "turn": 76,
+      "line": 382,
+      "kind": "kaoru",
+      "text": "We'll see what it's worth.",
+      "skip": false,
+      "skip_reason": null,
+      "file": "images/cg/cg-beat-076.png",
+      "tag": "beat_076"
+    },
+    {
+      "turn": 78,
+      "line": 399,
+      "kind": "toa",
+      "text": "Only the inn, a pony that needs shoes, and a curry shop where the owner tolerates me.",
+      "skip": false,
+      "skip_reason": null,
+      "file": "images/cg/cg-beat-078.png",
+      "tag": "beat_078"
+    },
+    {
+      "turn": 80,
+      "line": 407,
+      "kind": "toa",
+      "text": "It's March twenty-sixth. By tomorrow I need proof I belong here.",
+      "skip": false,
+      "skip_reason": null,
+      "file": "images/cg/cg-beat-080.png",
+      "tag": "beat_080"
+    },
+    {
+      "turn": 82,
+      "line": 416,
+      "kind": "kaoru",
+      "text": "Tomorrow is generous. Tut.",
+      "skip": false,
+      "skip_reason": null,
+      "file": "images/cg/cg-beat-082.png",
+      "tag": "beat_082"
+    },
+    {
+      "turn": 84,
+      "line": 422,
+      "kind": "narrator",
+      "text": "He tutted once. Toa has heard he can manage five.",
+      "skip": false,
+      "skip_reason": null,
+      "file": "images/cg/cg-beat-084.png",
+      "tag": "beat_084"
+    },
+    {
+      "turn": 86,
+      "line": 431,
+      "kind": "kaoru",
+      "text": "May have.",
+      "skip": false,
+      "skip_reason": null,
+      "file": "images/cg/cg-beat-086.png",
+      "tag": "beat_086"
+    },
+    {
+      "turn": 88,
+      "line": 439,
+      "kind": "toa",
+      "text": "I have training. I have\u2014",
+      "skip": false,
+      "skip_reason": null,
+      "file": "images/cg/cg-beat-088.png",
+      "tag": "beat_088"
+    },
+    {
+      "turn": 90,
+      "line": 448,
+      "kind": "kaoru",
+      "text": "Stand.",
+      "skip": false,
+      "skip_reason": null,
+      "file": "images/cg/cg-beat-090.png",
+      "tag": "beat_090"
+    },
+    {
+      "turn": 92,
+      "line": 455,
+      "kind": "kaoru",
+      "text": "Proposed remedy?",
+      "skip": false,
+      "skip_reason": null,
+      "file": "images/cg/cg-beat-092.png",
+      "tag": "beat_092"
+    },
+    {
+      "turn": 94,
+      "line": 463,
+      "kind": "kaoru",
+      "text": "Impress me.",
+      "skip": false,
+      "skip_reason": null,
+      "file": "images/cg/cg-beat-094.png",
+      "tag": "beat_094"
+    },
+    {
+      "turn": 96,
+      "line": 475,
+      "kind": "kaoru",
+      "text": "Bold. We'll see if your art matches your contract law.",
+      "skip": false,
+      "skip_reason": null,
+      "file": "images/cg/cg-beat-096.png",
+      "tag": "beat_096"
+    },
+    {
+      "turn": 98,
+      "line": 483,
+      "kind": "toa",
+      "text": "Then I'll dance until you're satisfied or until dawn breaks my ankles.",
+      "skip": false,
+      "skip_reason": null,
+      "file": "images/cg/cg-beat-098.png",
+      "tag": "beat_098"
+    },
+    {
+      "turn": 100,
+      "line": 496,
+      "kind": "toa",
+      "text": "Music optional. Audience of one. Watch closely, Magistrate.",
+      "skip": false,
+      "skip_reason": null,
+      "file": "images/cg/cg-beat-100.png",
+      "tag": "beat_100"
+    },
+    {
+      "turn": 102,
+      "line": 510,
+      "kind": "toa",
+      "text": "I'm a petitioner, not your evening entertainment.",
+      "skip": false,
+      "skip_reason": null,
+      "file": "images/cg/cg-beat-102.png",
+      "tag": "beat_102"
+    },
+    {
+      "turn": 104,
+      "line": 526,
+      "kind": "toa",
+      "text": "Justice isn't a private show for magistrates with bored eyes.",
+      "skip": false,
+      "skip_reason": null,
+      "file": "images/cg/cg-beat-104.png",
+      "tag": "beat_104"
+    },
+    {
+      "turn": 106,
+      "line": 533,
+      "kind": "narrator",
+      "text": "She gathers her permit book. The hanko case clicks shut like a verdict.",
+      "skip": false,
+      "skip_reason": null,
+      "file": "images/cg/cg-beat-106.png",
+      "tag": "beat_106"
+    },
+    {
+      "turn": 108,
+      "line": 541,
+      "kind": "toa",
+      "text": "I'll find another seal. Or another city.",
+      "skip": false,
+      "skip_reason": null,
+      "file": "images/cg/cg-beat-108.png",
+      "tag": "beat_108"
+    },
+    {
+      "turn": 110,
+      "line": 559,
+      "kind": "toa",
+      "text": "Fine. One dance. One seal. Then I never perform for you again.",
+      "skip": false,
+      "skip_reason": null,
+      "file": "images/cg/cg-beat-110.png",
+      "tag": "beat_110"
+    },
+    {
+      "turn": 112,
+      "line": 569,
+      "kind": "toa",
+      "text": "Snacks first was the plan. Pride second. I got the order wrong.",
+      "skip": true,
+      "skip_reason": "corridor_lost",
+      "file": "images/cg/cg-beat-112.png",
+      "tag": "beat_112"
+    },
+    {
+      "turn": 114,
+      "line": 578,
+      "kind": "narrator",
+      "text": "Lamplight shrinks the room. Toa loosens her obi \u2014 not indecent, but deliberate \u2014 and lets the silk breathe.",
+      "skip": true,
+      "skip_reason": "office_dance",
+      "file": "images/cg/cg-beat-114.png",
+      "tag": "beat_114"
+    },
+    {
+      "turn": 116,
+      "line": 590,
+      "kind": "toa",
+      "text": "The maiden waits at the gate. The road is long. She walks anyway.",
+      "skip": false,
+      "skip_reason": null,
+      "file": "images/cg/cg-beat-116.png",
+      "tag": "beat_116"
+    },
+    {
+      "turn": 118,
+      "line": 597,
+      "kind": "kaoru",
+      "text": "Crane precision. Unicorn stamina. Continue.",
+      "skip": false,
+      "skip_reason": null,
+      "file": "images/cg/cg-beat-118.png",
+      "tag": "beat_118"
+    },
+    {
+      "turn": 120,
+      "line": 607,
+      "kind": "narrator",
+      "text": "She plays to one viewer. Hips sway where the kata allows; smile promises more than the room receives.",
+      "skip": false,
+      "skip_reason": null,
+      "file": "images/cg/cg-beat-120.png",
+      "tag": "beat_120"
+    },
+    {
+      "turn": 122,
+      "line": 615,
+      "kind": "kaoru",
+      "text": "Cheeky.",
+      "skip": false,
+      "skip_reason": null,
+      "file": "images/cg/cg-beat-122.png",
+      "tag": "beat_122"
+    },
+    {
+      "turn": 124,
+      "line": 621,
+      "kind": "narrator",
+      "text": "The cup sets down softly. His eyes don't blink.",
+      "skip": false,
+      "skip_reason": null,
+      "file": "images/cg/cg-beat-124.png",
+      "tag": "beat_124"
+    },
+    {
+      "turn": 126,
+      "line": 639,
+      "kind": "toa",
+      "text": "We had terms. No delays.",
+      "skip": false,
+      "skip_reason": null,
+      "file": "images/cg/cg-beat-126.png",
+      "tag": "beat_126"
+    },
+    {
+      "turn": 128,
+      "line": 647,
+      "kind": "kaoru",
+      "text": "Merit enough. Signature... pending.",
+      "skip": false,
+      "skip_reason": null,
+      "file": "images/cg/cg-beat-128.png",
+      "tag": "beat_128"
+    },
+    {
+      "turn": 130,
+      "line": 655,
+      "kind": "kaoru",
+      "text": "Continue.",
+      "skip": false,
+      "skip_reason": null,
+      "file": "images/cg/cg-beat-130.png",
+      "tag": "beat_130"
+    },
+    {
+      "turn": 132,
+      "line": 663,
+      "kind": "narrator",
+      "text": "She continues \u2014 coquette sway sharpened to obedience, every glance a question he refuses to answer.",
+      "skip": false,
+      "skip_reason": null,
+      "file": "images/cg/cg-beat-132.png",
+      "tag": "beat_132"
+    },
+    {
+      "turn": 134,
+      "line": 669,
+      "kind": "kaoru",
+      "text": "A good performance.",
+      "skip": false,
+      "skip_reason": null,
+      "file": "images/cg/cg-beat-134.png",
+      "tag": "beat_134"
+    },
+    {
+      "turn": 136,
+      "line": 682,
+      "kind": "narrator",
+      "text": "His hand finds her wrist \u2014 not painful, not gentle. Entitlement dressed as appraisal.",
+      "skip": false,
+      "skip_reason": null,
+      "file": "images/cg/cg-beat-136.png",
+      "tag": "beat_136"
+    },
+    {
+      "turn": 138,
+      "line": 694,
+      "kind": "kaoru",
+      "text": "No? And yet you're still here.",
+      "skip": false,
+      "skip_reason": null,
+      "file": "images/cg/cg-beat-138.png",
+      "tag": "beat_138"
+    },
+    {
+      "turn": 140,
+      "line": 700,
+      "kind": "narrator",
+      "text": "She spins free and finishes the phrase \u2014 defiance as choreography.",
+      "skip": false,
+      "skip_reason": null,
+      "file": "images/cg/cg-beat-140.png",
+      "tag": "beat_140"
+    },
+    {
+      "turn": 142,
+      "line": 710,
+      "kind": "narrator",
+      "text": "She doesn't pull away. The dance uses his grip as counterweight \u2014 dangerous, deliberate.",
+      "skip": false,
+      "skip_reason": null,
+      "file": "images/cg/cg-beat-142.png",
+      "tag": "beat_142"
+    },
+    {
+      "turn": 144,
+      "line": 718,
+      "kind": "kaoru",
+      "text": "Better.",
+      "skip": false,
+      "skip_reason": null,
+      "file": "images/cg/cg-beat-144.png",
+      "tag": "beat_144"
+    },
+    {
+      "turn": 146,
+      "line": 726,
+      "kind": "kaoru",
+      "text": "Unless?",
+      "skip": false,
+      "skip_reason": null,
+      "file": "images/cg/cg-beat-146.png",
+      "tag": "beat_146"
+    },
+    {
+      "turn": 148,
+      "line": 740,
+      "kind": "toa",
+      "text": "Unless you sign before dawn. Unless Ryoko Owari becomes mine to dance in \u2014 legally.",
+      "skip": false,
+      "skip_reason": null,
+      "file": "images/cg/cg-beat-148.png",
+      "tag": "beat_148"
+    },
+    {
+      "turn": 150,
+      "line": 754,
+      "kind": "narrator",
+      "text": "She straddles the chair's arm \u2014 not surrender, not retreat. Proximity as punctuation.",
+      "skip": false,
+      "skip_reason": null,
+      "file": "images/cg/cg-beat-150.png",
+      "tag": "beat_150"
+    },
+    {
+      "turn": 152,
+      "line": 769,
+      "kind": "toa",
+      "text": "Unless I find a magistrate who reads dates instead of moods. Good evening.",
+      "skip": false,
+      "skip_reason": null,
+      "file": "images/cg/cg-beat-152.png",
+      "tag": "beat_152"
+    },
+    {
+      "turn": 154,
+      "line": 785,
+      "kind": "kaoru",
+      "text": "You negotiate with your mouth. Adequate.",
+      "skip": false,
+      "skip_reason": null,
+      "file": "images/cg/cg-beat-154.png",
+      "tag": "beat_154"
+    },
+    {
+      "turn": 156,
+      "line": 793,
+      "kind": "kaoru",
+      "text": "Almost.",
+      "skip": false,
+      "skip_reason": null,
+      "file": "images/cg/cg-beat-156.png",
+      "tag": "beat_156"
+    },
+    {
+      "turn": 158,
+      "line": 799,
+      "kind": "toa",
+      "text": "That isn't justice. That's cruelty with stationery.",
+      "skip": false,
+      "skip_reason": null,
+      "file": "images/cg/cg-beat-158.png",
+      "tag": "beat_158"
+    },
+    {
+      "turn": 160,
+      "line": 807,
+      "kind": "toa",
+      "text": "I gave you the performance. I named my price. What more\u2014",
+      "skip": false,
+      "skip_reason": null,
+      "file": "images/cg/cg-beat-160.png",
+      "tag": "beat_160"
+    },
+    {
+      "turn": 162,
+      "line": 815,
+      "kind": "toa",
+      "text": "I'll be back. With a better argument and dry obijime.",
+      "skip": false,
+      "skip_reason": null,
+      "file": "images/cg/cg-beat-162.png",
+      "tag": "beat_162"
+    },
+    {
+      "turn": 164,
+      "line": 824,
+      "kind": "narrator",
+      "text": "The corridor is colder than the office. Somewhere a bell marks the hour \u2014 not dawn, not yet.",
+      "skip": true,
+      "skip_reason": "corridor_lost",
+      "file": "images/cg/cg-beat-164.png",
+      "tag": "beat_164"
+    },
+    {
+      "turn": 166,
+      "line": 830,
+      "kind": "toa",
+      "text": "Snacks first. Justice second. Even when justice is a smirk behind a desk.",
+      "skip": false,
+      "skip_reason": null,
+      "file": "images/cg/cg-beat-166.png",
+      "tag": "beat_166"
+    },
+    {
+      "turn": 168,
+      "line": 846,
+      "kind": "kaoru",
+      "text": "Then go. The city has other dancers and fewer scruples.",
+      "skip": false,
+      "skip_reason": null,
+      "file": "images/cg/cg-beat-168.png",
+      "tag": "beat_168"
+    },
+    {
+      "turn": 170,
+      "line": 852,
+      "kind": "kaoru",
+      "text": "You'll knock again when the gate guards ask for paper you don't have.",
+      "skip": false,
+      "skip_reason": null,
+      "file": "images/cg/cg-beat-170.png",
+      "tag": "beat_170"
+    },
+    {
+      "turn": 172,
+      "line": 860,
+      "kind": "narrator",
+      "text": "Lantern light stripes the floor. Her boots echo too loud for the noble quarter.",
+      "skip": false,
+      "skip_reason": null,
+      "file": "images/cg/cg-beat-172.png",
+      "tag": "beat_172"
+    },
+    {
+      "turn": 174,
+      "line": 868,
+      "kind": "toa",
+      "text": "Guest room previews and forward-dated seals can wait. I still have pride.",
+      "skip": false,
+      "skip_reason": null,
+      "file": "images/cg/cg-beat-174.png",
+      "tag": "beat_174"
+    },
+    {
+      "turn": 176,
+      "line": 881,
+      "kind": "narrator",
+      "text": "The latch catches. Lamplight thins to amber behind the desk.",
+      "skip": false,
+      "skip_reason": null,
+      "file": "images/cg/cg-beat-176.png",
+      "tag": "beat_176"
+    },
+    {
+      "turn": 178,
+      "line": 885,
+      "kind": "narrator",
+      "text": "What followed stayed between petitioner and magistrate \u2014 implied, never entered in any clerk's ledger.",
+      "skip": false,
+      "skip_reason": null,
+      "file": "images/cg/cg-beat-178.png",
+      "tag": "beat_178"
+    },
+    {
+      "turn": 180,
+      "line": 894,
+      "kind": "kaoru",
+      "text": "You earned more than noise tonight.",
+      "skip": true,
+      "skip_reason": "canon_afterglow",
+      "file": "images/cg/cg-beat-180.png",
+      "tag": "beat_180"
+    },
+    {
+      "turn": 182,
+      "line": 900,
+      "kind": "kaoru",
+      "text": "Patience.",
+      "skip": false,
+      "skip_reason": null,
+      "file": "images/cg/cg-beat-182.png",
+      "tag": "beat_182"
+    },
+    {
+      "turn": 184,
+      "line": 906,
+      "kind": "narrator",
+      "text": "Stamp. One crisp press against the page.",
+      "skip": true,
+      "skip_reason": "canon_signing",
+      "file": "images/cg/cg-beat-184.png",
+      "tag": "beat_184"
+    },
+    {
+      "turn": 186,
+      "line": 917,
+      "kind": "toa",
+      "text": "Thank you\u2014 wait. This date.",
+      "skip": false,
+      "skip_reason": null,
+      "file": "images/cg/cg-beat-186.png",
+      "tag": "beat_186"
+    },
+    {
+      "turn": 188,
+      "line": 925,
+      "kind": "toa",
+      "text": "You dated it forward on purpose.",
+      "skip": false,
+      "skip_reason": null,
+      "file": "images/cg/cg-beat-188.png",
+      "tag": "beat_188"
+    },
+    {
+      "turn": 190,
+      "line": 933,
+      "kind": "toa",
+      "text": "Fine. I'll bring rice crackers and a better fan dance.",
+      "skip": false,
+      "skip_reason": null,
+      "file": "images/cg/cg-beat-190.png",
+      "tag": "beat_190"
+    },
+    {
+      "turn": 192,
+      "line": 941,
+      "kind": "toa",
+      "text": "Guest room preview, forward-dated paperwork, and you call it negotiable.",
+      "skip": false,
+      "skip_reason": null,
+      "file": "images/cg/cg-beat-192.png",
+      "tag": "beat_192"
+    },
+    {
+      "turn": 194,
+      "line": 963,
+      "kind": "toa",
+      "text": "The permit says I'm legal on the thirtieth. I'm early with tea and a case file.",
+      "skip": false,
+      "skip_reason": null,
+      "file": "images/cg/cg-beat-194.png",
+      "tag": "beat_194"
+    },
+    {
+      "turn": 196,
+      "line": 971,
+      "kind": "toa",
+      "text": "Snacks after paperwork. That's still the order of operations.",
+      "skip": false,
+      "skip_reason": null,
+      "file": "images/cg/cg-beat-196.png",
+      "tag": "beat_196"
+    },
+    {
+      "turn": 198,
+      "line": 979,
+      "kind": "toa",
+      "text": "Guest room. Preview. You really do enjoy making people come back.",
+      "skip": false,
+      "skip_reason": null,
+      "file": "images/cg/cg-beat-198.png",
+      "tag": "beat_198"
+    },
+    {
+      "turn": 200,
+      "line": 988,
+      "kind": "kaoru",
+      "text": "Bring that audience-of-one energy to the docket. Cases bore less when you perform.",
+      "skip": false,
+      "skip_reason": null,
+      "file": "images/cg/cg-beat-200.png",
+      "tag": "beat_200"
+    },
+    {
+      "turn": 202,
+      "line": 1002,
+      "kind": "toa",
+      "text": "Case file, tea, and \u2014 if I'm very good \u2014 a rice cracker. Ready when you are.",
+      "skip": false,
+      "skip_reason": null,
+      "file": "images/cg/cg-beat-202.png",
+      "tag": "beat_202"
+    },
+    {
+      "turn": 204,
+      "line": 1011,
+      "kind": "kaoru",
+      "text": "You came back. I noted it.",
+      "skip": false,
+      "skip_reason": null,
+      "file": "images/cg/cg-beat-204.png",
+      "tag": "beat_204"
+    },
+    {
+      "turn": 206,
+      "line": 1020,
+      "kind": "kaoru",
+      "text": "You still flinch when I reach for the cup. Progress would be not flinching.",
+      "skip": false,
+      "skip_reason": null,
+      "file": "images/cg/cg-beat-206.png",
+      "tag": "beat_206"
+    },
+    {
+      "turn": 208,
+      "line": 1029,
+      "kind": "kaoru",
+      "text": "You negotiated once. We'll see if you learned.",
+      "skip": false,
+      "skip_reason": null,
+      "file": "images/cg/cg-beat-208.png",
+      "tag": "beat_208"
+    },
+    {
+      "turn": 210,
+      "line": 1038,
+      "kind": "toa",
+      "text": "I also learned your terms shift. Case One gets written terms.",
+      "skip": false,
+      "skip_reason": null,
+      "file": "images/cg/cg-beat-210.png",
+      "tag": "beat_210"
+    },
+    {
+      "turn": 212,
+      "line": 1047,
+      "kind": "kaoru",
+      "text": "You asked for remedies once. Case One is your audition for belonging here.",
+      "skip": false,
+      "skip_reason": null,
+      "file": "images/cg/cg-beat-212.png",
+      "tag": "beat_212"
+    },
+    {
+      "turn": 214,
+      "line": 1056,
+      "kind": "kaoru",
+      "text": "No curry shop tonight. Work.",
+      "skip": false,
+      "skip_reason": null,
+      "file": "images/cg/cg-beat-214.png",
+      "tag": "beat_214"
+    }
+  ]
+}

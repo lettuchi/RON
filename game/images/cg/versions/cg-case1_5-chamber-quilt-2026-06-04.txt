@@ -1,0 +1,15 @@
+case1_5_chamber_quilt — regen 2026-06-04
+========================================
+Tag: case1_5_chamber_quilt
+File: game/images/cg/cg-case1_5-chamber-quilt.png
+Backup: game/images/cg/versions/cg-case1_5-chamber-quilt-backup-2026-06-04.png
+
+Reason: User feedback — Kaoru's robe was maroon/red dominant; canon Emerald Magistrate robes are opulent gold/yellow-gold with maroon trim only.
+
+Scene (case1_5_chamber_flashback): First night adjoining companion chamber; heavy wool quilt lands on Toa's side of shoji; warm andon lamplight; Kaoru lends blanket deadpan; Toa on futon; intimate domestic, not explicit.
+
+Generator: Cursor GenerateImage (1536×1024 landscape, fit_cg)
+Refs: style-painterly-reference.png, cg-case2-festival-kiss.png, op-festival.png, toa-neutral.png, kaoru-smirk.png, prior backup (composition)
+Prompt emphasis: Kaoru YELLOW-GOLD golden magistrate robes NOT maroon-dominant; Toa white hair black kosode gold crane obi; low futon angle; quilt; canal night through engawa.
+
+Gallery path unchanged (case1_5_chamber_quilt). No git commit.

@@ -1,0 +1,142 @@
+{
+  "kaoru-amused.png": {
+    "near_white_border": 0,
+    "hair_near_white": 0,
+    "visible_halo_border": 17814,
+    "hair_visible_halo": 10499,
+    "semi_trans_border": 16747
+  },
+  "kaoru-angry.png": {
+    "near_white_border": 2,
+    "hair_near_white": 2,
+    "visible_halo_border": 17321,
+    "hair_visible_halo": 10074,
+    "semi_trans_border": 16447
+  },
+  "kaoru-bored.png": {
+    "near_white_border": 0,
+    "hair_near_white": 0,
+    "visible_halo_border": 16758,
+    "hair_visible_halo": 9555,
+    "semi_trans_border": 14992
+  },
+  "kaoru-charm.png": {
+    "near_white_border": 1,
+    "hair_near_white": 1,
+    "visible_halo_border": 15913,
+    "hair_visible_halo": 6984,
+    "semi_trans_border": 18244
+  },
+  "kaoru-cold.png": {
+    "near_white_border": 10,
+    "hair_near_white": 10,
+    "visible_halo_border": 14742,
+    "hair_visible_halo": 8227,
+    "semi_trans_border": 16577
+  },
+  "kaoru-commanding.png": {
+    "near_white_border": 2,
+    "hair_near_white": 2,
+    "visible_halo_border": 23444,
+    "hair_visible_halo": 13128,
+    "semi_trans_border": 21910
+  },
+  "kaoru-contempt.png": {
+    "near_white_border": 0,
+    "hair_near_white": 0,
+    "visible_halo_border": 17807,
+    "hair_visible_halo": 10134,
+    "semi_trans_border": 17142
+  },
+  "kaoru-cruel.png": {
+    "near_white_border": 13,
+    "hair_near_white": 13,
+    "visible_halo_border": 14743,
+    "hair_visible_halo": 7997,
+    "semi_trans_border": 17221
+  },
+  "kaoru-determined.png": {
+    "near_white_border": 1,
+    "hair_near_white": 1,
+    "visible_halo_border": 18194,
+    "hair_visible_halo": 11131,
+    "semi_trans_border": 16556
+  },
+  "kaoru-furious.png": {
+    "near_white_border": 0,
+    "hair_near_white": 0,
+    "visible_halo_border": 18580,
+    "hair_visible_halo": 10615,
+    "semi_trans_border": 16830
+  },
+  "kaoru-hungry.png": {
+    "near_white_border": 4,
+    "hair_near_white": 4,
+    "visible_halo_border": 18525,
+    "hair_visible_halo": 9346,
+    "semi_trans_border": 17606
+  },
+  "kaoru-neutral.png": {
+    "near_white_border": 0,
+    "hair_near_white": 0,
+    "visible_halo_border": 15021,
+    "hair_visible_halo": 8218,
+    "semi_trans_border": 13515
+  },
+  "kaoru-ravenous.png": {
+    "near_white_border": 9,
+    "hair_near_white": 9,
+    "visible_halo_border": 23620,
+    "hair_visible_halo": 13452,
+    "semi_trans_border": 21779
+  },
+  "kaoru-sadistic.png": {
+    "near_white_border": 1,
+    "hair_near_white": 1,
+    "visible_halo_border": 16080,
+    "hair_visible_halo": 10821,
+    "semi_trans_border": 14561
+  },
+  "kaoru-satisfied.png": {
+    "near_white_border": 0,
+    "hair_near_white": 0,
+    "visible_halo_border": 13498,
+    "hair_visible_halo": 7774,
+    "semi_trans_border": 13094
+  },
+  "kaoru-smirk.png": {
+    "near_white_border": 8,
+    "hair_near_white": 8,
+    "visible_halo_border": 16937,
+    "hair_visible_halo": 9692,
+    "semi_trans_border": 16468
+  },
+  "kaoru-surprised.png": {
+    "near_white_border": 0,
+    "hair_near_white": 0,
+    "visible_halo_border": 17982,
+    "hair_visible_halo": 9594,
+    "semi_trans_border": 16379
+  },
+  "kaoru-thinking.png": {
+    "near_white_border": 0,
+    "hair_near_white": 0,
+    "visible_halo_border": 20771,
+    "hair_visible_halo": 9998,
+    "semi_trans_border": 19474
+  },
+  "kaoru-threatening.png": {
+    "near_white_border": 2,
+    "hair_near_white": 2,
+    "visible_halo_border": 17465,
+    "hair_visible_halo": 10026,
+    "semi_trans_border": 16483
+  },
+  "kaoru-vicious.png": {
+    "near_white_border": 1,
+    "hair_near_white": 1,
+    "visible_halo_border": 16572,
+    "hair_visible_halo": 9516,
+    "semi_trans_border": 14746
+  }
+}

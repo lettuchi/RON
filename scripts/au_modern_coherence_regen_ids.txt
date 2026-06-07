@@ -1,0 +1,8 @@
+# Voiced lines whose on-screen TEXT changed during the Modern AU
+# "more exposition and coherence" pass. Regenerate audio for these IDs
+# once the voice pipeline is free. One bare ID per line.
+#
+# kaoru_546 (game/au_modern_case2_island_weekend.rpy): coherence fix,
+#   "I am listed as your deputy" -> "I am listed as the signatory of record"
+#   (matches Case 3 "signatory of record" framing).
+kaoru_546

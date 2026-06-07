@@ -1,0 +1,7 @@
+Case order restructure 2026-06-03
+- Case 3.5 "Is this a date?" between Case 3 and Case 4
+- Case 4 = dock swordfight (replaces canal supper in case4_investigation.rpy)
+
+Pre-edit backups in game/
+Edited: case3_investigation.rpy, case4_investigation.rpy, case3_5_date_interlude.rpy (new), case4_date_interlude.rpy (aliases), case_endings.rpy, dev_chapter_pick.rpy, stats.rpy, gallery.rpy, images/cgs-choice-moments.rpy
+Docs: story-so-far.md, case4-investigation-scene.md, case3.5-date-interlude-design.md (new), case4-date-interlude-design.md (stub), dev-chapter-pick.md, discord-thread-index.md

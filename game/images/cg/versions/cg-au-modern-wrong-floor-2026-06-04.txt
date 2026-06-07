@@ -1,0 +1,16 @@
+au_modern_wrong_floor — regen 2026-06-04 (tracksuit)
+====================================================
+Tag: au_modern_wrong_floor
+File: game/images/cg/cg-au-modern-wrong-floor.png
+Backup: game/images/cg/versions/cg-au-modern-wrong-floor-backup-2026-06-04-tracksuit.png
+
+Reason: User request — Modern AU western attire; Toa must wear black tracksuit with gold accents (dance rehearsal warm-up), not kimono or formal blazer.
+
+Scene (au_modern_wrong_door): Wrong licensing deputy conference room; glass doorway, badge reader, rain on harbor glass, warm Zoom glow inside; Toa startled with tablet/packet energy; optional Kaoru grey suit silhouette at monitor.
+
+Generator: Cursor GenerateImage (1536×1024 landscape, fit_cg)
+Refs: toa-neutral.png (face/hair only)
+Prompt emphasis: black zip tracksuit + gold stripes + gold crane logo; charcoal grey suit Kaoru; negatives kimono/kosode/furisode/hakama/obi/blazer on Toa.
+Note: First pass drifted to formal blazer; v2 promoted to production.
+
+Gallery path unchanged (au_modern_wrong_floor). No git commit.

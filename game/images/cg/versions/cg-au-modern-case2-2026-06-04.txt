@@ -1,0 +1,7 @@
+AU Case 2 Island Weekend CG batch — 2026-06-04
+=================================================
+Tags: au_modern_case2_ferry_rain, airbnb_exterior, one_bed, phone_text, balcony_night, intimate_audit
+Files: game/images/cg/cg-au-modern-case2-*.png
+Generator: Cursor GenerateImage (1536x1024 landscape, fit_cg)
+Refs: toa-neutral.png, kaoru-smirk.png (face/hair)
+Attire: Western only — Toa black/gold tracksuit or casual; Kaoru off-duty blazer or charcoal grey suit. Negatives: kimono, kosode, furisode, hakama, obi, zori.

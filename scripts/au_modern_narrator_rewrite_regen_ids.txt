@@ -1,0 +1,32 @@
+# Modern AU NARRATOR rewrite pass (2026-06-05): EXISTING voiced NARRATOR lines whose
+# ON-SCREEN TEXT changed in this clarity/orientation pass. Each ID keeps its existing
+# voice "audio/voice/<id>.mp3" line in the .rpy pointing at the same file; the audio must
+# be REGENERATED later from the new displayed text. No new IDs allocated here.
+# One bare ID per line. TEXT-ONLY pass: no audio, manifests, or voice scripts were touched.
+#
+# --- au_modern_wrong_floor.rpy (6) ---
+narrator_366
+narrator_367
+narrator_376
+narrator_378
+narrator_380
+narrator_381
+#
+# --- au_modern_case1_compliance.rpy (3) ---
+narrator_386
+narrator_392
+narrator_467
+#
+# --- au_modern_case2_island_weekend.rpy (3) ---
+narrator_400
+narrator_415
+narrator_419
+#
+# --- au_modern_case3_permits_hr.rpy (2) ---
+narrator_425
+narrator_439
+#
+# --- au_modern_epilogue.rpy (1) ---
+narrator_446
+#
+# Total: 15 changed existing voiced narrator IDs.

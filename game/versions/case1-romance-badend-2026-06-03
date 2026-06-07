@@ -1,0 +1,18 @@
+# Case 1 dedicated scene CGs.
+
+image cg case1_canal_body = At("images/cg/cg-case1-canal-body.png", fit_screen)
+image cg case1_high_tide_barge = At("images/cg/cg-case1-high-tide-barge.png", fit_screen)
+image cg case1_barge_confront = At("images/cg/cg-case1-barge-confrontation.png", fit_screen)
+
+# Case 1 romance routes
+image cg case1_romance_lantern = At("images/cg/cg-case1-romance-lantern.png", fit_screen)
+image cg case1_romance_canal_lantern = At("images/cg/cg-case1-romance-canal-lantern.png", fit_screen)
+image cg case1_romance_office_touch = At("images/cg/cg-case1-romance-office-touch.png", fit_screen)
+image cg case1_romance_sponsorship = At("images/cg/cg-case1-romance-sponsorship.png", fit_screen)
+image cg case1_romance_barge_moonlit = At("images/cg/cg-case1-romance-barge-moonlit.png", fit_screen)
+
+# Case 1 bad end — office punishment (implied; fade-to-black)
+image cg gameover_case1_punishment_desk = At("images/cg/cg-case1-bad-punishment-desk.png", fit_screen)
+image cg gameover_case1_punishment_hands = At("images/cg/cg-case1-bad-punishment-hands.png", fit_screen)
+image cg gameover_case1_punishment_floor = At("images/cg/cg-case1-bad-punishment-floor.png", fit_screen)
+image cg gameover_case1_punishment_shoji = At("images/cg/cg-case1-bad-punishment-shoji.png", fit_screen)

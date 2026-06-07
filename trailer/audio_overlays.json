@@ -1,0 +1,35 @@
+{
+  "_comment": "Overlay events mixed on top of the OP music spine by scripts/build_audio_bed.py. 'voice' events duck the music under them; 'sfx' events do not. 'at' is absolute seconds on the trailer timeline. gain_db is applied to the overlay; music is the bed. Edit freely or add lines (the todo calls for 3-4 voice lines) - the pipeline reads this file.",
+  "music_gain_db": 0.0,
+  "duck_db": -6.5,
+  "events": [
+    {
+      "kind": "sfx",
+      "path": "game/audio/sfx/fan_open.wav",
+      "at": 22.05,
+      "gain_db": -3.0,
+      "note": "Toa snaps the fan open on her hero cut (s04_toa_fan)"
+    },
+    {
+      "kind": "voice",
+      "path": "game/audio/voice/kaoru_011.mp3",
+      "at": 45.05,
+      "gain_db": 1.0,
+      "note": "Kaoru, in the instrumental gap: 'We'll discover which tonight.'"
+    },
+    {
+      "kind": "sfx",
+      "path": "game/audio/sfx/obijime_bells.wav",
+      "at": 49.7,
+      "gain_db": -6.0,
+      "note": "Bell accent on the chorus drop (s10_duo)"
+    },
+    {
+      "kind": "voice",
+      "path": "game/audio/voice/toa_129.mp3",
+      "at": 81.3,
+      "gain_db": 1.5,
+      "note": "Toa under the title drop: 'Snacks first. Justice second...'"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+# Modern AU CG prompt block — copy-paste for GenerateImage / NovelAI
+# Full doc: docs/au-modern-character-references.md
+# ALWAYS attach AU outfit refs (not canon sprites alone):
+#   docs/art-references/au-modern/toa-au-modern-tracksuit-reference.png
+#   docs/art-references/au-modern/kaoru-au-modern-suit-reference.png
+# Closeups: .../toa-au-modern-tracksuit-waistup-reference.png, .../kaoru-au-modern-suit-waistup-reference.png
+
+## MANDATORY PREFIX (GenerateImage — prepend)
+
+2D anime visual novel illustration, Hakuoki otome style, polished shoujo anime, painterly cel shading, clean colored linework, hand-painted anime illustration, NOT photorealistic, NOT 3D render, Modern AU port city bureaucratic noir, 21st century western clothing ONLY, wide landscape 16:9 composition, no text, no watermark
+
+## MANDATORY SUFFIX (GenerateImage — append)
+
+, anime CG event illustration, soft painterly shadows with readable cel steps, expressive anime eyes, municipal glass tower rain mood, rom-com bureau noir otome visual novel
+
+## CHARACTER TAGS — TOA (AU)
+
+kakita toa, young woman, white hair, grey eyes, white eyelashes, cheerful honest face, black zip tracksuit jacket and pants, gold athletic stripes on sleeves and legs, gold crane bird logo embroidered on chest, contemporary ballet dancer build, 5ft11 tall, white sneakers, NO kimono NO kosode NO obi NO hakama
+
+## CHARACTER TAGS — KAORU (AU)
+
+kitsu kaoru, handsome man mid-thirties, brown hair slicked back short ponytail, grey eyes, charcoal grey deputy director business suit, white dress shirt, dark tie, polished dress shoes, municipal bureaucrat clipboard optional, dry smirk, NO magistrate robes NO kimono NO maroon gold robes NO hakama
+
+## NEGATIVE BLOCK (AU — append to every AU CG)
+
+kimono, kosode, furisode, hakama, obi, zori, tabi, geta, magistrate robes, maroon gold robes, crane obi embroidery, tatami focus, shoji door unless modern office glass, Emerald Magistrate, jade sphere banner, L5R period dress, feudal Japan costume, samurai armor, photorealistic, 3D render, chibi, oni mask, text, watermark
+
+## NOVELAI STYLE PREFIX (prepend to AU presets)
+
+masterpiece, best quality, very aesthetic, absurdres, anime otome visual novel CG, Hakuoki polished shoujo art, Modern AU Ryoko Port city, 21st century western office and dance wear, 16:9 cinematic, rain on glass, municipal licensing tower mood
+
+## EXAMPLE SCENE LINE (studio audition — drift-prone test)
+
+1girl 1boy, mirror dance studio, barre, floor-to-ceiling mirrors, {toa_au_tags} port de bras at barre in tracksuit, {kaoru_au_tags} standing at mirror edge with clipboard witnessing audition, rain streaks on high windows, fluorescent and warm mirror lights, sponsorship inspection mood, no text
+
+## REF PATHS (NovelAI Precise Reference / GenerateImage reference_image_paths)
+
+toa_au_ref=docs/art-references/au-modern/toa-au-modern-tracksuit-reference.png
+kaoru_au_ref=docs/art-references/au-modern/kaoru-au-modern-suit-reference.png
+toa_au_waistup=docs/art-references/au-modern/toa-au-modern-tracksuit-waistup-reference.png
+kaoru_au_waistup=docs/art-references/au-modern/kaoru-au-modern-suit-waistup-reference.png
+style_ref=game/images/reference/style-painterly-reference.png
+
+# Canon sprites (face/hair ONLY — never sole ref for AU body):
+# game/images/sprites/toa/toa-neutral.png
+# game/images/sprites/kaoru/kaoru-smirk.png

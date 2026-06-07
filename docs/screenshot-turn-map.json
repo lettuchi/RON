@@ -1,0 +1,4715 @@
+{
+  "generated_by": "scripts/build_screenshot_turn_map.py",
+  "sources": [
+    "game/script.rpy",
+    "game/prologue.rpy",
+    "game/case1_companion.rpy",
+    "game/case1_investigation.rpy"
+  ],
+  "turn_count": 513,
+  "canon_screenshot_branch": {
+    "name": "canon_first_choice_physical_unless",
+    "entry": "start → prologue_start → … → case1_investigation_milestone_end",
+    "menu_policy": "First menu option at each prompt, except prologue_unless_menu → physical (index 1).",
+    "menus": [
+      {
+        "menu": "prologue_door_choices",
+        "choice": 0,
+        "label": "Leave and find another office."
+      },
+      {
+        "menu": "(second chance)",
+        "choice": 0,
+        "label": "Knock again — properly this time."
+      },
+      {
+        "menu": "prologue_formality_menu",
+        "choice": 0,
+        "label": "Hyper-formal address."
+      },
+      {
+        "menu": "prologue_enter_office_menu",
+        "choice": 0,
+        "label": "Comply — eyes forward, no wandering."
+      },
+      {
+        "menu": "prologue_expired_menu",
+        "choice": 0,
+        "label": "Accept the Academy trip."
+      },
+      {
+        "menu": "prologue_before_dance_menu",
+        "choice": 0,
+        "label": "Negotiate terms first."
+      },
+      {
+        "menu": "prologue_performance_menu",
+        "choice": 0,
+        "label": "Formal fan dance — maiden narrative, bells on obijime."
+      },
+      {
+        "menu": "prologue_grab_menu",
+        "choice": 0,
+        "label": "Rebuke him — pull back."
+      },
+      {
+        "menu": "prologue_unless_menu",
+        "choice": 1,
+        "label": "Answer physically — close the distance."
+      },
+      {
+        "menu": "case1_sponsorship_prelude_menu",
+        "choice": 0,
+        "label": "Ask what he wants from you — honestly."
+      },
+      {
+        "menu": "case1_companion_accept_menu",
+        "choice": 0,
+        "label": "Accept with composure — the sponsored artist she means to be."
+      },
+      {
+        "menu": "case1_first_duty_menu",
+        "choice": 0,
+        "label": "Ask where the adjoining chamber is — move in today."
+      },
+      {
+        "menu": "case1_briefing_menu",
+        "choice": 0,
+        "label": "Study the victim summary — knots, haori, what's missing from the report."
+      },
+      {
+        "menu": "case1_canal_menu",
+        "choice": 0,
+        "label": "Observe the hands and sleeves — labor, ink, or court."
+      },
+      {
+        "menu": "case1_kaoru_probe_menu",
+        "choice": 0,
+        "label": "Answer eagerly — give him the theory he wants to hear."
+      }
+    ],
+    "notes": [
+      "Static turn map includes all branches in source; runtime screenshots follow this path only.",
+      "Menu prompts may get an extra *_menu.png screenshot before the choice is clicked."
+    ]
+  },
+  "turns": [
+    {
+      "speaker": "centered",
+      "text": "{font=fonts/YujiSyuku-Regular.ttf}{size=+4}Ryoko Owari Nights{/size}{/font}\n{size=-6}the city of lies{/size}",
+      "snippet": "{font=fonts/YujiSyuku-Regular.ttf}{size=+4}Ryoko Owari Nights{/size}{/f…",
+      "source_file": "game/script.rpy",
+      "source_line": 6,
+      "id": "turn_001",
+      "index": 1
+    },
+    {
+      "speaker": "centered",
+      "text": "{font=fonts/YujiSyuku-Regular.ttf}{size=+8}Ryoko Owari Nights{/size}{/font}\n{size=-4}the city of lies{/size}",
+      "snippet": "{font=fonts/YujiSyuku-Regular.ttf}{size=+8}Ryoko Owari Nights{/size}{/f…",
+      "source_file": "game/script.rpy",
+      "source_line": 25,
+      "id": "turn_002",
+      "index": 2
+    },
+    {
+      "speaker": "toa",
+      "text": "Snacks first. Justice second. That's the order of operations.",
+      "snippet": "Snacks first. Justice second. That's the order of operations.",
+      "source_file": "game/script.rpy",
+      "source_line": 31,
+      "id": "turn_003",
+      "index": 3
+    },
+    {
+      "speaker": "narrator",
+      "text": "The canals stink of copper and cheap incense. Toa has slept in worse places — but she had not expected Ryoko Owari to feel worse than the Unicorn roads.",
+      "snippet": "The canals stink of copper and cheap incense. Toa has slept in worse pl…",
+      "source_file": "game/script.rpy",
+      "source_line": 33,
+      "id": "turn_004",
+      "index": 4
+    },
+    {
+      "speaker": "narrator",
+      "text": "Tonight: a magistrate's hall, a permit book, and the stubborn hope that paperwork yields before pride does.",
+      "snippet": "Tonight: a magistrate's hall, a permit book, and the stubborn hope that…",
+      "source_file": "game/script.rpy",
+      "source_line": 35,
+      "id": "turn_005",
+      "index": 5
+    },
+    {
+      "speaker": "narrator",
+      "text": "Lantern light pools on polished floorboards. Every sliding door looks the same.",
+      "snippet": "Lantern light pools on polished floorboards. Every sliding door looks t…",
+      "source_file": "game/prologue.rpy",
+      "source_line": 14,
+      "id": "turn_006",
+      "index": 6
+    },
+    {
+      "speaker": "narrator",
+      "text": "Toa clutches her permit book and hanko case, turning in a corridor that refuses to end.",
+      "snippet": "Toa clutches her permit book and hanko case, turning in a corridor that…",
+      "source_file": "game/prologue.rpy",
+      "source_line": 17,
+      "id": "turn_007",
+      "index": 7
+    },
+    {
+      "speaker": "toa",
+      "text": "I was sure the clerk said third hall, fourth door on the left. Or was it the right?",
+      "snippet": "I was sure the clerk said third hall, fourth door on the left. Or was i…",
+      "source_file": "game/prologue.rpy",
+      "source_line": 22,
+      "id": "turn_008",
+      "index": 8
+    },
+    {
+      "speaker": "narrator",
+      "text": "The noble quarter smells of ink and cedar. Somewhere behind these walls, someone holds the seal she needs.",
+      "snippet": "The noble quarter smells of ink and cedar. Somewhere behind these walls…",
+      "source_file": "game/prologue.rpy",
+      "source_line": 25,
+      "id": "turn_009",
+      "index": 9
+    },
+    {
+      "speaker": "toa",
+      "text": "One more corridor. Then I ask nicely. Very nicely.",
+      "snippet": "One more corridor. Then I ask nicely. Very nicely.",
+      "source_file": "game/prologue.rpy",
+      "source_line": 29,
+      "id": "turn_010",
+      "index": 10
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Done complaining?",
+      "snippet": "Done complaining?",
+      "source_file": "game/prologue.rpy",
+      "source_line": 37,
+      "id": "turn_011",
+      "index": 11
+    },
+    {
+      "speaker": "toa",
+      "text": "I wasn't— That is, I apologize for the disturbance, sochira-no-kata!",
+      "snippet": "I wasn't— That is, I apologize for the disturbance, sochira-no-kata!",
+      "source_file": "game/prologue.rpy",
+      "source_line": 42,
+      "id": "turn_012",
+      "index": 12
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Wrong door. Again.",
+      "snippet": "Wrong door. Again.",
+      "source_file": "game/prologue.rpy",
+      "source_line": 46,
+      "id": "turn_013",
+      "index": 13
+    },
+    {
+      "speaker": "narrator",
+      "text": "The door shuts with finality. Toa's ears ring.",
+      "snippet": "The door shuts with finality. Toa's ears ring.",
+      "source_file": "game/prologue.rpy",
+      "source_line": 50,
+      "id": "turn_014",
+      "index": 14
+    },
+    {
+      "speaker": "toa",
+      "text": "Third time's the charm. Or the magistrate. Hopefully both.",
+      "snippet": "Third time's the charm. Or the magistrate. Hopefully both.",
+      "source_file": "game/prologue.rpy",
+      "source_line": 69,
+      "id": "turn_015",
+      "index": 15
+    },
+    {
+      "speaker": "narrator",
+      "text": "Toa straightens her kosode, breathes, and waits.",
+      "snippet": "Toa straightens her kosode, breathes, and waits.",
+      "source_file": "game/prologue.rpy",
+      "source_line": 78,
+      "id": "turn_016",
+      "index": 16
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Still there? Knock if you want something.",
+      "snippet": "Still there? Knock if you want something.",
+      "source_file": "game/prologue.rpy",
+      "source_line": 82,
+      "id": "turn_017",
+      "index": 17
+    },
+    {
+      "speaker": "toa",
+      "text": "Fine. I'll find a magistrate with better manners.",
+      "snippet": "Fine. I'll find a magistrate with better manners.",
+      "source_file": "game/prologue.rpy",
+      "source_line": 91,
+      "id": "turn_018",
+      "index": 18
+    },
+    {
+      "speaker": "narrator",
+      "text": "Three offices later, a junior clerk squints at her permit book and points back the way she came.",
+      "snippet": "Three offices later, a junior clerk squints at her permit book and poin…",
+      "source_file": "game/prologue.rpy",
+      "source_line": 96,
+      "id": "turn_019",
+      "index": 19
+    },
+    {
+      "speaker": "toa",
+      "text": "The Emerald Magistrate? That door?",
+      "snippet": "The Emerald Magistrate? That door?",
+      "source_file": "game/prologue.rpy",
+      "source_line": 99,
+      "id": "turn_020",
+      "index": 20
+    },
+    {
+      "speaker": "Clerk",
+      "text": "That's the one who stamps interclan renewals. Good luck. He eats petitioners for breakfast.",
+      "snippet": "That's the one who stamps interclan renewals. Good luck. He eats petiti…",
+      "source_file": "game/prologue.rpy",
+      "source_line": 101,
+      "id": "turn_021",
+      "index": 21
+    },
+    {
+      "speaker": "toa",
+      "text": "I've come too far to be scared off by a reputation.",
+      "snippet": "I've come too far to be scared off by a reputation.",
+      "source_file": "game/prologue.rpy",
+      "source_line": 105,
+      "id": "turn_022",
+      "index": 22
+    },
+    {
+      "speaker": "narrator",
+      "text": "The corridor loops — of course it loops — and deposits her exactly where she started.",
+      "snippet": "The corridor loops — of course it loops — and deposits her exactly wher…",
+      "source_file": "game/prologue.rpy",
+      "source_line": 109,
+      "id": "turn_023",
+      "index": 23
+    },
+    {
+      "speaker": "toa",
+      "text": "Every sign points back to this door. Of course it does.",
+      "snippet": "Every sign points back to this door. Of course it does.",
+      "source_file": "game/prologue.rpy",
+      "source_line": 116,
+      "id": "turn_024",
+      "index": 24
+    },
+    {
+      "speaker": "toa",
+      "text": "Round two. Posture up. Smile optional.",
+      "snippet": "Round two. Posture up. Smile optional.",
+      "source_file": "game/prologue.rpy",
+      "source_line": 129,
+      "id": "turn_025",
+      "index": 25
+    },
+    {
+      "speaker": "narrator",
+      "text": "Toa folds her hands. No muttering. No pacing. Just breath and patience.",
+      "snippet": "Toa folds her hands. No muttering. No pacing. Just breath and patience.",
+      "source_file": "game/prologue.rpy",
+      "source_line": 138,
+      "id": "turn_026",
+      "index": 26
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Smarter the second time. Knock.",
+      "snippet": "Smarter the second time. Knock.",
+      "source_file": "game/prologue.rpy",
+      "source_line": 142,
+      "id": "turn_027",
+      "index": 27
+    },
+    {
+      "speaker": "narrator",
+      "text": "Toa kneels at the threshold and strikes the frame once — crisp, patient.",
+      "snippet": "Toa kneels at the threshold and strikes the frame once — crisp, patient.",
+      "source_file": "game/prologue.rpy",
+      "source_line": 157,
+      "id": "turn_028",
+      "index": 28
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Enter. You can knock when you want something. Try standing still next.",
+      "snippet": "Enter. You can knock when you want something. Try standing still next.",
+      "source_file": "game/prologue.rpy",
+      "source_line": 160,
+      "id": "turn_029",
+      "index": 29
+    },
+    {
+      "speaker": "narrator",
+      "text": "Toa kneels at the threshold and strikes the frame twice — crisp, measured.",
+      "snippet": "Toa kneels at the threshold and strikes the frame twice — crisp, measur…",
+      "source_file": "game/prologue.rpy",
+      "source_line": 164,
+      "id": "turn_030",
+      "index": 30
+    },
+    {
+      "speaker": "toa",
+      "text": "Honored sochira-no-kata, this unworthy petitioner begs a moment regarding her performer's permit renewal.",
+      "snippet": "Honored sochira-no-kata, this unworthy petitioner begs a moment regardi…",
+      "source_file": "game/prologue.rpy",
+      "source_line": 175,
+      "id": "turn_031",
+      "index": 31
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Tedious. Correct, but tedious.",
+      "snippet": "Tedious. Correct, but tedious.",
+      "source_file": "game/prologue.rpy",
+      "source_line": 179,
+      "id": "turn_032",
+      "index": 32
+    },
+    {
+      "speaker": "kaoru",
+      "text": "At least your bow didn't wobble. Continue — briefly.",
+      "snippet": "At least your bow didn't wobble. Continue — briefly.",
+      "source_file": "game/prologue.rpy",
+      "source_line": 183,
+      "id": "turn_033",
+      "index": 33
+    },
+    {
+      "speaker": "toa",
+      "text": "Magistrate — I need my permit renewed. I have the paperwork.",
+      "snippet": "Magistrate — I need my permit renewed. I have the paperwork.",
+      "source_file": "game/prologue.rpy",
+      "source_line": 191,
+      "id": "turn_034",
+      "index": 34
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Plain speech. You waste less of my evening than most.",
+      "snippet": "Plain speech. You waste less of my evening than most.",
+      "source_file": "game/prologue.rpy",
+      "source_line": 195,
+      "id": "turn_035",
+      "index": 35
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Names and purpose. Quickly.",
+      "snippet": "Names and purpose. Quickly.",
+      "source_file": "game/prologue.rpy",
+      "source_line": 199,
+      "id": "turn_036",
+      "index": 36
+    },
+    {
+      "speaker": "toa",
+      "text": "I promise I'm only lost geographically, not legally. May I present my renewal request?",
+      "snippet": "I promise I'm only lost geographically, not legally. May I present my r…",
+      "source_file": "game/prologue.rpy",
+      "source_line": 206,
+      "id": "turn_037",
+      "index": 37
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Humor in my office. Brave or stupid.",
+      "snippet": "Humor in my office. Brave or stupid.",
+      "source_file": "game/prologue.rpy",
+      "source_line": 210,
+      "id": "turn_038",
+      "index": 38
+    },
+    {
+      "speaker": "toa",
+      "text": "Crane training says brave. Unicorn roads say stupid is survivable.",
+      "snippet": "Crane training says brave. Unicorn roads say stupid is survivable.",
+      "source_file": "game/prologue.rpy",
+      "source_line": 214,
+      "id": "turn_039",
+      "index": 39
+    },
+    {
+      "speaker": "kaoru",
+      "text": "We'll discover which tonight.",
+      "snippet": "We'll discover which tonight.",
+      "source_file": "game/prologue.rpy",
+      "source_line": 218,
+      "id": "turn_040",
+      "index": 40
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Emerald Magistrate Kitsu Kaoru. You will use my title if you wish to leave with a seal.",
+      "snippet": "Emerald Magistrate Kitsu Kaoru. You will use my title if you wish to le…",
+      "source_file": "game/prologue.rpy",
+      "source_line": 222,
+      "id": "turn_041",
+      "index": 41
+    },
+    {
+      "speaker": "toa",
+      "text": "Forgive me — Emerald Magistrate.",
+      "snippet": "Forgive me — Emerald Magistrate.",
+      "source_file": "game/prologue.rpy",
+      "source_line": 226,
+      "id": "turn_042",
+      "index": 42
+    },
+    {
+      "speaker": "kaoru",
+      "text": "State your business. Briefly.",
+      "snippet": "State your business. Briefly.",
+      "source_file": "game/prologue.rpy",
+      "source_line": 231,
+      "id": "turn_043",
+      "index": 43
+    },
+    {
+      "speaker": "toa",
+      "text": "Kakita Toa, dancer of the Kakita family. New to Ryoko Owari.",
+      "snippet": "Kakita Toa, dancer of the Kakita family. New to Ryoko Owari.",
+      "source_file": "game/prologue.rpy",
+      "source_line": 235,
+      "id": "turn_044",
+      "index": 44
+    },
+    {
+      "speaker": "toa",
+      "text": "Post-gempukku, traveling from Unicorn lands. I mean to establish residence and perform legally.",
+      "snippet": "Post-gempukku, traveling from Unicorn lands. I mean to establish reside…",
+      "source_file": "game/prologue.rpy",
+      "source_line": 239,
+      "id": "turn_045",
+      "index": 45
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Crane hair, Unicorn permit dates. Wrong clan for this desk — wrong week to fix it.",
+      "snippet": "Crane hair, Unicorn permit dates. Wrong clan for this desk — wrong week…",
+      "source_file": "game/prologue.rpy",
+      "source_line": 243,
+      "id": "turn_046",
+      "index": 46
+    },
+    {
+      "speaker": "toa",
+      "text": "The roads taught me flexibility. The Crane taught me posture.",
+      "snippet": "The roads taught me flexibility. The Crane taught me posture.",
+      "source_file": "game/prologue.rpy",
+      "source_line": 247,
+      "id": "turn_047",
+      "index": 47
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Posture on the cushion. We'll see if your feet match your bow.",
+      "snippet": "Posture on the cushion. We'll see if your feet match your bow.",
+      "source_file": "game/prologue.rpy",
+      "source_line": 252,
+      "id": "turn_048",
+      "index": 48
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Flexibility. Good. You'll need it on this cushion before I touch the hanko.",
+      "snippet": "Flexibility. Good. You'll need it on this cushion before I touch the ha…",
+      "source_file": "game/prologue.rpy",
+      "source_line": 256,
+      "id": "turn_049",
+      "index": 49
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Survivable. We'll test that claim before dawn.",
+      "snippet": "Survivable. We'll test that claim before dawn.",
+      "source_file": "game/prologue.rpy",
+      "source_line": 260,
+      "id": "turn_050",
+      "index": 50
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Interclan residence requires Emerald approval. You knew that.",
+      "snippet": "Interclan residence requires Emerald approval. You knew that.",
+      "source_file": "game/prologue.rpy",
+      "source_line": 265,
+      "id": "turn_051",
+      "index": 51
+    },
+    {
+      "speaker": "toa",
+      "text": "I was told a private meeting with the local magistrate would suffice.",
+      "snippet": "I was told a private meeting with the local magistrate would suffice.",
+      "source_file": "game/prologue.rpy",
+      "source_line": 269,
+      "id": "turn_052",
+      "index": 52
+    },
+    {
+      "speaker": "kaoru",
+      "text": "It does. Door.",
+      "snippet": "It does. Door.",
+      "source_file": "game/prologue.rpy",
+      "source_line": 273,
+      "id": "turn_053",
+      "index": 53
+    },
+    {
+      "speaker": "narrator",
+      "text": "He gestures. The door closes behind her.",
+      "snippet": "He gestures. The door closes behind her.",
+      "source_file": "game/prologue.rpy",
+      "source_line": 277,
+      "id": "turn_054",
+      "index": 54
+    },
+    {
+      "speaker": "narrator",
+      "text": "Toa keeps her gaze on the desk. Not on the shelves lined with case files and curios.",
+      "snippet": "Toa keeps her gaze on the desk. Not on the shelves lined with case file…",
+      "source_file": "game/prologue.rpy",
+      "source_line": 287,
+      "id": "turn_055",
+      "index": 55
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Better. Most Crane can't resist cataloging a room like a museum.",
+      "snippet": "Better. Most Crane can't resist cataloging a room like a museum.",
+      "source_file": "game/prologue.rpy",
+      "source_line": 291,
+      "id": "turn_056",
+      "index": 56
+    },
+    {
+      "speaker": "narrator",
+      "text": "Her eyes snag on a row of scrolls — Lion mon here, Emerald seal there—",
+      "snippet": "Her eyes snag on a row of scrolls — Lion mon here, Emerald seal there—",
+      "source_file": "game/prologue.rpy",
+      "source_line": 298,
+      "id": "turn_057",
+      "index": 57
+    },
+    {
+      "speaker": "kaoru",
+      "text": "I said sit. Not catalog my trophies.",
+      "snippet": "I said sit. Not catalog my trophies.",
+      "source_file": "game/prologue.rpy",
+      "source_line": 302,
+      "id": "turn_058",
+      "index": 58
+    },
+    {
+      "speaker": "toa",
+      "text": "Yes, Magistrate.",
+      "snippet": "Yes, Magistrate.",
+      "source_file": "game/prologue.rpy",
+      "source_line": 306,
+      "id": "turn_059",
+      "index": 59
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Since you admire my shelves, admire my seal from a distance when — if — you earn it.",
+      "snippet": "Since you admire my shelves, admire my seal from a distance when — if —…",
+      "source_file": "game/prologue.rpy",
+      "source_line": 310,
+      "id": "turn_060",
+      "index": 60
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Cushion. Floor. You stand too much for someone begging favors.",
+      "snippet": "Cushion. Floor. You stand too much for someone begging favors.",
+      "source_file": "game/prologue.rpy",
+      "source_line": 314,
+      "id": "turn_061",
+      "index": 61
+    },
+    {
+      "speaker": "narrator",
+      "text": "A cushion already waits on the tatami at his knee. He taps it once with one finger. A tall cup of water on the desk waits like a witness.",
+      "snippet": "A cushion already waits on the tatami at his knee. He taps it once with…",
+      "source_file": "game/prologue.rpy",
+      "source_line": 317,
+      "id": "turn_062",
+      "index": 62
+    },
+    {
+      "speaker": "narrator",
+      "text": "Toa sets her permit book and hanko case on the desk — close enough to show, not close enough to surrender.",
+      "snippet": "Toa sets her permit book and hanko case on the desk — close enough to s…",
+      "source_file": "game/prologue.rpy",
+      "source_line": 323,
+      "id": "turn_063",
+      "index": 63
+    },
+    {
+      "speaker": "kaoru",
+      "text": "These dates.",
+      "snippet": "These dates.",
+      "source_file": "game/prologue.rpy",
+      "source_line": 328,
+      "id": "turn_064",
+      "index": 64
+    },
+    {
+      "speaker": "toa",
+      "text": "They should be current. I checked before leaving—",
+      "snippet": "They should be current. I checked before leaving—",
+      "source_file": "game/prologue.rpy",
+      "source_line": 332,
+      "id": "turn_065",
+      "index": 65
+    },
+    {
+      "speaker": "kaoru",
+      "text": "They are not. Your permit expired. Unicorn bureaucracy failed to mention it?",
+      "snippet": "They are not. Your permit expired. Unicorn bureaucracy failed to mentio…",
+      "source_file": "game/prologue.rpy",
+      "source_line": 336,
+      "id": "turn_066",
+      "index": 66
+    },
+    {
+      "speaker": "toa",
+      "text": "If I cannot renew locally, they'll send me back to the Academy. I can't— not yet.",
+      "snippet": "If I cannot renew locally, they'll send me back to the Academy. I can't…",
+      "source_file": "game/prologue.rpy",
+      "source_line": 340,
+      "id": "turn_067",
+      "index": 67
+    },
+    {
+      "speaker": "toa",
+      "text": "If that is the law, I'll... prepare for the journey back.",
+      "snippet": "If that is the law, I'll... prepare for the journey back.",
+      "source_file": "game/prologue.rpy",
+      "source_line": 349,
+      "id": "turn_068",
+      "index": 68
+    },
+    {
+      "speaker": "kaoru",
+      "text": "How obedient. The Unicorn taught you to yield before the fight begins.",
+      "snippet": "How obedient. The Unicorn taught you to yield before the fight begins.",
+      "source_file": "game/prologue.rpy",
+      "source_line": 353,
+      "id": "turn_069",
+      "index": 69
+    },
+    {
+      "speaker": "toa",
+      "text": "The Crane taught me to know when a battle isn't worth the obi.",
+      "snippet": "The Crane taught me to know when a battle isn't worth the obi.",
+      "source_file": "game/prologue.rpy",
+      "source_line": 357,
+      "id": "turn_070",
+      "index": 70
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Unfortunately for your travel plans, I'm not finished with you.",
+      "snippet": "Unfortunately for your travel plans, I'm not finished with you.",
+      "source_file": "game/prologue.rpy",
+      "source_line": 361,
+      "id": "turn_071",
+      "index": 71
+    },
+    {
+      "speaker": "toa",
+      "text": "There must be a remedy short of exile. Emerald Magistrate, what do you require?",
+      "snippet": "There must be a remedy short of exile. Emerald Magistrate, what do you …",
+      "source_file": "game/prologue.rpy",
+      "source_line": 369,
+      "id": "turn_072",
+      "index": 72
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Requirements. Finally, a useful word.",
+      "snippet": "Requirements. Finally, a useful word.",
+      "source_file": "game/prologue.rpy",
+      "source_line": 373,
+      "id": "turn_073",
+      "index": 73
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Most petitioners wail. You ask for terms. That almost earns respect.",
+      "snippet": "Most petitioners wail. You ask for terms. That almost earns respect.",
+      "source_file": "game/prologue.rpy",
+      "source_line": 377,
+      "id": "turn_074",
+      "index": 74
+    },
+    {
+      "speaker": "toa",
+      "text": "Almost is a start. I dance for a living — I know how to build toward a finale.",
+      "snippet": "Almost is a start. I dance for a living — I know how to build toward a …",
+      "source_file": "game/prologue.rpy",
+      "source_line": 381,
+      "id": "turn_075",
+      "index": 75
+    },
+    {
+      "speaker": "toa",
+      "text": "I have no patrons here. No standing. If you turn me out, I sleep in the canal district.",
+      "snippet": "I have no patrons here. No standing. If you turn me out, I sleep in the…",
+      "source_file": "game/prologue.rpy",
+      "source_line": 388,
+      "id": "turn_076",
+      "index": 76
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Tragic. Continue.",
+      "snippet": "Tragic. Continue.",
+      "source_file": "game/prologue.rpy",
+      "source_line": 392,
+      "id": "turn_077",
+      "index": 77
+    },
+    {
+      "speaker": "toa",
+      "text": "My pony needs shoes. The innkeeper tolerates me because I fold linens without complaint.",
+      "snippet": "My pony needs shoes. The innkeeper tolerates me because I fold linens w…",
+      "source_file": "game/prologue.rpy",
+      "source_line": 396,
+      "id": "turn_078",
+      "index": 78
+    },
+    {
+      "speaker": "kaoru",
+      "text": "A curry shop and borrowed bedding. Ryoko Owari's finest import.",
+      "snippet": "A curry shop and borrowed bedding. Ryoko Owari's finest import.",
+      "source_file": "game/prologue.rpy",
+      "source_line": 400,
+      "id": "turn_079",
+      "index": 79
+    },
+    {
+      "speaker": "toa",
+      "text": "I'm still here. That counts for something.",
+      "snippet": "I'm still here. That counts for something.",
+      "source_file": "game/prologue.rpy",
+      "source_line": 404,
+      "id": "turn_080",
+      "index": 80
+    },
+    {
+      "speaker": "kaoru",
+      "text": "We'll see what it's worth.",
+      "snippet": "We'll see what it's worth.",
+      "source_file": "game/prologue.rpy",
+      "source_line": 408,
+      "id": "turn_081",
+      "index": 81
+    },
+    {
+      "speaker": "kaoru",
+      "text": "No local patrons. No endorsements.",
+      "snippet": "No local patrons. No endorsements.",
+      "source_file": "game/prologue.rpy",
+      "source_line": 421,
+      "id": "turn_082",
+      "index": 82
+    },
+    {
+      "speaker": "toa",
+      "text": "Only the inn, a pony that needs shoes, and a curry shop where the owner tolerates me.",
+      "snippet": "Only the inn, a pony that needs shoes, and a curry shop where the owner…",
+      "source_file": "game/prologue.rpy",
+      "source_line": 425,
+      "id": "turn_083",
+      "index": 83
+    },
+    {
+      "speaker": "kaoru",
+      "text": "High society.",
+      "snippet": "High society.",
+      "source_file": "game/prologue.rpy",
+      "source_line": 429,
+      "id": "turn_084",
+      "index": 84
+    },
+    {
+      "speaker": "toa",
+      "text": "It's March twenty-sixth. By tomorrow I need proof I belong here.",
+      "snippet": "It's March twenty-sixth. By tomorrow I need proof I belong here.",
+      "source_file": "game/prologue.rpy",
+      "source_line": 433,
+      "id": "turn_085",
+      "index": 85
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Proof requires more than appetite. Tut.",
+      "snippet": "Proof requires more than appetite. Tut.",
+      "source_file": "game/prologue.rpy",
+      "source_line": 438,
+      "id": "turn_086",
+      "index": 86
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Tomorrow is generous. Tut.",
+      "snippet": "Tomorrow is generous. Tut.",
+      "source_file": "game/prologue.rpy",
+      "source_line": 442,
+      "id": "turn_087",
+      "index": 87
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Tomorrow. Tut.",
+      "snippet": "Tomorrow. Tut.",
+      "source_file": "game/prologue.rpy",
+      "source_line": 446,
+      "id": "turn_088",
+      "index": 88
+    },
+    {
+      "speaker": "narrator",
+      "text": "He tutted once. Toa has heard he can manage five.",
+      "snippet": "He tutted once. Toa has heard he can manage five.",
+      "source_file": "game/prologue.rpy",
+      "source_line": 449,
+      "id": "turn_089",
+      "index": 89
+    },
+    {
+      "speaker": "toa",
+      "text": "I... may have listed dance as my primary art. On the renewal form.",
+      "snippet": "I... may have listed dance as my primary art. On the renewal form.",
+      "source_file": "game/prologue.rpy",
+      "source_line": 454,
+      "id": "turn_090",
+      "index": 90
+    },
+    {
+      "speaker": "kaoru",
+      "text": "May have.",
+      "snippet": "May have.",
+      "source_file": "game/prologue.rpy",
+      "source_line": 458,
+      "id": "turn_091",
+      "index": 91
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Dance listed. Venue missing. Patron column blank. Do the math.",
+      "snippet": "Dance listed. Venue missing. Patron column blank. Do the math.",
+      "source_file": "game/prologue.rpy",
+      "source_line": 462,
+      "id": "turn_092",
+      "index": 92
+    },
+    {
+      "speaker": "toa",
+      "text": "I have training. I have—",
+      "snippet": "I have training. I have—",
+      "source_file": "game/prologue.rpy",
+      "source_line": 466,
+      "id": "turn_093",
+      "index": 93
+    },
+    {
+      "speaker": "kaoru",
+      "text": "You have curiosity. Not yet an audience.",
+      "snippet": "You have curiosity. Not yet an audience.",
+      "source_file": "game/prologue.rpy",
+      "source_line": 471,
+      "id": "turn_094",
+      "index": 94
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Stand.",
+      "snippet": "Stand.",
+      "source_file": "game/prologue.rpy",
+      "source_line": 475,
+      "id": "turn_095",
+      "index": 95
+    },
+    {
+      "speaker": "narrator",
+      "text": "The cushion at her feet does not move. The water cup on the desk does not move. It never does.",
+      "snippet": "The cushion at her feet does not move. The water cup on the desk does n…",
+      "source_file": "game/prologue.rpy",
+      "source_line": 478,
+      "id": "turn_096",
+      "index": 96
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Proposed remedy?",
+      "snippet": "Proposed remedy?",
+      "source_file": "game/prologue.rpy",
+      "source_line": 483,
+      "id": "turn_097",
+      "index": 97
+    },
+    {
+      "speaker": "toa",
+      "text": "You want a performance.",
+      "snippet": "You want a performance.",
+      "source_file": "game/prologue.rpy",
+      "source_line": 487,
+      "id": "turn_098",
+      "index": 98
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Impress me.",
+      "snippet": "Impress me.",
+      "source_file": "game/prologue.rpy",
+      "source_line": 491,
+      "id": "turn_099",
+      "index": 99
+    },
+    {
+      "speaker": "toa",
+      "text": "If I perform, you sign. No delays, no new conditions after.",
+      "snippet": "If I perform, you sign. No delays, no new conditions after.",
+      "source_file": "game/prologue.rpy",
+      "source_line": 501,
+      "id": "turn_100",
+      "index": 100
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Bold. We'll see if your art matches your contract law.",
+      "snippet": "Bold. We'll see if your art matches your contract law.",
+      "source_file": "game/prologue.rpy",
+      "source_line": 505,
+      "id": "turn_101",
+      "index": 101
+    },
+    {
+      "speaker": "kaoru",
+      "text": "I sign when I'm satisfied — not when you're tired. That is the only term.",
+      "snippet": "I sign when I'm satisfied — not when you're tired. That is the only ter…",
+      "source_file": "game/prologue.rpy",
+      "source_line": 509,
+      "id": "turn_102",
+      "index": 102
+    },
+    {
+      "speaker": "toa",
+      "text": "Then I'll dance until you're satisfied or until dawn breaks my ankles.",
+      "snippet": "Then I'll dance until you're satisfied or until dawn breaks my ankles.",
+      "source_file": "game/prologue.rpy",
+      "source_line": 513,
+      "id": "turn_103",
+      "index": 103
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Acceptable. Begin.",
+      "snippet": "Acceptable. Begin.",
+      "source_file": "game/prologue.rpy",
+      "source_line": 517,
+      "id": "turn_104",
+      "index": 104
+    },
+    {
+      "speaker": "toa",
+      "text": "Music optional. Audience of one. Watch closely, Magistrate.",
+      "snippet": "Music optional. Audience of one. Watch closely, Magistrate.",
+      "source_file": "game/prologue.rpy",
+      "source_line": 526,
+      "id": "turn_105",
+      "index": 105
+    },
+    {
+      "speaker": "kaoru",
+      "text": "No preamble. Good.",
+      "snippet": "No preamble. Good.",
+      "source_file": "game/prologue.rpy",
+      "source_line": 530,
+      "id": "turn_106",
+      "index": 106
+    },
+    {
+      "speaker": "toa",
+      "text": "I'm a petitioner, not your evening entertainment.",
+      "snippet": "I'm a petitioner, not your evening entertainment.",
+      "source_file": "game/prologue.rpy",
+      "source_line": 540,
+      "id": "turn_107",
+      "index": 107
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Then you may walk back to your curry shop and explain an expired permit to the gate guards.",
+      "snippet": "Then you may walk back to your curry shop and explain an expired permit…",
+      "source_file": "game/prologue.rpy",
+      "source_line": 544,
+      "id": "turn_108",
+      "index": 108
+    },
+    {
+      "speaker": "toa",
+      "text": "Justice isn't a private show for magistrates with bored eyes.",
+      "snippet": "Justice isn't a private show for magistrates with bored eyes.",
+      "source_file": "game/prologue.rpy",
+      "source_line": 556,
+      "id": "turn_109",
+      "index": 109
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Justice is what I write on the page you didn't earn.",
+      "snippet": "Justice is what I write on the page you didn't earn.",
+      "source_file": "game/prologue.rpy",
+      "source_line": 560,
+      "id": "turn_110",
+      "index": 110
+    },
+    {
+      "speaker": "narrator",
+      "text": "She gathers her permit book. The hanko case clicks shut like a verdict.",
+      "snippet": "She gathers her permit book. The hanko case clicks shut like a verdict.",
+      "source_file": "game/prologue.rpy",
+      "source_line": 565,
+      "id": "turn_111",
+      "index": 111
+    },
+    {
+      "speaker": "kaoru",
+      "text": "The gate closes at midnight. The canal district is that way.",
+      "snippet": "The gate closes at midnight. The canal district is that way.",
+      "source_file": "game/prologue.rpy",
+      "source_line": 569,
+      "id": "turn_112",
+      "index": 112
+    },
+    {
+      "speaker": "toa",
+      "text": "I'll find another seal. Or another city.",
+      "snippet": "I'll find another seal. Or another city.",
+      "source_file": "game/prologue.rpy",
+      "source_line": 573,
+      "id": "turn_113",
+      "index": 113
+    },
+    {
+      "speaker": "kaoru",
+      "text": "You won't. You'll knock again when hunger wins.",
+      "snippet": "You won't. You'll knock again when hunger wins.",
+      "source_file": "game/prologue.rpy",
+      "source_line": 577,
+      "id": "turn_114",
+      "index": 114
+    },
+    {
+      "speaker": "centered",
+      "text": "{size=-2}Without a seal, Ryoko Owari has no place for Kakita Toa.{/size}",
+      "snippet": "{size=-2}Without a seal, Ryoko Owari has no place for Kakita Toa.{/size}",
+      "source_file": "game/prologue.rpy",
+      "source_line": 581,
+      "id": "turn_115",
+      "index": 115
+    },
+    {
+      "speaker": "toa",
+      "text": "Fine. One dance. One seal. Then I never perform for you again.",
+      "snippet": "Fine. One dance. One seal. Then I never perform for you again.",
+      "source_file": "game/prologue.rpy",
+      "source_line": 593,
+      "id": "turn_116",
+      "index": 116
+    },
+    {
+      "speaker": "kaoru",
+      "text": "We'll see about never.",
+      "snippet": "We'll see about never.",
+      "source_file": "game/prologue.rpy",
+      "source_line": 596,
+      "id": "turn_117",
+      "index": 117
+    },
+    {
+      "speaker": "toa",
+      "text": "Snacks first was the plan. Pride second. I got the order wrong.",
+      "snippet": "Snacks first was the plan. Pride second. I got the order wrong.",
+      "source_file": "game/prologue.rpy",
+      "source_line": 602,
+      "id": "turn_118",
+      "index": 118
+    },
+    {
+      "speaker": "narrator",
+      "text": "Rain finds the noble quarter anyway. Case One will have to wait for a braver night.",
+      "snippet": "Rain finds the noble quarter anyway. Case One will have to wait for a b…",
+      "source_file": "game/prologue.rpy",
+      "source_line": 604,
+      "id": "turn_119",
+      "index": 119
+    },
+    {
+      "speaker": "narrator",
+      "text": "Lamplight shrinks the room. Toa loosens her obi — not indecent, but deliberate — and lets the silk breathe.",
+      "snippet": "Lamplight shrinks the room. Toa loosens her obi — not indecent, but del…",
+      "source_file": "game/prologue.rpy",
+      "source_line": 614,
+      "id": "turn_120",
+      "index": 120
+    },
+    {
+      "speaker": "narrator",
+      "text": "She unfolds her fan. Steps trace a story — courtship, hesitation, resolve — obijime bells whispering at each turn.",
+      "snippet": "She unfolds her fan. Steps trace a story — courtship, hesitation, resol…",
+      "source_file": "game/prologue.rpy",
+      "source_line": 621,
+      "id": "turn_121",
+      "index": 121
+    },
+    {
+      "speaker": "toa",
+      "text": "The maiden waits at the gate. The road is long. She walks anyway.",
+      "snippet": "The maiden waits at the gate. The road is long. She walks anyway.",
+      "source_file": "game/prologue.rpy",
+      "source_line": 624,
+      "id": "turn_122",
+      "index": 122
+    },
+    {
+      "speaker": "narrator",
+      "text": "Kaoru watches, still as stone. He drinks water without looking away.",
+      "snippet": "Kaoru watches, still as stone. He drinks water without looking away.",
+      "source_file": "game/prologue.rpy",
+      "source_line": 627,
+      "id": "turn_123",
+      "index": 123
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Better. Keep going. I haven't touched the hanko yet.",
+      "snippet": "Better. Keep going. I haven't touched the hanko yet.",
+      "source_file": "game/prologue.rpy",
+      "source_line": 630,
+      "id": "turn_124",
+      "index": 124
+    },
+    {
+      "speaker": "narrator",
+      "text": "The fan closes on the final beat — not a bow, but a held breath.",
+      "snippet": "The fan closes on the final beat — not a bow, but a held breath.",
+      "source_file": "game/prologue.rpy",
+      "source_line": 633,
+      "id": "turn_125",
+      "index": 125
+    },
+    {
+      "speaker": "narrator",
+      "text": "She plays to one viewer. Hips sway where the kata allows; smile promises more than the room receives.",
+      "snippet": "She plays to one viewer. Hips sway where the kata allows; smile promise…",
+      "source_file": "game/prologue.rpy",
+      "source_line": 640,
+      "id": "turn_126",
+      "index": 126
+    },
+    {
+      "speaker": "toa",
+      "text": "One person in the room. Might as well make him regret looking away.",
+      "snippet": "One person in the room. Might as well make him regret looking away.",
+      "source_file": "game/prologue.rpy",
+      "source_line": 643,
+      "id": "turn_127",
+      "index": 127
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Cheeky.",
+      "snippet": "Cheeky.",
+      "source_file": "game/prologue.rpy",
+      "source_line": 646,
+      "id": "turn_128",
+      "index": 128
+    },
+    {
+      "speaker": "narrator",
+      "text": "She lets the obijime bells laugh once — invitation and challenge in the same sound.",
+      "snippet": "She lets the obijime bells laugh once — invitation and challenge in the…",
+      "source_file": "game/prologue.rpy",
+      "source_line": 650,
+      "id": "turn_129",
+      "index": 129
+    },
+    {
+      "speaker": "narrator",
+      "text": "The cup sets down softly. His eyes don't blink.",
+      "snippet": "The cup sets down softly. His eyes don't blink.",
+      "source_file": "game/prologue.rpy",
+      "source_line": 653,
+      "id": "turn_130",
+      "index": 130
+    },
+    {
+      "speaker": "toa",
+      "text": "That earns your seal. You said impress you — I did.",
+      "snippet": "That earns your seal. You said impress you — I did.",
+      "source_file": "game/prologue.rpy",
+      "source_line": 666,
+      "id": "turn_131",
+      "index": 131
+    },
+    {
+      "speaker": "toa",
+      "text": "We had terms. No delays.",
+      "snippet": "We had terms. No delays.",
+      "source_file": "game/prologue.rpy",
+      "source_line": 671,
+      "id": "turn_132",
+      "index": 132
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Terms are for courts. This is my desk.",
+      "snippet": "Terms are for courts. This is my desk.",
+      "source_file": "game/prologue.rpy",
+      "source_line": 675,
+      "id": "turn_133",
+      "index": 133
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Merit enough. Signature... pending.",
+      "snippet": "Merit enough. Signature... pending.",
+      "source_file": "game/prologue.rpy",
+      "source_line": 679,
+      "id": "turn_134",
+      "index": 134
+    },
+    {
+      "speaker": "toa",
+      "text": "Pending?",
+      "snippet": "Pending?",
+      "source_file": "game/prologue.rpy",
+      "source_line": 683,
+      "id": "turn_135",
+      "index": 135
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Continue.",
+      "snippet": "Continue.",
+      "source_file": "game/prologue.rpy",
+      "source_line": 687,
+      "id": "turn_136",
+      "index": 136
+    },
+    {
+      "speaker": "narrator",
+      "text": "She continues — the maiden's story unfinished, bells softer now, every turn aimed at the desk.",
+      "snippet": "She continues — the maiden's story unfinished, bells softer now, every …",
+      "source_file": "game/prologue.rpy",
+      "source_line": 694,
+      "id": "turn_137",
+      "index": 137
+    },
+    {
+      "speaker": "narrator",
+      "text": "She continues — coquette sway sharpened to obedience, every glance a question he refuses to answer.",
+      "snippet": "She continues — coquette sway sharpened to obedience, every glance a qu…",
+      "source_file": "game/prologue.rpy",
+      "source_line": 697,
+      "id": "turn_138",
+      "index": 138
+    },
+    {
+      "speaker": "narrator",
+      "text": "She continues — bells softer, gaze sharper, every turn aimed at the desk and the seal he still withholds.",
+      "snippet": "She continues — bells softer, gaze sharper, every turn aimed at the des…",
+      "source_file": "game/prologue.rpy",
+      "source_line": 700,
+      "id": "turn_139",
+      "index": 139
+    },
+    {
+      "speaker": "kaoru",
+      "text": "A good performance.",
+      "snippet": "A good performance.",
+      "source_file": "game/prologue.rpy",
+      "source_line": 704,
+      "id": "turn_140",
+      "index": 140
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Better when you stop pretending the room is empty.",
+      "snippet": "Better when you stop pretending the room is empty.",
+      "source_file": "game/prologue.rpy",
+      "source_line": 709,
+      "id": "turn_141",
+      "index": 141
+    },
+    {
+      "speaker": "narrator",
+      "text": "His hand finds her wrist — not painful, not gentle. Entitlement dressed as appraisal.",
+      "snippet": "His hand finds her wrist — not painful, not gentle. Entitlement dressed…",
+      "source_file": "game/prologue.rpy",
+      "source_line": 722,
+      "id": "turn_142",
+      "index": 142
+    },
+    {
+      "speaker": "toa",
+      "text": "Magistrate-sama. That is not in any permit renewal I read.",
+      "snippet": "Magistrate-sama. That is not in any permit renewal I read.",
+      "source_file": "game/prologue.rpy",
+      "source_line": 732,
+      "id": "turn_143",
+      "index": 143
+    },
+    {
+      "speaker": "kaoru",
+      "text": "No? And yet you're still here.",
+      "snippet": "No? And yet you're still here.",
+      "source_file": "game/prologue.rpy",
+      "source_line": 736,
+      "id": "turn_144",
+      "index": 144
+    },
+    {
+      "speaker": "toa",
+      "text": "I'm here for a seal, not a leash.",
+      "snippet": "I'm here for a seal, not a leash.",
+      "source_file": "game/prologue.rpy",
+      "source_line": 740,
+      "id": "turn_145",
+      "index": 145
+    },
+    {
+      "speaker": "narrator",
+      "text": "She spins free and finishes the phrase — defiance as choreography.",
+      "snippet": "She spins free and finishes the phrase — defiance as choreography.",
+      "source_file": "game/prologue.rpy",
+      "source_line": 743,
+      "id": "turn_146",
+      "index": 146
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Defiance suits you. Cheap seals don't.",
+      "snippet": "Defiance suits you. Cheap seals don't.",
+      "source_file": "game/prologue.rpy",
+      "source_line": 747,
+      "id": "turn_147",
+      "index": 147
+    },
+    {
+      "speaker": "narrator",
+      "text": "She doesn't pull away. The dance uses his grip as counterweight — dangerous, deliberate.",
+      "snippet": "She doesn't pull away. The dance uses his grip as counterweight — dange…",
+      "source_file": "game/prologue.rpy",
+      "source_line": 754,
+      "id": "turn_148",
+      "index": 148
+    },
+    {
+      "speaker": "toa",
+      "text": "If you're going to hold me, hold me like you mean the audition.",
+      "snippet": "If you're going to hold me, hold me like you mean the audition.",
+      "source_file": "game/prologue.rpy",
+      "source_line": 758,
+      "id": "turn_149",
+      "index": 149
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Better.",
+      "snippet": "Better.",
+      "source_file": "game/prologue.rpy",
+      "source_line": 762,
+      "id": "turn_150",
+      "index": 150
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Don't stop on my account.",
+      "snippet": "Don't stop on my account.",
+      "source_file": "game/prologue.rpy",
+      "source_line": 766,
+      "id": "turn_151",
+      "index": 151
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Unless?",
+      "snippet": "Unless?",
+      "source_file": "game/prologue.rpy",
+      "source_line": 773,
+      "id": "turn_152",
+      "index": 152
+    },
+    {
+      "speaker": "narrator",
+      "text": "The chair creaks. Hakama folds. Power imbalance made visible — two figures, one question hanging.",
+      "snippet": "The chair creaks. Hakama folds. Power imbalance made visible — two figu…",
+      "source_file": "game/prologue.rpy",
+      "source_line": 780,
+      "id": "turn_153",
+      "index": 153
+    },
+    {
+      "speaker": "toa",
+      "text": "Unless you sign before dawn. Unless Ryoko Owari becomes mine to dance in — legally.",
+      "snippet": "Unless you sign before dawn. Unless Ryoko Owari becomes mine to dance i…",
+      "source_file": "game/prologue.rpy",
+      "source_line": 788,
+      "id": "turn_154",
+      "index": 154
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Legally. You learn.",
+      "snippet": "Legally. You learn.",
+      "source_file": "game/prologue.rpy",
+      "source_line": 791,
+      "id": "turn_155",
+      "index": 155
+    },
+    {
+      "speaker": "narrator",
+      "text": "She straddles the chair's arm — not surrender, not retreat. Proximity as punctuation.",
+      "snippet": "She straddles the chair's arm — not surrender, not retreat. Proximity a…",
+      "source_file": "game/prologue.rpy",
+      "source_line": 801,
+      "id": "turn_156",
+      "index": 156
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Unless you mean to finish what you started.",
+      "snippet": "Unless you mean to finish what you started.",
+      "source_file": "game/prologue.rpy",
+      "source_line": 804,
+      "id": "turn_157",
+      "index": 157
+    },
+    {
+      "speaker": "toa",
+      "text": "Unless I find a magistrate who reads dates instead of moods. Good evening.",
+      "snippet": "Unless I find a magistrate who reads dates instead of moods. Good eveni…",
+      "source_file": "game/prologue.rpy",
+      "source_line": 814,
+      "id": "turn_158",
+      "index": 158
+    },
+    {
+      "speaker": "kaoru",
+      "text": "You'll be back. The permit still expires.",
+      "snippet": "You'll be back. The permit still expires.",
+      "source_file": "game/prologue.rpy",
+      "source_line": 817,
+      "id": "turn_159",
+      "index": 159
+    },
+    {
+      "speaker": "kaoru",
+      "text": "You negotiate with your mouth. Adequate.",
+      "snippet": "You negotiate with your mouth. Adequate.",
+      "source_file": "game/prologue.rpy",
+      "source_line": 829,
+      "id": "turn_160",
+      "index": 160
+    },
+    {
+      "speaker": "toa",
+      "text": "And with my feet, when the dance required it. Sign the page, Magistrate-sama.",
+      "snippet": "And with my feet, when the dance required it. Sign the page, Magistrate…",
+      "source_file": "game/prologue.rpy",
+      "source_line": 833,
+      "id": "turn_161",
+      "index": 161
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Almost.",
+      "snippet": "Almost.",
+      "source_file": "game/prologue.rpy",
+      "source_line": 837,
+      "id": "turn_162",
+      "index": 162
+    },
+    {
+      "speaker": "narrator",
+      "text": "He lifts the hanko — teasing height above the permit book — then sets it down untouched.",
+      "snippet": "He lifts the hanko — teasing height above the permit book — then sets i…",
+      "source_file": "game/prologue.rpy",
+      "source_line": 840,
+      "id": "turn_163",
+      "index": 163
+    },
+    {
+      "speaker": "toa",
+      "text": "That isn't justice. It's just cruelty, and you know it.",
+      "snippet": "That isn't justice. It's just cruelty, and you know it.",
+      "source_file": "game/prologue.rpy",
+      "source_line": 844,
+      "id": "turn_164",
+      "index": 164
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Justice arrives when you stop treating my office like a stage you can exit on your terms.",
+      "snippet": "Justice arrives when you stop treating my office like a stage you can e…",
+      "source_file": "game/prologue.rpy",
+      "source_line": 848,
+      "id": "turn_165",
+      "index": 165
+    },
+    {
+      "speaker": "toa",
+      "text": "I gave you the performance. I named my price. What more—",
+      "snippet": "I gave you the performance. I named my price. What more—",
+      "source_file": "game/prologue.rpy",
+      "source_line": 852,
+      "id": "turn_166",
+      "index": 166
+    },
+    {
+      "speaker": "kaoru",
+      "text": "More requires more. Leave before I charge you for the water you made me drink.",
+      "snippet": "More requires more. Leave before I charge you for the water you made me…",
+      "source_file": "game/prologue.rpy",
+      "source_line": 856,
+      "id": "turn_167",
+      "index": 167
+    },
+    {
+      "speaker": "toa",
+      "text": "I'll be back. With a better argument and dry obijime.",
+      "snippet": "I'll be back. With a better argument and dry obijime.",
+      "source_file": "game/prologue.rpy",
+      "source_line": 860,
+      "id": "turn_168",
+      "index": 168
+    },
+    {
+      "speaker": "kaoru",
+      "text": "I'll be here. Dates don't renew themselves.",
+      "snippet": "I'll be here. Dates don't renew themselves.",
+      "source_file": "game/prologue.rpy",
+      "source_line": 864,
+      "id": "turn_169",
+      "index": 169
+    },
+    {
+      "speaker": "narrator",
+      "text": "The corridor is colder than the office. Somewhere a bell marks the hour — not dawn, not yet.",
+      "snippet": "The corridor is colder than the office. Somewhere a bell marks the hour…",
+      "source_file": "game/prologue.rpy",
+      "source_line": 870,
+      "id": "turn_170",
+      "index": 170
+    },
+    {
+      "speaker": "toa",
+      "text": "Three weeks. I can survive three weeks on curry and pride.",
+      "snippet": "Three weeks. I can survive three weeks on curry and pride.",
+      "source_file": "game/prologue.rpy",
+      "source_line": 873,
+      "id": "turn_171",
+      "index": 171
+    },
+    {
+      "speaker": "toa",
+      "text": "Snacks first. Justice second. I can hold that order for three weeks.",
+      "snippet": "Snacks first. Justice second. I can hold that order for three weeks.",
+      "source_file": "game/prologue.rpy",
+      "source_line": 876,
+      "id": "turn_172",
+      "index": 172
+    },
+    {
+      "speaker": "toa",
+      "text": "I came for a seal, not a lesson in your appetite.",
+      "snippet": "I came for a seal, not a lesson in your appetite.",
+      "source_file": "game/prologue.rpy",
+      "source_line": 888,
+      "id": "turn_173",
+      "index": 173
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Then go. The city has other dancers and fewer scruples.",
+      "snippet": "Then go. The city has other dancers and fewer scruples.",
+      "source_file": "game/prologue.rpy",
+      "source_line": 892,
+      "id": "turn_174",
+      "index": 174
+    },
+    {
+      "speaker": "narrator",
+      "text": "She snatches the permit book. The hanko case stays — his, or forgotten, or a trap she refuses to spring.",
+      "snippet": "She snatches the permit book. The hanko case stays — his, or forgotten,…",
+      "source_file": "game/prologue.rpy",
+      "source_line": 895,
+      "id": "turn_175",
+      "index": 175
+    },
+    {
+      "speaker": "kaoru",
+      "text": "You'll knock again when the gate guards ask for paper you don't have.",
+      "snippet": "You'll knock again when the gate guards ask for paper you don't have.",
+      "source_file": "game/prologue.rpy",
+      "source_line": 899,
+      "id": "turn_176",
+      "index": 176
+    },
+    {
+      "speaker": "toa",
+      "text": "Wrong door once was a mistake. I won't make it a habit.",
+      "snippet": "Wrong door once was a mistake. I won't make it a habit.",
+      "source_file": "game/prologue.rpy",
+      "source_line": 904,
+      "id": "turn_177",
+      "index": 177
+    },
+    {
+      "speaker": "narrator",
+      "text": "Lantern light stripes the floor. Her boots echo too loud for the noble quarter.",
+      "snippet": "Lantern light stripes the floor. Her boots echo too loud for the noble …",
+      "source_file": "game/prologue.rpy",
+      "source_line": 908,
+      "id": "turn_178",
+      "index": 178
+    },
+    {
+      "speaker": "narrator",
+      "text": "Outside, the canal district smells honest — fish, copper, rain on stone.",
+      "snippet": "Outside, the canal district smells honest — fish, copper, rain on stone.",
+      "source_file": "game/prologue.rpy",
+      "source_line": 915,
+      "id": "turn_179",
+      "index": 179
+    },
+    {
+      "speaker": "toa",
+      "text": "Guest room previews and forward-dated seals can wait. I still have pride.",
+      "snippet": "Guest room previews and forward-dated seals can wait. I still have prid…",
+      "source_file": "game/prologue.rpy",
+      "source_line": 918,
+      "id": "turn_180",
+      "index": 180
+    },
+    {
+      "speaker": "toa",
+      "text": "...And a curry shop that doesn't ask questions.",
+      "snippet": "...And a curry shop that doesn't ask questions.",
+      "source_file": "game/prologue.rpy",
+      "source_line": 921,
+      "id": "turn_181",
+      "index": 181
+    },
+    {
+      "speaker": "centered",
+      "text": "Three days later...",
+      "snippet": "Three days later...",
+      "source_file": "game/prologue.rpy",
+      "source_line": 936,
+      "id": "turn_182",
+      "index": 182
+    },
+    {
+      "speaker": "centered",
+      "text": "Three weeks later...",
+      "snippet": "Three weeks later...",
+      "source_file": "game/prologue.rpy",
+      "source_line": 939,
+      "id": "turn_183",
+      "index": 183
+    },
+    {
+      "speaker": "narrator",
+      "text": "Morning in the noble quarter tastes of ink and cedar. The thirtieth is still on the permit — but Toa is already at the threshold with tea and a borrowed case file.",
+      "snippet": "Morning in the noble quarter tastes of ink and cedar. The thirtieth is …",
+      "source_file": "game/case1_companion.rpy",
+      "source_line": 14,
+      "id": "turn_184",
+      "index": 184
+    },
+    {
+      "speaker": "toa",
+      "text": "The permit says I'm legal on the thirtieth. I'm early with tea and a case file.",
+      "snippet": "The permit says I'm legal on the thirtieth. I'm early with tea and a ca…",
+      "source_file": "game/case1_companion.rpy",
+      "source_line": 17,
+      "id": "turn_185",
+      "index": 185
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Early is still obedience. Sit before you spill something on my docket.",
+      "snippet": "Early is still obedience. Sit before you spill something on my docket.",
+      "source_file": "game/case1_companion.rpy",
+      "source_line": 21,
+      "id": "turn_186",
+      "index": 186
+    },
+    {
+      "speaker": "narrator",
+      "text": "He gestures to the cushion on the tatami before the desk — the same place he made her sit for her audition.",
+      "snippet": "He gestures to the cushion on the tatami before the desk — the same pla…",
+      "source_file": "game/case1_companion.rpy",
+      "source_line": 24,
+      "id": "turn_187",
+      "index": 187
+    },
+    {
+      "speaker": "toa",
+      "text": "Snacks after paperwork. That's still the order of operations.",
+      "snippet": "Snacks after paperwork. That's still the order of operations.",
+      "source_file": "game/case1_companion.rpy",
+      "source_line": 28,
+      "id": "turn_188",
+      "index": 188
+    },
+    {
+      "speaker": "kaoru",
+      "text": "We'll see if your appetite survives what I'm about to read aloud.",
+      "snippet": "We'll see if your appetite survives what I'm about to read aloud.",
+      "source_file": "game/case1_companion.rpy",
+      "source_line": 32,
+      "id": "turn_189",
+      "index": 189
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Bring that audience-of-one energy to the docket. Cases bore less when you perform.",
+      "snippet": "Bring that audience-of-one energy to the docket. Cases bore less when y…",
+      "source_file": "game/case1_companion.rpy",
+      "source_line": 37,
+      "id": "turn_190",
+      "index": 190
+    },
+    {
+      "speaker": "toa",
+      "text": "I'll save the bells for evidence review.",
+      "snippet": "I'll save the bells for evidence review.",
+      "source_file": "game/case1_companion.rpy",
+      "source_line": 41,
+      "id": "turn_191",
+      "index": 191
+    },
+    {
+      "speaker": "kaoru",
+      "text": "You danced like a maiden in a shrine. Try not to curtsey at a corpse.",
+      "snippet": "You danced like a maiden in a shrine. Try not to curtsey at a corpse.",
+      "source_file": "game/case1_companion.rpy",
+      "source_line": 46,
+      "id": "turn_192",
+      "index": 192
+    },
+    {
+      "speaker": "toa",
+      "text": "I'll manage, Magistrate-sama. I know the difference.",
+      "snippet": "I'll manage, Magistrate-sama. I know the difference.",
+      "source_file": "game/case1_companion.rpy",
+      "source_line": 50,
+      "id": "turn_193",
+      "index": 193
+    },
+    {
+      "speaker": "toa",
+      "text": "Honored Magistrate-sama — shall I present the tea before or after the terms you mentioned on the thirtieth?",
+      "snippet": "Honored Magistrate-sama — shall I present the tea before or after the t…",
+      "source_file": "game/case1_companion.rpy",
+      "source_line": 55,
+      "id": "turn_194",
+      "index": 194
+    },
+    {
+      "speaker": "kaoru",
+      "text": "After. And stop bowing at every clause. My neck aches from watching.",
+      "snippet": "After. And stop bowing at every clause. My neck aches from watching.",
+      "source_file": "game/case1_companion.rpy",
+      "source_line": 59,
+      "id": "turn_195",
+      "index": 195
+    },
+    {
+      "speaker": "toa",
+      "text": "You said we'd discuss residency. I'm listening.",
+      "snippet": "You said we'd discuss residency. I'm listening.",
+      "source_file": "game/case1_companion.rpy",
+      "source_line": 64,
+      "id": "turn_196",
+      "index": 196
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Good. Plain speech saves us both from another fan dance.",
+      "snippet": "Good. Plain speech saves us both from another fan dance.",
+      "source_file": "game/case1_companion.rpy",
+      "source_line": 68,
+      "id": "turn_197",
+      "index": 197
+    },
+    {
+      "speaker": "narrator",
+      "text": "He slides a stack across the desk — not her permit book this time, but office stationery stamped with the Emerald crest.",
+      "snippet": "He slides a stack across the desk — not her permit book this time, but …",
+      "source_file": "game/case1_companion.rpy",
+      "source_line": 75,
+      "id": "turn_198",
+      "index": 198
+    },
+    {
+      "speaker": "kaoru",
+      "text": "You may stay in the guest room until the date takes effect. That was a courtesy, not a loophole.",
+      "snippet": "You may stay in the guest room until the date takes effect. That was a …",
+      "source_file": "game/case1_companion.rpy",
+      "source_line": 78,
+      "id": "turn_199",
+      "index": 199
+    },
+    {
+      "speaker": "toa",
+      "text": "Guest room. Preview. You really do enjoy making people come back.",
+      "snippet": "Guest room. Preview. You really do enjoy making people come back.",
+      "source_file": "game/case1_companion.rpy",
+      "source_line": 82,
+      "id": "turn_200",
+      "index": 200
+    },
+    {
+      "speaker": "kaoru",
+      "text": "The signature was always going to bring you back. I merely wrote the appointment you deserved.",
+      "snippet": "The signature was always going to bring you back. I merely wrote the ap…",
+      "source_file": "game/case1_companion.rpy",
+      "source_line": 86,
+      "id": "turn_201",
+      "index": 201
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Before I read it aloud — one question, plainly. When your permit was dying, you danced in this room. The quarter forgets dancers who vanish after sunset. I do not.",
+      "snippet": "Before I read it aloud — one question, plainly. When your permit was dy…",
+      "source_file": "game/case1_companion.rpy",
+      "source_line": 89,
+      "id": "turn_202",
+      "index": 202
+    },
+    {
+      "speaker": "toa",
+      "text": "You watched like the whole city had gone quiet. That was not a clerk's audition, Magistrate-sama.",
+      "snippet": "You watched like the whole city had gone quiet. That was not a clerk's …",
+      "source_file": "game/case1_companion.rpy",
+      "source_line": 92,
+      "id": "turn_203",
+      "index": 203
+    },
+    {
+      "speaker": "kaoru",
+      "text": "No. Witnesses lie. You still had a body worth housing and a voice worth putting on a filing.",
+      "snippet": "No. Witnesses lie. You still had a body worth housing and a voice worth…",
+      "source_file": "game/case1_companion.rpy",
+      "source_line": 95,
+      "id": "turn_204",
+      "index": 204
+    },
+    {
+      "speaker": "toa",
+      "text": "What do you want from me? Not the polite version. The one you write on paper.",
+      "snippet": "What do you want from me? Not the polite version. The one you write on …",
+      "source_file": "game/case1_companion.rpy",
+      "source_line": 101,
+      "id": "turn_205",
+      "index": 205
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Attendance. Discretion. Art that does not embarrass the seal on my door.",
+      "snippet": "Attendance. Discretion. Art that does not embarrass the seal on my door.",
+      "source_file": "game/case1_companion.rpy",
+      "source_line": 104,
+      "id": "turn_206",
+      "index": 206
+    },
+    {
+      "speaker": "toa",
+      "text": "If you need proof, I will dance. Not for ink this time — for your eyes only.",
+      "snippet": "If you need proof, I will dance. Not for ink this time — for your eyes …",
+      "source_file": "game/case1_companion.rpy",
+      "source_line": 109,
+      "id": "turn_207",
+      "index": 207
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Later. First you hear what I am willing to pay for.",
+      "snippet": "Later. First you hear what I am willing to pay for.",
+      "source_file": "game/case1_companion.rpy",
+      "source_line": 112,
+      "id": "turn_208",
+      "index": 208
+    },
+    {
+      "speaker": "toa",
+      "text": "I came for renewal, not a collar. Say what this costs before I seal anything.",
+      "snippet": "I came for renewal, not a collar. Say what this costs before I seal any…",
+      "source_file": "game/case1_companion.rpy",
+      "source_line": 118,
+      "id": "turn_209",
+      "index": 209
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Brave. The cost is written. Listen.",
+      "snippet": "Brave. The cost is written. Listen.",
+      "source_file": "game/case1_companion.rpy",
+      "source_line": 121,
+      "id": "turn_210",
+      "index": 210
+    },
+    {
+      "speaker": "kaoru",
+      "text": "I am drafting sponsorship, not a courtesan's contract. The ledger will read art donor to artist — it would insult your lord and mine if I played danna with a Crane who crossed provinces for ink.",
+      "snippet": "I am drafting sponsorship, not a courtesan's contract. The ledger will …",
+      "source_file": "game/case1_companion.rpy",
+      "source_line": 124,
+      "id": "turn_211",
+      "index": 211
+    },
+    {
+      "speaker": "toa",
+      "text": "Sponsorship. Not — not that.",
+      "snippet": "Sponsorship. Not — not that.",
+      "source_file": "game/case1_companion.rpy",
+      "source_line": 127,
+      "id": "turn_212",
+      "index": 212
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Gifts of money to support your artistic expression. I know what I am paying for. You may interpret that liberally — within the residence I set.",
+      "snippet": "Gifts of money to support your artistic expression. I know what I am pa…",
+      "source_file": "game/case1_companion.rpy",
+      "source_line": 130,
+      "id": "turn_213",
+      "index": 213
+    },
+    {
+      "speaker": "toa",
+      "text": "How often, Magistrate-sama? Where? The thirtieth was supposed to be residency, not —",
+      "snippet": "How often, Magistrate-sama? Where? The thirtieth was supposed to be res…",
+      "source_file": "game/case1_companion.rpy",
+      "source_line": 133,
+      "id": "turn_214",
+      "index": 214
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Twice weekly you attend me here — for performance, and for case work when I require a witness who does not flinch. The rest is written below.",
+      "snippet": "Twice weekly you attend me here — for performance, and for case work wh…",
+      "source_file": "game/case1_companion.rpy",
+      "source_line": 136,
+      "id": "turn_215",
+      "index": 215
+    },
+    {
+      "speaker": "narrator",
+      "text": "The top sheet is titled {i}Appointment of Live-In Companion (Patronage of Artistic Residence){/i}. Her name is already inked in his hand.",
+      "snippet": "The top sheet is titled {i}Appointment of Live-In Companion (Patronage …",
+      "source_file": "game/case1_companion.rpy",
+      "source_line": 142,
+      "id": "turn_216",
+      "index": 216
+    },
+    {
+      "speaker": "toa",
+      "text": "Live-in companion. That's — that's not a guest room preview, that's a contract.",
+      "snippet": "Live-in companion. That's — that's not a guest room preview, that's a c…",
+      "source_file": "game/case1_companion.rpy",
+      "source_line": 146,
+      "id": "turn_217",
+      "index": 217
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Companion duties: attend the magistrate, carry messages, witness interviews, maintain discretion, and remain on premises unless I release you. Your art is the reason the treasury pays — not the excuse.",
+      "snippet": "Companion duties: attend the magistrate, carry messages, witness interv…",
+      "source_file": "game/case1_companion.rpy",
+      "source_line": 150,
+      "id": "turn_218",
+      "index": 218
+    },
+    {
+      "speaker": "kaoru",
+      "text": "You will take meals in the inner hall. You will sleep in the chamber adjoining my office. You will answer when I call — day or night.",
+      "snippet": "You will take meals in the inner hall. You will sleep in the chamber ad…",
+      "source_file": "game/case1_companion.rpy",
+      "source_line": 153,
+      "id": "turn_219",
+      "index": 219
+    },
+    {
+      "speaker": "toa",
+      "text": "Day or night. You ask a great deal, Magistrate-sama.",
+      "snippet": "Day or night. You ask a great deal, Magistrate-sama.",
+      "source_file": "game/case1_companion.rpy",
+      "source_line": 157,
+      "id": "turn_220",
+      "index": 220
+    },
+    {
+      "speaker": "kaoru",
+      "text": "It sounds like law. Ryoko Owari does not grant interclan residence to dancers who vanish after sunset.",
+      "snippet": "It sounds like law. Ryoko Owari does not grant interclan residence to d…",
+      "source_file": "game/case1_companion.rpy",
+      "source_line": 161,
+      "id": "turn_221",
+      "index": 221
+    },
+    {
+      "speaker": "narrator",
+      "text": "He taps a second page — stipend figures, duty rotations, a line for her seal beside his.",
+      "snippet": "He taps a second page — stipend figures, duty rotations, a line for her…",
+      "source_file": "game/case1_companion.rpy",
+      "source_line": 165,
+      "id": "turn_222",
+      "index": 222
+    },
+    {
+      "speaker": "toa",
+      "text": "And the stipend?",
+      "snippet": "And the stipend?",
+      "source_file": "game/case1_companion.rpy",
+      "source_line": 169,
+      "id": "turn_223",
+      "index": 223
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Three koku monthly, plus board — official gifts to support your expression. The treasury will not call you a kept performer if the ledger says patronage.",
+      "snippet": "Three koku monthly, plus board — official gifts to support your express…",
+      "source_file": "game/case1_companion.rpy",
+      "source_line": 173,
+      "id": "turn_224",
+      "index": 224
+    },
+    {
+      "speaker": "toa",
+      "text": "Three koku is more than the curry shop paid me to smile at tourists.",
+      "snippet": "Three koku is more than the curry shop paid me to smile at tourists.",
+      "source_file": "game/case1_companion.rpy",
+      "source_line": 183,
+      "id": "turn_225",
+      "index": 225
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Then you understand the bargain. Sign, or return to Unicorn roads and expired paper.",
+      "snippet": "Then you understand the bargain. Sign, or return to Unicorn roads and e…",
+      "source_file": "game/case1_companion.rpy",
+      "source_line": 187,
+      "id": "turn_226",
+      "index": 226
+    },
+    {
+      "speaker": "kaoru",
+      "text": "You already proved you can close a proposition in this room. Don't pretend shock suits you.",
+      "snippet": "You already proved you can close a proposition in this room. Don't pret…",
+      "source_file": "game/case1_companion.rpy",
+      "source_line": 192,
+      "id": "turn_227",
+      "index": 227
+    },
+    {
+      "speaker": "toa",
+      "text": "Shock and delight, both at once. You do that to me.",
+      "snippet": "Shock and delight, both at once. You do that to me.",
+      "source_file": "game/case1_companion.rpy",
+      "source_line": 196,
+      "id": "turn_228",
+      "index": 228
+    },
+    {
+      "speaker": "toa",
+      "text": "Magistrate-sama, I accept the appointment and its duties. You will have my discretion and my attendance.",
+      "snippet": "Magistrate-sama, I accept the appointment and its duties. You will have…",
+      "source_file": "game/case1_companion.rpy",
+      "source_line": 208,
+      "id": "turn_229",
+      "index": 229
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Better. You almost sound like you belong behind my desk instead of on it.",
+      "snippet": "Better. You almost sound like you belong behind my desk instead of on i…",
+      "source_file": "game/case1_companion.rpy",
+      "source_line": 212,
+      "id": "turn_230",
+      "index": 230
+    },
+    {
+      "speaker": "toa",
+      "text": "I'll sign when we define release. And which nights are mine for Academy correspondence.",
+      "snippet": "I'll sign when we define release. And which nights are mine for Academy…",
+      "source_file": "game/case1_companion.rpy",
+      "source_line": 221,
+      "id": "turn_231",
+      "index": 231
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Bold for someone who still smells like my cedar shelves.",
+      "snippet": "Bold for someone who still smells like my cedar shelves.",
+      "source_file": "game/case1_companion.rpy",
+      "source_line": 225,
+      "id": "turn_232",
+      "index": 232
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Academy letters wait on the outer desk. You do not leave the compound without escort until Case One closes. Those are the terms.",
+      "snippet": "Academy letters wait on the outer desk. You do not leave the compound w…",
+      "source_file": "game/case1_companion.rpy",
+      "source_line": 229,
+      "id": "turn_233",
+      "index": 233
+    },
+    {
+      "speaker": "toa",
+      "text": "Escort, not leash. I can work with that.",
+      "snippet": "Escort, not leash. I can work with that.",
+      "source_file": "game/case1_companion.rpy",
+      "source_line": 233,
+      "id": "turn_234",
+      "index": 234
+    },
+    {
+      "speaker": "kaoru",
+      "text": "You'll work with what I give you. Sign.",
+      "snippet": "You'll work with what I give you. Sign.",
+      "source_file": "game/case1_companion.rpy",
+      "source_line": 237,
+      "id": "turn_235",
+      "index": 235
+    },
+    {
+      "speaker": "toa",
+      "text": "Three koku — fine, wonderful, I'll frame the ledger. But Magistrate-sama, I want the room. I want the hall. I want to be here.",
+      "snippet": "Three koku — fine, wonderful, I'll frame the ledger. But Magistrate-sam…",
+      "source_file": "game/case1_companion.rpy",
+      "source_line": 246,
+      "id": "turn_236",
+      "index": 236
+    },
+    {
+      "speaker": "toa",
+      "text": "That came out louder than professional.",
+      "snippet": "That came out louder than professional.",
+      "source_file": "game/case1_companion.rpy",
+      "source_line": 250,
+      "id": "turn_237",
+      "index": 237
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Honest at last. The treasury pays you anyway. Try not to grin at the clerk.",
+      "snippet": "Honest at last. The treasury pays you anyway. Try not to grin at the cl…",
+      "source_file": "game/case1_companion.rpy",
+      "source_line": 254,
+      "id": "turn_238",
+      "index": 238
+    },
+    {
+      "speaker": "narrator",
+      "text": "She takes the brush. Her seal meets his — waxless, official, irrevocable until he says otherwise.",
+      "snippet": "She takes the brush. Her seal meets his — waxless, official, irrevocabl…",
+      "source_file": "game/case1_companion.rpy",
+      "source_line": 266,
+      "id": "turn_239",
+      "index": 239
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Effective on the thirtieth, as written. Until then you are mine to schedule — starting with Case One.",
+      "snippet": "Effective on the thirtieth, as written. Until then you are mine to sche…",
+      "source_file": "game/case1_companion.rpy",
+      "source_line": 277,
+      "id": "turn_240",
+      "index": 240
+    },
+    {
+      "speaker": "toa",
+      "text": "Case One. Files, witnesses, and snacks for the road.",
+      "snippet": "Case One. Files, witnesses, and snacks for the road.",
+      "source_file": "game/case1_companion.rpy",
+      "source_line": 281,
+      "id": "turn_241",
+      "index": 241
+    },
+    {
+      "speaker": "kaoru",
+      "text": "You will fetch the docket from the inner archive. Then you will learn how this city buries its dead without funerals.",
+      "snippet": "You will fetch the docket from the inner archive. Then you will learn h…",
+      "source_file": "game/case1_companion.rpy",
+      "source_line": 285,
+      "id": "turn_242",
+      "index": 242
+    },
+    {
+      "speaker": "toa",
+      "text": "I'll fetch it. I'll learn it. Just — thank you. For the room adjoining yours.",
+      "snippet": "I'll fetch it. I'll learn it. Just — thank you. For the room adjoining …",
+      "source_file": "game/case1_companion.rpy",
+      "source_line": 290,
+      "id": "turn_243",
+      "index": 243
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Thank me with a dry ledger, not your mouth. Archive stairs. Now.",
+      "snippet": "Thank me with a dry ledger, not your mouth. Archive stairs. Now.",
+      "source_file": "game/case1_companion.rpy",
+      "source_line": 294,
+      "id": "turn_244",
+      "index": 244
+    },
+    {
+      "speaker": "toa",
+      "text": "Archive. Escort. Written terms. I'm holding you to all three.",
+      "snippet": "Archive. Escort. Written terms. I'm holding you to all three.",
+      "source_file": "game/case1_companion.rpy",
+      "source_line": 299,
+      "id": "turn_245",
+      "index": 245
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Hold the lantern instead. You'll need both hands on the steps.",
+      "snippet": "Hold the lantern instead. You'll need both hands on the steps.",
+      "source_file": "game/case1_companion.rpy",
+      "source_line": 303,
+      "id": "turn_246",
+      "index": 246
+    },
+    {
+      "speaker": "toa",
+      "text": "Understood. I'll return with the docket and dry obijime.",
+      "snippet": "Understood. I'll return with the docket and dry obijime.",
+      "source_file": "game/case1_companion.rpy",
+      "source_line": 308,
+      "id": "turn_247",
+      "index": 247
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Leave the bells. This case is not a stage.",
+      "snippet": "Leave the bells. This case is not a stage.",
+      "source_file": "game/case1_companion.rpy",
+      "source_line": 312,
+      "id": "turn_248",
+      "index": 248
+    },
+    {
+      "speaker": "toa",
+      "text": "Point me to the chamber. I'd rather unpack before the archive swallows me.",
+      "snippet": "Point me to the chamber. I'd rather unpack before the archive swallows …",
+      "source_file": "game/case1_companion.rpy",
+      "source_line": 321,
+      "id": "turn_249",
+      "index": 249
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Past the inner screen, left corridor. Do not rearrange my shelves.",
+      "snippet": "Past the inner screen, left corridor. Do not rearrange my shelves.",
+      "source_file": "game/case1_companion.rpy",
+      "source_line": 325,
+      "id": "turn_250",
+      "index": 250
+    },
+    {
+      "speaker": "toa",
+      "text": "I only peeked once. You noticed.",
+      "snippet": "I only peeked once. You noticed.",
+      "source_file": "game/case1_companion.rpy",
+      "source_line": 329,
+      "id": "turn_251",
+      "index": 251
+    },
+    {
+      "speaker": "kaoru",
+      "text": "I notice everything. Unpack after the docket.",
+      "snippet": "I notice everything. Unpack after the docket.",
+      "source_file": "game/case1_companion.rpy",
+      "source_line": 333,
+      "id": "turn_252",
+      "index": 252
+    },
+    {
+      "speaker": "toa",
+      "text": "Archive first. You'll know I'm serious when I come back dusty.",
+      "snippet": "Archive first. You'll know I'm serious when I come back dusty.",
+      "source_file": "game/case1_companion.rpy",
+      "source_line": 340,
+      "id": "turn_253",
+      "index": 253
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Left stair behind the screen. Archive dust on your hakama is acceptable. Don't drop the ledger.",
+      "snippet": "Left stair behind the screen. Archive dust on your hakama is acceptable…",
+      "source_file": "game/case1_companion.rpy",
+      "source_line": 344,
+      "id": "turn_254",
+      "index": 254
+    },
+    {
+      "speaker": "toa",
+      "text": "Case One, archive, and your cup is empty. Companion duty starts now.",
+      "snippet": "Case One, archive, and your cup is empty. Companion duty starts now.",
+      "source_file": "game/case1_companion.rpy",
+      "source_line": 351,
+      "id": "turn_255",
+      "index": 255
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Refill it. Then archive. Then unpack. In that order — or I'll date your next permit forward again.",
+      "snippet": "Refill it. Then archive. Then unpack. In that order — or I'll date your…",
+      "source_file": "game/case1_companion.rpy",
+      "source_line": 355,
+      "id": "turn_256",
+      "index": 256
+    },
+    {
+      "speaker": "toa",
+      "text": "Cruel — and fair. The cup first, then.",
+      "snippet": "Cruel — and fair. The cup first, then.",
+      "source_file": "game/case1_companion.rpy",
+      "source_line": 359,
+      "id": "turn_257",
+      "index": 257
+    },
+    {
+      "speaker": "narrator",
+      "text": "The inner screen slides. Beyond it, stairs smell of old paper and river damp — the archive where Case One waits.",
+      "snippet": "The inner screen slides. Beyond it, stairs smell of old paper and river…",
+      "source_file": "game/case1_companion.rpy",
+      "source_line": 373,
+      "id": "turn_258",
+      "index": 258
+    },
+    {
+      "speaker": "kaoru",
+      "text": "When you return, we open the file on the canal body. No audience. No bells. Only answers.",
+      "snippet": "When you return, we open the file on the canal body. No audience. No be…",
+      "source_file": "game/case1_companion.rpy",
+      "source_line": 376,
+      "id": "turn_259",
+      "index": 259
+    },
+    {
+      "speaker": "toa",
+      "text": "Snacks after paperwork still applies. Even for corpses without funerals.",
+      "snippet": "Snacks after paperwork still applies. Even for corpses without funerals.",
+      "source_file": "game/case1_companion.rpy",
+      "source_line": 380,
+      "id": "turn_260",
+      "index": 260
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Bring rice crackers. I'll allow one indulgence before the city disappoints you.",
+      "snippet": "Bring rice crackers. I'll allow one indulgence before the city disappoi…",
+      "source_file": "game/case1_companion.rpy",
+      "source_line": 384,
+      "id": "turn_261",
+      "index": 261
+    },
+    {
+      "speaker": "toa",
+      "text": "Case file, tea, and — if I'm very good — a rice cracker. Ready when you are.",
+      "snippet": "Case file, tea, and — if I'm very good — a rice cracker. Ready when you…",
+      "source_file": "game/case1_companion.rpy",
+      "source_line": 398,
+      "id": "turn_262",
+      "index": 262
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Case One awaits. Keep up, To-chan.",
+      "snippet": "Case One awaits. Keep up, To-chan.",
+      "source_file": "game/case1_companion.rpy",
+      "source_line": 402,
+      "id": "turn_263",
+      "index": 263
+    },
+    {
+      "speaker": "kaoru",
+      "text": "You came back. I noted it.",
+      "snippet": "You came back. I noted it.",
+      "source_file": "game/case1_companion.rpy",
+      "source_line": 407,
+      "id": "turn_264",
+      "index": 264
+    },
+    {
+      "speaker": "toa",
+      "text": "The permit still expires. Some of us read dates.",
+      "snippet": "The permit still expires. Some of us read dates.",
+      "source_file": "game/case1_companion.rpy",
+      "source_line": 411,
+      "id": "turn_265",
+      "index": 265
+    },
+    {
+      "speaker": "kaoru",
+      "text": "You still flinch when I reach for the cup. Next time, don't.",
+      "snippet": "You still flinch when I reach for the cup. Next time, don't.",
+      "source_file": "game/case1_companion.rpy",
+      "source_line": 416,
+      "id": "turn_266",
+      "index": 266
+    },
+    {
+      "speaker": "toa",
+      "text": "Progress would be signing without games.",
+      "snippet": "Progress would be signing without games.",
+      "source_file": "game/case1_companion.rpy",
+      "source_line": 420,
+      "id": "turn_267",
+      "index": 267
+    },
+    {
+      "speaker": "kaoru",
+      "text": "You negotiated once. We'll see if you learned.",
+      "snippet": "You negotiated once. We'll see if you learned.",
+      "source_file": "game/case1_companion.rpy",
+      "source_line": 425,
+      "id": "turn_268",
+      "index": 268
+    },
+    {
+      "speaker": "toa",
+      "text": "I learned you drink water when you're impressed.",
+      "snippet": "I learned you drink water when you're impressed.",
+      "source_file": "game/case1_companion.rpy",
+      "source_line": 429,
+      "id": "turn_269",
+      "index": 269
+    },
+    {
+      "speaker": "toa",
+      "text": "I also learned your terms shift. Case One gets written terms.",
+      "snippet": "I also learned your terms shift. Case One gets written terms.",
+      "source_file": "game/case1_companion.rpy",
+      "source_line": 434,
+      "id": "turn_270",
+      "index": 270
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Ambitious. Fetch the file.",
+      "snippet": "Ambitious. Fetch the file.",
+      "source_file": "game/case1_companion.rpy",
+      "source_line": 438,
+      "id": "turn_271",
+      "index": 271
+    },
+    {
+      "speaker": "kaoru",
+      "text": "You asked for remedies once. Case One is your audition for belonging here.",
+      "snippet": "You asked for remedies once. Case One is your audition for belonging he…",
+      "source_file": "game/case1_companion.rpy",
+      "source_line": 443,
+      "id": "turn_272",
+      "index": 272
+    },
+    {
+      "speaker": "toa",
+      "text": "Then watch closely. Audience of one.",
+      "snippet": "Then watch closely. Audience of one.",
+      "source_file": "game/case1_companion.rpy",
+      "source_line": 447,
+      "id": "turn_273",
+      "index": 273
+    },
+    {
+      "speaker": "kaoru",
+      "text": "No curry shop tonight. Work.",
+      "snippet": "No curry shop tonight. Work.",
+      "source_file": "game/case1_companion.rpy",
+      "source_line": 452,
+      "id": "turn_274",
+      "index": 274
+    },
+    {
+      "speaker": "toa",
+      "text": "Fine. But I'm billing you for snacks.",
+      "snippet": "Fine. But I'm billing you for snacks.",
+      "source_file": "game/case1_companion.rpy",
+      "source_line": 456,
+      "id": "turn_275",
+      "index": 275
+    },
+    {
+      "speaker": "narrator",
+      "text": "A live-in companion appointment waits in draft on his desk — unsigned, unoffered on this timeline. Case One opens without the patronage seal.",
+      "snippet": "A live-in companion appointment waits in draft on his desk — unsigned, …",
+      "source_file": "game/case1_companion.rpy",
+      "source_line": 459,
+      "id": "turn_276",
+      "index": 276
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Fetch the canal docket from the archive. We'll discuss residency if you survive the week.",
+      "snippet": "Fetch the canal docket from the archive. We'll discuss residency if you…",
+      "source_file": "game/case1_companion.rpy",
+      "source_line": 463,
+      "id": "turn_277",
+      "index": 277
+    },
+    {
+      "speaker": "narrator",
+      "text": "The left stair behind the inner screen swallows sound. Dust clings to Toa's hakama; the ledger under her arm smells of river damp and old ink.",
+      "snippet": "The left stair behind the inner screen swallows sound. Dust clings to T…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 24,
+      "id": "turn_278",
+      "index": 278
+    },
+    {
+      "speaker": "toa",
+      "text": "Case One. No bells, dry obijime, and I kept hold of the ledger.",
+      "snippet": "Case One. No bells, dry obijime, and I kept hold of the ledger.",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 27,
+      "id": "turn_279",
+      "index": 279
+    },
+    {
+      "speaker": "narrator",
+      "text": "At the top step, lantern light returns. The noble quarter corridor feels narrower with a magistrate waiting.",
+      "snippet": "At the top step, lantern light returns. The noble quarter corridor feel…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 30,
+      "id": "turn_280",
+      "index": 280
+    },
+    {
+      "speaker": "kaoru",
+      "text": "You took long enough. Set the docket on my desk and don't breathe on the wax seals.",
+      "snippet": "You took long enough. Set the docket on my desk and don't breathe on th…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 36,
+      "id": "turn_281",
+      "index": 281
+    },
+    {
+      "speaker": "toa",
+      "text": "You said archive dust was acceptable. So is my breathing.",
+      "snippet": "You said archive dust was acceptable. So is my breathing.",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 40,
+      "id": "turn_282",
+      "index": 282
+    },
+    {
+      "speaker": "narrator",
+      "text": "She climbs back from the archive with the canal docket hugged to her chest. No adjoining chamber waits — only Kaoru's desk and a week to prove she belongs.",
+      "snippet": "She climbs back from the archive with the canal docket hugged to her ch…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 54,
+      "id": "turn_283",
+      "index": 283
+    },
+    {
+      "speaker": "toa",
+      "text": "Docket retrieved. Still breathing.",
+      "snippet": "Docket retrieved. Still breathing.",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 57,
+      "id": "turn_284",
+      "index": 284
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Still insolent. Desk. Now.",
+      "snippet": "Still insolent. Desk. Now.",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 60,
+      "id": "turn_285",
+      "index": 285
+    },
+    {
+      "speaker": "narrator",
+      "text": "Kaoru breaks the outer seal. Inside: reports from the watch, a charcoal sketch of the recovery site, and a name line left blank pending identification.",
+      "snippet": "Kaoru breaks the outer seal. Inside: reports from the watch, a charcoal…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 72,
+      "id": "turn_286",
+      "index": 286
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Case One. Body in the canal at first light — noble quarter, where the water runs clean enough to reflect gold leaf.",
+      "snippet": "Case One. Body in the canal at first light — noble quarter, where the w…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 75,
+      "id": "turn_287",
+      "index": 287
+    },
+    {
+      "speaker": "kaoru",
+      "text": "The watch files drowning when the ledger line stays blank. You will learn which boxes they sign.",
+      "snippet": "The watch files drowning when the ledger line stays blank. You will lea…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 78,
+      "id": "turn_288",
+      "index": 288
+    },
+    {
+      "speaker": "toa",
+      "text": "Clean water, dirty ledger. Who found them?",
+      "snippet": "Clean water, dirty ledger. Who found them?",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 82,
+      "id": "turn_289",
+      "index": 289
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Night watch. Fishermen pretended not to see. The Scorpion quarter upstream pretends the current runs backward.",
+      "snippet": "Night watch. Fishermen pretended not to see. The Scorpion quarter upstr…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 86,
+      "id": "turn_290",
+      "index": 290
+    },
+    {
+      "speaker": "narrator",
+      "text": "He taps the sketch — a narrow cut between warehouses, rope marks on the stone, no blood in the water worth mentioning.",
+      "snippet": "He taps the sketch — a narrow cut between warehouses, rope marks on the…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 89,
+      "id": "turn_291",
+      "index": 291
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Victim wears Miya colors under a borrowed haori. Retainer's knot. Someone wanted him found and someone else did not.",
+      "snippet": "Victim wears Miya colors under a borrowed haori. Retainer's knot. Someo…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 92,
+      "id": "turn_292",
+      "index": 292
+    },
+    {
+      "speaker": "toa",
+      "text": "Miya means Crane politics. Crane politics means you, Magistrate-sama.",
+      "snippet": "Miya means Crane politics. Crane politics means you, Magistrate-sama.",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 98,
+      "id": "turn_293",
+      "index": 293
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Which is why you sleep adjoining my office. Discretion is not decorative.",
+      "snippet": "Which is why you sleep adjoining my office. Discretion is not decorativ…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 103,
+      "id": "turn_294",
+      "index": 294
+    },
+    {
+      "speaker": "toa",
+      "text": "Escort to the canal. Written terms. I'm collecting.",
+      "snippet": "Escort to the canal. Written terms. I'm collecting.",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 108,
+      "id": "turn_295",
+      "index": 295
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Collect at the waterline. First.",
+      "snippet": "Collect at the waterline. First.",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 112,
+      "id": "turn_296",
+      "index": 296
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Which is why you are not yet sleeping in my hall. Prove you can witness without gossiping to curry shops.",
+      "snippet": "Which is why you are not yet sleeping in my hall. Prove you can witness…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 116,
+      "id": "turn_297",
+      "index": 297
+    },
+    {
+      "speaker": "toa",
+      "text": "I came back. That should count for something.",
+      "snippet": "I came back. That should count for something.",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 121,
+      "id": "turn_298",
+      "index": 298
+    },
+    {
+      "speaker": "kaoru",
+      "text": "It counts toward the canal. Not toward trust.",
+      "snippet": "It counts toward the canal. Not toward trust.",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 125,
+      "id": "turn_299",
+      "index": 299
+    },
+    {
+      "speaker": "narrator",
+      "text": "A rice cracker bag sits on the corner of the desk — her indulgence, his allowance.",
+      "snippet": "A rice cracker bag sits on the corner of the desk — her indulgence, his…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 128,
+      "id": "turn_300",
+      "index": 300
+    },
+    {
+      "speaker": "toa",
+      "text": "Snacks after paperwork. Even for corpses without funerals.",
+      "snippet": "Snacks after paperwork. Even for corpses without funerals.",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 132,
+      "id": "turn_301",
+      "index": 301
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Eat one now. You'll lose your appetite later.",
+      "snippet": "Eat one now. You'll lose your appetite later.",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 136,
+      "id": "turn_302",
+      "index": 302
+    },
+    {
+      "speaker": "toa",
+      "text": "Retainer's knot tied left-handed. Haori is two sizes wide — borrowed. No wallet, no letter case.",
+      "snippet": "Retainer's knot tied left-handed. Haori is two sizes wide — borrowed. N…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 146,
+      "id": "turn_303",
+      "index": 303
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Good. The watch listed 'drowning' and missed half of that.",
+      "snippet": "Good. The watch listed 'drowning' and missed half of that.",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 150,
+      "id": "turn_304",
+      "index": 304
+    },
+    {
+      "speaker": "narrator",
+      "text": "On the margin, a clerk noted fingernails scrubbed clean the night before — labor without honest dirt.",
+      "snippet": "On the margin, a clerk noted fingernails scrubbed clean the night befor…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 153,
+      "id": "turn_305",
+      "index": 305
+    },
+    {
+      "speaker": "toa",
+      "text": "Who profits if Crane thread snaps in Scorpion current?",
+      "snippet": "Who profits if Crane thread snaps in Scorpion current?",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 161,
+      "id": "turn_306",
+      "index": 306
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Opium ledgers. Marriage contracts. Anyone who sells silence by the barrel.",
+      "snippet": "Opium ledgers. Marriage contracts. Anyone who sells silence by the barr…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 165,
+      "id": "turn_307",
+      "index": 307
+    },
+    {
+      "speaker": "kaoru",
+      "text": "You will not say that aloud at the canal. You will watch faces.",
+      "snippet": "You will not say that aloud at the canal. You will watch faces.",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 169,
+      "id": "turn_308",
+      "index": 308
+    },
+    {
+      "speaker": "toa",
+      "text": "Witness notes: time of recovery, position, clothing, visible wounds. Theories wait.",
+      "snippet": "Witness notes: time of recovery, position, clothing, visible wounds. Th…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 177,
+      "id": "turn_309",
+      "index": 309
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Good. Witness notes I can paste without crossing out your adjectives.",
+      "snippet": "Good. Witness notes I can paste without crossing out your adjectives.",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 182,
+      "id": "turn_310",
+      "index": 310
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Try to keep that posture when the smell hits.",
+      "snippet": "Try to keep that posture when the smell hits.",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 186,
+      "id": "turn_311",
+      "index": 311
+    },
+    {
+      "speaker": "narrator",
+      "text": "They leave through the inner hall — not the public corridor Toa once wandered lost. Guards nod at Kaoru; they look through Toa as if she were furniture with legs.",
+      "snippet": "They leave through the inner hall — not the public corridor Toa once wa…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 198,
+      "id": "turn_312",
+      "index": 312
+    },
+    {
+      "speaker": "toa",
+      "text": "Furniture with legs still learns the route.",
+      "snippet": "Furniture with legs still learns the route.",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 201,
+      "id": "turn_313",
+      "index": 313
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Memorize it. Night calls won't wait for lanterns.",
+      "snippet": "Memorize it. Night calls won't wait for lanterns.",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 204,
+      "id": "turn_314",
+      "index": 314
+    },
+    {
+      "speaker": "narrator",
+      "text": "Ryoko Owari wakes around them — cart wheels, distant shamisen, sweet smoke from a vial house two alleys over. The canal cut is still half a district away.",
+      "snippet": "Ryoko Owari wakes around them — cart wheels, distant shamisen, sweet sm…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 210,
+      "id": "turn_315",
+      "index": 315
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Watch the eaves. Noble quarter thieves work for employers, not hunger.",
+      "snippet": "Watch the eaves. Noble quarter thieves work for employers, not hunger.",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 213,
+      "id": "turn_316",
+      "index": 316
+    },
+    {
+      "speaker": "toa",
+      "text": "And the wrongness? The air feels thin — like someone peeled a charm and left the paper.",
+      "snippet": "And the wrongness? The air feels thin — like someone peeled a charm and…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 217,
+      "id": "turn_317",
+      "index": 317
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Wrong-colored water usually means a clerk poured something upstream. Check the eaves before you blame charms.",
+      "snippet": "Wrong-colored water usually means a clerk poured something upstream. Ch…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 221,
+      "id": "turn_318",
+      "index": 318
+    },
+    {
+      "speaker": "narrator",
+      "text": "A crow watches from a warehouse sign — three painted eyes that aren't quite Imperial, not quite Scorpion. It flies when Kaoru glances up.",
+      "snippet": "A crow watches from a warehouse sign — three painted eyes that aren't q…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 224,
+      "id": "turn_319",
+      "index": 319
+    },
+    {
+      "speaker": "narrator",
+      "text": "The canal runs black-green under morning cloud — greener than honest water, as if someone dissolved a charm and poured the dregs downstream. Rope burns mark the stone where watchmen hauled the body.",
+      "snippet": "The canal runs black-green under morning cloud — greener than honest wa…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 234,
+      "id": "turn_320",
+      "index": 320
+    },
+    {
+      "speaker": "narrator",
+      "text": "No crowd — only a clerk with a wax tablet and a Miya envoy pretending to read the warehouse sign instead of the pallet.",
+      "snippet": "No crowd — only a clerk with a wax tablet and a Miya envoy pretending t…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 240,
+      "id": "turn_321",
+      "index": 321
+    },
+    {
+      "speaker": "kaoru",
+      "text": "To-chan. You will stand where I point. You will not touch the water.",
+      "snippet": "To-chan. You will stand where I point. You will not touch the water.",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 243,
+      "id": "turn_322",
+      "index": 322
+    },
+    {
+      "speaker": "toa",
+      "text": "Point. I'll witness.",
+      "snippet": "Point. I'll witness.",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 246,
+      "id": "turn_323",
+      "index": 323
+    },
+    {
+      "speaker": "narrator",
+      "text": "The covered pallet lies at the canal lip, cloth damp. A young man's face shows when the clerk folds the sheet — peaceful in the wrong way, as if sleep were negotiated.",
+      "snippet": "The covered pallet lies at the canal lip, cloth damp. A young man's fac…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 251,
+      "id": "turn_324",
+      "index": 324
+    },
+    {
+      "speaker": "toa",
+      "text": "He looks borrowed too. Even in death.",
+      "snippet": "He looks borrowed too. Even in death.",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 255,
+      "id": "turn_325",
+      "index": 325
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Identification first. Gossip second. Mourning never.",
+      "snippet": "Identification first. Gossip second. Mourning never.",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 259,
+      "id": "turn_326",
+      "index": 326
+    },
+    {
+      "speaker": "Clerk",
+      "text": "Magistrate. Watch reports drowning. No weapon. Haori listed as found separate, upstream snag.",
+      "snippet": "Magistrate. Watch reports drowning. No weapon. Haori listed as found se…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 261,
+      "id": "turn_327",
+      "index": 327
+    },
+    {
+      "speaker": "toa",
+      "text": "Haori upstream, body here. Current or carriage?",
+      "snippet": "Haori upstream, body here. Current or carriage?",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 265,
+      "id": "turn_328",
+      "index": 328
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Ask the river when you're qualified. Until then — observe.",
+      "snippet": "Ask the river when you're qualified. Until then — observe.",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 269,
+      "id": "turn_329",
+      "index": 329
+    },
+    {
+      "speaker": "toa",
+      "text": "Palms soft yesterday, ink stain on index finger — ledger work. Sleeve hem chewed by canal slime upstream, not here.",
+      "snippet": "Palms soft yesterday, ink stain on index finger — ledger work. Sleeve h…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 279,
+      "id": "turn_330",
+      "index": 330
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Which means he died elsewhere and was dressed for display.",
+      "snippet": "Which means he died elsewhere and was dressed for display.",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 283,
+      "id": "turn_331",
+      "index": 331
+    },
+    {
+      "speaker": "toa",
+      "text": "Magistrate-sama — his throat bruises like fingers, not water.",
+      "snippet": "Magistrate-sama — his throat bruises like fingers, not water.",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 293,
+      "id": "turn_332",
+      "index": 332
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Because drowning keeps taxes calm. You will learn when to write what the city can swallow.",
+      "snippet": "Because drowning keeps taxes calm. You will learn when to write what th…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 297,
+      "id": "turn_333",
+      "index": 333
+    },
+    {
+      "speaker": "kaoru",
+      "text": "And when to make me swallow harder truths. Not today.",
+      "snippet": "And when to make me swallow harder truths. Not today.",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 301,
+      "id": "turn_334",
+      "index": 334
+    },
+    {
+      "speaker": "toa",
+      "text": "Witness note: recovery at canal mark three, noble quarter. Clothing as listed. Cause pending magistrate review.",
+      "snippet": "Witness note: recovery at canal mark three, noble quarter. Clothing as …",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 311,
+      "id": "turn_335",
+      "index": 335
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Boring. Useful. The clerk can sign that without fainting.",
+      "snippet": "Boring. Useful. The clerk can sign that without fainting.",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 315,
+      "id": "turn_336",
+      "index": 336
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Summarize. One sentence. If I repeat your words to the Crane envoy, will he flinch or laugh?",
+      "snippet": "Summarize. One sentence. If I repeat your words to the Crane envoy, wil…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 321,
+      "id": "turn_337",
+      "index": 337
+    },
+    {
+      "speaker": "toa",
+      "text": "He was dressed for display after death — borrowed haori, wrong water, message for Crane eyes.",
+      "snippet": "He was dressed for display after death — borrowed haori, wrong water, m…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 332,
+      "id": "turn_338",
+      "index": 338
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Good. You sound like you belong in my hall when you stop performing for corpses.",
+      "snippet": "Good. You sound like you belong in my hall when you stop performing for…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 337,
+      "id": "turn_339",
+      "index": 339
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Bold. Don't mistake my attention for approval.",
+      "snippet": "Bold. Don't mistake my attention for approval.",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 342,
+      "id": "turn_340",
+      "index": 340
+    },
+    {
+      "speaker": "toa",
+      "text": "Recovery at mark three. Clothing as listed. Cause pending your review, Magistrate-sama.",
+      "snippet": "Recovery at mark three. Clothing as listed. Cause pending your review, …",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 350,
+      "id": "turn_341",
+      "index": 341
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Safe. The envoy won't laugh. He also won't fear you.",
+      "snippet": "Safe. The envoy won't laugh. He also won't fear you.",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 354,
+      "id": "turn_342",
+      "index": 342
+    },
+    {
+      "speaker": "toa",
+      "text": "You asked me to observe. I did. If you wanted theater, leave the bells in the archive.",
+      "snippet": "You asked me to observe. I did. If you wanted theater, leave the bells …",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 362,
+      "id": "turn_343",
+      "index": 343
+    },
+    {
+      "speaker": "kaoru",
+      "text": "There she is. Keep that spine when the Miya registry clerks smile at you.",
+      "snippet": "There she is. Keep that spine when the Miya registry clerks smile at yo…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 367,
+      "id": "turn_344",
+      "index": 344
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Witness without a seal is gossip. Learn faster.",
+      "snippet": "Witness without a seal is gossip. Learn faster.",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 372,
+      "id": "turn_345",
+      "index": 345
+    },
+    {
+      "speaker": "narrator",
+      "text": "Near the rope post, something lacquered catches lantern glare — wedged where oil and wrong-colored water meet.",
+      "snippet": "Near the rope post, something lacquered catches lantern glare — wedged …",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 375,
+      "id": "turn_346",
+      "index": 346
+    },
+    {
+      "speaker": "toa",
+      "text": "Comb. Scorpion mon inlaid. Not Miya.",
+      "snippet": "Comb. Scorpion mon inlaid. Not Miya.",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 379,
+      "id": "turn_347",
+      "index": 347
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Don't pick it up with bare hands.",
+      "snippet": "Don't pick it up with bare hands.",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 383,
+      "id": "turn_348",
+      "index": 348
+    },
+    {
+      "speaker": "narrator",
+      "text": "He wraps it in wax cloth himself, eyes on the eaves, and passes it to Toa only long enough for her seal on the chain of custody line.",
+      "snippet": "He wraps it in wax cloth himself, eyes on the eaves, and passes it to T…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 387,
+      "id": "turn_349",
+      "index": 349
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Scorpion comb in Crane water. Bag it for custody — do not compose metaphors on my desk.",
+      "snippet": "Scorpion comb in Crane water. Bag it for custody — do not compose metap…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 395,
+      "id": "turn_350",
+      "index": 350
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Borrowed haori, foreign comb. Someone staged a message for Crane eyes. Put a name on the blank line.",
+      "snippet": "Borrowed haori, foreign comb. Someone staged a message for Crane eyes. …",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 400,
+      "id": "turn_351",
+      "index": 351
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Comb goes to the office. Name goes on the line. You walk beside me — not ahead.",
+      "snippet": "Comb goes to the office. Name goes on the line. You walk beside me — no…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 405,
+      "id": "turn_352",
+      "index": 352
+    },
+    {
+      "speaker": "narrator",
+      "text": "The clerk lifts the separate haori from a dry crate. Inside the lining, wax has melted but the inner fold still holds a courier's chit — half legible through river stain.",
+      "snippet": "The clerk lifts the separate haori from a dry crate. Inside the lining,…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 409,
+      "id": "turn_353",
+      "index": 353
+    },
+    {
+      "speaker": "toa",
+      "text": "Miya Jiro. Guest-house ledger clerk. 'Deliver before third bell.' That's a name, not a rumor.",
+      "snippet": "Miya Jiro. Guest-house ledger clerk. 'Deliver before third bell.' That'…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 413,
+      "id": "turn_354",
+      "index": 354
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Jiro handled Crane correspondence for the noble-quarter guest house. Someone killed a clerk and kept the appointment.",
+      "snippet": "Jiro handled Crane correspondence for the noble-quarter guest house. So…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 419,
+      "id": "turn_355",
+      "index": 355
+    },
+    {
+      "speaker": "kaoru",
+      "text": "You wanted a theory. Now you have a face for it. Don't gloat at the envoy.",
+      "snippet": "You wanted a theory. Now you have a face for it. Don't gloat at the env…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 424,
+      "id": "turn_356",
+      "index": 356
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Still standing. Still useful. Copy the chit before the ink flakes.",
+      "snippet": "Still standing. Still useful. Copy the chit before the ink flakes.",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 429,
+      "id": "turn_357",
+      "index": 357
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Write it clean. The watch will sign drowning until I don't.",
+      "snippet": "Write it clean. The watch will sign drowning until I don't.",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 434,
+      "id": "turn_358",
+      "index": 358
+    },
+    {
+      "speaker": "narrator",
+      "text": "The Miya envoy finally looks up from the warehouse sign. He sees the chit in Kaoru's hand and finds urgent business elsewhere.",
+      "snippet": "The Miya envoy finally looks up from the warehouse sign. He sees the ch…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 437,
+      "id": "turn_359",
+      "index": 359
+    },
+    {
+      "speaker": "narrator",
+      "text": "Back in cedar and ink, the Scorpion comb sits in a lacquer tray like a poisonous jewel. Beside it, Kaoru inks {i}Miya Jiro{/i} on the line the watch left blank.",
+      "snippet": "Back in cedar and ink, the Scorpion comb sits in a lacquer tray like a …",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 450,
+      "id": "turn_360",
+      "index": 360
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Tomorrow we cross the Miya guest registry and the Scorpion shipping rolls. One of them will flinch when Jiro's name is spoken aloud.",
+      "snippet": "Tomorrow we cross the Miya guest registry and the Scorpion shipping rol…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 453,
+      "id": "turn_361",
+      "index": 361
+    },
+    {
+      "speaker": "toa",
+      "text": "Guest-house clerk, Crane thread, Scorpion comb. Someone staged a poem and forgot the audience.",
+      "snippet": "Guest-house clerk, Crane thread, Scorpion comb. Someone staged a poem a…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 457,
+      "id": "turn_362",
+      "index": 362
+    },
+    {
+      "speaker": "toa",
+      "text": "We have a name and a sender's vanity now. That's a thread worth pulling.",
+      "snippet": "We have a name and a sender's vanity now. That's a thread worth pulling.",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 462,
+      "id": "turn_363",
+      "index": 363
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Eat. Then copy the watch testimony twice — once for the Empire, once for what I actually believe.",
+      "snippet": "Eat. Then copy the watch testimony twice — once for the Empire, once fo…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 467,
+      "id": "turn_364",
+      "index": 364
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Eat if you must. Then copy testimony until your hand cramps. Then we discuss whether you earned another week.",
+      "snippet": "Eat if you must. Then copy testimony until your hand cramps. Then we di…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 472,
+      "id": "turn_365",
+      "index": 365
+    },
+    {
+      "speaker": "toa",
+      "text": "Case One has a face now. I won't forget Jiro.",
+      "snippet": "Case One has a face now. I won't forget Jiro.",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 476,
+      "id": "turn_366",
+      "index": 366
+    },
+    {
+      "speaker": "narrator",
+      "text": "Morning again, and the docket has grown teeth. Beside Jiro's name Kaoru has pinned a second sheet — the Miya guest house, the Lacquered Plum, where a dead clerk kept other men's appointments.",
+      "snippet": "Morning again, and the docket has grown teeth. Beside Jiro's name Kaoru…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 500,
+      "id": "turn_367",
+      "index": 367
+    },
+    {
+      "speaker": "kaoru",
+      "text": "The Lacquered Plum sits in the licensed quarter. The okami answer to coin, not the watch — bring my seal.",
+      "snippet": "The Lacquered Plum sits in the licensed quarter. The okami answer to co…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 503,
+      "id": "turn_368",
+      "index": 368
+    },
+    {
+      "speaker": "toa",
+      "text": "A clerk who couldn't even get a funeral, working at a pleasure house.",
+      "snippet": "A clerk who couldn't even get a funeral, working at a pleasure house.",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 506,
+      "id": "turn_369",
+      "index": 369
+    },
+    {
+      "speaker": "kaoru",
+      "text": "The okami will not open her registry for a watchman. She may open it for a magistrate. Give her no reason to lie faster than she already intends to.",
+      "snippet": "The okami will not open her registry for a watchman. She may open it fo…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 509,
+      "id": "turn_370",
+      "index": 370
+    },
+    {
+      "speaker": "kaoru",
+      "text": "You walk a half step behind me, and you speak when I open the door. The quarter eats companions who forget who lights the lanterns.",
+      "snippet": "You walk a half step behind me, and you speak when I open the door. The…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 513,
+      "id": "turn_371",
+      "index": 371
+    },
+    {
+      "speaker": "toa",
+      "text": "Half a step. Written terms said escort, not muzzle.",
+      "snippet": "Half a step. Written terms said escort, not muzzle.",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 517,
+      "id": "turn_372",
+      "index": 372
+    },
+    {
+      "speaker": "kaoru",
+      "text": "In the Plum, the muzzle is the escort. Stay where I can see you.",
+      "snippet": "In the Plum, the muzzle is the escort. Stay where I can see you.",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 520,
+      "id": "turn_373",
+      "index": 373
+    },
+    {
+      "speaker": "toa",
+      "text": "Half a step behind the most feared man in the noble quarter. I can live with that.",
+      "snippet": "Half a step behind the most feared man in the noble quarter. I can live…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 524,
+      "id": "turn_374",
+      "index": 374
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Flatter the okami like that and she'll empty her ledger into your lap.",
+      "snippet": "Flatter the okami like that and she'll empty her ledger into your lap.",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 527,
+      "id": "turn_375",
+      "index": 375
+    },
+    {
+      "speaker": "kaoru",
+      "text": "You are not my hand yet. In the Plum you are a witness I tolerate. Tolerate me back.",
+      "snippet": "You are not my hand yet. In the Plum you are a witness I tolerate. Tole…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 530,
+      "id": "turn_376",
+      "index": 376
+    },
+    {
+      "speaker": "toa",
+      "text": "Tolerance, then. It's a place to start.",
+      "snippet": "Tolerance, then. It's a place to start.",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 533,
+      "id": "turn_377",
+      "index": 377
+    },
+    {
+      "speaker": "toa",
+      "text": "Snacks after paperwork. Does the Lacquered Plum count as paperwork?",
+      "snippet": "Snacks after paperwork. Does the Lacquered Plum count as paperwork?",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 536,
+      "id": "turn_378",
+      "index": 378
+    },
+    {
+      "speaker": "kaoru",
+      "text": "It counts as a hunt. Decide how we knock.",
+      "snippet": "It counts as a hunt. Decide how we knock.",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 539,
+      "id": "turn_379",
+      "index": 379
+    },
+    {
+      "speaker": "toa",
+      "text": "Then we arrive as the law arrives. Seal out, comb wrapped, nothing hidden. Let the okami count what we already hold.",
+      "snippet": "Then we arrive as the law arrives. Seal out, comb wrapped, nothing hidd…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 549,
+      "id": "turn_380",
+      "index": 380
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Seal on the desk, comb in plain cloth. Crude — but the Plum opens for what it can see.",
+      "snippet": "Seal on the desk, comb in plain cloth. Crude — but the Plum opens for w…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 552,
+      "id": "turn_381",
+      "index": 381
+    },
+    {
+      "speaker": "toa",
+      "text": "Send me through the kitchen entrance first. I spent three years smiling at tired women in painted rooms. They'll tell a dancer what they'd never tell your seal.",
+      "snippet": "Send me through the kitchen entrance first. I spent three years smiling…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 559,
+      "id": "turn_382",
+      "index": 382
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Your past as a bargaining chip. I dislike how useful it is.",
+      "snippet": "Your past as a bargaining chip. I dislike how useful it is.",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 562,
+      "id": "turn_383",
+      "index": 383
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Go in soft. I follow when the room is warm. Do not enjoy it more than the case.",
+      "snippet": "Go in soft. I follow when the room is warm. Do not enjoy it more than t…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 565,
+      "id": "turn_384",
+      "index": 384
+    },
+    {
+      "speaker": "toa",
+      "text": "You knock. I'll read the faces behind you. Safer that way.",
+      "snippet": "You knock. I'll read the faces behind you. Safer that way.",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 573,
+      "id": "turn_385",
+      "index": 385
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Finally. Stand where I point. Breathe when I allow. The Plum mistakes quiet witnesses for furniture — use that.",
+      "snippet": "Finally. Stand where I point. Breathe when I allow. The Plum mistakes q…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 576,
+      "id": "turn_386",
+      "index": 386
+    },
+    {
+      "speaker": "narrator",
+      "text": "Rain finds the licensed quarter first. It beads on paper lanterns the color of old wine and runs the canal black between teahouses that sell forgetting by the hour.",
+      "snippet": "Rain finds the licensed quarter first. It beads on paper lanterns the c…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 586,
+      "id": "turn_387",
+      "index": 387
+    },
+    {
+      "speaker": "narrator",
+      "text": "The Lacquered Plum leans over the water on cedar stilts. A three-eyed crow — the same painted sign, or its cousin — watches from the gable and does not fly this time.",
+      "snippet": "The Lacquered Plum leans over the water on cedar stilts. A three-eyed c…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 589,
+      "id": "turn_388",
+      "index": 388
+    },
+    {
+      "speaker": "toa",
+      "text": "The air's thin again. Peeled-charm thin. Someone scrubbed a protection off this doorway and never replaced it.",
+      "snippet": "The air's thin again. Peeled-charm thin. Someone scrubbed a protection …",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 594,
+      "id": "turn_389",
+      "index": 389
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Or never wanted one. The Plum prefers its guests unwatched by anything that reports upward.",
+      "snippet": "Or never wanted one. The Plum prefers its guests unwatched by anything …",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 597,
+      "id": "turn_390",
+      "index": 390
+    },
+    {
+      "speaker": "narrator",
+      "text": "Inside, lamplight and powder. The okami kneels behind a low desk stacked with appointment books, her smile fixed as lacquer, her eyes already counting the cost of magistrate boots on her tatami.",
+      "snippet": "Inside, lamplight and powder. The okami kneels behind a low desk stacke…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 605,
+      "id": "turn_391",
+      "index": 391
+    },
+    {
+      "speaker": "Okami",
+      "text": "Magistrate-sama honors the Plum. We are a respectable house. We keep no quarrels and fewer corpses.",
+      "snippet": "Magistrate-sama honors the Plum. We are a respectable house. We keep no…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 607,
+      "id": "turn_392",
+      "index": 392
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Yet you kept Miya Jiro. He clerked your registry until the canal kept him instead. I want the book he wrote in.",
+      "snippet": "Yet you kept Miya Jiro. He clerked your registry until the canal kept h…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 610,
+      "id": "turn_393",
+      "index": 393
+    },
+    {
+      "speaker": "Okami",
+      "text": "Jiro drowned. A sad, ordinary thing. Drunk boys and high water — the river writes that story every season.",
+      "snippet": "Jiro drowned. A sad, ordinary thing. Drunk boys and high water — the ri…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 612,
+      "id": "turn_394",
+      "index": 394
+    },
+    {
+      "speaker": "narrator",
+      "text": "Kaoru sets the wax-wrapped comb on the desk and folds back the cloth. The okami's painted calm cracks a hairline.",
+      "snippet": "Kaoru sets the wax-wrapped comb on the desk and folds back the cloth. T…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 617,
+      "id": "turn_395",
+      "index": 395
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Drowned men do not carry Scorpion combs into Crane water. Open the registry, or I open every book in this house in front of your patrons.",
+      "snippet": "Drowned men do not carry Scorpion combs into Crane water. Open the regi…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 620,
+      "id": "turn_396",
+      "index": 396
+    },
+    {
+      "speaker": "Okami",
+      "text": "...The registry is the magistrate's, of course. I only mind it.",
+      "snippet": "...The registry is the magistrate's, of course. I only mind it.",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 622,
+      "id": "turn_397",
+      "index": 397
+    },
+    {
+      "speaker": "narrator",
+      "text": "But Toa has already slipped past the desk — the kitchen way, the servant's bow, the easy warmth of a woman who has carried tea in worse rooms. A young geisha looks up from folding a dead man's spare haori.",
+      "snippet": "But Toa has already slipped past the desk — the kitchen way, the servan…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 626,
+      "id": "turn_398",
+      "index": 398
+    },
+    {
+      "speaker": "toa",
+      "text": "You knew him. Jiro. I'm not here to make his name a scandal — I'm here so the river doesn't get the last word.",
+      "snippet": "You knew him. Jiro. I'm not here to make his name a scandal — I'm here …",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 629,
+      "id": "turn_399",
+      "index": 399
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Respectable houses survive by knowing which silences cost more than others. This one will cost you the Plum. Choose.",
+      "snippet": "Respectable houses survive by knowing which silences cost more than oth…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 633,
+      "id": "turn_400",
+      "index": 400
+    },
+    {
+      "speaker": "narrator",
+      "text": "The okami's smile finally fails. A girl in the corner — a geisha, young, eyes red-rimmed — flinches at the weight of his voice.",
+      "snippet": "The okami's smile finally fails. A girl in the corner — a geisha, young…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 636,
+      "id": "turn_401",
+      "index": 401
+    },
+    {
+      "speaker": "toa",
+      "text": "There. The one folding his haori like it still matters. She's who'll talk — if anyone's earned the right to.",
+      "snippet": "There. The one folding his haori like it still matters. She's who'll ta…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 639,
+      "id": "turn_402",
+      "index": 402
+    },
+    {
+      "speaker": "narrator",
+      "text": "The geisha rises. She is perhaps nineteen, her white makeup cried through at the edges. She bows too low, the way frightened people do when they have already decided to be brave.",
+      "snippet": "The geisha rises. She is perhaps nineteen, her white makeup cried throu…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 642,
+      "id": "turn_403",
+      "index": 403
+    },
+    {
+      "speaker": "Suzu",
+      "text": "I'm Suzu. Jiro brought me persimmons when the patrons were cruel. He didn't drown, Magistrate-sama. He was afraid for a week before the canal took him.",
+      "snippet": "I'm Suzu. Jiro brought me persimmons when the patrons were cruel. He di…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 644,
+      "id": "turn_404",
+      "index": 404
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Afraid of what?",
+      "snippet": "Afraid of what?",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 649,
+      "id": "turn_405",
+      "index": 405
+    },
+    {
+      "speaker": "Suzu",
+      "text": "A guest. One who books the river room under a flower name and tips in foreign coin. Jiro carried letters to that room and came back grey.",
+      "snippet": "A guest. One who books the river room under a flower name and tips in f…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 651,
+      "id": "turn_406",
+      "index": 406
+    },
+    {
+      "speaker": "narrator",
+      "text": "Kaoru tilts the wrapped comb toward the lamp. Suzu goes the color of her own powder.",
+      "snippet": "Kaoru tilts the wrapped comb toward the lamp. Suzu goes the color of he…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 655,
+      "id": "turn_407",
+      "index": 407
+    },
+    {
+      "speaker": "toa",
+      "text": "Suzu. You know the comb.",
+      "snippet": "Suzu. You know the comb.",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 658,
+      "id": "turn_408",
+      "index": 408
+    },
+    {
+      "speaker": "Suzu",
+      "text": "It's his. The flower-name guest. He left it in the river room a month past and threatened to flay the maid who'd touched it. Scorpion mon, three lacquer scales. I'd know it in the dark.",
+      "snippet": "It's his. The flower-name guest. He left it in the river room a month p…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 660,
+      "id": "turn_409",
+      "index": 409
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Flower alias, foreign silver, frightened clerks. Suzu's mouth next — before the okami buys her silence.",
+      "snippet": "Flower alias, foreign silver, frightened clerks. Suzu's mouth next — be…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 665,
+      "id": "turn_410",
+      "index": 410
+    },
+    {
+      "speaker": "kaoru",
+      "text": "She is a frightened girl with one true thing in her mouth. Get it out before her courage spends itself. How?",
+      "snippet": "She is a frightened girl with one true thing in her mouth. Get it out b…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 668,
+      "id": "turn_411",
+      "index": 411
+    },
+    {
+      "speaker": "toa",
+      "text": "Suzu. Sit. Breathe. You're not betraying him by saying it — you're the only funeral he's going to get.",
+      "snippet": "Suzu. Sit. Breathe. You're not betraying him by saying it — you're the …",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 678,
+      "id": "turn_412",
+      "index": 412
+    },
+    {
+      "speaker": "narrator",
+      "text": "She has already decided Toa is safe. The kitchen bow bought what no seal could. Her words come in a rush, like water finding the crack it wanted.",
+      "snippet": "She has already decided Toa is safe. The kitchen bow bought what no sea…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 682,
+      "id": "turn_413",
+      "index": 413
+    },
+    {
+      "speaker": "Suzu",
+      "text": "He's called the Chrysanthemum. The river room is always his on high-tide nights. Jiro read his letters before carrying them — found a barge manifest that named the wrong cargo — and meant to take it to a magistrate he trusted. Then the tide came in.",
+      "snippet": "He's called the Chrysanthemum. The river room is always his on high-tid…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 684,
+      "id": "turn_414",
+      "index": 414
+    },
+    {
+      "speaker": "narrator",
+      "text": "She watches Toa's hands, not her face. Slowly the fear loosens its knot.",
+      "snippet": "She watches Toa's hands, not her face. Slowly the fear loosens its knot.",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 687,
+      "id": "turn_415",
+      "index": 415
+    },
+    {
+      "speaker": "Suzu",
+      "text": "He's called the Chrysanthemum. He keeps the river room on high-tide nights. Jiro read his letters before carrying them — and one held a barge manifest that named the wrong cargo. He meant to tell someone with a seal. He never got the chance.",
+      "snippet": "He's called the Chrysanthemum. He keeps the river room on high-tide nig…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 689,
+      "id": "turn_416",
+      "index": 416
+    },
+    {
+      "speaker": "toa",
+      "text": "Suzu — the river didn't take him. Fingers did. I saw the marks myself, dark as plum skin under his jaw. You saw them too, didn't you.",
+      "snippet": "Suzu — the river didn't take him. Fingers did. I saw the marks myself, …",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 696,
+      "id": "turn_417",
+      "index": 417
+    },
+    {
+      "speaker": "narrator",
+      "text": "The girl's hand flies to her own throat. The gesture answers before her voice does.",
+      "snippet": "The girl's hand flies to her own throat. The gesture answers before her…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 699,
+      "id": "turn_418",
+      "index": 418
+    },
+    {
+      "speaker": "Suzu",
+      "text": "He had the same marks two nights before he died — a warning, he said, from the Chrysanthemum's man. Said next time the hand wouldn't stop. I told him to run. He said clerks who run leave their families to pay the manifest.",
+      "snippet": "He had the same marks two nights before he died — a warning, he said, f…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 701,
+      "id": "turn_419",
+      "index": 419
+    },
+    {
+      "speaker": "kaoru",
+      "text": "A manifest worth a man's throat. Twice.",
+      "snippet": "A manifest worth a man's throat. Twice.",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 704,
+      "id": "turn_420",
+      "index": 420
+    },
+    {
+      "speaker": "narrator",
+      "text": "Kaoru says nothing. He simply waits, and the room shrinks around his stillness until the okami's powder runs and Suzu's resolve breaks under a magistrate who has not yet bothered to threaten her.",
+      "snippet": "Kaoru says nothing. He simply waits, and the room shrinks around his st…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 713,
+      "id": "turn_421",
+      "index": 421
+    },
+    {
+      "speaker": "Suzu",
+      "text": "The Chrysanthemum — the river room — high tide. Jiro found a barge manifest in his letters, the wrong cargo named, and meant to carry it to someone with a seal. Please. That's everything.",
+      "snippet": "The Chrysanthemum — the river room — high tide. Jiro found a barge mani…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 715,
+      "id": "turn_422",
+      "index": 422
+    },
+    {
+      "speaker": "toa",
+      "text": "She gave it to fear, not to us. Remember that before you call it a win.",
+      "snippet": "She gave it to fear, not to us. Remember that before you call it a win.",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 718,
+      "id": "turn_423",
+      "index": 423
+    },
+    {
+      "speaker": "kaoru",
+      "text": "She will talk while she is frightened. Ask before the okami sells her courage back.",
+      "snippet": "She will talk while she is frightened. Ask before the okami sells her c…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 721,
+      "id": "turn_424",
+      "index": 424
+    },
+    {
+      "speaker": "toa",
+      "text": "A flower-named Scorpion, a barge with a lying manifest, and a clerk who tried to do the honorable thing. Jiro had a spine after all.",
+      "snippet": "A flower-named Scorpion, a barge with a lying manifest, and a clerk who…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 726,
+      "id": "turn_425",
+      "index": 425
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Registry book, okami. High-tide pages where the flower signs. Now.",
+      "snippet": "Registry book, okami. High-tide pages where the flower signs. Now.",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 729,
+      "id": "turn_426",
+      "index": 426
+    },
+    {
+      "speaker": "narrator",
+      "text": "The okami surrenders the high-tide registry the way a gambler surrenders a marked card — slowly, and watching the door. Kaoru turns to the night Jiro died.",
+      "snippet": "The okami surrenders the high-tide registry the way a gambler surrender…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 742,
+      "id": "turn_427",
+      "index": 427
+    },
+    {
+      "speaker": "Okami",
+      "text": "The river room. Reserved, as always, under the Chrysanthemum. Paid a season ahead. I ask no questions of a guest who pays a season ahead.",
+      "snippet": "The river room. Reserved, as always, under the Chrysanthemum. Paid a se…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 744,
+      "id": "turn_428",
+      "index": 428
+    },
+    {
+      "speaker": "toa",
+      "text": "Booked, paid, private. And here — Jiro's hand, the third-bell delivery, signed off the night he died.",
+      "snippet": "Booked, paid, private. And here — Jiro's hand, the third-bell delivery,…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 747,
+      "id": "turn_429",
+      "index": 429
+    },
+    {
+      "speaker": "narrator",
+      "text": "The booking is authorized in red — a private-room writ, the kind the licensed quarter demands of the magistracy to seal a room against the watch. The wax bears the Emerald mon.",
+      "snippet": "The booking is authorized in red — a private-room writ, the kind the li…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 751,
+      "id": "turn_430",
+      "index": 430
+    },
+    {
+      "speaker": "toa",
+      "text": "Magistrate-sama — the seal. The chrysanthemum has sixteen petals. The Emerald office cuts fourteen. This stamp is a forgery — a fine one, but the petal count is wrong.",
+      "snippet": "Magistrate-sama — the seal. The chrysanthemum has sixteen petals. The E…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 755,
+      "id": "turn_431",
+      "index": 431
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Sixteen petals. Someone carved a false Emerald seal to lock a room I never authorized, on the night a Crane clerk was strangled inside my jurisdiction.",
+      "snippet": "Sixteen petals. Someone carved a false Emerald seal to lock a room I ne…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 758,
+      "id": "turn_432",
+      "index": 432
+    },
+    {
+      "speaker": "toa",
+      "text": "That's your office's mark, isn't it? An Emerald writ, sealing the river room private on the night Jiro died.",
+      "snippet": "That's your office's mark, isn't it? An Emerald writ, sealing the river…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 761,
+      "id": "turn_433",
+      "index": 433
+    },
+    {
+      "speaker": "kaoru",
+      "text": "It is my office's mark. It is not my seal. I authorized no writ for this house this season.",
+      "snippet": "It is my office's mark. It is not my seal. I authorized no writ for thi…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 764,
+      "id": "turn_434",
+      "index": 434
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Which leaves a forgery, or a thief inside the magistracy. Neither is a comfort.",
+      "snippet": "Which leaves a forgery, or a thief inside the magistracy. Neither is a …",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 767,
+      "id": "turn_435",
+      "index": 435
+    },
+    {
+      "speaker": "narrator",
+      "text": "The screen slides without a knock. A man in Scorpion grey steps in from the rain — a trade factor by his ink-stained cuffs and the easy menace of someone who buys magistrates by the dozen.",
+      "snippet": "The screen slides without a knock. A man in Scorpion grey steps in from…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 773,
+      "id": "turn_436",
+      "index": 436
+    },
+    {
+      "speaker": "Factor",
+      "text": "The Plum's books are commercial records of a chartered shipping concern. Privileged. You will hand them to me, Magistrate, and forget the flower that grows in them.",
+      "snippet": "The Plum's books are commercial records of a chartered shipping concern…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 775,
+      "id": "turn_437",
+      "index": 437
+    },
+    {
+      "speaker": "kaoru",
+      "text": "I am the privilege in this city. Take one step toward that registry and the watch fishes a second body from the noble quarter by dawn.",
+      "snippet": "I am the privilege in this city. Take one step toward that registry and…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 778,
+      "id": "turn_438",
+      "index": 438
+    },
+    {
+      "speaker": "Factor",
+      "text": "The watch reports drowning. The watch reports what keeps the tax barges moving. You are one seal among many, Kitsu-san.",
+      "snippet": "The watch reports drowning. The watch reports what keeps the tax barges…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 780,
+      "id": "turn_439",
+      "index": 439
+    },
+    {
+      "speaker": "toa",
+      "text": "One seal stands between you and the book — and yet you came for it yourself. A privileged record wouldn't need fetching by a man who tips in foreign silver.",
+      "snippet": "One seal stands between you and the book — and yet you came for it your…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 783,
+      "id": "turn_440",
+      "index": 440
+    },
+    {
+      "speaker": "narrator",
+      "text": "The factor's hand drifts toward his sleeve. Kaoru does not move, and somehow that is worse than if he had.",
+      "snippet": "The factor's hand drifts toward his sleeve. Kaoru does not move, and so…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 786,
+      "id": "turn_441",
+      "index": 441
+    },
+    {
+      "speaker": "kaoru",
+      "text": "The book stays. The choice is yours — what we do with the flower's forged writ. Decide before our guest decides for us.",
+      "snippet": "The book stays. The choice is yours — what we do with the flower's forg…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 789,
+      "id": "turn_442",
+      "index": 442
+    },
+    {
+      "speaker": "toa",
+      "text": "Let it be witnessed. A false Emerald seal locked this room the night Miya Jiro was murdered in it. The okami heard me. The factor heard me. The river doesn't get this one.",
+      "snippet": "Let it be witnessed. A false Emerald seal locked this room the night Mi…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 799,
+      "id": "turn_443",
+      "index": 443
+    },
+    {
+      "speaker": "narrator",
+      "text": "The factor's composure thins. A spoken record in a houseful of witnesses is harder to drown than a clerk.",
+      "snippet": "The factor's composure thins. A spoken record in a houseful of witnesse…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 802,
+      "id": "turn_444",
+      "index": 444
+    },
+    {
+      "speaker": "kaoru",
+      "text": "You said it aloud, against my instruction and your own safety. The Crane envoy will not laugh now. Neither will the Scorpion.",
+      "snippet": "You said it aloud, against my instruction and your own safety. The Cran…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 806,
+      "id": "turn_445",
+      "index": 445
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Reckless. Effective. You put the forgery on the okami's ledger where drowning cannot erase it.",
+      "snippet": "Reckless. Effective. You put the forgery on the okami's ledger where dr…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 809,
+      "id": "turn_446",
+      "index": 446
+    },
+    {
+      "speaker": "toa",
+      "text": "I'll trace the petals onto rice paper and put the book back exactly as it lay. Whoever cut that false seal should sleep easy one more night — long enough to lead us home.",
+      "snippet": "I'll trace the petals onto rice paper and put the book back exactly as …",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 816,
+      "id": "turn_447",
+      "index": 447
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Patience over theater. The Chrysanthemum keeps his appointment, and we keep our advantage. Good.",
+      "snippet": "Patience over theater. The Chrysanthemum keeps his appointment, and we …",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 819,
+      "id": "turn_448",
+      "index": 448
+    },
+    {
+      "speaker": "toa",
+      "text": "It's your mark and your jurisdiction, Magistrate-sama. I'll carry it where you point and ask my questions where the walls don't tip.",
+      "snippet": "It's your mark and your jurisdiction, Magistrate-sama. I'll carry it wh…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 827,
+      "id": "turn_449",
+      "index": 449
+    },
+    {
+      "speaker": "kaoru",
+      "text": "You learn the shape of safety in my hand. The factor sees it too — watch him reconsider the door.",
+      "snippet": "You learn the shape of safety in my hand. The factor sees it too — watc…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 831,
+      "id": "turn_450",
+      "index": 450
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Wise. In this quarter the only seal worth standing behind is the one that frightens factors. Behind me. Now.",
+      "snippet": "Wise. In this quarter the only seal worth standing behind is the one th…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 834,
+      "id": "turn_451",
+      "index": 451
+    },
+    {
+      "speaker": "kaoru",
+      "text": "You came for a book and found a magistrate. Tell the Chrysanthemum the Emerald office is missing a seal — and that I have decided to take an interest in flowers.",
+      "snippet": "You came for a book and found a magistrate. Tell the Chrysanthemum the …",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 837,
+      "id": "turn_452",
+      "index": 452
+    },
+    {
+      "speaker": "narrator",
+      "text": "The factor weighs the room, the spoken record, the unmoving magistrate. Then he bows the exact depth that insults without inviting a blade, and withdraws into the rain.",
+      "snippet": "The factor weighs the room, the spoken record, the unmoving magistrate.…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 840,
+      "id": "turn_453",
+      "index": 453
+    },
+    {
+      "speaker": "Factor",
+      "text": "High tide waits for no one, Kitsu-san. Neither does the barge.",
+      "snippet": "High tide waits for no one, Kitsu-san. Neither does the barge.",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 842,
+      "id": "turn_454",
+      "index": 454
+    },
+    {
+      "speaker": "narrator",
+      "text": "The screen closes. Suzu lets out a breath she has held since he entered. The okami has already begun deciding which version of tonight she will sell, and to whom.",
+      "snippet": "The screen closes. Suzu lets out a breath she has held since he entered…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 846,
+      "id": "turn_455",
+      "index": 455
+    },
+    {
+      "speaker": "narrator",
+      "text": "Back in cedar and ink, the case has grown a shape. On the lacquer tray: the Scorpion comb, Suzu's name, and — depending on the night's choices — a forged Emerald writ or its careful copy.",
+      "snippet": "Back in cedar and ink, the case has grown a shape. On the lacquer tray:…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 859,
+      "id": "turn_456",
+      "index": 456
+    },
+    {
+      "speaker": "kaoru",
+      "text": "A barge that names false cargo. A Scorpion who books rooms under a flower and tips in foreign silver. A clerk who tried to be honest and was strangled for the courtesy.",
+      "snippet": "A barge that names false cargo. A Scorpion who books rooms under a flow…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 862,
+      "id": "turn_457",
+      "index": 457
+    },
+    {
+      "speaker": "kaoru",
+      "text": "And a seal cut to wear my mark, locking the room he died in. Someone wants this murder to bear the Emerald crest.",
+      "snippet": "And a seal cut to wear my mark, locking the room he died in. Someone wa…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 865,
+      "id": "turn_458",
+      "index": 458
+    },
+    {
+      "speaker": "toa",
+      "text": "We came for the guest registry and left with a forger inside your own office. The names keep climbing.",
+      "snippet": "We came for the guest registry and left with a forger inside your own o…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 869,
+      "id": "turn_459",
+      "index": 459
+    },
+    {
+      "speaker": "narrator",
+      "text": "He crosses the office and stops too close — the practiced proximity of a man who has decided the distance between you is his to set.",
+      "snippet": "He crosses the office and stops too close — the practiced proximity of …",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 874,
+      "id": "turn_460",
+      "index": 460
+    },
+    {
+      "speaker": "kaoru",
+      "text": "You spoke against me twice tonight and were right twice. I dislike how much that pleases me. Do not mistake the pleasure for permission.",
+      "snippet": "You spoke against me twice tonight and were right twice. I dislike how …",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 878,
+      "id": "turn_461",
+      "index": 461
+    },
+    {
+      "speaker": "toa",
+      "text": "Then I'll call it progress, and try not to push it.",
+      "snippet": "Then I'll call it progress, and try not to push it.",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 881,
+      "id": "turn_462",
+      "index": 462
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Stubborn. Keep it. I'll need something that doesn't bend when the seal turns out to belong to a man I dine with.",
+      "snippet": "Stubborn. Keep it. I'll need something that doesn't bend when the seal …",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 884,
+      "id": "turn_463",
+      "index": 463
+    },
+    {
+      "speaker": "kaoru",
+      "text": "You stood behind me all night and let the quarter break itself against my stillness. That is what a companion of mine is for.",
+      "snippet": "You stood behind me all night and let the quarter break itself against …",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 888,
+      "id": "turn_464",
+      "index": 464
+    },
+    {
+      "speaker": "toa",
+      "text": "Behind you. Watching. I still saw the petal count first, Magistrate-sama.",
+      "snippet": "Behind you. Watching. I still saw the petal count first, Magistrate-sam…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 891,
+      "id": "turn_465",
+      "index": 465
+    },
+    {
+      "speaker": "kaoru",
+      "text": "You did. Obedient and observant. I begin to think I kept the right dancer.",
+      "snippet": "You did. Obedient and observant. I begin to think I kept the right danc…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 894,
+      "id": "turn_466",
+      "index": 466
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Someone tried to hang a murder on my seal. Until I know who, you do not leave this compound without me. Not for the curry shops. Not for Academy letters. Nowhere.",
+      "snippet": "Someone tried to hang a murder on my seal. Until I know who, you do not…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 898,
+      "id": "turn_467",
+      "index": 467
+    },
+    {
+      "speaker": "toa",
+      "text": "Escort, or cage?",
+      "snippet": "Escort, or cage?",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 901,
+      "id": "turn_468",
+      "index": 468
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Escort means my corridor, my hanko, my release. Tonight you do not leave without all three.",
+      "snippet": "Escort means my corridor, my hanko, my release. Tonight you do not leav…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 904,
+      "id": "turn_469",
+      "index": 469
+    },
+    {
+      "speaker": "kaoru",
+      "text": "You are still not sleeping in my hall — but you spoke for the Empire in a Scorpion house tonight and the wax did not crack. I am noting it.",
+      "snippet": "You are still not sleeping in my hall — but you spoke for the Empire in…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 907,
+      "id": "turn_470",
+      "index": 470
+    },
+    {
+      "speaker": "toa",
+      "text": "I'll keep noting it back, until the ledger says patronage next to my name.",
+      "snippet": "I'll keep noting it back, until the ledger says patronage next to my na…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 910,
+      "id": "turn_471",
+      "index": 471
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Survive the Chrysanthemum first. Forgers who cut my seal do not leave witnesses cheerful.",
+      "snippet": "Survive the Chrysanthemum first. Forgers who cut my seal do not leave w…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 913,
+      "id": "turn_472",
+      "index": 472
+    },
+    {
+      "speaker": "kaoru",
+      "text": "The Scorpion shipping rolls list one barge on the next high tide, booked to the same chartered concern as the river room. The flower will be aboard — or his manifest will. We meet the tide.",
+      "snippet": "The Scorpion shipping rolls list one barge on the next high tide, booke…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 916,
+      "id": "turn_473",
+      "index": 473
+    },
+    {
+      "speaker": "toa",
+      "text": "A forged seal, a barge, and a flower with a strangler's hand. Jiro pointed us up the current — we follow it.",
+      "snippet": "A forged seal, a barge, and a flower with a strangler's hand. Jiro poin…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 919,
+      "id": "turn_474",
+      "index": 474
+    },
+    {
+      "speaker": "toa",
+      "text": "And it's on the record now. Whoever cut your seal can't drown a thing a houseful of witnesses already heard.",
+      "snippet": "And it's on the record now. Whoever cut your seal can't drown a thing a…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 923,
+      "id": "turn_475",
+      "index": 475
+    },
+    {
+      "speaker": "toa",
+      "text": "And we copied it quiet. The flower books his room one more high tide, never knowing we traced his petals.",
+      "snippet": "And we copied it quiet. The flower books his room one more high tide, n…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 926,
+      "id": "turn_476",
+      "index": 476
+    },
+    {
+      "speaker": "toa",
+      "text": "Case One has a name, a comb, and a tide now. I still won't forget Jiro.",
+      "snippet": "Case One has a name, a comb, and a tide now. I still won't forget Jiro.",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 929,
+      "id": "turn_477",
+      "index": 477
+    },
+    {
+      "speaker": "narrator",
+      "text": "The noble quarter smells of wet rope and lamp oil. High tide lifts the canal until the warehouses seem to kneel — and one low barge, painted Scorpion grey, waits where the factor said it would.",
+      "snippet": "The noble quarter smells of wet rope and lamp oil. High tide lifts the …",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 950,
+      "id": "turn_478",
+      "index": 478
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Chartered concern, false cargo, flower name on the ledger. Tonight we seize the manifest before the tide signs another drowning.",
+      "snippet": "Chartered concern, false cargo, flower name on the ledger. Tonight we s…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 952,
+      "id": "turn_479",
+      "index": 479
+    },
+    {
+      "speaker": "toa",
+      "text": "Jiro died for a page in that book. I'm not letting the tide take it.",
+      "snippet": "Jiro died for a page in that book. I'm not letting the tide take it.",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 954,
+      "id": "turn_480",
+      "index": 480
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Stay inside my shadow on the plank. One misstep and the watch writes two drownings and calls it efficiency.",
+      "snippet": "Stay inside my shadow on the plank. One misstep and the watch writes tw…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 958,
+      "id": "turn_481",
+      "index": 481
+    },
+    {
+      "speaker": "toa",
+      "text": "They already heard us at the Plum. The barge crew knows we're coming — good.",
+      "snippet": "They already heard us at the Plum. The barge crew knows we're coming — …",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 962,
+      "id": "turn_482",
+      "index": 482
+    },
+    {
+      "speaker": "kaoru",
+      "text": "You turned a forgery into theater. Now finish the play.",
+      "snippet": "You turned a forgery into theater. Now finish the play.",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 965,
+      "id": "turn_483",
+      "index": 483
+    },
+    {
+      "speaker": "kaoru",
+      "text": "You wanted a case. This is the part where the city bites back. Keep up.",
+      "snippet": "You wanted a case. This is the part where the city bites back. Keep up.",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 968,
+      "id": "turn_484",
+      "index": 484
+    },
+    {
+      "speaker": "toa",
+      "text": "Rain, rope shadows, and a dancer's feet. I'll be on that deck before they count heads.",
+      "snippet": "Rain, rope shadows, and a dancer's feet. I'll be on that deck before th…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 978,
+      "id": "turn_485",
+      "index": 485
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Theft as craft. I approve — provided you steal the right ledger page.",
+      "snippet": "Theft as craft. I approve — provided you steal the right ledger page.",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 981,
+      "id": "turn_486",
+      "index": 486
+    },
+    {
+      "speaker": "toa",
+      "text": "Emerald seal in hand. They can surrender the manifest or explain it to the Champion's auditors.",
+      "snippet": "Emerald seal in hand. They can surrender the manifest or explain it to …",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 988,
+      "id": "turn_487",
+      "index": 487
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Loud. Honest. Try not to get shot before I finish enjoying their faces.",
+      "snippet": "Loud. Honest. Try not to get shot before I finish enjoying their faces.",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 991,
+      "id": "turn_488",
+      "index": 488
+    },
+    {
+      "speaker": "toa",
+      "text": "You make the noise. I'll make the copy. That's the division of labor I trust.",
+      "snippet": "You make the noise. I'll make the copy. That's the division of labor I …",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 999,
+      "id": "turn_489",
+      "index": 489
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Finally — a companion who understands spectacle as cover.",
+      "snippet": "Finally — a companion who understands spectacle as cover.",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 1002,
+      "id": "turn_490",
+      "index": 490
+    },
+    {
+      "speaker": "toa",
+      "text": "Watch from the gangplank if you must. The manifest is mine.",
+      "snippet": "Watch from the gangplank if you must. The manifest is mine.",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 1006,
+      "id": "turn_491",
+      "index": 491
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Toa—",
+      "snippet": "Toa—",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 1009,
+      "id": "turn_492",
+      "index": 492
+    },
+    {
+      "speaker": "narrator",
+      "text": "Lanterns swing on the barge rail. Deckhands freeze — a magistrate on the gangplank is a story that ends in arrests or bribes, and they have not yet chosen which.",
+      "snippet": "Lanterns swing on the barge rail. Deckhands freeze — a magistrate on th…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 1020,
+      "id": "turn_493",
+      "index": 493
+    },
+    {
+      "speaker": "narrator",
+      "text": "Toa is already below the awning, fingers on a waxed folio tied with Scorpion cord. The night smells of opium resin beneath honest rice sacks.",
+      "snippet": "Toa is already below the awning, fingers on a waxed folio tied with Sco…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 1023,
+      "id": "turn_494",
+      "index": 494
+    },
+    {
+      "speaker": "toa",
+      "text": "Magistrate-sama — the cargo manifest. Rice in the ledger, resin in the barrels. Jiro was right.",
+      "snippet": "Magistrate-sama — the cargo manifest. Rice in the ledger, resin in the …",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 1026,
+      "id": "turn_495",
+      "index": 495
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Falsified cargo tally. Hold the page.",
+      "snippet": "Falsified cargo tally. Hold the page.",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 1029,
+      "id": "turn_496",
+      "index": 496
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Open the hold. The Emerald office audits chartered lies tonight.",
+      "snippet": "Open the hold. The Emerald office audits chartered lies tonight.",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 1033,
+      "id": "turn_497",
+      "index": 497
+    },
+    {
+      "speaker": "narrator",
+      "text": "A deck boss spits into the canal, then yields the folio with both hands raised.",
+      "snippet": "A deck boss spits into the canal, then yields the folio with both hands…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 1035,
+      "id": "turn_498",
+      "index": 498
+    },
+    {
+      "speaker": "toa",
+      "text": "False rice tally, true resin weight. Someone taxed the city on hunger and smuggled poison on the side.",
+      "snippet": "False rice tally, true resin weight. Someone taxed the city on hunger a…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 1038,
+      "id": "turn_499",
+      "index": 499
+    },
+    {
+      "speaker": "kaoru",
+      "text": "You! The man who threatened my witness — step into the light.",
+      "snippet": "You! The man who threatened my witness — step into the light.",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 1042,
+      "id": "turn_500",
+      "index": 500
+    },
+    {
+      "speaker": "narrator",
+      "text": "The factor from the Plum stumbles from the cabin, silver foreign coins spilling from his sleeve.",
+      "snippet": "The factor from the Plum stumbles from the cabin, silver foreign coins …",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 1044,
+      "id": "turn_501",
+      "index": 501
+    },
+    {
+      "speaker": "narrator",
+      "text": "While Kaoru pins the factor with a smile like a drawn blade, Toa lifts the manifest from the table behind him — rice on paper, resin in the hold.",
+      "snippet": "While Kaoru pins the factor with a smile like a drawn blade, Toa lifts …",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 1047,
+      "id": "turn_502",
+      "index": 502
+    },
+    {
+      "speaker": "toa",
+      "text": "Got it. Don't let him swallow the seal this time.",
+      "snippet": "Got it. Don't let him swallow the seal this time.",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 1049,
+      "id": "turn_503",
+      "index": 503
+    },
+    {
+      "speaker": "Factor",
+      "text": "The Chrysanthemum buys tides, not trials. You have a page — you do not have a name.",
+      "snippet": "The Chrysanthemum buys tides, not trials. You have a page — you do not …",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 1053,
+      "id": "turn_504",
+      "index": 504
+    },
+    {
+      "speaker": "kaoru",
+      "text": "I have enough to hang your chartered concern and every clerk who signed for it. Run to your flower. The tide won't hide you twice.",
+      "snippet": "I have enough to hang your chartered concern and every clerk who signed…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 1056,
+      "id": "turn_505",
+      "index": 505
+    },
+    {
+      "speaker": "narrator",
+      "text": "He bolts into the warehouse alleys. The deckhands scatter. Only the manifest remains, ink still wet with the lie that killed Jiro.",
+      "snippet": "He bolts into the warehouse alleys. The deckhands scatter. Only the man…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 1059,
+      "id": "turn_506",
+      "index": 506
+    },
+    {
+      "speaker": "narrator",
+      "text": "Morning after tide. The Scorpion comb, Suzu's testimony, the forged writ, and the barge manifest share one tray — Case One finally has a spine the watch cannot call drowning.",
+      "snippet": "Morning after tide. The Scorpion comb, Suzu's testimony, the forged wri…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 1071,
+      "id": "turn_507",
+      "index": 507
+    },
+    {
+      "speaker": "kaoru",
+      "text": "The Chrysanthemum remains a cipher. The factor's concern does not. I will burn his charter before the week ends.",
+      "snippet": "The Chrysanthemum remains a cipher. The factor's concern does not. I wi…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 1073,
+      "id": "turn_508",
+      "index": 508
+    },
+    {
+      "speaker": "toa",
+      "text": "Jiro gets a name on the watch ledger and a line that says strangled. That's a funeral worth the rain.",
+      "snippet": "Jiro gets a name on the watch ledger and a line that says strangled. Th…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 1075,
+      "id": "turn_509",
+      "index": 509
+    },
+    {
+      "speaker": "toa",
+      "text": "And we still have the traced petals at the Plum. The flower has more than one trap waiting now.",
+      "snippet": "And we still have the traced petals at the Plum. The flower has more th…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 1079,
+      "id": "turn_510",
+      "index": 510
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Academy letters sat on the outer desk all night. Case Two arrived with the dawn — and it isn't polite.",
+      "snippet": "Academy letters sat on the outer desk all night. Case Two arrived with …",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 1083,
+      "id": "turn_511",
+      "index": 511
+    },
+    {
+      "speaker": "kaoru",
+      "text": "Your permit survives because you survived the tide. Case Two is already on the desk — try not to expect gratitude.",
+      "snippet": "Your permit survives because you survived the tide. Case Two is already…",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 1087,
+      "id": "turn_512",
+      "index": 512
+    },
+    {
+      "speaker": "toa",
+      "text": "Case One closed. Then whatever the city wants to throw next.",
+      "snippet": "Case One closed. Then whatever the city wants to throw next.",
+      "source_file": "game/case1_investigation.rpy",
+      "source_line": 1090,
+      "id": "turn_513",
+      "index": 513
+    }
+  ]
+}

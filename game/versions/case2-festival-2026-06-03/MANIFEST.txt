@@ -1,0 +1,3 @@
+﻿case2-festival-2026-06-03
+Edited: case2_festival.rpy, case2_investigation.rpy, case_endings.rpy, stats.rpy, gallery.rpy, cgs-case2-festival.rpy, story-so-far.md
+CGs: cg-case2-festival-hill/fireworks/kiss/intimate.png

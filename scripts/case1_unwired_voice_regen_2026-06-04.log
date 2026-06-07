@@ -1,0 +1,13 @@
+﻿Case 1 menu-branch voice regen (2026-06-04)
+=========================================
+Command: python scripts/regenerate_voice_with_metadata.py --model eleven_v3 --ids @scripts/case1_unwired_voice_ids.txt
+--check: OK (creator tier)
+generated: 42
+v2 output: game/audio/voice/v2/eve-donovan-2026-06-04/
+legacy promote: 42 files -> game/audio/voice/ (1 prior file backed up to game/audio/voice/_backup_promote_2026-06-04_case1_menu/)
+IDs: see scripts/case1_unwired_voice_ids.txt
+merge-path regen append:
+  kaoru_449 generated 1
+  toa_338 generated 1
+case1 session total generated: 2 (42 ids reused existing v2 from prior batch)
+case1 promoted to legacy: 44

@@ -1,0 +1,41 @@
+# Modern AU rewrite pass (2026-06-05): NEW spoken lines added for de-clipping / connective
+# tissue that should EVENTUALLY be voiced. They are currently SILENT in the .rpy (no `voice`
+# line, no allocated ID). The final audio step should allocate fresh IDs (next free per the
+# design doc: toa_465+, kaoru_592+, narrator_467+) and voice them, then add the `voice` lines.
+# Each record: FILE | LABEL | SPEAKER | TEXT  (placed AFTER a consumed say/voice; no leakage).
+#
+# Next-free IDs at time of writing (per docs/au-modern-wrong-floor-design.md + epilogue header):
+#   toa_465+, kaoru_592+, narrator_467+
+#
+# ============================================================================
+# game/au_modern_wrong_floor.rpy  (5 new lines)
+# ============================================================================
+au_modern_wrong_floor.rpy | au_modern_permit_crisis | kaoru | The fast track your letter promised is not a faster queue. It is a signature. A Council sponsorship is only valid once a deputy director signs for the applicant. I am the deputy director on this floor. That is the line your transfer letter left out.
+au_modern_wrong_floor.rpy | au_modern_permit_crisis | toa | So the fast track is a person. And I opened his door by accident, on camera.
+au_modern_wrong_floor.rpy | au_modern_studio_audition | kaoru | If I sign your sponsorship, I swear to the Council that you are an artist and not a story about fraud waiting to happen. The board takes my word because I do not give it cheaply. So give me an artist to swear to.
+au_modern_wrong_floor.rpy | au_modern_studio_audition | toa | And here I thought I was auditioning for a permit. I am auditioning for your signature.
+au_modern_wrong_floor.rpy | au_modern_contract_menu (exclusive branch) | toa | I understand paperwork. I am very good at paperwork when someone explains the boxes. *Direct deputy review.* I read that line three times, and my pulse did something unprofessional each time.
+#
+# ============================================================================
+# game/au_modern_case1_compliance.rpy  (2 new lines)
+# ============================================================================
+au_modern_case1_compliance.rpy | au_modern_case1_start | toa | Favoritism insurance. I document your inspections so the Council can see you are not handing permits to artists you happen to like. The irony writes itself. I am simply not allowed to laugh about it on the record.
+au_modern_case1_compliance.rpy | au_modern_case1_passed_witness | toa | Everything you offer is a calendar invite. The inspection, the weekend, possibly the rest of my life. I am starting to suspect the calendar is how you say the things you will not put in a sentence.
+#
+# ============================================================================
+# game/au_modern_case2_island_weekend.rpy  (2 new lines)
+# ============================================================================
+au_modern_case2_island_weekend.rpy | au_modern_case2_roommate_night | toa | Witness posture, even here. I document the want and I do not perform it where a listing photo could see. My clause never asked me not to want him. It only forbade me to put it on letterhead.
+au_modern_case2_island_weekend.rpy | au_modern_case2_balcony_audit | toa | Dependent. Signatory. Two boxes on one form, and a camera that turned them into a couple. I did not understand that my right to dance in this port was also your liability until you said it out loud on a balcony.
+#
+# ============================================================================
+# game/au_modern_case3_permits_hr.rpy  (1 new line)
+# ============================================================================
+au_modern_case3_permits_hr.rpy | au_modern_case3_signatory_desk | toa | And if the Council decides the leverage looks like a favor, they can suspend the sponsorship, or revoke it, or hand my file to a deputy who never met me. My whole right to dance in this port is one sentence you signed. I keep forgetting that until a fishbowl reminds me.
+#
+# ============================================================================
+# game/au_modern_epilogue.rpy  (1 new line)
+# ============================================================================
+au_modern_epilogue.rpy | au_modern_epilogue_closure | toa | A standing item. The Council files those the way it files rent and rain, the recurring things it expects to keep paying attention to. I have been a great many classifications in this building. That is the first one I would frame.
+#
+# Total: 11 new silent lines awaiting voicing.

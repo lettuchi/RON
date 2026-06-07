@@ -1,0 +1,214 @@
+{
+  "required_rpy": 968,
+  "legacy_count": 998,
+  "present": 952,
+  "missing_legacy": [
+    "kaoru_368",
+    "kaoru_371",
+    "kaoru_372",
+    "kaoru_373",
+    "narrator_286",
+    "narrator_287",
+    "narrator_290",
+    "narrator_291",
+    "narrator_292",
+    "narrator_293",
+    "narrator_294",
+    "narrator_295",
+    "narrator_296",
+    "narrator_NNN",
+    "toa_305",
+    "toa_307"
+  ],
+  "promotable": [],
+  "still_missing": [
+    "kaoru_368",
+    "kaoru_371",
+    "kaoru_372",
+    "kaoru_373",
+    "narrator_286",
+    "narrator_287",
+    "narrator_290",
+    "narrator_291",
+    "narrator_292",
+    "narrator_293",
+    "narrator_294",
+    "narrator_295",
+    "narrator_296",
+    "narrator_NNN",
+    "toa_305",
+    "toa_307"
+  ],
+  "by_chapter": {
+    "case5": [
+      "kaoru_368",
+      "kaoru_371",
+      "kaoru_372",
+      "kaoru_373",
+      "narrator_286",
+      "narrator_287",
+      "narrator_290",
+      "narrator_291",
+      "narrator_292",
+      "narrator_293",
+      "narrator_294",
+      "narrator_295",
+      "narrator_296",
+      "toa_305",
+      "toa_307"
+    ],
+    "other": [
+      "narrator_NNN"
+    ]
+  },
+  "manifest_all": 1010,
+  "manifest_no_any": [
+    "kaoru_368",
+    "kaoru_371",
+    "kaoru_372",
+    "kaoru_373",
+    "narrator_286",
+    "narrator_287",
+    "narrator_290",
+    "narrator_291",
+    "narrator_292",
+    "narrator_293",
+    "narrator_294",
+    "narrator_295",
+    "narrator_296",
+    "toa_305",
+    "toa_307"
+  ],
+  "rows": [
+    {
+      "id": "kaoru_368",
+      "chapter": "case5",
+      "labels": [
+        "case_endings.rpy:gameover_case5_chained"
+      ]
+    },
+    {
+      "id": "kaoru_371",
+      "chapter": "case5",
+      "labels": [
+        "case_endings.rpy:gameover_case5_quarter_cage"
+      ]
+    },
+    {
+      "id": "kaoru_372",
+      "chapter": "case5",
+      "labels": [
+        "case_endings.rpy:gameover_case5_chained"
+      ]
+    },
+    {
+      "id": "kaoru_373",
+      "chapter": "case5",
+      "labels": [
+        "case_endings.rpy:gameover_case5_quarter_cage"
+      ]
+    },
+    {
+      "id": "narrator_286",
+      "chapter": "case5",
+      "labels": [
+        "case_endings.rpy:gameover_case5_chained"
+      ]
+    },
+    {
+      "id": "narrator_287",
+      "chapter": "case5",
+      "labels": [
+        "case_endings.rpy:gameover_case5_quarter_cage"
+      ]
+    },
+    {
+      "id": "narrator_290",
+      "chapter": "case5",
+      "labels": [
+        "case_endings.rpy:gameover_case5_chained"
+      ]
+    },
+    {
+      "id": "narrator_291",
+      "chapter": "case5",
+      "labels": [
+        "case_endings.rpy:gameover_case5_chained"
+      ]
+    },
+    {
+      "id": "narrator_292",
+      "chapter": "case5",
+      "labels": [
+        "case_endings.rpy:gameover_case5_chained"
+      ]
+    },
+    {
+      "id": "narrator_293",
+      "chapter": "case5",
+      "labels": [
+        "case_endings.rpy:gameover_case5_quarter_cage"
+      ]
+    },
+    {
+      "id": "narrator_294",
+      "chapter": "case5",
+      "labels": [
+        "case_endings.rpy:gameover_case5_quarter_cage"
+      ]
+    },
+    {
+      "id": "narrator_295",
+      "chapter": "case5",
+      "labels": [
+        "case_endings.rpy:gameover_case5_quarter_cage"
+      ]
+    },
+    {
+      "id": "narrator_296",
+      "chapter": "case5",
+      "labels": [
+        "case_endings.rpy:gameover_case5_quarter_cage"
+      ]
+    },
+    {
+      "id": "narrator_NNN",
+      "chapter": "other",
+      "labels": [
+        "mute_narrator.rpy:?"
+      ]
+    },
+    {
+      "id": "toa_305",
+      "chapter": "case5",
+      "labels": [
+        "case_endings.rpy:gameover_case5_chained"
+      ]
+    },
+    {
+      "id": "toa_307",
+      "chapter": "case5",
+      "labels": [
+        "case_endings.rpy:gameover_case5_quarter_cage"
+      ]
+    }
+  ],
+  "regen_candidates": [
+    "kaoru_368",
+    "kaoru_371",
+    "kaoru_372",
+    "kaoru_373",
+    "narrator_286",
+    "narrator_287",
+    "narrator_290",
+    "narrator_291",
+    "narrator_292",
+    "narrator_293",
+    "narrator_294",
+    "narrator_295",
+    "narrator_296",
+    "narrator_NNN",
+    "toa_305",
+    "toa_307"
+  ]
+}

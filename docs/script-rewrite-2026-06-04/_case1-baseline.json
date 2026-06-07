@@ -1,0 +1,1409 @@
+[
+  {
+    "id": "narrator_060",
+    "character": "narrator",
+    "line": 24,
+    "file": "case1_investigation.rpy",
+    "game_text": "The stair behind the inner screen eats every footfall. Dust has worked its way into Toa's hakama, and the ledger under her arm smells of river damp and ink old enough to flake."
+  },
+  {
+    "id": "toa_102",
+    "character": "toa",
+    "line": 27,
+    "file": "case1_investigation.rpy",
+    "game_text": "Case One. No bells on me, my obijime's dry, and I never once let go of the ledger. Small victories."
+  },
+  {
+    "id": "narrator_061",
+    "character": "narrator",
+    "line": 30,
+    "file": "case1_investigation.rpy",
+    "game_text": "Lantern light finds her again at the top step. The noble quarter corridor seems to narrow around her the moment she sees a magistrate standing in it, waiting."
+  },
+  {
+    "id": "kaoru_118",
+    "character": "kaoru",
+    "line": 36,
+    "file": "case1_investigation.rpy",
+    "game_text": "You took your time. Set the docket on my desk, and try not to breathe on the wax seals."
+  },
+  {
+    "id": "toa_103",
+    "character": "toa",
+    "line": 40,
+    "file": "case1_investigation.rpy",
+    "game_text": "You told me archive dust was acceptable. I'd assume my breathing is, too."
+  },
+  {
+    "id": "narrator_271",
+    "character": "narrator",
+    "line": 54,
+    "file": "case1_investigation.rpy",
+    "game_text": "She comes up from the archive with the canal docket hugged to her chest. No chamber waits beside his office, only four more files stacked behind Case One, and a single week to prove she belongs to any of it."
+  },
+  {
+    "id": "toa_104",
+    "character": "toa",
+    "line": 57,
+    "file": "case1_investigation.rpy",
+    "game_text": "Docket retrieved. Still breathing, you'll be relieved to hear."
+  },
+  {
+    "id": "kaoru_333",
+    "character": "kaoru",
+    "line": 60,
+    "file": "case1_investigation.rpy",
+    "game_text": "Still insolent. Desk. Case One first. The other four will find you on their own, unless you bolt for the curry shops."
+  },
+  {
+    "id": "narrator_063",
+    "character": "narrator",
+    "line": 72,
+    "file": "case1_investigation.rpy",
+    "game_text": "Kaoru breaks the outer seal. Inside: watch reports, a charcoal sketch of the recovery site, and a name line left blank, waiting on someone to put a face to the dead."
+  },
+  {
+    "id": "toa_278",
+    "character": "toa",
+    "line": 77,
+    "file": "case1_investigation.rpy",
+    "game_text": "I unpacked for patronage. You're handing me a murder."
+  },
+  {
+    "id": "kaoru_330",
+    "character": "kaoru",
+    "line": 81,
+    "file": "case1_investigation.rpy",
+    "game_text": "Patronage keeps you in my corridor. Case One opens on my desk, the first of five you'll witness before this week is out."
+  },
+  {
+    "id": "toa_280",
+    "character": "toa",
+    "line": 85,
+    "file": "case1_investigation.rpy",
+    "game_text": "Witness attachment. Five files. You never once led with that number."
+  },
+  {
+    "id": "kaoru_334",
+    "character": "kaoru",
+    "line": 89,
+    "file": "case1_investigation.rpy",
+    "game_text": "You wanted the hall. Case One opens first. Four more follow it, if you don't bore me or run off to the curry shops."
+  },
+  {
+    "id": "kaoru_120",
+    "character": "kaoru",
+    "line": 92,
+    "file": "case1_investigation.rpy",
+    "game_text": "Case One. A body in the canal at first light. Noble quarter, where the water runs clean enough to mirror gold leaf."
+  },
+  {
+    "id": "kaoru_121",
+    "character": "kaoru",
+    "line": 95,
+    "file": "case1_investigation.rpy",
+    "game_text": "The watch writes drowning whenever the name line stays empty. You'll learn which boxes they're willing to sign, and which they won't."
+  },
+  {
+    "id": "toa_105",
+    "character": "toa",
+    "line": 99,
+    "file": "case1_investigation.rpy",
+    "game_text": "Clean water, dirty ledger. Who found the body?"
+  },
+  {
+    "id": "kaoru_122",
+    "character": "kaoru",
+    "line": 103,
+    "file": "case1_investigation.rpy",
+    "game_text": "The night watch. The fishermen pretended not to see a thing. And the Scorpion quarter upstream pretends the current runs backward."
+  },
+  {
+    "id": "narrator_064",
+    "character": "narrator",
+    "line": 106,
+    "file": "case1_investigation.rpy",
+    "game_text": "He taps the sketch: a narrow cut between warehouses, rope marks scored into the stone, no blood in the water worth mentioning."
+  },
+  {
+    "id": "kaoru_123",
+    "character": "kaoru",
+    "line": 109,
+    "file": "case1_investigation.rpy",
+    "game_text": "The victim wears Miya colors under a borrowed haori. A retainer's knot. Someone wanted him found, and someone else very much did not."
+  },
+  {
+    "id": "toa_106",
+    "character": "toa",
+    "line": 115,
+    "file": "case1_investigation.rpy",
+    "game_text": "Miya means Crane politics. And Crane politics means you, Magistrate-sama."
+  },
+  {
+    "id": "kaoru_124",
+    "character": "kaoru",
+    "line": 120,
+    "file": "case1_investigation.rpy",
+    "game_text": "Which is exactly why you sleep in the room beside my office. Discretion isn't decorative."
+  },
+  {
+    "id": "toa_107",
+    "character": "toa",
+    "line": 125,
+    "file": "case1_investigation.rpy",
+    "game_text": "Escort to the canal. Written terms. I'm here to collect."
+  },
+  {
+    "id": "kaoru_125",
+    "character": "kaoru",
+    "line": 129,
+    "file": "case1_investigation.rpy",
+    "game_text": "You'll collect at the waterline. First."
+  },
+  {
+    "id": "kaoru_126",
+    "character": "kaoru",
+    "line": 133,
+    "file": "case1_investigation.rpy",
+    "game_text": "Which is why you're not sleeping in my hall yet. Prove you can witness a thing without gossiping about it to the curry shops."
+  },
+  {
+    "id": "toa_108",
+    "character": "toa",
+    "line": 138,
+    "file": "case1_investigation.rpy",
+    "game_text": "I came back. Surely that counts for something."
+  },
+  {
+    "id": "kaoru_127",
+    "character": "kaoru",
+    "line": 142,
+    "file": "case1_investigation.rpy",
+    "game_text": "It counts toward the canal. It does not count toward trust."
+  },
+  {
+    "id": "narrator_065",
+    "character": "narrator",
+    "line": 145,
+    "file": "case1_investigation.rpy",
+    "game_text": "A bag of rice crackers sits on the corner of the desk. Her indulgence, his allowance."
+  },
+  {
+    "id": "toa_109",
+    "character": "toa",
+    "line": 149,
+    "file": "case1_investigation.rpy",
+    "game_text": "Snacks after paperwork. Even for corpses nobody's going to bury."
+  },
+  {
+    "id": "kaoru_128",
+    "character": "kaoru",
+    "line": 153,
+    "file": "case1_investigation.rpy",
+    "game_text": "Eat one now. You'll have lost your appetite by the time we reach the water."
+  },
+  {
+    "id": "toa_110",
+    "character": "toa",
+    "line": 164,
+    "file": "case1_investigation.rpy",
+    "game_text": "Retainer's knot, tied left-handed. The haori's two sizes too wide, borrowed. No wallet, no letter case."
+  },
+  {
+    "id": "kaoru_129",
+    "character": "kaoru",
+    "line": 168,
+    "file": "case1_investigation.rpy",
+    "game_text": "Good. The watch wrote 'drowning' and missed half of what you just said."
+  },
+  {
+    "id": "narrator_066",
+    "character": "narrator",
+    "line": 171,
+    "file": "case1_investigation.rpy",
+    "game_text": "In the margin, a clerk noted the fingernails: scrubbed clean the night before. Labor, but none of the honest dirt that should come with it."
+  },
+  {
+    "id": "toa_111",
+    "character": "toa",
+    "line": 180,
+    "file": "case1_investigation.rpy",
+    "game_text": "So who profits when a Crane thread snaps in Scorpion current?"
+  },
+  {
+    "id": "kaoru_130",
+    "character": "kaoru",
+    "line": 184,
+    "file": "case1_investigation.rpy",
+    "game_text": "Opium ledgers. Marriage contracts. Anyone in this city who sells silence by the barrel."
+  },
+  {
+    "id": "kaoru_131",
+    "character": "kaoru",
+    "line": 188,
+    "file": "case1_investigation.rpy",
+    "game_text": "You will not say any of that aloud at the canal. You'll watch faces instead."
+  },
+  {
+    "id": "toa_112",
+    "character": "toa",
+    "line": 196,
+    "file": "case1_investigation.rpy",
+    "game_text": "Witness notes only: time of recovery, position, clothing, visible wounds. The theories can wait."
+  },
+  {
+    "id": "kaoru_132",
+    "character": "kaoru",
+    "line": 201,
+    "file": "case1_investigation.rpy",
+    "game_text": "Good. Notes I can file without crossing out half your adjectives."
+  },
+  {
+    "id": "kaoru_133",
+    "character": "kaoru",
+    "line": 205,
+    "file": "case1_investigation.rpy",
+    "game_text": "Try keeping that posture once the smell reaches you."
+  },
+  {
+    "id": "narrator_067",
+    "character": "narrator",
+    "line": 217,
+    "file": "case1_investigation.rpy",
+    "game_text": "They leave through the inner hall, not the public corridor where Toa once wandered, lost. The guards nod to Kaoru. They look straight through Toa, as if she were furniture that had learned to walk."
+  },
+  {
+    "id": "toa_113",
+    "character": "toa",
+    "line": 220,
+    "file": "case1_investigation.rpy",
+    "game_text": "Furniture with legs still memorizes the route."
+  },
+  {
+    "id": "kaoru_134",
+    "character": "kaoru",
+    "line": 223,
+    "file": "case1_investigation.rpy",
+    "game_text": "See that you do. Night calls won't wait for someone to light the lanterns."
+  },
+  {
+    "id": "narrator_068",
+    "character": "narrator",
+    "line": 229,
+    "file": "case1_investigation.rpy",
+    "game_text": "Ryoko Owari wakes around them: cart wheels, a shamisen somewhere distant, sweet smoke drifting from a vial house two alleys over. The canal cut is still half a district off."
+  },
+  {
+    "id": "kaoru_135",
+    "character": "kaoru",
+    "line": 232,
+    "file": "case1_investigation.rpy",
+    "game_text": "Watch the eaves. Thieves in the noble quarter work for employers, not for hunger."
+  },
+  {
+    "id": "toa_114",
+    "character": "toa",
+    "line": 236,
+    "file": "case1_investigation.rpy",
+    "game_text": "And the wrongness in the air? It feels thin, like someone peeled a ward off the wall and left the bare paper behind."
+  },
+  {
+    "id": "kaoru_136",
+    "character": "kaoru",
+    "line": 240,
+    "file": "case1_investigation.rpy",
+    "game_text": "Wrong-colored water usually means some clerk poured something upstream. Check the eaves before you start blaming charms."
+  },
+  {
+    "id": "narrator_069",
+    "character": "narrator",
+    "line": 243,
+    "file": "case1_investigation.rpy",
+    "game_text": "A crow watches from a warehouse sign, three painted eyes that aren't quite Imperial and aren't quite Scorpion. It takes wing the instant Kaoru glances up."
+  },
+  {
+    "id": "narrator_070",
+    "character": "narrator",
+    "line": 253,
+    "file": "case1_investigation.rpy",
+    "game_text": "The canal runs black-green under morning cloud, far greener than honest water, as if someone had dissolved a charm and tipped the dregs downstream. Rope burns scar the stone where the watchmen hauled the body up."
+  },
+  {
+    "id": "narrator_071",
+    "character": "narrator",
+    "line": 259,
+    "file": "case1_investigation.rpy",
+    "game_text": "No crowd. Only a clerk with a wax tablet, and a Miya envoy pretending to read the warehouse sign so he won't have to look at the pallet."
+  },
+  {
+    "id": "kaoru_137",
+    "character": "kaoru",
+    "line": 262,
+    "file": "case1_investigation.rpy",
+    "game_text": "To-chan. You'll stand where I point you, and you won't touch the water."
+  },
+  {
+    "id": "toa_115",
+    "character": "toa",
+    "line": 265,
+    "file": "case1_investigation.rpy",
+    "game_text": "Point, then. I'll witness."
+  },
+  {
+    "id": "narrator_072",
+    "character": "narrator",
+    "line": 270,
+    "file": "case1_investigation.rpy",
+    "game_text": "The covered pallet lies at the canal's lip, the cloth still damp. When the clerk folds back the sheet, a young man's face shows, peaceful in entirely the wrong way, as if his sleep had been negotiated rather than earned."
+  },
+  {
+    "id": "toa_116",
+    "character": "toa",
+    "line": 274,
+    "file": "case1_investigation.rpy",
+    "game_text": "He looks borrowed, too. Even now."
+  },
+  {
+    "id": "kaoru_138",
+    "character": "kaoru",
+    "line": 278,
+    "file": "case1_investigation.rpy",
+    "game_text": "Identification first. Gossip a distant second. Mourning never."
+  },
+  {
+    "id": "toa_117",
+    "character": "toa",
+    "line": 284,
+    "file": "case1_investigation.rpy",
+    "game_text": "Haori upstream, body down here. So was it the current, or a carriage?"
+  },
+  {
+    "id": "kaoru_139",
+    "character": "kaoru",
+    "line": 288,
+    "file": "case1_investigation.rpy",
+    "game_text": "Ask the river once you're qualified to. Until then, you observe."
+  },
+  {
+    "id": "toa_118",
+    "character": "toa",
+    "line": 299,
+    "file": "case1_investigation.rpy",
+    "game_text": "Palms soft until yesterday, ink staining the index finger. Ledger work. And the sleeve hem's been eaten by canal slime from upstream, not from here."
+  },
+  {
+    "id": "kaoru_140",
+    "character": "kaoru",
+    "line": 303,
+    "file": "case1_investigation.rpy",
+    "game_text": "Which means he died somewhere else, then was dressed for display."
+  },
+  {
+    "id": "toa_119",
+    "character": "toa",
+    "line": 313,
+    "file": "case1_investigation.rpy",
+    "game_text": "Magistrate-sama, the bruising on his throat is shaped like fingers, not water."
+  },
+  {
+    "id": "kaoru_141",
+    "character": "kaoru",
+    "line": 317,
+    "file": "case1_investigation.rpy",
+    "game_text": "Because drowning keeps the taxes calm. You'll learn when to write only what the city can swallow."
+  },
+  {
+    "id": "kaoru_142",
+    "character": "kaoru",
+    "line": 321,
+    "file": "case1_investigation.rpy",
+    "game_text": "And when to make me swallow the harder truth instead. Not today."
+  },
+  {
+    "id": "toa_120",
+    "character": "toa",
+    "line": 331,
+    "file": "case1_investigation.rpy",
+    "game_text": "Witness note: recovery at canal mark three, noble quarter. Clothing as listed. Cause of death pending the magistrate's review."
+  },
+  {
+    "id": "kaoru_143",
+    "character": "kaoru",
+    "line": 335,
+    "file": "case1_investigation.rpy",
+    "game_text": "Boring. Useful. The clerk can sign that one without fainting."
+  },
+  {
+    "id": "kaoru_151",
+    "character": "kaoru",
+    "line": 341,
+    "file": "case1_investigation.rpy",
+    "game_text": "Summarize it. One sentence. If I say your words back to the Crane envoy, does he flinch, or does he laugh?"
+  },
+  {
+    "id": "toa_124",
+    "character": "toa",
+    "line": 354,
+    "file": "case1_investigation.rpy",
+    "game_text": "He was dressed for display after he died. Borrowed haori, wrong water. A message meant for Crane eyes."
+  },
+  {
+    "id": "kaoru_152",
+    "character": "kaoru",
+    "line": 359,
+    "file": "case1_investigation.rpy",
+    "game_text": "Good. You sound like you belong in my hall, the moment you stop performing for the corpses."
+  },
+  {
+    "id": "kaoru_153",
+    "character": "kaoru",
+    "line": 364,
+    "file": "case1_investigation.rpy",
+    "game_text": "Bold. Don't mistake my attention for my approval."
+  },
+  {
+    "id": "toa_125",
+    "character": "toa",
+    "line": 373,
+    "file": "case1_investigation.rpy",
+    "game_text": "Recovery at mark three. Clothing as listed. Cause of death pending your review, Magistrate-sama."
+  },
+  {
+    "id": "kaoru_154",
+    "character": "kaoru",
+    "line": 377,
+    "file": "case1_investigation.rpy",
+    "game_text": "Safe. The envoy won't laugh. He won't fear you either."
+  },
+  {
+    "id": "toa_126",
+    "character": "toa",
+    "line": 385,
+    "file": "case1_investigation.rpy",
+    "game_text": "You asked me to observe. I observed. If you wanted theater, you should have left the bells on me in the archive."
+  },
+  {
+    "id": "kaoru_155",
+    "character": "kaoru",
+    "line": 390,
+    "file": "case1_investigation.rpy",
+    "game_text": "There she is. Keep that spine when the Miya registry clerks start smiling at you."
+  },
+  {
+    "id": "kaoru_156",
+    "character": "kaoru",
+    "line": 395,
+    "file": "case1_investigation.rpy",
+    "game_text": "A witness without a seal is just gossip. Learn faster."
+  },
+  {
+    "id": "narrator_073",
+    "character": "narrator",
+    "line": 404,
+    "file": "case1_investigation.rpy",
+    "game_text": "Near the rope post, something lacquered catches the lantern glare, wedged into the seam where oil and wrong-colored water meet."
+  },
+  {
+    "id": "toa_121",
+    "character": "toa",
+    "line": 408,
+    "file": "case1_investigation.rpy",
+    "game_text": "A comb. Scorpion mon inlaid in it. Not Miya."
+  },
+  {
+    "id": "kaoru_144",
+    "character": "kaoru",
+    "line": 412,
+    "file": "case1_investigation.rpy",
+    "game_text": "Don't touch it with bare hands."
+  },
+  {
+    "id": "narrator_074",
+    "character": "narrator",
+    "line": 416,
+    "file": "case1_investigation.rpy",
+    "game_text": "He wraps it in wax cloth himself, eyes never leaving the eaves, and hands it to Toa only long enough for her seal on the chain-of-custody line."
+  },
+  {
+    "id": "kaoru_145",
+    "character": "kaoru",
+    "line": 424,
+    "file": "case1_investigation.rpy",
+    "game_text": "A Scorpion comb in Crane water. Bag it for custody. And don't compose any metaphors over my desk."
+  },
+  {
+    "id": "kaoru_146",
+    "character": "kaoru",
+    "line": 429,
+    "file": "case1_investigation.rpy",
+    "game_text": "Borrowed haori, foreign comb. Someone staged a message for Crane eyes to read. Put a name on that blank line."
+  },
+  {
+    "id": "kaoru_147",
+    "character": "kaoru",
+    "line": 434,
+    "file": "case1_investigation.rpy",
+    "game_text": "The comb goes to the office. The name goes on the line. And you walk beside me, not a step ahead."
+  },
+  {
+    "id": "narrator_075",
+    "character": "narrator",
+    "line": 438,
+    "file": "case1_investigation.rpy",
+    "game_text": "The clerk lifts the separate haori from a dry crate. The wax inside the lining has melted, but the inner fold still holds a courier's chit, half legible under the river stain."
+  },
+  {
+    "id": "toa_127",
+    "character": "toa",
+    "line": 442,
+    "file": "case1_investigation.rpy",
+    "game_text": "Miya Jiro. Guest-house ledger clerk. 'Deliver before third bell.' That's a name now, not a rumor."
+  },
+  {
+    "id": "kaoru_157",
+    "character": "kaoru",
+    "line": 448,
+    "file": "case1_investigation.rpy",
+    "game_text": "Jiro handled Crane correspondence for the noble-quarter guest house. So someone killed the clerk and still kept the appointment."
+  },
+  {
+    "id": "kaoru_158",
+    "character": "kaoru",
+    "line": 453,
+    "file": "case1_investigation.rpy",
+    "game_text": "You wanted a theory. Now you've got a face to hang it on. Don't gloat at the envoy."
+  },
+  {
+    "id": "kaoru_159",
+    "character": "kaoru",
+    "line": 458,
+    "file": "case1_investigation.rpy",
+    "game_text": "Still standing. Still useful. Copy the chit before the ink flakes off it."
+  },
+  {
+    "id": "kaoru_160",
+    "character": "kaoru",
+    "line": 463,
+    "file": "case1_investigation.rpy",
+    "game_text": "Write it clean. The watch will keep signing drowning right up until I stop letting them."
+  },
+  {
+    "id": "narrator_076",
+    "character": "narrator",
+    "line": 466,
+    "file": "case1_investigation.rpy",
+    "game_text": "The Miya envoy finally looks up from the warehouse sign. He sees the chit in Kaoru's hand, and suddenly remembers urgent business elsewhere."
+  },
+  {
+    "id": "narrator_077",
+    "character": "narrator",
+    "line": 479,
+    "file": "case1_investigation.rpy",
+    "game_text": "Back among cedar and ink, the Scorpion comb sits in a lacquer tray like a poisonous jewel. Beside it, Kaoru inks {i}Miya Jiro{/i} onto the line the watch left blank."
+  },
+  {
+    "id": "kaoru_148",
+    "character": "kaoru",
+    "line": 482,
+    "file": "case1_investigation.rpy",
+    "game_text": "Tomorrow we cross the Miya guest registry against the Scorpion shipping rolls. One of them flinches the moment Jiro's name is said aloud."
+  },
+  {
+    "id": "toa_122",
+    "character": "toa",
+    "line": 486,
+    "file": "case1_investigation.rpy",
+    "game_text": "Guest-house clerk, Crane thread, Scorpion comb. Someone staged a whole poem and forgot it would have an audience."
+  },
+  {
+    "id": "toa_128",
+    "character": "toa",
+    "line": 491,
+    "file": "case1_investigation.rpy",
+    "game_text": "We've got a name now, and a sender vain enough to leave his comb behind. That's a thread worth pulling."
+  },
+  {
+    "id": "kaoru_149",
+    "character": "kaoru",
+    "line": 496,
+    "file": "case1_investigation.rpy",
+    "game_text": "Eat. Then copy the watch testimony twice: once for the Empire, and once for what I actually believe happened."
+  },
+  {
+    "id": "kaoru_150",
+    "character": "kaoru",
+    "line": 501,
+    "file": "case1_investigation.rpy",
+    "game_text": "Eat, if you must. Then copy testimony until your hand cramps. Then we'll discuss whether you've earned another week here."
+  },
+  {
+    "id": "toa_123",
+    "character": "toa",
+    "line": 505,
+    "file": "case1_investigation.rpy",
+    "game_text": "Case One has a face now. Jiro. I won't forget him."
+  },
+  {
+    "id": "narrator_078",
+    "character": "narrator",
+    "line": 529,
+    "file": "case1_investigation.rpy",
+    "game_text": "Morning again, and the docket has grown teeth overnight. Beside Jiro's name Kaoru has pinned a second sheet: the Miya guest house, the Lacquered Plum, where a dead clerk once kept other men's appointments."
+  },
+  {
+    "id": "narrator_079",
+    "character": "narrator",
+    "line": 616,
+    "file": "case1_investigation.rpy",
+    "game_text": "The rain reaches the licensed quarter first. It beads on paper lanterns the color of old wine, and runs the canal black between teahouses that sell forgetting by the hour."
+  },
+  {
+    "id": "narrator_080",
+    "character": "narrator",
+    "line": 619,
+    "file": "case1_investigation.rpy",
+    "game_text": "The Lacquered Plum leans out over the water on cedar stilts. A three-eyed crow, the same painted sign, or a cousin of it, watches from the gable, and this time it does not fly."
+  },
+  {
+    "id": "narrator_081",
+    "character": "narrator",
+    "line": 635,
+    "file": "case1_investigation.rpy",
+    "game_text": "Inside, lamplight and face powder. The okami kneels behind a low desk stacked with appointment books, her smile fixed hard as lacquer, her eyes already tallying the cost of a magistrate's boots on her tatami."
+  },
+  {
+    "id": "narrator_082",
+    "character": "narrator",
+    "line": 647,
+    "file": "case1_investigation.rpy",
+    "game_text": "Kaoru sets the wax-wrapped comb on the desk and folds the cloth back. The okami's painted calm cracks, just a hairline."
+  },
+  {
+    "id": "narrator_083",
+    "character": "narrator",
+    "line": 656,
+    "file": "case1_investigation.rpy",
+    "game_text": "But Toa has already slipped past the desk the kitchen way: the servant's bow, the easy warmth of a woman who has carried tea in far worse rooms. A young geisha looks up from folding a dead man's spare haori."
+  },
+  {
+    "id": "narrator_084",
+    "character": "narrator",
+    "line": 666,
+    "file": "case1_investigation.rpy",
+    "game_text": "The okami's smile finally fails. In the corner a girl, a geisha, young, her eyes red-rimmed, flinches under the weight of his voice."
+  },
+  {
+    "id": "narrator_085",
+    "character": "narrator",
+    "line": 672,
+    "file": "case1_investigation.rpy",
+    "game_text": "The geisha rises. She's perhaps nineteen, her white makeup cried through at the edges. She bows too low, the way frightened people do once they've already decided to be brave."
+  },
+  {
+    "id": "narrator_086",
+    "character": "narrator",
+    "line": 685,
+    "file": "case1_investigation.rpy",
+    "game_text": "Kaoru tilts the wrapped comb toward the lamp. Suzu goes the color of her own face powder."
+  },
+  {
+    "id": "narrator_087",
+    "character": "narrator",
+    "line": 713,
+    "file": "case1_investigation.rpy",
+    "game_text": "She's already decided Toa is safe. The kitchen bow bought what no seal ever could. Her words come in a rush, like water finding the crack it was looking for."
+  },
+  {
+    "id": "narrator_088",
+    "character": "narrator",
+    "line": 718,
+    "file": "case1_investigation.rpy",
+    "game_text": "She watches Toa's hands, not her face. Slowly, the fear loosens its knot."
+  },
+  {
+    "id": "narrator_089",
+    "character": "narrator",
+    "line": 730,
+    "file": "case1_investigation.rpy",
+    "game_text": "The girl's hand flies to her own throat. The gesture answers him before her voice can."
+  },
+  {
+    "id": "narrator_090",
+    "character": "narrator",
+    "line": 744,
+    "file": "case1_investigation.rpy",
+    "game_text": "Kaoru says nothing. He simply waits, and the room shrinks around his stillness until the okami's powder runs and Suzu's resolve breaks, all under a magistrate who hasn't yet bothered to so much as threaten her."
+  },
+  {
+    "id": "narrator_091",
+    "character": "narrator",
+    "line": 773,
+    "file": "case1_investigation.rpy",
+    "game_text": "The okami surrenders the high-tide registry the way a gambler gives up a marked card: slowly, and watching the door the whole time. Kaoru turns to the night Jiro died."
+  },
+  {
+    "id": "narrator_092",
+    "character": "narrator",
+    "line": 782,
+    "file": "case1_investigation.rpy",
+    "game_text": "The booking is authorized in red: a private-room writ, the kind the licensed quarter demands of the magistracy to seal a room against the watch. The wax bears the Emerald mon."
+  },
+  {
+    "id": "narrator_093",
+    "character": "narrator",
+    "line": 804,
+    "file": "case1_investigation.rpy",
+    "game_text": "The screen slides open without a knock. A man in Scorpion grey steps in from the rain, a trade factor by his ink-stained cuffs and the easy menace of someone used to buying magistrates by the dozen."
+  },
+  {
+    "id": "narrator_094",
+    "character": "narrator",
+    "line": 817,
+    "file": "case1_investigation.rpy",
+    "game_text": "The factor's hand drifts toward his sleeve. Kaoru doesn't move at all, and somehow that's worse than if he had."
+  },
+  {
+    "id": "narrator_095",
+    "character": "narrator",
+    "line": 833,
+    "file": "case1_investigation.rpy",
+    "game_text": "The factor's composure thins. A spoken record, in a house full of witnesses, is much harder to drown than a single clerk."
+  },
+  {
+    "id": "narrator_096",
+    "character": "narrator",
+    "line": 872,
+    "file": "case1_investigation.rpy",
+    "game_text": "The factor weighs it all: the room, the spoken record, the unmoving magistrate. Then he bows to the exact depth that insults without inviting a blade, and withdraws into the rain."
+  },
+  {
+    "id": "narrator_097",
+    "character": "narrator",
+    "line": 878,
+    "file": "case1_investigation.rpy",
+    "game_text": "The screen slides shut. Suzu lets out a breath she's held since the moment he entered. The okami has already started deciding which version of tonight she'll sell, and to whom."
+  },
+  {
+    "id": "narrator_098",
+    "character": "narrator",
+    "line": 891,
+    "file": "case1_investigation.rpy",
+    "game_text": "Back among cedar and ink, the case has finally grown a shape. On the lacquer tray: the Scorpion comb, Suzu's name, and, depending on how the night went, a forged Emerald writ or its careful copy."
+  },
+  {
+    "id": "narrator_099",
+    "character": "narrator",
+    "line": 906,
+    "file": "case1_investigation.rpy",
+    "game_text": "He crosses the office and stops too close: the practiced proximity of a man who has decided the distance between you is his to set."
+  },
+  {
+    "id": "narrator_052",
+    "character": "narrator",
+    "line": 14,
+    "file": "case1_companion.rpy",
+    "game_text": "Morning in the noble quarter tastes of ink and cedar. The thirtieth is still the date on her permit, but Toa is already at the threshold with tea and a borrowed case file."
+  },
+  {
+    "id": "toa_067",
+    "character": "toa",
+    "line": 17,
+    "file": "case1_companion.rpy",
+    "game_text": "The permit says I'm legal on the thirtieth. So I'm early. With tea, and a case file."
+  },
+  {
+    "id": "kaoru_081",
+    "character": "kaoru",
+    "line": 21,
+    "file": "case1_companion.rpy",
+    "game_text": "Early is still obedience. Sit, before you spill something on my docket."
+  },
+  {
+    "id": "narrator_053",
+    "character": "narrator",
+    "line": 24,
+    "file": "case1_companion.rpy",
+    "game_text": "He gestures to the cushion on the tatami in front of the desk, the same spot where he made her sit for her audition."
+  },
+  {
+    "id": "toa_068",
+    "character": "toa",
+    "line": 28,
+    "file": "case1_companion.rpy",
+    "game_text": "Snacks after paperwork. That's still the order of operations, isn't it?"
+  },
+  {
+    "id": "kaoru_082",
+    "character": "kaoru",
+    "line": 32,
+    "file": "case1_companion.rpy",
+    "game_text": "We'll see if your appetite survives what I'm about to read you aloud."
+  },
+  {
+    "id": "kaoru_083",
+    "character": "kaoru",
+    "line": 38,
+    "file": "case1_companion.rpy",
+    "game_text": "Bring that audience-of-one energy to the docket. The cases bore me less when you perform."
+  },
+  {
+    "id": "toa_070",
+    "character": "toa",
+    "line": 42,
+    "file": "case1_companion.rpy",
+    "game_text": "Then I'll save the bells for evidence review."
+  },
+  {
+    "id": "kaoru_091",
+    "character": "kaoru",
+    "line": 47,
+    "file": "case1_companion.rpy",
+    "game_text": "You danced like a maiden at a shrine. Try not to curtsey at a corpse."
+  },
+  {
+    "id": "toa_078",
+    "character": "toa",
+    "line": 51,
+    "file": "case1_companion.rpy",
+    "game_text": "I'll manage, Magistrate-sama. I do know the difference."
+  },
+  {
+    "id": "toa_079",
+    "character": "toa",
+    "line": 56,
+    "file": "case1_companion.rpy",
+    "game_text": "Honored Magistrate-sama, shall I pour the tea before the terms you mentioned on the thirtieth, or after?"
+  },
+  {
+    "id": "kaoru_092",
+    "character": "kaoru",
+    "line": 60,
+    "file": "case1_companion.rpy",
+    "game_text": "After. And stop bowing at every clause. My neck aches just from watching you."
+  },
+  {
+    "id": "toa_080",
+    "character": "toa",
+    "line": 65,
+    "file": "case1_companion.rpy",
+    "game_text": "You said we'd discuss residency. So. I'm listening."
+  },
+  {
+    "id": "kaoru_093",
+    "character": "kaoru",
+    "line": 69,
+    "file": "case1_companion.rpy",
+    "game_text": "Good. Plain speech spares us both another fan dance."
+  },
+  {
+    "id": "kaoru_321",
+    "character": "kaoru",
+    "line": 73,
+    "file": "case1_companion.rpy",
+    "game_text": "I like you. Enough that I find I want to keep you around."
+  },
+  {
+    "id": "narrator_054",
+    "character": "narrator",
+    "line": 80,
+    "file": "case1_companion.rpy",
+    "game_text": "He slides a stack across the desk. Not her permit book this time, but office stationery stamped with the Emerald crest."
+  },
+  {
+    "id": "kaoru_094",
+    "character": "kaoru",
+    "line": 83,
+    "file": "case1_companion.rpy",
+    "game_text": "You may keep the guest room until the date takes effect. That was a courtesy, not a loophole."
+  },
+  {
+    "id": "toa_081",
+    "character": "toa",
+    "line": 87,
+    "file": "case1_companion.rpy",
+    "game_text": "A guest room. A preview. You really do enjoy making people come back, don't you."
+  },
+  {
+    "id": "kaoru_161",
+    "character": "kaoru",
+    "line": 91,
+    "file": "case1_companion.rpy",
+    "game_text": "The signature was always going to bring you back. I merely wrote out the appointment you'd earned."
+  },
+  {
+    "id": "narrator_055",
+    "character": "narrator",
+    "line": 148,
+    "file": "case1_companion.rpy",
+    "game_text": "The top sheet is titled {i}Appointment of Live-In Companion (Patronage of Artistic Residence){/i}. Her name is already inked there, in his hand."
+  },
+  {
+    "id": "toa_082",
+    "character": "toa",
+    "line": 152,
+    "file": "case1_companion.rpy",
+    "game_text": "Live-in companion. That's... that's not a guest room preview. That's a contract."
+  },
+  {
+    "id": "kaoru_095",
+    "character": "kaoru",
+    "line": 156,
+    "file": "case1_companion.rpy",
+    "game_text": "Companion duties: attend the magistrate, carry messages, witness interviews, keep discretion, and remain on the premises unless I release you. Your art is the reason the treasury pays. Not the excuse."
+  },
+  {
+    "id": "kaoru_096",
+    "character": "kaoru",
+    "line": 159,
+    "file": "case1_companion.rpy",
+    "game_text": "You'll take your meals in the inner hall. You'll sleep in the chamber adjoining my office. You'll answer when I call, day or night."
+  },
+  {
+    "id": "toa_083",
+    "character": "toa",
+    "line": 163,
+    "file": "case1_companion.rpy",
+    "game_text": "Day, or night. You ask a great deal of me, Magistrate-sama."
+  },
+  {
+    "id": "kaoru_097",
+    "character": "kaoru",
+    "line": 167,
+    "file": "case1_companion.rpy",
+    "game_text": "It sounds like law because it is. Ryoko Owari doesn't grant interclan residence to dancers who vanish after sunset."
+  },
+  {
+    "id": "narrator_056",
+    "character": "narrator",
+    "line": 171,
+    "file": "case1_companion.rpy",
+    "game_text": "He taps a second page: stipend figures, duty rotations, and a line for her seal beside his."
+  },
+  {
+    "id": "toa_084",
+    "character": "toa",
+    "line": 175,
+    "file": "case1_companion.rpy",
+    "game_text": "And the stipend?"
+  },
+  {
+    "id": "kaoru_098",
+    "character": "kaoru",
+    "line": 179,
+    "file": "case1_companion.rpy",
+    "game_text": "Three koku monthly, plus board. Official gifts, to support your expression. The treasury won't call you a kept performer so long as the ledger says patronage."
+  },
+  {
+    "id": "toa_085",
+    "character": "toa",
+    "line": 189,
+    "file": "case1_companion.rpy",
+    "game_text": "Three koku is more than the curry shop ever paid me to smile at tourists."
+  },
+  {
+    "id": "kaoru_099",
+    "character": "kaoru",
+    "line": 193,
+    "file": "case1_companion.rpy",
+    "game_text": "Then you understand the bargain. Sign it, or go back to Unicorn roads and expired paper."
+  },
+  {
+    "id": "kaoru_100",
+    "character": "kaoru",
+    "line": 198,
+    "file": "case1_companion.rpy",
+    "game_text": "You already proved you can close a proposition in this very room. Don't pretend shock suits you."
+  },
+  {
+    "id": "toa_086",
+    "character": "toa",
+    "line": 202,
+    "file": "case1_companion.rpy",
+    "game_text": "Shock and delight, both at the same time. You do that to me."
+  },
+  {
+    "id": "toa_087",
+    "character": "toa",
+    "line": 214,
+    "file": "case1_companion.rpy",
+    "game_text": "Magistrate-sama, I accept the appointment and its duties. You'll have my discretion and my attendance."
+  },
+  {
+    "id": "kaoru_101",
+    "character": "kaoru",
+    "line": 218,
+    "file": "case1_companion.rpy",
+    "game_text": "Better. You almost sound like you belong behind my desk, instead of on it."
+  },
+  {
+    "id": "toa_088",
+    "character": "toa",
+    "line": 227,
+    "file": "case1_companion.rpy",
+    "game_text": "I'll sign once we've defined release. And settled which nights are mine for Academy correspondence."
+  },
+  {
+    "id": "kaoru_102",
+    "character": "kaoru",
+    "line": 231,
+    "file": "case1_companion.rpy",
+    "game_text": "Bold, for someone who still smells of my cedar shelves."
+  },
+  {
+    "id": "kaoru_103",
+    "character": "kaoru",
+    "line": 235,
+    "file": "case1_companion.rpy",
+    "game_text": "Academy letters wait on the outer desk. You don't leave this compound without escort until Case One closes. Those are the terms."
+  },
+  {
+    "id": "toa_089",
+    "character": "toa",
+    "line": 239,
+    "file": "case1_companion.rpy",
+    "game_text": "Escort, not a leash. I can live with that."
+  },
+  {
+    "id": "kaoru_104",
+    "character": "kaoru",
+    "line": 243,
+    "file": "case1_companion.rpy",
+    "game_text": "You'll work with what I give you. Now sign."
+  },
+  {
+    "id": "toa_090",
+    "character": "toa",
+    "line": 253,
+    "file": "case1_companion.rpy",
+    "game_text": "Three koku. Fine. Wonderful, I'll frame the ledger. But Magistrate-sama, I want the room. I want the hall. I want to be here."
+  },
+  {
+    "id": "toa_091",
+    "character": "toa",
+    "line": 257,
+    "file": "case1_companion.rpy",
+    "game_text": "That came out louder than was professional."
+  },
+  {
+    "id": "kaoru_105",
+    "character": "kaoru",
+    "line": 261,
+    "file": "case1_companion.rpy",
+    "game_text": "Honest, at last. The treasury pays you regardless. Try not to grin at the clerk."
+  },
+  {
+    "id": "narrator_057",
+    "character": "narrator",
+    "line": 273,
+    "file": "case1_companion.rpy",
+    "game_text": "She takes up the brush. Her seal meets his: waxless, official, irrevocable until he says otherwise."
+  },
+  {
+    "id": "kaoru_106",
+    "character": "kaoru",
+    "line": 284,
+    "file": "case1_companion.rpy",
+    "game_text": "Effective on the thirtieth, as written. Until then, you're mine to schedule, starting with Case One."
+  },
+  {
+    "id": "toa_092",
+    "character": "toa",
+    "line": 288,
+    "file": "case1_companion.rpy",
+    "game_text": "Case One it is. Files, witnesses, and snacks for the road."
+  },
+  {
+    "id": "kaoru_107",
+    "character": "kaoru",
+    "line": 292,
+    "file": "case1_companion.rpy",
+    "game_text": "You'll fetch the docket from the inner archive. Then you'll learn how this city buries its dead without funerals."
+  },
+  {
+    "id": "toa_093",
+    "character": "toa",
+    "line": 297,
+    "file": "case1_companion.rpy",
+    "game_text": "I'll fetch it. I'll learn it. Just... thank you. For the room next to yours."
+  },
+  {
+    "id": "kaoru_108",
+    "character": "kaoru",
+    "line": 301,
+    "file": "case1_companion.rpy",
+    "game_text": "Thank me with a dry ledger, not with your mouth. Archive stairs. Now."
+  },
+  {
+    "id": "toa_094",
+    "character": "toa",
+    "line": 306,
+    "file": "case1_companion.rpy",
+    "game_text": "Archive. Escort. Written terms. I'm holding you to all three of them."
+  },
+  {
+    "id": "kaoru_109",
+    "character": "kaoru",
+    "line": 310,
+    "file": "case1_companion.rpy",
+    "game_text": "Hold the lantern instead. You'll want both hands free on those steps."
+  },
+  {
+    "id": "toa_095",
+    "character": "toa",
+    "line": 315,
+    "file": "case1_companion.rpy",
+    "game_text": "Understood. I'll be back with the docket, and a dry obijime."
+  },
+  {
+    "id": "kaoru_110",
+    "character": "kaoru",
+    "line": 319,
+    "file": "case1_companion.rpy",
+    "game_text": "Leave the bells behind. This case is not a stage."
+  },
+  {
+    "id": "toa_096",
+    "character": "toa",
+    "line": 328,
+    "file": "case1_companion.rpy",
+    "game_text": "Point me to the chamber. I'd rather unpack before the archive swallows me whole."
+  },
+  {
+    "id": "kaoru_111",
+    "character": "kaoru",
+    "line": 332,
+    "file": "case1_companion.rpy",
+    "game_text": "Past the inner screen, down the left corridor. Don't rearrange my shelves."
+  },
+  {
+    "id": "toa_097",
+    "character": "toa",
+    "line": 336,
+    "file": "case1_companion.rpy",
+    "game_text": "I only peeked the once. And you noticed."
+  },
+  {
+    "id": "kaoru_112",
+    "character": "kaoru",
+    "line": 340,
+    "file": "case1_companion.rpy",
+    "game_text": "I notice everything. Unpack after the docket, not before."
+  },
+  {
+    "id": "toa_098",
+    "character": "toa",
+    "line": 347,
+    "file": "case1_companion.rpy",
+    "game_text": "Archive first. You'll know I'm serious when I come back covered in dust."
+  },
+  {
+    "id": "kaoru_113",
+    "character": "kaoru",
+    "line": 351,
+    "file": "case1_companion.rpy",
+    "game_text": "Left stair, behind the screen. Archive dust on your hakama is acceptable. Just don't drop the ledger."
+  },
+  {
+    "id": "toa_099",
+    "character": "toa",
+    "line": 359,
+    "file": "case1_companion.rpy",
+    "game_text": "Case One, the archive, and look, your cup's already empty. Companion duty starts now."
+  },
+  {
+    "id": "kaoru_114",
+    "character": "kaoru",
+    "line": 363,
+    "file": "case1_companion.rpy",
+    "game_text": "Refill it. Then the archive. Then unpack. In that order, or I'll date your next permit forward again."
+  },
+  {
+    "id": "toa_100",
+    "character": "toa",
+    "line": 367,
+    "file": "case1_companion.rpy",
+    "game_text": "Cruel. And fair. The cup first, then."
+  },
+  {
+    "id": "kaoru_328",
+    "character": "kaoru",
+    "line": 381,
+    "file": "case1_companion.rpy",
+    "game_text": "Five matters on my slate this week. Companion ink puts you on my witness docket for all of it, Case One through Five. You'll survive all five, or the quarter will eat your stipend."
+  },
+  {
+    "id": "toa_277",
+    "character": "toa",
+    "line": 385,
+    "file": "case1_companion.rpy",
+    "game_text": "The permit was for dance. Patronage. A room behind your screen, not five corpses in rotation."
+  },
+  {
+    "id": "kaoru_329",
+    "character": "kaoru",
+    "line": 389,
+    "file": "case1_companion.rpy",
+    "game_text": "Dance bought you the corridor. Cases buy your keep. Competence within reach, that's what I want, so: archive stairs, the Case One ledger, before the watch blanks the line."
+  },
+  {
+    "id": "narrator_270",
+    "character": "narrator",
+    "line": 392,
+    "file": "case1_companion.rpy",
+    "game_text": "He files witness attachment the way clerks file tax. Her whole week is already columned out on his desk, and he never once said yoriki."
+  },
+  {
+    "id": "narrator_058",
+    "character": "narrator",
+    "line": 395,
+    "file": "case1_companion.rpy",
+    "game_text": "The inner screen slides open. Beyond it, the stairs smell of old paper and river damp: the archive, where Case One waits."
+  },
+  {
+    "id": "kaoru_115",
+    "character": "kaoru",
+    "line": 398,
+    "file": "case1_companion.rpy",
+    "game_text": "When you come back, we open the file on the canal body. No audience. No bells. Only answers."
+  },
+  {
+    "id": "toa_101",
+    "character": "toa",
+    "line": 402,
+    "file": "case1_companion.rpy",
+    "game_text": "Snacks after paperwork. The rule still holds, even for corpses without funerals."
+  },
+  {
+    "id": "kaoru_116",
+    "character": "kaoru",
+    "line": 406,
+    "file": "case1_companion.rpy",
+    "game_text": "Bring rice crackers. I'll allow you one indulgence before the city disappoints you."
+  },
+  {
+    "id": "toa_071",
+    "character": "toa",
+    "line": 420,
+    "file": "case1_companion.rpy",
+    "game_text": "Case file, tea, and, if I've been very good, a rice cracker. Ready when you are."
+  },
+  {
+    "id": "kaoru_331",
+    "character": "kaoru",
+    "line": 424,
+    "file": "case1_companion.rpy",
+    "game_text": "Correction: five matters on my slate this week. Witness attachment only. Case One through Five. No companion seal on this timeline."
+  },
+  {
+    "id": "toa_279",
+    "character": "toa",
+    "line": 428,
+    "file": "case1_companion.rpy",
+    "game_text": "You sold me a permit renewal. Not a whole magistrate's season."
+  },
+  {
+    "id": "kaoru_332",
+    "character": "kaoru",
+    "line": 432,
+    "file": "case1_companion.rpy",
+    "game_text": "Seasons are what I assign. Fetch Case One from the archive. Survive the week, and then we'll discuss whether you sleep in my hall."
+  },
+  {
+    "id": "kaoru_085",
+    "character": "kaoru",
+    "line": 437,
+    "file": "case1_companion.rpy",
+    "game_text": "You came back. I noted that."
+  },
+  {
+    "id": "toa_072",
+    "character": "toa",
+    "line": 441,
+    "file": "case1_companion.rpy",
+    "game_text": "The permit still expires. Some of us actually read the dates."
+  },
+  {
+    "id": "kaoru_086",
+    "character": "kaoru",
+    "line": 446,
+    "file": "case1_companion.rpy",
+    "game_text": "You still flinch when I reach for the cup. Don't, next time."
+  },
+  {
+    "id": "toa_073",
+    "character": "toa",
+    "line": 450,
+    "file": "case1_companion.rpy",
+    "game_text": "Progress would be signing without all the games."
+  },
+  {
+    "id": "kaoru_087",
+    "character": "kaoru",
+    "line": 455,
+    "file": "case1_companion.rpy",
+    "game_text": "You negotiated once. We'll see if you actually learned anything."
+  },
+  {
+    "id": "toa_074",
+    "character": "toa",
+    "line": 459,
+    "file": "case1_companion.rpy",
+    "game_text": "I learned that you drink water when you're impressed."
+  },
+  {
+    "id": "toa_075",
+    "character": "toa",
+    "line": 464,
+    "file": "case1_companion.rpy",
+    "game_text": "I also learned your terms shift. So Case One gets its terms in writing."
+  },
+  {
+    "id": "kaoru_088",
+    "character": "kaoru",
+    "line": 468,
+    "file": "case1_companion.rpy",
+    "game_text": "Ambitious. Now fetch the file."
+  },
+  {
+    "id": "kaoru_089",
+    "character": "kaoru",
+    "line": 473,
+    "file": "case1_companion.rpy",
+    "game_text": "You asked me for remedies once. Case One is your audition for belonging here."
+  },
+  {
+    "id": "toa_076",
+    "character": "toa",
+    "line": 477,
+    "file": "case1_companion.rpy",
+    "game_text": "Then watch closely. An audience of one."
+  },
+  {
+    "id": "kaoru_090",
+    "character": "kaoru",
+    "line": 482,
+    "file": "case1_companion.rpy",
+    "game_text": "No curry shop tonight. Just work."
+  },
+  {
+    "id": "toa_077",
+    "character": "toa",
+    "line": 486,
+    "file": "case1_companion.rpy",
+    "game_text": "Fine. But I'm billing you for the snacks."
+  },
+  {
+    "id": "narrator_059",
+    "character": "narrator",
+    "line": 489,
+    "file": "case1_companion.rpy",
+    "game_text": "A live-in companion appointment waits in draft on his desk: unsigned, unoffered on this timeline. Case One opens without the patronage seal."
+  },
+  {
+    "id": "kaoru_117",
+    "character": "kaoru",
+    "line": 493,
+    "file": "case1_companion.rpy",
+    "game_text": "Fetch the canal docket from the archive. We'll discuss residency once you've survived the week."
+  }
+]

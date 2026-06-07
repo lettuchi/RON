@@ -1,0 +1,16 @@
+toa_ballet_practice_room — regen 2026-06-04 (Modern AU tracksuit)
+====================================================================
+Tag: toa_ballet_practice_room (also second beat in au_modern_studio_audition)
+File: game/images/cg/cg-toa-ballet-practice-room.png
+Backup: game/images/cg/versions/cg-toa-ballet-practice-room-backup-2026-06-04.png
+
+Reason: Wrong clothing — prior art used kimono/kosode; Modern AU requires Western dance practice wear per docs/au-modern-wrong-floor-design.md.
+
+Scene: Mirror wall, ballet barre, rain on harbor glass; Toa port de bras or arabesque at barre; Kaoru audits from doorway in charcoal grey suit with clipboard/tablet.
+
+Generator: Cursor GenerateImage (1536×1024 landscape, fit_cg)
+Refs: style-painterly-reference, cg-case2-festival-kiss, op-festival, toa-neutral (face/hair), kaoru-smirk (face/hair), cg-au-modern-wrong-floor (tracksuit canon)
+Prompt emphasis: black zip tracksuit + gold stripes + gold crane logo on jacket; black leggings; white hair, grey eyes, white eyelashes; Kaoru charcoal grey business suit deputy director witness in doorway shadow.
+Negatives: kimono, kosode, furisode, hakama, obi, zori, traditional Japanese dress.
+
+Gallery/script paths unchanged. No git commit.

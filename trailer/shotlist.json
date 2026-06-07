@@ -1,0 +1,199 @@
+{
+  "_comment": "Source of truth for the Ryoko Owari cel-shaded trailer. Shots are anchored to measured vocal onsets in game/audio/bgm/opening_op.mp3 (see docs/op-timing/op_timing.json). build_trailer.py derives each shot's on-screen length from consecutive 'start' values; the final shot ends at config.duration. Techniques: 'procedural' (Ken Burns / parallax over an existing still), 'handdrawn_cel' (my generated cel keyframes, machine-inbetweened), 'ai_video' (a clip rendered by scripts/generate_video_clip.py into trailer/clips/<id>.mp4; falls back to procedural on the first frame if the clip is absent).",
+  "config": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 24,
+    "duration": 90.044,
+    "music": "game/audio/bgm/opening_op.mp3",
+    "audio_bed": "trailer/audio/trailer_bed.m4a",
+    "font": "game/fonts/YujiSyuku-Regular.ttf",
+    "default_transition": "dissolve",
+    "default_xf": 0.45,
+    "letterbox_frac": 0.055,
+    "vignette": true,
+    "grain": 0.06,
+    "grade": "warm_noir",
+    "out_mp4": "trailer/out/ryoko-owari-trailer-v1.mp4",
+    "out_webm": "trailer/out/ryoko-owari-trailer-v1.webm"
+  },
+  "shots": [
+    {
+      "id": "s01_lanterns",
+      "start": 0.0,
+      "technique": "procedural",
+      "plate": "game/images/op/op-lanterns-rain.png",
+      "motion": "kb_in",
+      "transition": "fade",
+      "subtitle": "In this city full of lies"
+    },
+    {
+      "id": "s02_canal_dawn",
+      "start": 7.9,
+      "technique": "procedural",
+      "plate": "game/images/op/op-canal-dawn.png",
+      "motion": "kb_pan_l",
+      "subtitle": "I ended up meeting you"
+    },
+    {
+      "id": "s03_toa_scrolls",
+      "start": 14.6,
+      "technique": "procedural",
+      "plate": "game/images/op/op-toa-scrolls-office.png",
+      "motion": "kb_rise",
+      "subtitle": "Lantern-red bleeding into the rain"
+    },
+    {
+      "id": "s04_toa_fan",
+      "start": 22.0,
+      "technique": "handdrawn_cel",
+      "frames": [
+        "trailer/frames/toa-fan-1.png",
+        "trailer/frames/toa-fan-2.png",
+        "trailer/frames/toa-fan-3.png"
+      ],
+      "fallback_plate": "game/images/op/op-toa-card.png",
+      "motion": "kb_in",
+      "transition": "fadewhite",
+      "namecard": { "main": "Kakita Toa", "sub": "Crane dancer, sharper eyes", "side": "left" },
+      "subtitle": "Lies' light swaying on the canal"
+    },
+    {
+      "id": "s05_festival",
+      "start": 28.6,
+      "technique": "procedural",
+      "plate": "game/images/op/op-festival.png",
+      "motion": "kb_pan_r",
+      "subtitle": "The night your cold fingertips touched me"
+    },
+    {
+      "id": "s06_kotatsu",
+      "start": 31.8,
+      "technique": "procedural",
+      "plate": "game/images/op/op-kotatsu-mikan.png",
+      "motion": "kb_out",
+      "subtitle": "And still, I couldn't let go"
+    },
+    {
+      "id": "s07_kaoru_turn",
+      "start": 34.8,
+      "technique": "handdrawn_cel",
+      "frames": [
+        "trailer/frames/kaoru-turn-1.png",
+        "trailer/frames/kaoru-turn-2.png",
+        "trailer/frames/kaoru-turn-3.png"
+      ],
+      "fallback_plate": "game/images/op/op-kaoru-card.png",
+      "motion": "kb_in",
+      "transition": "fadewhite",
+      "namecard": { "main": "Kitsu Kaoru", "sub": "Emerald Magistrate", "side": "right" },
+      "subtitle": "Your tenderness, and your cruelty too"
+    },
+    {
+      "id": "s08_canal_confront",
+      "start": 40.1,
+      "technique": "procedural",
+      "plate": "game/images/op/op-canal-confront.png",
+      "motion": "kb_in",
+      "subtitle": "I'll take all of it, every part"
+    },
+    {
+      "id": "s09_umbrella",
+      "start": 44.9,
+      "technique": "procedural",
+      "plate": "game/images/op/op-umbrella-rain.png",
+      "motion": "kb_pan_l",
+      "subtitle": ""
+    },
+    {
+      "id": "s10_duo",
+      "start": 49.7,
+      "technique": "procedural",
+      "plate": "game/images/op/op-duo-silhouette.png",
+      "motion": "punch",
+      "transition": "fadewhite",
+      "subtitle": "A red string binds us together"
+    },
+    {
+      "id": "s11_embrace",
+      "start": 52.7,
+      "technique": "procedural",
+      "plate": "game/images/cg/cg-canon-embrace.png",
+      "motion": "kb_out",
+      "subtitle": "the one true thing I found in the city of lies"
+    },
+    {
+      "id": "s12_pull_close",
+      "start": 56.9,
+      "technique": "procedural",
+      "plate": "game/images/cg/cg-canon-pull-close.png",
+      "motion": "kb_rise",
+      "subtitle": "Love doesn't need to be returned to be real"
+    },
+    {
+      "id": "s13_canal_body",
+      "start": 60.0,
+      "technique": "procedural",
+      "plate": "game/images/cg/cg-case1-canal-body.png",
+      "motion": "kb_in",
+      "transition": "fadered",
+      "subtitle": "Even if you never know, this feeling, dyed in red"
+    },
+    {
+      "id": "s14_bridge_lantern",
+      "start": 64.7,
+      "technique": "procedural",
+      "plate": "game/images/op/op-bridge-lantern.png",
+      "motion": "kb_out",
+      "transition": "fadewhite",
+      "subtitle": "The red string will never break"
+    },
+    {
+      "id": "s15_toa_dance",
+      "start": 66.7,
+      "technique": "handdrawn_cel",
+      "frames": [
+        "trailer/frames/toa-dance-1.png",
+        "trailer/frames/toa-dance-2.png",
+        "trailer/frames/toa-dance-3.png"
+      ],
+      "fallback_plate": "game/images/op/op-toa-dance-silhouette.png",
+      "motion": "kb_pan_r",
+      "subtitle": "Someday, you too will realize"
+    },
+    {
+      "id": "s16_chair",
+      "start": 70.3,
+      "technique": "procedural",
+      "plate": "game/images/cg/cg-first-scene-chair-tension.png",
+      "motion": "kb_pan_r",
+      "subtitle": "I'll be by your side, always"
+    },
+    {
+      "id": "s17_licensed_quarter",
+      "start": 74.3,
+      "technique": "procedural",
+      "plate": "game/images/op/op-licensed-quarter.png",
+      "motion": "kb_in",
+      "subtitle": "our fate, dyed in red"
+    },
+    {
+      "id": "s18_scorpion_comb",
+      "start": 75.9,
+      "technique": "procedural",
+      "plate": "game/images/op/op-scorpion-comb.png",
+      "motion": "kb_rise",
+      "transition": "fadered",
+      "subtitle": ""
+    },
+    {
+      "id": "s19_title",
+      "start": 80.2,
+      "technique": "procedural",
+      "plate": "game/images/op/op-title-backdrop.png",
+      "motion": "kb_settle",
+      "transition": "fadewhite",
+      "title": { "main": "Ryoko Owari Nights", "sub": "the city of lies" }
+    }
+  ]
+}

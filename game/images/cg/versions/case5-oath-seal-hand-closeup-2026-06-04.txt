@@ -1,0 +1,15 @@
+case5_oath_seal_hand — regen 2026-06-04
+========================================
+Tag: case5_oath_seal_hand
+File: game/images/cg/cg-case5-oath-seal-hand-closeup.png
+Backup: game/images/cg/versions/case5-oath-seal-hand-closeup-backup-2026-06-04.png
+
+Reason: User feedback — Toa's hand should read more delicate (slender Crane dancer fingers).
+
+Scene (case5_private_extra): Kaoru covers yoriki seal on inner desk; red wax warm; Toa left hand on scroll from oath menu.
+
+Generator: Cursor GenerateImage
+Refs: style-painterly-reference.png, cg-case2-festival-kiss.png, toa-neutral.png, kaoru-smirk.png, prior backup (composition)
+Prompt emphasis: pale slender long elegant fingers, neat nails, black kosode cuff + gold crane obi hint; Kaoru tanned hand secondary over seal/wrist; macro closeup, shallow DOF, Hakuoki painterly, no face.
+
+Gallery path unchanged. No git commit.
