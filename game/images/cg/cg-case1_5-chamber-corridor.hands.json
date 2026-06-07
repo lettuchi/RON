@@ -1,0 +1,28 @@
+{
+  "generated_at": "2026-06-07T17:19:02.650418+00:00",
+  "mode": "advisory",
+  "min_confidence": 0.5,
+  "summary": {
+    "files": 1,
+    "pass": 1,
+    "warn": 0,
+    "fail": 0
+  },
+  "results": [
+    {
+      "path": "game\\images\\cg\\cg-case1_5-chamber-corridor.png",
+      "hand_count": 1,
+      "min_confidence": 0.9752227663993835,
+      "max_confidence": 0.9752227663993835,
+      "expected_hands": null,
+      "warnings": [],
+      "status": "pass",
+      "hands": [
+        {
+          "label": "Left",
+          "confidence": 0.9752227663993835
+        }
+      ]
+    }
+  ]
+}

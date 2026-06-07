@@ -40,6 +40,8 @@ For **Modern AU** CGs, do **not** rely on sprites alone (they wear kimono/robes)
 
 Full rules, negatives, and workflow: [docs/au-modern-character-references.md](../../../docs/au-modern-character-references.md). Copy-paste tags: `scripts/au_modern_cg_prompt_block.txt`.
 
+**AU ballet/piano studio (Case 1 `au_modern_case1_studio_session`):** Room layout is locked in [docs/art-references/au-modern/studio-continuity-bible.md](../../../docs/art-references/au-modern/studio-continuity-bible.md). **Left** = full-wall mirrors + barre (accurate reflections). **Right** = **brown wooden upright piano** (same model/position every shot — NOT black grand). Toa = **ballet bun** + crane tracksuit. Style anchor: `game/images/cg/cg-au-modern-case1-piano-sit.png`. Attach that CG + AU outfit refs on every studio regen.
+
 > **Note (Windows migration):** the original Mac design sheets (Toa Discord screenshot, Kaoru concept art) were not included in this export. The in-project sprites above are now the canonical visual references. If you locate the original sheets, drop them in `reference/` and update this table.
 
 ## Art direction
@@ -153,22 +155,57 @@ Do **not** reuse NovelAI `_meta.style_tags` (`semi-realistic`, etc.) verbatim in
 - Final Hakuoki-quality art may come from external tools or hand-drawn assets
 - Label generated files as placeholders in commit messages unless user promotes them
 
-## Hand QA (MediaPipe, optional)
+## Hand anatomy verification (mandatory)
 
-After GenerateImage saves a CG (especially grab, embrace, dance, or grip scenes):
+**Before considering any CG done**, visually verify hand count on every generated PNG that shows human characters. This is required even when MediaPipe passes — the detector is advisory only for anime art.
+
+### After every CG with visible people
+
+1. **Read the image back** (do not ship from prompt alone).
+2. **Count hands per visible person** — expect **2 per person** unless a hand is intentionally off-frame or fully obscured (behind back, under blanket, cropped at wrist).
+3. **Flag and regenerate** if you see:
+   - Extra hands (phantom limbs, duplicate grasping hands)
+   - Duplicated hands on the same action
+   - Floating hands not attached to a body
+   - Hands emerging from wrong body positions (wrong shoulder, mid-torso)
+   - **Three hands on one character**
+4. **Especially high-risk:** intimate beats, couch scenes, embraces, pulls, wrist-grabs, dance partnering — AI often duplicates hands here.
+
+### Prompt negatives (always include on human CGs)
+
+Append to every GenerateImage / NovelAI negative block:
+
+```
+extra hands, extra limbs, duplicated hands, malformed hands, three hands, floating hands
+```
+
+For AU Modern CGs, also keep the AU negative block in `scripts/au_modern_cg_prompt_block.txt`.
+
+When hands are prominent in the composition, add positive anchors: `anatomically correct hands, five fingers per hand, two hands per person, hands attached to correct arms`.
+
+### Regen workflow on hand failure
+
+1. Back up defective PNG to `game/images/cg/versions/au-modern-<tag>-redo-hands-YYYY-MM-DD/`
+2. Regenerate with **same scene composition** + explicit hand negatives above
+3. Re-read the new PNG and recount before overwriting production filename
+
+## Hand QA (MediaPipe, optional supplement)
+
+After visual pass, optionally run MediaPipe for a second opinion:
 
 1. Install once: `pip install -r requirements-cg-qa.txt`
 2. Run: `python scripts/check_cg_hands.py --path <new_png>`
 3. Review the human-readable report (default **advisory** — exit 0 with warnings only).
-4. If `--strict` fails or warnings look real (0 hands on a wrist-grab, >2 phantom hands, low confidence): re-prompt with hand lines from [docs/cg-style-prompt-block.md](../../../docs/cg-style-prompt-block.md) and regen.
+4. If `--strict` fails or warnings align with your visual defect: re-prompt with hand lines from [docs/cg-style-prompt-block.md](../../../docs/cg-style-prompt-block.md) and regen.
 
-Do **not** auto-reject solely on MediaPipe warnings for anime art — the detector is a sanity check, not ground truth.
+Do **not** auto-accept solely because MediaPipe passes — **visual hand count is ground truth**.
 
 ## Workflow checklist
 
 1. Read user request (character, scene, expression)
 2. Load this skill + attach correct reference image(s)
-3. GenerateImage with full prompt from template (+ hand prompt lines when hands are prominent)
-4. Run `python scripts/check_cg_hands.py --path <new_png>` on CG output; review warnings
-5. Report saved path under `assets/`
-6. If Ren'Py project exists: offer to copy into `game/images/` and wire `show` statements
+3. GenerateImage with full prompt from template (+ hand prompt lines when hands are prominent; hand negatives always)
+4. **Read image back — count hands per visible person (mandatory)**
+5. Optionally run `python scripts/check_cg_hands.py --path <new_png>`; review warnings
+6. Report saved path under `assets/`
+7. If Ren'Py project exists: offer to copy into `game/images/` and wire `show` statements

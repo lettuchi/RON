@@ -169,6 +169,8 @@ label case1_companion_offer:
     voice "audio/voice/kaoru_095.mp3"
     kaoru "Companion duties: attend the magistrate, carry messages, witness interviews, keep discretion, remain on the premises unless I release you. The treasury pays for the art. Everything else it merely permits."
 
+    "Witness, on his paper, is not rank. It is permission to stand where he points and speak what she saw before the quarter can bury it. A Crane dancer hears what constables cannot ask and geisha will not repeat to men wearing seals."
+
     voice "audio/voice/kaoru_096.mp3"
     kaoru "You'll take meals in the inner hall. You'll sleep in the chamber adjoining my office. You'll answer when I call, day or night."
 
@@ -400,7 +402,9 @@ label case1_investigation_hook:
     kaoru "Dance bought you the corridor. Cases buy your keep. Show me competence I can reach for. Archive stairs, the Case One ledger, before the watch blanks that name line."
 
     voice "audio/voice/narrator_270.mp3"
-    "He files witness attachment the way clerks file tax. Her whole season is already columned on his desk, and he never once said yoriki."
+    "He files witness attachment the way clerks file tax. Her whole season is already columned on his desk, five cases on one witness chain, and he never once said yoriki."
+
+    "She came for patronage and a permit. The docket makes her his eyes in rooms his constables would turn into clan feuds, and whatever she signs under his seal becomes filing."
 
     voice "audio/voice/narrator_058.mp3"
     "The inner screen slides open. Beyond it, the stairs smell of old paper and river damp: the archive, where Case One waits."

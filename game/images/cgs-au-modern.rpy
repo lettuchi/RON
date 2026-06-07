@@ -23,3 +23,11 @@ image cg au_modern_intake_counter = At("images/cg/cg-au-modern-intake-counter.pn
 image cg au_modern_wrong_floor_wait = At("images/cg/cg-au-modern-wrong-floor-wait.png", fit_cg)
 image cg au_modern_standard_rider = At("images/cg/cg-au-modern-standard-rider.png", fit_cg)
 image cg au_modern_breakroom_sink = At("images/cg/cg-au-modern-breakroom-sink.png", fit_cg)
+# Added 2026-06-07 (pass 4): knock-branch determined knock, Kaoru's "revise the agenda" hero
+#   close (mutes gallery; the future-viral line), exclusive-rider "direct deputy review" pulse
+#   read (flustered), studio-key handoff, and the signing/effective-date document close-up.
+image cg au_modern_wf_knock = At("images/cg/cg-au-modern-wf-knock.png", fit_cg)
+image cg au_modern_wf_revise_agenda = At("images/cg/cg-au-modern-wf-revise-agenda.png", fit_cg)
+image cg au_modern_wf_pulse_read = At("images/cg/cg-au-modern-wf-pulse-read.png", fit_cg)
+image cg au_modern_wf_studio_key = At("images/cg/cg-au-modern-wf-studio-key.png", fit_cg)
+image cg au_modern_wf_signing_effective = At("images/cg/cg-au-modern-wf-signing-effective.png", fit_cg)

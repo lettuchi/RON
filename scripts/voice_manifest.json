@@ -1495,7 +1495,8 @@
     {
       "id": "narrator_270",
       "character": "narrator",
-      "text": "He files witness attachment the way clerks file tax. Her whole season is already columned on his desk, and he never once said yoriki."
+      "text": "He files witness attachment the way clerks file tax. Her whole season is already columned on his desk, five cases on one witness chain, and he never once said yoriki.",
+      "source": "game/case1_companion.rpy:405"
     },
     {
       "id": "narrator_058",
@@ -2395,7 +2396,8 @@
     {
       "id": "toa_229",
       "character": "toa",
-      "text": "Case Two, closed. The city still lies, but my name gets to stay in Ryoko Owari a little longer."
+      "text": "Case Two, closed. Tsubaki's ash and the charter fraud join Jiro's seal on the same tray. The city still lies, but my witness line gets to stay in Ryoko Owari a little longer.",
+      "source": "game/case2_investigation.rpy:272"
     },
     {
       "id": "narrator_235",
@@ -4220,7 +4222,8 @@
     {
       "id": "toa_271",
       "character": "toa",
-      "text": "Case Four's line is written. The city still lies, but I am still at your door."
+      "text": "Case Four's line is on the tray with the rest. Four files witnessed, one hearing left. The city still lies, but I am still at your door.",
+      "source": "game/case4_investigation.rpy:291"
     },
     {
       "id": "kaoru_335",
@@ -4273,8 +4276,8 @@
     {
       "id": "kaoru_343",
       "character": "kaoru",
-      "text": "I said provisional attachment until the files close. They were real cases, and they did not close themselves, To-chan. I was not testing you. I was watching what each one revealed.",
-      "source": "case5_investigation.rpy:101"
+      "text": "I said provisional attachment until the files close. They were real cases, and they did not close themselves, To-chan. I was not testing you. Each one added a link to the witness chain the hall will swear to today.",
+      "source": "game/case5_investigation.rpy:103"
     },
     {
       "id": "kaoru_344",
@@ -5478,1122 +5481,1346 @@
     {
       "id": "toa_364",
       "character": "toa",
-      "text": "Case One, closed. Then whatever the city decides to throw at us next."
+      "text": "Case One, closed. Jiro's name is on the record now, and so is mine as the witness who put it there. Then whatever the city decides to throw at us next.",
+      "source": "game/case1_investigation.rpy:1237"
     },
     {
       "id": "narrator_366",
       "character": "narrator",
-      "text": "Rain needles the harbor glass. The parking structure under the licensing tower is a cathedral of dripping concrete, fluorescents buzzing while ferries cough diesel into the channel below."
+      "text": "Rain needles the harbor glass. Under the municipal licensing tower, the parking structure is a cathedral of dripping concrete, fluorescents buzzing while ferries cough diesel into the channel below. This is where Kakita Toa starts the morning she means to spend fixing her papers, and where Ryoko Port quietly decides it will not be that simple.",
+      "source": "game/au_modern_wrong_floor.rpy:41"
     },
     {
       "id": "narrator_367",
       "character": "narrator",
-      "text": "Ryoko Port keeps its appointments under fluorescent mercy and never apologizes for the weather. The municipal tower hums like a printer that learned to judge people. Floor fourteen B belongs to the Ryoko Port Arts Council, and it was supposed to be the easy part of her morning."
+      "text": "Ryoko Port keeps its appointments under fluorescent mercy and never apologizes for the weather. The municipal tower hums like a printer that learned to judge people. Floor fourteen B belongs to the Ryoko Port Arts Council, the board that decides which artists the port will license at all, and renewing the sponsorship she had let lapse was supposed to be the easy part of her morning.",
+      "source": "game/au_modern_wrong_floor.rpy:43"
     },
     {
       "id": "toa_365",
       "character": "toa",
-      "text": "The elevator map said fourteen B. The packet said fast track. Those two facts have not shaken hands yet."
+      "text": "The elevator map said fourteen B. The packet said fast track. Those two facts have not shaken hands yet.",
+      "source": "game/au_modern_wrong_floor.rpy:78"
     },
     {
       "id": "narrator_368",
       "character": "narrator",
-      "text": "Toa clutches a tablet sleeve, expired sponsorship packet, and the personal stamp she was told to bring to every bureaucratic threshold. Crane logo on her rehearsal jacket, not costume. Ballet flats soaked through anyway."
+      "text": "Toa clutches a tablet sleeve, expired sponsorship packet, and the personal stamp she was told to bring to every bureaucratic threshold. Crane logo on her rehearsal jacket, not costume. Ballet flats soaked through anyway.",
+      "source": "game/au_modern_wrong_floor.rpy:80"
     },
     {
       "id": "kaoru_487",
       "character": "kaoru",
-      "text": "Wrong conference room. Again."
+      "text": "Wrong conference room. Again.",
+      "source": "game/au_modern_wrong_floor.rpy:95"
     },
     {
       "id": "toa_366",
       "character": "toa",
-      "text": "I wasn't... that is, I'm looking for Arts Council sponsorship intake?"
+      "text": "I wasn't... that is, I'm looking for Arts Council sponsorship intake?",
+      "source": "game/au_modern_wrong_floor.rpy:97"
     },
     {
       "id": "kaoru_488",
       "character": "kaoru",
-      "text": "You opened the door to the Office of Arts and Licensing without reading the plate. Intake is the other wing, where applicants wait their turn. This wing is where I decide whether intake wasted its morning. Reading the wrong door is a skill, not an excuse."
+      "text": "You opened the door to the Office of Arts and Licensing without reading the plate. Intake is the other wing, where applicants wait their turn. This wing is where I decide whether intake wasted its morning. Reading the wrong door is a skill, not an excuse.",
+      "source": "game/au_modern_wrong_floor.rpy:99"
     },
     {
       "id": "narrator_369",
       "character": "narrator",
-      "text": "On the deputy director's monitor, an Arts Council board member freezes mid-objection. The hearing is live, unmuted, gallery view tiled with councilors and clerks who have never danced for a living. The chat scrolls before she has finished apologizing."
+      "text": "On the deputy director's monitor, an Arts Council board member freezes mid-objection. The hearing is live, unmuted, gallery view tiled with councilors and clerks who have never danced for a living. The chat scrolls before she has finished apologizing.",
+      "source": "game/au_modern_wrong_floor.rpy:101"
     },
     {
       "id": "toa_367",
       "character": "toa",
-      "text": "Fine. I'll find a deputy with better signage."
+      "text": "Fine. I'll find a deputy with better signage.",
+      "source": "game/au_modern_wrong_floor.rpy:109"
     },
     {
       "id": "narrator_370",
       "character": "narrator",
-      "text": "At the Arts Council intake counter two wings over, a junior clerk squints at her packet, circles the expiration date a second time in the same red, and points her back the way she came. Intake takes the form. Intake does not sign it."
+      "text": "At the Arts Council intake counter two wings over, a junior clerk squints at her packet, circles the expiration date a second time in the same red, and points her back the way she came. Intake takes the form. Intake does not sign it.",
+      "source": "game/au_modern_wrong_floor.rpy:114"
     },
     {
       "id": "toa_368",
       "character": "toa",
-      "text": "Kitsu Kaoru, Deputy Director? That glass door with the badge reader?"
+      "text": "Kitsu Kaoru, Deputy Director? That glass door with the badge reader?",
+      "source": "game/au_modern_wrong_floor.rpy:116"
     },
     {
       "id": "toa_369",
       "character": "toa",
-      "text": "Third time's the charm. Or the deputy director. Hopefully both."
+      "text": "Third time's the charm. Or the deputy director. Hopefully both.",
+      "source": "game/au_modern_wrong_floor.rpy:122"
     },
     {
       "id": "narrator_371",
       "character": "narrator",
-      "text": "Toa straightens her rehearsal jacket, breathes, and tries not to look like a dancer lost in a tax form. Pride and panic share a spine."
+      "text": "Toa straightens her rehearsal jacket, breathes, and tries not to look like a dancer lost in a tax form. Pride and panic share a spine.",
+      "source": "game/au_modern_wrong_floor.rpy:134"
     },
     {
       "id": "kaoru_489",
       "character": "kaoru",
-      "text": "Still there? Knock if you want something other than a live Council hearing to fail on the public record."
+      "text": "Still there? Knock if you want something other than a live Council hearing to fail on the public record.",
+      "source": "game/au_modern_wrong_floor.rpy:136"
     },
     {
       "id": "narrator_372",
       "character": "narrator",
-      "text": "He does not look up from two monitors until she sits in the chair beside the screen, not the one facing him. Witness posture lives there, he says later. Stage posture dies in the chat."
+      "text": "He does not look up from two monitors until she sits in the chair beside the screen, not the one facing him. Witness posture lives there, he says later. Stage posture dies in the chat.",
+      "source": "game/au_modern_wrong_floor.rpy:151"
     },
     {
       "id": "kaoru_490",
       "character": "kaoru",
-      "text": "Crane Conservatory transfer packet. Expired six weeks ago. You walked into my live hearing like a pop-up ad."
+      "text": "Crane Conservatory transfer packet. Expired six weeks ago. You walked into my live hearing like a pop-up ad.",
+      "source": "game/au_modern_wrong_floor.rpy:153"
     },
     {
       "id": "toa_370",
       "character": "toa",
-      "text": "The transfer letter said Ryoko Port had a fast track for performing arts sponsorship."
+      "text": "The transfer letter said Ryoko Port had a fast track for performing arts sponsorship.",
+      "source": "game/au_modern_wrong_floor.rpy:155"
     },
     {
       "id": "kaoru_491",
       "character": "kaoru",
-      "text": "Ryoko Port has a queue. You are in it now, whether you intended to be or not."
+      "text": "Ryoko Port has a queue. You are in it now, whether you intended to be or not.",
+      "source": "game/au_modern_wrong_floor.rpy:157"
     },
     {
       "id": "narrator_373",
       "character": "narrator",
-      "text": "Toa kept her hands on her knees and her eyes on the edge of his monitor, where rain smeared the window. Every syllable landed on her spine like a sticker she could not peel off."
+      "text": "Toa kept her hands on her knees and her eyes on the edge of his monitor, where rain smeared the window. Every syllable landed on her spine like a sticker she could not peel off.",
+      "source": "game/au_modern_wrong_floor.rpy:165"
     },
     {
       "id": "toa_371",
       "character": "toa",
-      "text": "Can I at least not be the reason your Zoom looks unprofessional?"
+      "text": "Can I at least not be the reason your Zoom looks unprofessional?",
+      "source": "game/au_modern_wrong_floor.rpy:167"
     },
     {
       "id": "kaoru_492",
       "character": "kaoru",
-      "text": "You already are. Sit. Witness posture. Not performance posture. I will audit both."
+      "text": "You already are. Sit. Witness posture. Not performance posture. I will audit both.",
+      "source": "game/au_modern_wrong_floor.rpy:169"
     },
     {
       "id": "narrator_374",
       "character": "narrator",
-      "text": "Yellow paper slides across the desk edge in block letters. Do not speak unless prompted. Dates and names only. A second note repeats the difference: witness posture, not performance posture. Someone laughed in a tile and muted themselves. Kaoru unmuted no one."
+      "text": "Yellow paper slides across the desk edge in block letters. Do not speak unless prompted. Dates and names only. A second note repeats the difference: witness posture, not performance posture. Someone laughed in a tile and muted themselves. Kaoru unmuted no one.",
+      "source": "game/au_modern_wrong_floor.rpy:181"
     },
     {
       "id": "toa_372",
       "character": "toa",
-      "text": "You want me to audition for a permit extension?"
+      "text": "You want me to audition for a permit extension?",
+      "source": "game/au_modern_wrong_floor.rpy:206"
     },
     {
       "id": "kaoru_493",
       "character": "kaoru",
-      "text": "Applicant present for sponsorship review. Packet error is mine to remediate. Continue your agenda item."
+      "text": "Applicant present for sponsorship review. Packet error is mine to remediate. Continue your agenda item.",
+      "source": "game/au_modern_wrong_floor.rpy:185"
     },
     {
       "id": "narrator_375",
       "character": "narrator",
-      "text": "When the board member asks whether Arts Council intake sent her, Kaoru says intake sent her to the wrong floor, so he is intake now. That is not comfort. It is jurisdiction, and she discovers she prefers jurisdiction to kindness, because kindness in this port always arrives with an expiration date and a clerk who is not present to be argued with."
+      "text": "When the board member asks whether Arts Council intake sent her, Kaoru says intake sent her to the wrong floor, so he is intake now. That is not comfort. It is jurisdiction, and she discovers she prefers jurisdiction to kindness, because kindness in this port always arrives with an expiration date and a clerk who is not looking at your packet when it lands.",
+      "source": "game/au_modern_wrong_floor.rpy:187"
     },
     {
       "id": "kaoru_494",
       "character": "kaoru",
-      "text": "I want proof you can follow choreography that is not flirting with clerks. Run the phrase."
+      "text": "I want proof you can follow choreography that is not flirting with clerks. Run the phrase.",
+      "source": "game/au_modern_wrong_floor.rpy:208"
     },
     {
       "id": "toa_373",
       "character": "toa",
-      "text": "That one was clean. You counted out loud."
+      "text": "That one was clean. You counted out loud.",
+      "source": "game/au_modern_wrong_floor.rpy:214"
     },
     {
       "id": "kaoru_495",
       "character": "kaoru",
-      "text": "Again. Less apology in the port de bras."
+      "text": "Again. Less apology in the port de bras.",
+      "source": "game/au_modern_wrong_floor.rpy:212"
     },
     {
       "id": "kaoru_496",
       "character": "kaoru",
-      "text": "Counting is witness work. Stop expecting applause from a licensing officer."
+      "text": "Counting is witness work. Stop expecting applause from a licensing officer. I will say one thing for the record and deny it under oath later. You stopped apologizing on the second pass. That is discipline, not charm. Discipline is the one thing in this building I respect without a form ordering me to.",
+      "source": "game/au_modern_wrong_floor.rpy:216"
     },
     {
       "id": "toa_374",
       "character": "toa",
-      "text": "Standard rider. Discretion, attendance, and no social posts that tag municipal accounts."
+      "text": "Standard rider. Discretion, attendance, and no social posts that tag municipal accounts.",
+      "source": "game/au_modern_wrong_floor.rpy:257"
     },
     {
       "id": "kaoru_497",
       "character": "kaoru",
-      "text": "Two riders on the sponsorship draft I am prepared to sign. Pick one before I file you under *disruptive applicant* and let the queue keep you."
+      "text": "Two riders on the sponsorship draft I am prepared to sign. Pick one before I file you under *disruptive applicant* and let the queue keep you.",
+      "source": "game/au_modern_wrong_floor.rpy:249"
     },
     {
       "id": "toa_375",
       "character": "toa",
-      "text": "Exclusive rehearsal sponsor. After-hours studio access and direct deputy review."
+      "text": "Exclusive rehearsal sponsor. After-hours studio access and direct deputy review.",
+      "source": "game/au_modern_wrong_floor.rpy:272"
     },
     {
       "id": "kaoru_498",
       "character": "kaoru",
-      "text": "Correct. Boring is enforceable. I can work with boring."
+      "text": "Correct. Boring is enforceable. I can work with boring. She initials the witness clause and files the rest under professional distance. The sponsorship will clear. The inspections will still find her.",
+      "source": "game/au_modern_wrong_floor.rpy:262"
     },
     {
       "id": "narrator_376",
       "character": "narrator",
-      "text": "When the hearing ends without praise, he offers a studio key and a hallway that smells of floor wax and rain. The city rents the rehearsal room by the hour to applicants who need to prove they are more than a packet error."
+      "text": "When the hearing ends without praise, he hands her a studio key and a hallway that smells of floor wax and rain. The city rents the rehearsal room by the hour to applicants who need to prove, in a mirror, that they are more than a packet error. Prove it, and the deputy signs. That is the only fast track Ryoko Port actually keeps.",
+      "source": "game/au_modern_wrong_floor.rpy:200"
     },
     {
       "id": "kaoru_499",
       "character": "kaoru",
-      "text": "You understand that clause includes my calendar, not romance on letterhead."
+      "text": "You understand that clause includes my calendar, not romance on letterhead. Hear the word I used. *Not.* On letterhead would mean I filed us. Your name beside mine, a relationship of record, a thing the Council can open and read and rule on. The rider is the opposite of that. Calendar, clause, after-hours access. We keep the real word out of every box a clerk could subpoena, and we call the keeping-out a rider.",
+      "source": "game/au_modern_wrong_floor.rpy:274"
     },
     {
       "id": "toa_376",
       "character": "toa",
-      "text": "That is not a municipal form."
+      "text": "That is not a municipal form.",
+      "source": "game/au_modern_wrong_floor.rpy:305"
     },
     {
       "id": "kaoru_500",
       "character": "kaoru",
-      "text": "Unless?"
+      "text": "Unless?",
+      "source": "game/au_modern_wrong_floor.rpy:303"
     },
     {
       "id": "narrator_377",
       "character": "narrator",
-      "text": "Mirror wall. Barre. Rain ticking the glass like a clerk tapping a stamp. She runs the phrase once. Apology still lives in her shoulders. He counts under his breath like a man checking witness notes, not applause."
+      "text": "Mirror wall. Barre. Rain ticking the glass like a clerk tapping a stamp. She runs the phrase once. Apology still lives in her shoulders. He counts under his breath like a man checking witness notes, not applause.",
+      "source": "game/au_modern_wrong_floor.rpy:210"
     },
     {
       "id": "narrator_378",
       "character": "narrator",
-      "text": "Building hour passes six. Public elevators sigh into standby. Only the service lift still answers when he badges it, a dull metal box that does not appear on the map tourists photograph."
+      "text": "Building hour passes six. The official business is filed, the contract floor goes dark, and the public elevators sigh into standby one by one. Only the service lift still answers when he badges it, a dull metal box that does not appear on the map tourists photograph.",
+      "source": "game/au_modern_wrong_floor.rpy:301"
     },
     {
       "id": "kaoru_501",
       "character": "kaoru",
-      "text": "The contract floor is closed. This floor is not on your calendar. Get in."
+      "text": "The contract floor is closed. This floor is not on your calendar. Get in.",
+      "source": "game/au_modern_wrong_floor.rpy:307"
     },
     {
       "id": "toa_377",
       "character": "toa",
-      "text": "Then audit quietly, Deputy Director-sama. The building still has ears."
+      "text": "Then audit quietly, Deputy Director-sama. The building still has ears.",
+      "source": "game/au_modern_wrong_floor.rpy:320"
     },
     {
       "id": "narrator_379",
       "character": "narrator",
-      "text": "Rain stripes the glass on the way down. The car shudders once, as if the building cleared its throat. His badge taps the reader on a floor that does not appear on the public map."
+      "text": "Rain stripes the glass on the way down. The car shudders once, as if the building cleared its throat. His badge taps the reader on a floor that does not appear on the public map.",
+      "source": "game/au_modern_wrong_floor.rpy:309"
     },
     {
       "id": "toa_378",
       "character": "toa",
-      "text": "They don't give case numbers upstairs. So today I am cooking thank-you curry, not filing a report about it."
+      "text": "They don't give case numbers upstairs. So today I am cooking thank-you curry, not filing a report about it.",
+      "source": "game/au_modern_wrong_floor.rpy:342"
     },
     {
       "id": "kaoru_502",
       "character": "kaoru",
-      "text": "Quiet. You wanted exclusive rehearsal. I audit deliverables."
+      "text": "Quiet. You wanted exclusive rehearsal. I audit deliverables.",
+      "source": "game/au_modern_wrong_floor.rpy:318"
     },
     {
       "id": "toa_379",
       "character": "toa",
-      "text": "I brought the stamp. A proper hanko makes everything official, does it not?"
+      "text": "I brought the stamp. A proper hanko makes everything official, does it not?",
+      "source": "game/au_modern_wrong_floor.rpy:346"
     },
     {
       "id": "kaoru_503",
       "character": "kaoru",
-      "text": "The break room is not a courtroom. Neither is the lid of that pot."
+      "text": "The break room is not a courtroom. Neither is the lid of that pot.",
+      "source": "game/au_modern_wrong_floor.rpy:344"
     },
     {
       "id": "narrator_380",
       "character": "narrator",
-      "text": "She does not perform purity afterward. Whatever the service lift was, every form that matters will still call it sponsorship, after-hours rehearsal access logged under a rider she signed with her eyes open. The seal stays professional on paper. The rest stays off the public record, where the exclusive rider keeps it."
+      "text": "She does not pretend, afterward, that nothing happened between them. His mouth found hers against the rain-streaked glass. His hand learned her waist and stopped before the filing finished. Whatever the service lift was, every form that matters will still file it as sponsorship: after-hours rehearsal access, logged under the exclusive rider she signed with her eyes open. The seal stays professional on paper. The rest stays off the public record, which is exactly what that rider is for.",
+      "source": "game/au_modern_wrong_floor.rpy:314"
     },
     {
       "id": "narrator_381",
       "character": "narrator",
-      "text": "Next midday. The municipal break room smells of curry roux and a little guilt. Fluorescents hum. Rain keeps filing itself against the window. Somewhere upstairs a printer jams and someone swears with the tenderness of a prayer."
+      "text": "The next midday she comes back to the tower, not as a lost applicant this time but as a woman cooking thank-you curry in the municipal break room, which smells of roux and a little guilt. Fluorescents hum. Rain keeps filing itself against the window. Somewhere upstairs a printer jams and someone swears with the tenderness of a prayer.",
+      "source": "game/au_modern_wrong_floor.rpy:340"
     },
     {
       "id": "kaoru_504",
       "character": "kaoru",
-      "text": "Official lentils are still lentils. Put my chop on paper, not on your paper plate."
+      "text": "Official lentils are still lentils. Put my chop on paper, not on your paper plate.",
+      "source": "game/au_modern_wrong_floor.rpy:348"
     },
     {
       "id": "toa_380",
       "character": "toa",
-      "text": "Filed. And I promise I will not stamp disposable tableware again."
+      "text": "Filed. And I promise I will not stamp disposable tableware again.",
+      "source": "game/au_modern_wrong_floor.rpy:370"
     },
     {
       "id": "kaoru_505",
       "character": "kaoru",
-      "text": "Three business days effective. Do not perform gratitude on municipal letterhead."
+      "text": "Three business days effective. Do not perform gratitude on municipal letterhead.",
+      "source": "game/au_modern_wrong_floor.rpy:368"
     },
     {
       "id": "narrator_382",
       "character": "narrator",
-      "text": "He eats without praise and without flinching, as though his jurisdiction now extends to broth. Toa watches his chopsticks and tries not to hope too visibly."
+      "text": "He eats without praise and without flinching, as though his jurisdiction now extends to broth. Toa watches his chopsticks and tries not to hope too visibly.",
+      "source": "game/au_modern_wrong_floor.rpy:353"
     },
     {
       "id": "kaoru_506",
       "character": "kaoru",
-      "text": "See that you don't. The queue remembers applicants who treat stamps like confetti."
+      "text": "See that you don't. The queue remembers applicants who treat stamps like confetti.",
+      "source": "game/au_modern_wrong_floor.rpy:372"
     },
     {
       "id": "toa_381",
       "character": "toa",
-      "text": "Then I'll file my breathing under acceptable noise. Good night, Deputy Director-sama."
+      "text": "Then I'll file my breathing under acceptable noise. Good night, Deputy Director-sama.",
+      "source": "game/au_modern_wrong_floor.rpy:382"
     },
     {
       "id": "narrator_383",
       "character": "narrator",
-      "text": "The sponsorship contract returns to her tablet sleeve with a fresh effective date. Three business days. Not a love letter. Still binding. She reads the effective line twice because numbers are safer than whatever lives in her chest when he stands too close in an elevator."
+      "text": "The sponsorship contract returns to her tablet sleeve with a fresh effective date. Three business days. Not a love letter. Still binding. She reads the effective line twice because numbers are safer than whatever lives in her chest when he stands too close.",
+      "source": "game/au_modern_wrong_floor.rpy:366"
     },
     {
       "id": "kaoru_507",
       "character": "kaoru",
-      "text": "Blanket is a loan against your noise. Snore, and I reassign you to the public waiting area."
+      "text": "Blanket is a loan against your noise. Snore, and I reassign you to the public waiting area.",
+      "source": "game/au_modern_wrong_floor.rpy:380"
     },
     {
       "id": "toa_382",
       "character": "toa",
-      "text": "You almost smiled when I said thank-you curry, didn't you?"
+      "text": "You almost smiled when I said thank-you curry, didn't you?",
+      "source": "game/au_modern_wrong_floor.rpy:399"
     },
     {
       "id": "kaoru_508",
       "character": "kaoru",
-      "text": "Peel one. Domestic filing. I will deny that too until the port stops selling what I intend to keep."
+      "text": "Peel one. Domestic filing. I will deny that too until the port stops selling what I intend to keep.",
+      "source": "game/au_modern_wrong_floor.rpy:397"
     },
     {
       "id": "kaoru_509",
       "character": "kaoru",
-      "text": "Motion denied. Good night, To-chan."
+      "text": "Motion denied. Good night, To-chan.",
+      "source": "game/au_modern_wrong_floor.rpy:401"
     },
     {
       "id": "narrator_384",
       "character": "narrator",
-      "text": "After hours, his office couch accepts two people who still call it sponsorship on every form that matters. Harbor lights smear across the window."
+      "text": "After hours, his office couch accepts two people who will sleep clothed under one blanket, still calling it sponsorship on every form that matters. Harbor lights smear across the window.",
+      "source": "game/au_modern_wrong_floor.rpy:378"
     },
     {
       "id": "narrator_385",
       "character": "narrator",
-      "text": "Clementines on the armrest, bright as small suns he will deny noticing. Shared blanket. Almost-smile inventory: denied, pending, denied again."
+      "text": "Clementines on the armrest, bright as small suns he will deny noticing. Shared blanket. Almost-smile inventory: denied, pending, denied again.",
+      "source": "game/au_modern_wrong_floor.rpy:395"
     },
     {
       "id": "toa_383",
       "character": "toa",
-      "text": "Mandatory on-site witness for a surprise inspection. That sounds like a field trip with liability."
+      "text": "Mandatory on-site witness for a surprise inspection. That sounds like a field trip with liability.",
+      "source": "game/au_modern_case1_compliance.rpy:45"
     },
     {
       "id": "kaoru_510",
       "character": "kaoru",
-      "text": "Floor fourteen B is still the wrong door tomorrow. Try reading the plate first."
+      "text": "Floor fourteen B is still the wrong door tomorrow. Try reading the plate first.",
+      "source": "game/au_modern_wrong_floor.rpy:403"
     },
     {
       "id": "narrator_386",
       "character": "narrator",
-      "text": "The wellness corridor is a row of Council-licensed calm: massage studios, float tanks, candle rhetoric under one neon awning, every storefront holding an operating license his office issued. Deputy Director Kitsu Kaoru walks like the queue is already behind him."
+      "text": "The wellness corridor is a row of Council-licensed calm: massage studios, float tanks, candle rhetoric under one neon awning, every storefront holding an operating license his office issued. This is the first inspection her witness clause requires her to stand through. Deputy Director Kitsu Kaoru walks it like the queue is already behind him.",
+      "source": "game/au_modern_case1_compliance.rpy:59"
     },
     {
       "id": "toa_384",
       "character": "toa",
-      "text": "Velvet Lantern Wellness Collective. The sign promises serenity in four fonts."
+      "text": "Velvet Lantern Wellness Collective. The sign promises serenity in four fonts.",
+      "source": "game/au_modern_case1_compliance.rpy:61"
     },
     {
       "id": "kaoru_511",
       "character": "kaoru",
-      "text": "Their operating license promises posted occupancy, working fire exits, and honest books. My inspection confirms it, or my office pulls the license. The witness log needs a sponsor artist on it. That is you."
+      "text": "Their operating license promises posted occupancy, working fire exits, and honest books. My inspection confirms it, or my office pulls the license. The witness log needs a sponsor artist on it. That is you.",
+      "source": "game/au_modern_case1_compliance.rpy:63"
     },
     {
       "id": "narrator_387",
       "character": "narrator",
-      "text": "Harbor mist and pink neon turn the wet sidewalk into a brochure nobody asked for."
+      "text": "Harbor mist and pink neon turn the wet sidewalk into a brochure nobody asked for.",
+      "source": "game/au_modern_case1_compliance.rpy:65"
     },
     {
       "id": "kaoru_512",
       "character": "kaoru",
-      "text": "Surprise inspection. No appointment. If they scrub the lobby, we note the scrub."
+      "text": "Surprise inspection. No appointment. If they scrub the lobby, we note the scrub.",
+      "source": "game/au_modern_case1_compliance.rpy:79"
     },
     {
       "id": "narrator_388",
       "character": "narrator",
-      "text": "His clipboard is municipal grey. Her phone is personal black. Both will end up in the same PDF."
+      "text": "His clipboard is municipal grey. Her phone is personal black. Both will end up in the same PDF.",
+      "source": "game/au_modern_case1_compliance.rpy:81"
     },
     {
       "id": "toa_385",
       "character": "toa",
-      "text": "Do I film everything or only what you point at?"
+      "text": "Do I film everything or only what you point at?",
+      "source": "game/au_modern_case1_compliance.rpy:83"
     },
     {
       "id": "kaoru_513",
       "character": "kaoru",
-      "text": "You film what I tell you is exhibit-worthy. Flirt with the lens on your own time."
+      "text": "You film what I tell you is exhibit-worthy. Flirt with the lens on your own time.",
+      "source": "game/au_modern_case1_compliance.rpy:85"
     },
     {
       "id": "narrator_389",
       "character": "narrator",
-      "text": "The front desk host smiles like a man who has never seen a deputy director before noon."
+      "text": "The front desk host smiles like a man who has never seen a deputy director before noon.",
+      "source": "game/au_modern_case1_compliance.rpy:87"
     },
     {
       "id": "kaoru_514",
       "character": "kaoru",
-      "text": "Operating entity on file: Scorpion-grey Holdings LLC. Cute. File that under *names that audition for subpoenas*."
+      "text": "Operating entity on file: Scorpion-grey Holdings LLC. Cute. File that under *names that audition for subpoenas*.",
+      "source": "game/au_modern_case1_compliance.rpy:97"
     },
     {
       "id": "toa_386",
       "character": "toa",
-      "text": "Is that a problem or a punchline?"
+      "text": "Is that a problem or a punchline?",
+      "source": "game/au_modern_case1_compliance.rpy:99"
     },
     {
       "id": "kaoru_515",
       "character": "kaoru",
-      "text": "It is a line item. Grey LLCs love grey corridors. We walk them anyway."
+      "text": "It is a line item. Grey LLCs love grey corridors. We walk them anyway.",
+      "source": "game/au_modern_case1_compliance.rpy:101"
     },
     {
       "id": "narrator_390",
       "character": "narrator",
-      "text": "Toa bites her cheek so she does not laugh in a room that already smells like eucalyptus and panic."
+      "text": "Toa bites her cheek so she does not laugh in a room that already smells like eucalyptus and panic.",
+      "source": "game/au_modern_case1_compliance.rpy:103"
     },
     {
       "id": "kaoru_516",
       "character": "kaoru",
-      "text": "Witness protocol. Choose how you document before I choose for you."
+      "text": "Witness protocol. Choose how you document before I choose for you.",
+      "source": "game/au_modern_case1_compliance.rpy:108"
     },
     {
       "id": "toa_387",
       "character": "toa",
-      "text": "Timestamped video. If they move a chair, the chair has a timecode."
+      "text": "Timestamped video. If they move a chair, the chair has a timecode.",
+      "source": "game/au_modern_case1_compliance.rpy:114"
     },
     {
       "id": "kaoru_517",
       "character": "kaoru",
-      "text": "Good. Bureaucracy loves clocks. So do I, when they save me a hearing."
+      "text": "Good. Bureaucracy loves clocks. So do I, when they save me a hearing.",
+      "source": "game/au_modern_case1_compliance.rpy:119"
     },
     {
       "id": "toa_388",
       "character": "toa",
-      "text": "Typed log. Quiet thumbs. No flash."
+      "text": "Typed log. Quiet thumbs. No flash.",
+      "source": "game/au_modern_case1_compliance.rpy:123"
     },
     {
       "id": "kaoru_518",
       "character": "kaoru",
-      "text": "Also acceptable. Do not typo my name. I will notice."
+      "text": "Also acceptable. Do not typo my name. I will notice.",
+      "source": "game/au_modern_case1_compliance.rpy:125"
     },
     {
       "id": "narrator_391",
       "character": "narrator",
-      "text": "They move through treatment rooms that are legally not treatment rooms until the inspector says otherwise."
+      "text": "They move through treatment rooms that are legally not treatment rooms. Not until the inspector says otherwise.",
+      "source": "game/au_modern_case1_compliance.rpy:135"
     },
     {
       "id": "kaoru_519",
       "character": "kaoru",
-      "text": "Form 14-C requires posted capacity. Count the candles as people and I will cite you for poetry."
+      "text": "Form 14-C requires posted capacity. Count the candles as people and I will cite you for poetry.",
+      "source": "game/au_modern_case1_compliance.rpy:140"
     },
     {
       "id": "toa_389",
       "character": "toa",
-      "text": "Fourteen seats, twelve candles, one diffuser working overtime."
+      "text": "Fourteen seats, twelve candles, one diffuser working overtime.",
+      "source": "game/au_modern_case1_compliance.rpy:142"
     },
     {
       "id": "kaoru_520",
       "character": "kaoru",
-      "text": "Write *diffuser exceeds serenity*. That is flirtation via footnote, To-chan, and I allow it once."
+      "text": "Write *diffuser exceeds serenity*. That is flirtation via footnote, To-chan, and I allow it once.",
+      "source": "game/au_modern_case1_compliance.rpy:147"
     },
     {
       "id": "toa_390",
       "character": "toa",
-      "text": "You called me To-chan in a wellness closet. Is that witness work or harassment?"
+      "text": "You called me To-chan in a wellness closet. Is that witness work or harassment?",
+      "source": "game/au_modern_case1_compliance.rpy:149"
     },
     {
       "id": "kaoru_521",
       "character": "kaoru",
-      "text": "It is scheduling. You respond faster when I use the nickname inventory."
+      "text": "It is scheduling. You respond faster when I use the nickname inventory.",
+      "source": "game/au_modern_case1_compliance.rpy:151"
     },
     {
       "id": "narrator_392",
       "character": "narrator",
-      "text": "Her phone buzzes with a calendar ping she is not allowed to open during an active inspection."
+      "text": "Her phone buzzes with a calendar ping she is not allowed to open during an active inspection. The portal only ever pings her with the next thing he has already filed.",
+      "source": "game/au_modern_case1_compliance.rpy:153"
     },
     {
       "id": "narrator_393",
       "character": "narrator",
-      "text": "The floor manager finds them at the aromatherapy storage door. His badge says *Director of Calm*."
+      "text": "The floor manager finds them at the aromatherapy storage door. His badge says *Director of Calm*.",
+      "source": "game/au_modern_case1_compliance.rpy:163"
     },
     {
       "id": "kaoru_522",
       "character": "kaoru",
-      "text": "You are interrupting a Council inspection of a license this office issued and this office can revoke. Step aside, or join the exhibit list."
+      "text": "You are interrupting a Council inspection of a license this office issued and this office can revoke. Step aside, or join the exhibit list.",
+      "source": "game/au_modern_case1_compliance.rpy:165"
     },
     {
       "id": "toa_391",
       "character": "toa",
-      "text": "Deputy Director Kitsu is on record. I am on record. Your hallway is on record."
+      "text": "Deputy Director Kitsu is on record. I am on record. Your hallway is on record.",
+      "source": "game/au_modern_case1_compliance.rpy:171"
     },
     {
       "id": "narrator_394",
       "character": "narrator",
-      "text": "The manager's smile dies in a very professional way."
+      "text": "The manager's smile dies in a very professional way.",
+      "source": "game/au_modern_case1_compliance.rpy:173"
     },
     {
       "id": "toa_392",
       "character": "toa",
-      "text": "We only need five more minutes and your posted capacity chart. Sponsorship requires patience."
+      "text": "We only need five more minutes and your posted capacity chart. Sponsorship requires patience.",
+      "source": "game/au_modern_case1_compliance.rpy:179"
     },
     {
       "id": "kaoru_523",
       "character": "kaoru",
-      "text": "She said patience. I said compliance. Both are true. Move."
+      "text": "She said patience. I said compliance. Both are true. Move.",
+      "source": "game/au_modern_case1_compliance.rpy:184"
     },
     {
       "id": "narrator_395",
       "character": "narrator",
-      "text": "He moves. The corridor exhales eucalyptus and defeat."
+      "text": "He moves. The corridor exhales eucalyptus and defeat.",
+      "source": "game/au_modern_case1_compliance.rpy:186"
     },
     {
       "id": "narrator_396",
       "character": "narrator",
-      "text": "For ten seconds the hallway is only rain on glass, clipboard metal, and a man deciding whether calm is a job title or a threat."
+      "text": "For ten seconds the hallway is only rain on glass, clipboard metal, and a man deciding whether calm is a job title or a threat.",
+      "source": "game/au_modern_case1_compliance.rpy:196"
     },
     {
       "id": "kaoru_524",
       "character": "kaoru",
-      "text": "You wanted firm. He learned firm. Log the timestamp."
+      "text": "You wanted firm. He learned firm. Log the timestamp.",
+      "source": "game/au_modern_case1_compliance.rpy:198"
     },
     {
       "id": "toa_393",
       "character": "toa",
-      "text": "Logged. My hands shook. That is also on the record."
+      "text": "Logged. My hands shook. That is also on the record.",
+      "source": "game/au_modern_case1_compliance.rpy:200"
     },
     {
       "id": "kaoru_525",
       "character": "kaoru",
-      "text": "Shaking is human. Falsifying is not. Continue."
+      "text": "Shaking is human. Falsifying is not. Continue.",
+      "source": "game/au_modern_case1_compliance.rpy:205"
     },
     {
       "id": "narrator_397",
       "character": "narrator",
-      "text": "Back at the tower, the inspection closes without blood, without bodies, and with three minor citations the Council will post as politely worded threats against a storefront's operating license."
+      "text": "Back at the tower, the inspection closes without blood, without bodies, and with three minor citations the Council will post as politely worded threats against a",
+      "source": "game/au_modern_case1_compliance.rpy:549"
     },
     {
       "id": "kaoru_526",
       "character": "kaoru",
-      "text": "You passed witness work. That is not a compliment. It is a classification."
+      "text": "You passed witness work. That is not a compliment. It is a classification.",
+      "source": "game/au_modern_case1_compliance.rpy:551"
     },
     {
       "id": "toa_394",
       "character": "toa",
-      "text": "I'll take classifications that keep my sponsorship active."
+      "text": "I'll take classifications that keep my sponsorship active.",
+      "source": "game/au_modern_case1_compliance.rpy:553"
     },
     {
       "id": "kaoru_527",
       "character": "kaoru",
-      "text": "There is a harbor weekend on the calendar, logged as an audit retreat. Continued witness work: your clause, my signature, the Council's letterhead. Ferry slips Saturday. One bed in the Airbnb filing is a clerical error I will not fix unless you ask in writing."
+      "text": "There is a harbor weekend on the calendar, logged as an audit retreat. Continued witness work: your clause, my signature, the Council's letterhead. Ferry slips Saturday. One bed in the Airbnb filing is a clerical error I will not fix unless you ask in writing.",
+      "source": "game/au_modern_case1_compliance.rpy:555"
     },
     {
       "id": "toa_395",
       "character": "toa",
-      "text": "That sounds like Case 2 with salt air."
+      "text": "That sounds like Case 2 with salt air.",
+      "source": "game/au_modern_case1_compliance.rpy:557"
     },
     {
       "id": "kaoru_528",
       "character": "kaoru",
-      "text": "It sounds like a calendar invite. Accept on the municipal portal or argue with the tide."
+      "text": "It sounds like a calendar invite. Accept on the municipal portal or argue with the tide.",
+      "source": "game/au_modern_case1_compliance.rpy:559"
     },
     {
       "id": "narrator_398",
       "character": "narrator",
-      "text": "The service elevator remembers them from the wrong-floor building. Rain stripes the glass. Proximity becomes paperwork if you stare at it long enough."
+      "text": "The service elevator remembers them from the wrong-floor building. Rain stripes the glass. Proximity becomes paperwork if you stare at it long enough.",
+      "source": "game/au_modern_case1_compliance.rpy:574"
     },
     {
       "id": "kaoru_529",
       "character": "kaoru",
-      "text": "Unless the harbor?"
+      "text": "Unless the harbor?",
+      "source": "game/au_modern_case1_compliance.rpy:576"
     },
     {
       "id": "toa_396",
       "character": "toa",
-      "text": "Unless the harbor. Not romance on letterhead."
+      "text": "Unless the harbor. Not romance on letterhead.",
+      "source": "game/au_modern_case1_compliance.rpy:578"
     },
     {
       "id": "kaoru_530",
       "character": "kaoru",
-      "text": "Correct. File that under rider compliance."
+      "text": "Correct. File that under rider compliance.",
+      "source": "game/au_modern_case1_compliance.rpy:580"
     },
     {
       "id": "narrator_399",
       "character": "narrator",
-      "text": "Their reflections almost touch in the glass. Neither reaches. The lift dings like a stamp."
+      "text": "Their reflections almost touch in the glass. Neither reaches. The lift dings like a stamp.",
+      "source": "game/au_modern_case1_compliance.rpy:589"
     },
     {
       "id": "narrator_400",
       "character": "narrator",
-      "text": "Saturday on the harbor ferry schedule is a suggestion. Rain owns the channel. Kakita Toa owns a duffel bag and a Council sponsorship rider that still says *not romance on letterhead*."
+      "text": "Saturday, and the harbor ferry schedule is a suggestion. Rain owns the channel. Kakita Toa owns a duffel bag and a Council sponsorship rider that still reads *not romance on letterhead*, the same exclusive rider that put her on the deputy's calendar in the first place.",
+      "source": "game/au_modern_case2_island_weekend.rpy:38"
     },
     {
       "id": "narrator_401",
       "character": "narrator",
-      "text": "Deputy Director Kitsu Kaoru owns the calendar invite, the Airbnb confirmation, and the expression of a man who has already filed the weather as exhibit A."
+      "text": "Deputy Director Kitsu Kaoru owns the calendar invite, the Airbnb confirmation, and the expression of a man who has already filed the weather as exhibit A.",
+      "source": "game/au_modern_case2_island_weekend.rpy:40"
     },
     {
       "id": "toa_397",
       "character": "toa",
-      "text": "If the ferry is late, do we still owe the island a witness log?"
+      "text": "If the ferry is late, do we still owe the island a witness log?",
+      "source": "game/au_modern_case2_island_weekend.rpy:44"
     },
     {
       "id": "kaoru_531",
       "character": "kaoru",
-      "text": "You owe the island punctuality. The ferry owes us a revised ETA. Those are different dockets."
+      "text": "You owe the island punctuality. The ferry owes us a revised ETA. Those are different dockets.",
+      "source": "game/au_modern_case2_island_weekend.rpy:46"
     },
     {
       "id": "narrator_402",
       "character": "narrator",
-      "text": "The terminal roof drips into puddles that reflect diesel and regret. Commuters complain in the polite register of people who will not get refunds."
+      "text": "The terminal roof drips into puddles that reflect diesel and regret. Commuters complain in the polite register of people who will not get refunds.",
+      "source": "game/au_modern_case2_island_weekend.rpy:53"
     },
     {
       "id": "toa_398",
       "character": "toa",
-      "text": "Two hours late. My tracksuit is waterproof. My patience is municipal."
+      "text": "Two hours late. My tracksuit is waterproof. My patience is municipal.",
+      "source": "game/au_modern_case2_island_weekend.rpy:55"
     },
     {
       "id": "kaoru_532",
       "character": "kaoru",
-      "text": "Patience is a line item. Stand where I can see you and the manifest."
+      "text": "Patience is a line item. Stand where I can see you and the manifest.",
+      "source": "game/au_modern_case2_island_weekend.rpy:57"
     },
     {
       "id": "narrator_403",
       "character": "narrator",
-      "text": "When the ferry finally coughs to the pier, salt air replaces toner. Toa stops apologizing in her shoulders without being told."
+      "text": "When the ferry finally coughs to the pier, salt air replaces toner. Toa stops apologizing in her shoulders without being told.",
+      "source": "game/au_modern_case2_island_weekend.rpy:65"
     },
     {
       "id": "narrator_404",
       "character": "narrator",
-      "text": "The harbor Airbnb is cedar shingles, one parking space, and a lockbox that thinks it is a deputy director."
+      "text": "The harbor Airbnb is cedar shingles, one parking space, and a lockbox that thinks it is a deputy director.",
+      "source": "game/au_modern_case2_island_weekend.rpy:75"
     },
     {
       "id": "toa_399",
       "character": "toa",
-      "text": "Cute. Very *audit retreat*. Does the listing mention ghosts or only damp towels?"
+      "text": "Cute. Very *audit retreat*. Does the listing mention ghosts or only damp towels?",
+      "source": "game/au_modern_case2_island_weekend.rpy:77"
     },
     {
       "id": "kaoru_533",
       "character": "kaoru",
-      "text": "It mentions one queen bed, one sofa, and a clerical error I will not fix unless you ask in writing."
+      "text": "It mentions one queen bed, one sofa, and a clerical error I will not fix unless you ask in writing.",
+      "source": "game/au_modern_case2_island_weekend.rpy:79"
     },
     {
       "id": "narrator_405",
       "character": "narrator",
-      "text": "Inside, the rental agreement on the tablet glows like a confession booth with Wi-Fi."
+      "text": "Inside, the rental agreement on the tablet glows like a confession booth with Wi-Fi.",
+      "source": "game/au_modern_case2_island_weekend.rpy:81"
     },
     {
       "id": "toa_400",
       "character": "toa",
-      "text": "One bed. One deputy. That is either a rom-com or a labor violation."
+      "text": "One bed. One deputy. That is either a rom-com or a labor violation.",
+      "source": "game/au_modern_case2_island_weekend.rpy:86"
     },
     {
       "id": "kaoru_534",
       "character": "kaoru",
-      "text": "It is a filing. You sleep. I review calendar conflicts. We do not perform couple on the listing photos."
+      "text": "It is a filing. You sleep. I review calendar conflicts. We do not perform couple on the listing photos.",
+      "source": "game/au_modern_case2_island_weekend.rpy:88"
     },
     {
       "id": "narrator_406",
       "character": "narrator",
-      "text": "The sofa is narrow. The bed is worse, because it is comfortable and therefore suspicious."
+      "text": "The sofa is narrow. The bed is worse, because it is comfortable and therefore suspicious.",
+      "source": "game/au_modern_case2_island_weekend.rpy:90"
     },
     {
       "id": "toa_401",
       "character": "toa",
-      "text": "I call the sofa. You call the bed. That is professional roommate energy, right?"
+      "text": "I call the sofa. You call the bed. That is professional roommate energy, right?",
+      "source": "game/au_modern_case2_island_weekend.rpy:92"
     },
     {
       "id": "narrator_407",
       "character": "narrator",
-      "text": "Her phone lights up before she can argue with the furniture."
+      "text": "Her phone lights up before she can argue with the furniture.",
+      "source": "game/au_modern_case2_island_weekend.rpy:105"
     },
     {
       "id": "toa_402",
       "character": "toa",
-      "text": "Sango texts: *ferry delay omg*. Then: *one bed airbnb*. Then: *girl is this a date???*"
+      "text": "Sango texts: *ferry delay omg*. Then: *one bed airbnb*. Then: *girl is this a date???*",
+      "source": "game/au_modern_case2_island_weekend.rpy:107"
     },
     {
       "id": "toa_403",
       "character": "toa",
-      "text": "I should tell her it is a harbor audit with a man who counts witness work out loud."
+      "text": "I should tell her it is a harbor audit with a man who counts witness work out loud.",
+      "source": "game/au_modern_case2_island_weekend.rpy:109"
     },
     {
       "id": "narrator_408",
       "character": "narrator",
-      "text": "Kaoru does not look at her screen. He looks at her face, which is doing something between laughter and panic."
+      "text": "Kaoru does not look at her screen. He looks at her face, which is doing something between laughter and panic.",
+      "source": "game/au_modern_case2_island_weekend.rpy:111"
     },
     {
       "id": "kaoru_535",
       "character": "kaoru",
-      "text": "If you answer *yes*, I will add a footnote: *applicant confuses calendar with courtship*. If you answer *no*, tell the truth in dates and names only."
+      "text": "If you answer *yes*, I will add a footnote: *applicant confuses calendar with courtship*. If you answer *no*, tell the truth in dates and names only.",
+      "source": "game/au_modern_case2_island_weekend.rpy:113"
     },
     {
       "id": "toa_404",
       "character": "toa",
-      "text": "I text: *not a date. contract says not romance on letterhead. send snacks.*"
+      "text": "I text: *not a date. contract says not romance on letterhead. send snacks.* She sends back *sure, Jan.* And she is not wrong. The contract says not romance on letterhead, and the contract is the most romantic thing anyone has ever written about me. That is the whole joke. We file it as procedure so we never have to call it the thing it plainly is.",
+      "source": "game/au_modern_case2_island_weekend.rpy:115"
     },
     {
       "id": "kaoru_536",
       "character": "kaoru",
-      "text": "Good. Now choose how we file the weekend before the island files us."
+      "text": "Good. Now choose how we file the weekend before the island files us.",
+      "source": "game/au_modern_case2_island_weekend.rpy:117"
     },
     {
       "id": "toa_405",
       "character": "toa",
-      "text": "Roommate mode. Separate sleep surfaces. You keep your blazer on like a seatbelt."
+      "text": "Roommate mode. Separate sleep surfaces. You keep your blazer on like a seatbelt.",
+      "source": "game/au_modern_case2_island_weekend.rpy:123"
     },
     {
       "id": "kaoru_537",
       "character": "kaoru",
-      "text": "Acceptable. I will deny almost-smile inventory until Monday."
+      "text": "Acceptable. I will deny almost-smile inventory until Monday.",
+      "source": "game/au_modern_case2_island_weekend.rpy:125"
     },
     {
       "id": "toa_406",
       "character": "toa",
-      "text": "We stress-test the exclusive rider. Not dating. Just... deliverable review with salt air."
+      "text": "We stress-test the exclusive rider. Not dating. Just... deliverable review with salt air.",
+      "source": "game/au_modern_case2_island_weekend.rpy:131"
     },
     {
       "id": "kaoru_538",
       "character": "kaoru",
-      "text": "You understand that clause is calendar and audit, not romance on letterhead."
+      "text": "You understand that clause is calendar and audit, not romance on letterhead.",
+      "source": "game/au_modern_case2_island_weekend.rpy:133"
     },
     {
       "id": "narrator_409",
       "character": "narrator",
-      "text": "She claims the sofa with a blanket fort of municipal dignity. He takes the bed and the laptop, queue numbers reflected in the rain window."
+      "text": "She claims the sofa with a blanket fort of municipal dignity. He takes the bed and the laptop, queue numbers reflected in the rain window.",
+      "source": "game/au_modern_case2_island_weekend.rpy:140"
     },
     {
       "id": "kaoru_539",
       "character": "kaoru",
-      "text": "Lights out at eleven. Snore above acceptable noise and I reassign you to the ferry bench."
+      "text": "Lights out at eleven. Snore above acceptable noise and I reassign you to the ferry bench.",
+      "source": "game/au_modern_case2_island_weekend.rpy:145"
     },
     {
       "id": "toa_407",
       "character": "toa",
-      "text": "Then I'll file my breathing under *compliant*. Good night, Deputy Director-sama."
+      "text": "Then I'll file my breathing under *compliant*. Good night, Deputy Director-sama.",
+      "source": "game/au_modern_case2_island_weekend.rpy:147"
     },
     {
       "id": "narrator_410",
       "character": "narrator",
-      "text": "At midnight she hears him typing. At one she hears the rain stop pretending to be subtle. At two she does not cross the room. That is also witness work."
+      "text": "At midnight she hears him typing. At one she hears the rain stop pretending to be subtle. At two she does not cross the room. That is also witness work.",
+      "source": "game/au_modern_case2_island_weekend.rpy:149"
     },
     {
       "id": "narrator_411",
       "character": "narrator",
-      "text": "The bed is one surface. The contract is another. Toa stands in the doorway like a woman who has read the rider twice and still wants a third opinion."
+      "text": "The bed is one surface. The contract is another. Toa stands in the doorway like a woman who has read the rider twice and still wants a third",
+      "source": "game/au_modern_case2_island_weekend.rpy:161"
     },
     {
       "id": "toa_408",
       "character": "toa",
-      "text": "Procedural night. Balcony debrief. No deliverables behind closed doors."
+      "text": "Procedural night. Balcony debrief. No deliverables behind closed doors.",
+      "source": "game/au_modern_case2_island_weekend.rpy:166"
     },
     {
       "id": "kaoru_540",
       "character": "kaoru",
-      "text": "Motion granted. Bring your tablet. Leave performance posture in the closet."
+      "text": "Motion granted. Bring your tablet. Leave performance posture in the closet.",
+      "source": "game/au_modern_case2_island_weekend.rpy:168"
     },
     {
       "id": "toa_409",
       "character": "toa",
-      "text": "After-hours audit. Quiet. Western inn. Not romance on letterhead."
+      "text": "After-hours audit. Quiet. Western inn. Not romance on letterhead.",
+      "source": "game/au_modern_case2_island_weekend.rpy:174"
     },
     {
       "id": "kaoru_541",
       "character": "kaoru",
-      "text": "Then audit quietly. The harbor still has ears."
+      "text": "Then audit quietly. The harbor still has ears.",
+      "source": "game/au_modern_case2_island_weekend.rpy:176"
     },
     {
       "id": "narrator_412",
       "character": "narrator",
-      "text": "Rain writes shorthand on the window. His blazer folds over the chair like a man who has filed himself for the night. Her tracksuit jacket follows."
+      "text": "Rain writes shorthand on the window. His blazer folds over the chair like a man off duty for the night. Her tracksuit jacket follows. Shirt sleeves, charcoal trousers, the deputy reduced to breath and hands.",
+      "source": "game/au_modern_case2_island_weekend.rpy:186"
     },
     {
       "id": "kaoru_542",
       "character": "kaoru",
-      "text": "Deliverable one. You hold still when I count."
+      "text": "Deliverable one. You hold still when I count.",
+      "source": "game/au_modern_case2_island_weekend.rpy:188"
     },
     {
       "id": "toa_410",
       "character": "toa",
-      "text": "I can hold still. Count."
+      "text": "I can hold still. Count.",
+      "source": "game/au_modern_case2_island_weekend.rpy:190"
     },
     {
       "id": "narrator_413",
       "character": "narrator",
-      "text": "He audits heat the way he audits queue numbers: thorough, unhurried, denying her the performance of shame."
+      "text": "He maps her body the way he maps queue numbers: thorough, unhurried, mouth and hands and the patience he usually spends on citations, denying her the performance of shame.",
+      "source": "game/au_modern_case2_island_weekend.rpy:195"
     },
     {
       "id": "kaoru_543",
       "character": "kaoru",
-      "text": "Deliverable two. You do not perform gratitude on rental linens."
+      "text": "Deliverable two. You do not perform gratitude on rental linens.",
+      "source": "game/au_modern_case2_island_weekend.rpy:197"
     },
     {
       "id": "toa_411",
       "character": "toa",
-      "text": "I file gratitude in the break room. You said so."
+      "text": "I file gratitude in the break room. You said so.",
+      "source": "game/au_modern_case2_island_weekend.rpy:199"
     },
     {
       "id": "narrator_414",
       "character": "narrator",
-      "text": "When she trembles, he steadies her with his palm at her hip and says acceptable noise is still noise."
+      "text": "When she trembles under his mouth, he steadies her with his palm at her hip and says acceptable noise is still noise. The audit moves from mouth to joined bodies, counted and unhurried, until the harbor rain is the loudest thing left in the room.",
+      "source": "game/au_modern_case2_island_weekend.rpy:201"
     },
     {
       "id": "kaoru_544",
       "character": "kaoru",
-      "text": "File it under exclusive rider. Monday calendar owns the rest."
+      "text": "File it under exclusive rider. Monday calendar owns the rest.",
+      "source": "game/au_modern_case2_island_weekend.rpy:212"
     },
     {
       "id": "toa_412",
       "character": "toa",
-      "text": "Already filed. Deputy Director-sama."
+      "text": "Already filed. Deputy Director-sama.",
+      "source": "game/au_modern_case2_island_weekend.rpy:214"
     },
     {
       "id": "narrator_415",
       "character": "narrator",
-      "text": "Sunday night finds them on the balcony with harbor lights smeared across the rail and a tablet open to the municipal portal."
+      "text": "Sunday night finds them on the balcony, the weekend almost filed, harbor lights smeared across the rail and a tablet open to the municipal portal where Tuesday",
+      "source": "game/au_modern_case2_island_weekend.rpy:224"
     },
     {
       "id": "kaoru_545",
       "character": "kaoru",
-      "text": "Calendar audit. Ferry back at six. HR block on Tuesday. Answer in dates, not poetry."
+      "text": "Calendar audit. Ferry back at six. HR block on Tuesday. Answer in dates, not poetry.",
+      "source": "game/au_modern_case2_island_weekend.rpy:226"
     },
     {
       "id": "toa_413",
       "character": "toa",
-      "text": "Tuesday HR. That sounds like the viral Zoom clip finally grew teeth."
+      "text": "Tuesday HR. That sounds like the viral Zoom clip finally grew teeth.",
+      "source": "game/au_modern_case2_island_weekend.rpy:228"
     },
     {
       "id": "kaoru_546",
       "character": "kaoru",
-      "text": "It sounds like signatory pressure. You are listed dependent on the sponsorship I signed. I am the signatory of record. If that clip convinces the Council I favor you, People and Conduct opens a conflict-of-interest file, and the apparatus decides what to do with the pair of us. None of that is romance on letterhead."
+      "text": "It sounds like signatory pressure. You are listed dependent on the sponsorship I signed. I am the signatory of record. If that clip convinces the Council I favor you, People and Conduct opens a conflict-of-interest file, and the apparatus decides what to do with the pair of us. None of that is romance on letterhead.",
+      "source": "game/au_modern_case2_island_weekend.rpy:233"
     },
     {
       "id": "narrator_416",
       "character": "narrator",
-      "text": "She stayed on the sofa. He stayed on the bed. The weekend still felt like proximity wearing a tie."
+      "text": "She stayed on the sofa. He stayed on the bed. The weekend still felt like proximity wearing a tie.",
+      "source": "game/au_modern_case2_island_weekend.rpy:261"
     },
     {
       "id": "toa_414",
       "character": "toa",
-      "text": "Roommate mode survived. Barely. Sango will not believe me."
+      "text": "Roommate mode survived. Barely. Sango will not believe me.",
+      "source": "game/au_modern_case2_island_weekend.rpy:263"
     },
     {
       "id": "narrator_417",
       "character": "narrator",
-      "text": "Her neck still remembers counting. His voice stays level, as if the island did not hear what the room heard."
+      "text": "Her neck still remembers counting. His voice stays level, as if the island did not hear what the room heard.",
+      "source": "game/au_modern_case2_island_weekend.rpy:266"
     },
     {
       "id": "toa_415",
       "character": "toa",
-      "text": "Exclusive rider survived cross-examination. My face did not."
+      "text": "Exclusive rider survived cross-examination. My face did not.",
+      "source": "game/au_modern_case2_island_weekend.rpy:268"
     },
     {
       "id": "narrator_418",
       "character": "narrator",
-      "text": "They filed the weekend as debrief and salt air. Almost-touch inventory: noted, denied, noted again."
+      "text": "They filed the weekend as debrief and salt air. Almost-touch inventory: noted, denied, noted again.",
+      "source": "game/au_modern_case2_island_weekend.rpy:271"
     },
     {
       "id": "toa_416",
       "character": "toa",
-      "text": "Procedural night. I can survive procedural."
+      "text": "Procedural night. I can survive procedural.",
+      "source": "game/au_modern_case2_island_weekend.rpy:273"
     },
     {
       "id": "kaoru_547",
       "character": "kaoru",
-      "text": "Pack at five. If you post *is this a date* with my badge in frame, I will revoke your witness clause."
+      "text": "Pack at five. If you post *is this a date* with my badge in frame, I will revoke your witness clause.",
+      "source": "game/au_modern_case2_island_weekend.rpy:275"
     },
     {
       "id": "narrator_419",
       "character": "narrator",
-      "text": "The ferry horn answers like a stamp. Case two closes. Case three waits behind glass doors and an HR inbox."
+      "text": "The ferry horn answers like a stamp. Case two closes on salt air and a rider that held. Case three is already forming on the far shore, where a viral clip and an HR inbox will decide whether a deputy's signature counts as a favor.",
+      "source": "game/au_modern_case2_island_weekend.rpy:277"
     },
     {
       "id": "narrator_420",
       "character": "narrator",
-      "text": "She found the Office of Arts and Licensing again anyway, the deputy directors' wing where intake's mistakes came to be signed or denied. The plate still read Deputy Director. The hearing still glowed on his monitor, unmuted, as if the building had saved her seat."
+      "text": "She found the Office of Arts and Licensing again anyway, the deputy directors' wing where intake's mistakes came to be signed or denied. The plate still read Deputy Director. The hearing still glowed on his monitor, unmuted, as if the building had saved her seat.",
+      "source": "game/au_modern_wrong_floor.rpy:93"
     },
     {
       "id": "narrator_421",
       "character": "narrator",
-      "text": "Kitsu Kaoru let her in the way a gate let in weather: as fact, not favor. Cold mug. Files tied with string the stapler could not be trusted to hold."
+      "text": "Kitsu Kaoru let her in the way a gate let in weather: as fact, not favor. Cold mug. Files tied with string the stapler could not be trusted to hold.",
+      "source": "game/au_modern_wrong_floor.rpy:149"
     },
     {
       "id": "narrator_422",
       "character": "narrator",
-      "text": "The board member on screen clears his throat with performative patience. The chat lit up in order: *Unprofessional* from a ward tile. *Who is she* from someone who filed complaints for sport. *Hair like a press release* from a thread that used emoji in the official minutes."
+      "text": "The board member on screen clears his throat with performative patience. The chat lit up in order: *Unprofessional* from a ward tile. *Who is she* from someone who filed complaints for sport. *Hair like a press release* from a thread that used emoji in the official minutes.",
+      "source": "game/au_modern_wrong_floor.rpy:163"
     },
     {
       "id": "narrator_423",
       "character": "narrator",
-      "text": "Deputy Director, the board member said, your applicant is blocking the agenda."
+      "text": "Deputy Director, the board member said, your applicant is blocking the agenda.",
+      "source": "game/au_modern_wrong_floor.rpy:171"
     },
     {
       "id": "kaoru_548",
       "character": "kaoru",
-      "text": "My applicant is seated where I placed her. If the agenda cannot tolerate a witness, revise the agenda."
+      "text": "My applicant is seated where I placed her. If the agenda cannot tolerate a witness, revise the agenda.",
+      "source": "game/au_modern_wrong_floor.rpy:176"
     },
     {
       "id": "narrator_424",
       "character": "narrator",
-      "text": "He mutes the gallery with two keystrokes, not apology, and types one line without looking at her: witness only, do not engage."
+      "text": "He mutes the gallery with two keystrokes, not apology, and types one line without looking at her: witness only, do not engage.",
+      "source": "game/au_modern_wrong_floor.rpy:183"
     },
     {
       "id": "narrator_425",
       "character": "narrator",
-      "text": "Tuesday in Ryoko Port opens the way audits open. Not with a knock, with a notification. Rain files itself against the licensing tower while a clip eleven seconds long teaches the whole channel a deputy director's voice."
+      "text": "Tuesday in Ryoko Port opens the way audits open. Not with a knock, with a notification. Weeks after the harbor weekend, rain files itself against the licensing tower while a clip eleven seconds long teaches the",
+      "source": "game/au_modern_case3_permits_hr.rpy:35"
     },
     {
       "id": "narrator_426",
       "character": "narrator",
-      "text": "Someone screen-recorded the Wrong Floor hearing weeks ago, back when it was only a routine Arts Council licensing stream nobody watched. *If the agenda cannot tolerate a witness, revise the agenda.* The internet revised nothing. It played the line forty thousand times, set it to a beat, and tagged the Council's account until the Council itself had to notice."
+      "text": "Someone screen-recorded the Wrong Floor hearing weeks ago, back when it was only a routine Arts Council licensing stream nobody watched. *If the agenda cannot tolerate a witness, revise the agenda.* The internet revised nothing. It played the line forty thousand times, set it to a beat, and tagged the Council's account until the Council itself had to notice.",
+      "source": "game/au_modern_case3_permits_hr.rpy:38"
     },
     {
       "id": "toa_417",
       "character": "toa",
-      "text": "Deputy Director-sama, you are trending. Your one good sentence has a hashtag and a remix."
+      "text": "Deputy Director-sama, you are trending. Your one good sentence has a hashtag and a remix.",
+      "source": "game/au_modern_case3_permits_hr.rpy:49"
     },
     {
       "id": "kaoru_549",
       "character": "kaoru",
-      "text": "Trending is not a docket. Sit where I can see you and the inbox. People and Conduct, the office the Council refers conflicts to, opened a file at eight this morning, before the coffee was enforceable."
+      "text": "Trending is not a docket. Sit where I can see you and the inbox. People and Conduct, the office the Council refers conflicts to, opened a file at eight this morning, before the coffee was enforceable.",
+      "source": "game/au_modern_case3_permits_hr.rpy:52"
     },
     {
       "id": "narrator_427",
       "character": "narrator",
-      "text": "On Toa's phone the clip loops in a feed that does not care about packets. A councilor freezes mid-objection. A white-haired applicant sits in the wrong chair. The comments sort themselves into the usual castes."
+      "text": "On Toa's phone the clip loops in a feed that does not care about packets. A councilor freezes mid-objection. A white-haired applicant sits in the wrong chair. The comments sort themselves into the usual castes.",
+      "source": "game/au_modern_case3_permits_hr.rpy:58"
     },
     {
       "id": "toa_418",
       "character": "toa",
-      "text": "The top comment says *who is the dancer*. The second says *HR nightmare*. The third is a recipe ad. The internet has no witness posture."
+      "text": "The top comment says *who is the dancer*. The second says *HR nightmare*. The third is a recipe ad. The internet has no witness posture.",
+      "source": "game/au_modern_case3_permits_hr.rpy:61"
     },
     {
       "id": "toa_419",
       "character": "toa",
-      "text": "And someone clipped the part where you muted the gallery. They captioned it *deputy protects mystery girl*. I am the mystery girl. I have a name and an expired packet."
+      "text": "And someone clipped the part where you muted the gallery. They captioned it *deputy protects mystery girl*. I am the mystery girl. I have a name and an expired packet.",
+      "source": "game/au_modern_case3_permits_hr.rpy:64"
     },
     {
       "id": "kaoru_550",
       "character": "kaoru",
-      "text": "You have a current packet now. That is the problem the clip just made expensive. I signed it. You depend on it. A camera turned both facts into a story we did not write."
+      "text": "You have a current packet now. That is the problem the clip just made expensive. I signed it. You depend on it. A camera turned both facts into a story we did not write.",
+      "source": "game/au_modern_case3_permits_hr.rpy:67"
     },
     {
       "id": "narrator_428",
       "character": "narrator",
-      "text": "He does not watch the clip. He watches the inbox count climb, the way a man watches a tide decide whether to take the lower dock."
+      "text": "He does not watch the clip. He watches the inbox count climb, the way a man watches a tide decide whether to take the lower dock.",
+      "source": "game/au_modern_case3_permits_hr.rpy:70"
     },
     {
       "id": "narrator_429",
       "character": "narrator",
-      "text": "The HR wing is all glass and acoustic panels, a fishbowl that lets the building watch you stay calm. A liaison named in the calendar only as *People & Conduct* slides two folders across the table with the patience of a fault line."
+      "text": "The HR wing is all glass and acoustic panels, a fishbowl that lets the building watch you stay calm. A liaison named in the calendar only as *People & Conduct* slides two folders across the table with the patience of a fault line.",
+      "source": "game/au_modern_case3_permits_hr.rpy:87"
     },
     {
       "id": "kaoru_551",
       "character": "kaoru",
-      "text": "Folder one: signatory of record, Kitsu Kaoru. Folder two: sponsorship dependent applicant, Kakita Toa. The clip put both folders in the same frame. HR would like the frame explained."
+      "text": "Folder one: signatory of record, Kitsu Kaoru. Folder two: sponsorship dependent applicant, Kakita Toa. The clip put both folders in the same frame. HR would like the frame explained.",
+      "source": "game/au_modern_case3_permits_hr.rpy:90"
     },
     {
       "id": "toa_420",
       "character": "toa",
-      "text": "I walked into the wrong conference room once. I have read the plate every day since. Does the file know I read the plate now?"
+      "text": "I walked into the wrong conference room once. I have read the plate every day since. Does the file know I read the plate now?",
+      "source": "game/au_modern_case3_permits_hr.rpy:93"
     },
     {
       "id": "narrator_430",
       "character": "narrator",
-      "text": "The liaison says, in the level voice of someone reading policy aloud, that the concern is not the wrong door. The concern is a signatory whose name appears beside a dependent the public has decided to find interesting."
+      "text": "The liaison says, in the level voice of someone reading policy aloud, that the concern is not the wrong door. The concern is a signatory whose name appears beside a dependent the public has decided to find interesting.",
+      "source": "game/au_modern_case3_permits_hr.rpy:96"
     },
     {
       "id": "kaoru_552",
       "character": "kaoru",
-      "text": "The concern is conflict of interest. Stated plainly: a deputy who signs for an applicant he is rumored to favor. Rumor is not a finding. But rumor schedules meetings, and we are in one."
+      "text": "The concern is conflict of interest. Stated plainly: a deputy who signs for an applicant he is rumored to favor. Rumor is not a finding. But rumor schedules meetings, and we are in one.",
+      "source": "game/au_modern_case3_permits_hr.rpy:99"
     },
     {
       "id": "toa_421",
       "character": "toa",
-      "text": "So the building thinks the rider says romance, and the rider says *not romance on letterhead*. We agree with the letterhead. The internet did not read the letterhead."
+      "text": "So the building thinks the rider says romance, and the rider says *not romance on letterhead*. We agree with the letterhead. The internet did not read the letterhead.",
+      "source": "game/au_modern_case3_permits_hr.rpy:102"
     },
     {
       "id": "kaoru_553",
       "character": "kaoru",
-      "text": "Before the liaison files, we decide the public posture. Choose, applicant. The clip is loud. Our answer should be quieter, but it still has to be an answer."
+      "text": "Before the liaison files, we decide the public posture. Choose, applicant. The clip is loud. Our answer should be quieter, but it still has to be an answer.",
+      "source": "game/au_modern_case3_permits_hr.rpy:105"
     },
     {
       "id": "toa_422",
       "character": "toa",
-      "text": "We post one statement. Plain. *The deputy seated a confused applicant and corrected a packet error. There is no story. There is a queue.* I will sign my own name to it."
+      "text": "We post one statement. Plain. *The deputy seated a confused applicant and corrected a packet error. There is no story. There is a queue.* I will sign my own name to it.",
+      "source": "game/au_modern_case3_permits_hr.rpy:112"
     },
     {
       "id": "kaoru_554",
       "character": "kaoru",
-      "text": "Owning the narrative is a real strategy. It is also a microphone. If you take the microphone, you do not improvise. Dates and names only, even in a caption."
+      "text": "Owning the narrative is a real strategy. It is also a microphone. If you take the microphone, you do not improvise. Dates and names only, even in a caption.",
+      "source": "game/au_modern_case3_permits_hr.rpy:115"
     },
     {
       "id": "toa_423",
       "character": "toa",
-      "text": "Then I do nothing loud. I keep witness posture. The clip wants a reaction. I give it a closed mouth and a current packet."
+      "text": "Then I do nothing loud. I keep witness posture. The clip wants a reaction. I give it a closed mouth and a current packet.",
+      "source": "game/au_modern_case3_permits_hr.rpy:122"
     },
     {
       "id": "kaoru_555",
       "character": "kaoru",
-      "text": "Silence is also a filing. Harder to misquote, slower to clear. You will sit in the comments for a week and not answer them. Some applicants cannot. Can you?"
+      "text": "Silence is also a filing. Harder to misquote, slower to clear. You will sit in the comments for a week and not answer them. Some applicants cannot. Can you?",
+      "source": "game/au_modern_case3_permits_hr.rpy:125"
     },
     {
       "id": "narrator_431",
       "character": "narrator",
-      "text": "Back in the licensing wing, the sponsorship packet lies open under the desk lamp. His chop in the signatory box. Her name in the dependent box. Two boxes a camera turned into a couple."
+      "text": "Back in the licensing wing, the sponsorship packet lies open under the desk lamp. His chop in the signatory box. Her name in the dependent box. Two boxes a camera turned into a couple.",
+      "source": "game/au_modern_case3_permits_hr.rpy:139"
     },
     {
       "id": "kaoru_556",
       "character": "kaoru",
-      "text": "Signatory of record means I answer for your compliance. Sponsorship dependent means your right to work in this port routes through my signature. That is leverage. I do not enjoy being someone's leverage, including my own."
+      "text": "Signatory of record means I answer for your compliance. Sponsorship dependent means your right to work in this port routes through my signature. That is leverage. I do not enjoy being someone's leverage, including my own.",
+      "source": "game/au_modern_case3_permits_hr.rpy:142"
     },
     {
       "id": "toa_424",
       "character": "toa",
-      "text": "You sound like a man reading his own name as a liability. I have practiced that face in studio mirrors. It is not a flattering port de bras."
+      "text": "You sound like a man reading his own name as a liability. I have practiced that face in studio mirrors. It is not a flattering port de bras.",
+      "source": "game/au_modern_case3_permits_hr.rpy:148"
     },
     {
       "id": "narrator_432",
       "character": "narrator",
-      "text": "He almost answers that. He files the almost where he files everything he intends to keep."
+      "text": "He almost answers that. He files the almost where he files everything he intends to keep.",
+      "source": "game/au_modern_case3_permits_hr.rpy:151"
     },
     {
       "id": "narrator_433",
       "character": "narrator",
-      "text": "By noon her statement is live under her own handle, three sentences, no emoji, a queue number where a heart might go. The remix accounts hate that it is boring. Boring is enforceable."
+      "text": "By noon her statement is live under her own handle, three sentences, no emoji, a queue number where a heart might go. The remix accounts hate that it is boring. Boring is enforceable.",
+      "source": "game/au_modern_case3_permits_hr.rpy:155"
     },
     {
       "id": "toa_425",
       "character": "toa",
-      "text": "I owned it. *Confused applicant, corrected packet, no story.* My follower count went up. My panic went down. Roughly even trade."
+      "text": "I owned it. *Confused applicant, corrected packet, no story.* My follower count went up. My panic went down. Roughly even trade.",
+      "source": "game/au_modern_case3_permits_hr.rpy:161"
     },
     {
       "id": "narrator_434",
       "character": "narrator",
-      "text": "By noon she has posted nothing. The clip keeps looping without her. The silence reads, to everyone but her, like composure. To her it reads like sitting in the wrong chair and not getting up."
+      "text": "By noon she has posted nothing. The clip keeps looping without her. The silence reads, to everyone but her, like composure. To her it reads like sitting in the wrong chair and not getting up.",
+      "source": "game/au_modern_case3_permits_hr.rpy:165"
     },
     {
       "id": "toa_426",
       "character": "toa",
-      "text": "I stayed quiet. Witness posture. It turns out the hardest deliverable is the one where I do not defend myself out loud."
+      "text": "I stayed quiet. Witness posture. It turns out the hardest deliverable is the one where I do not defend myself out loud.",
+      "source": "game/au_modern_case3_permits_hr.rpy:171"
     },
     {
       "id": "kaoru_557",
       "character": "kaoru",
-      "text": "Either way the public narrative now exists in parallel with my actual calendar. Those two ledgers do not match, and HR audits the gap, not the gossip."
+      "text": "Either way the public narrative now exists in parallel with my actual calendar. Those two ledgers do not match, and HR audits the gap, not the gossip.",
+      "source": "game/au_modern_case3_permits_hr.rpy:174"
     },
     {
       "id": "narrator_435",
       "character": "narrator",
-      "text": "He turns his monitor toward her. The public narrative: a deputy and his favorite. The deputy's real calendar: thirty-one applicants, four inspections, a ferry receipt from a harbor weekend filed under *audit retreat*, and one row left blank on purpose."
+      "text": "He turns his monitor toward her. The public narrative: a deputy and his favorite. The deputy's real calendar: thirty-one applicants, four inspections, a ferry receipt from a harbor weekend filed under *audit retreat*, and one row left blank on purpose.",
+      "source": "game/au_modern_case3_permits_hr.rpy:185"
     },
     {
       "id": "kaoru_558",
       "character": "kaoru",
-      "text": "The harbor weekend is in the calendar as audit. The internet would call it something else. Both readings are on the same row. That row is what HR will ask me to explain."
+      "text": "The harbor weekend is in the calendar as audit. The internet would call it something else. Both readings are on the same row. That row is what HR will ask me to explain.",
+      "source": "game/au_modern_case3_permits_hr.rpy:188"
     },
     {
       "id": "toa_427",
       "character": "toa",
-      "text": "So the question is not whether we did anything against the rules. The question is which version of us goes in the permanent file. The clip's version, or the calendar's."
+      "text": "So the question is not whether we did anything against the rules. The question is which version of us goes in the permanent file. The clip's version, or the calendar's.",
+      "source": "game/au_modern_case3_permits_hr.rpy:191"
     },
     {
       "id": "kaoru_559",
       "character": "kaoru",
-      "text": "Correct. And the applicant gets a vote, because the applicant is the one the file outlives. Choose how we resolve the signatory conflict before the liaison chooses a template for us."
+      "text": "Correct. And the applicant gets a vote, because the applicant is the one the file outlives. Choose how we resolve the signatory conflict before the liaison chooses a template for us.",
+      "source": "game/au_modern_case3_permits_hr.rpy:194"
     },
     {
       "id": "toa_428",
       "character": "toa",
-      "text": "Recuse the signatory. Move my packet to a deputy with no hashtag. Clean conflict, clean file. You stop being my leverage. I stop being your liability."
+      "text": "Recuse the signatory. Move my packet to a deputy with no hashtag. Clean conflict, clean file. You stop being my leverage. I stop being your liability.",
+      "source": "game/au_modern_case3_permits_hr.rpy:201"
     },
     {
       "id": "kaoru_560",
       "character": "kaoru",
-      "text": "Procedural and correct. It also means another desk reviews you, and I lose the only honest reason to keep you in my afternoons. I will file it anyway, if that is the version you can live in."
+      "text": "Procedural and correct. It also means another desk reviews you, and I lose the only honest reason to keep you in my afternoons. I will file it anyway, if that is the version you can live in.",
+      "source": "game/au_modern_case3_permits_hr.rpy:204"
     },
     {
       "id": "toa_429",
       "character": "toa",
-      "text": "Or we tell the truth on a form. *Signatory and applicant have a personal relationship. Signatory discloses. Applicant consents to oversight.* Not romance on letterhead. Romance disclosed in the margin, where HR can read it."
+      "text": "Or we tell the truth on a form. *Signatory and applicant have a personal relationship. Signatory discloses. Applicant consents to oversight.* Not romance on letterhead. Romance disclosed in the margin, where HR can read it.",
+      "source": "game/au_modern_case3_permits_hr.rpy:211"
     },
     {
       "id": "kaoru_561",
       "character": "kaoru",
-      "text": "Disclosure is the riskier filing. It survives the clip by agreeing with it, on our terms. You understand that once I write it, the port owns the sentence too, not just the harbor."
+      "text": "Disclosure is the riskier filing. It survives the clip by agreeing with it, on our terms. You understand that once I write it, the port owns the sentence too, not just the harbor.",
+      "source": "game/au_modern_case3_permits_hr.rpy:214"
     },
     {
       "id": "narrator_436",
       "character": "narrator",
-      "text": "After hours the HR fishbowl goes dark and his office keeps one lamp. The couch remembers them. A blanket, a bowl of clementines someone keeps restocking and denying. Rain reads the window like a slow auditor."
+      "text": "After hours the HR fishbowl goes dark and his office keeps one lamp. The couch remembers them. A blanket, a bowl of clementines someone keeps restocking and denying. Rain reads the window like a slow auditor.",
+      "source": "game/au_modern_case3_permits_hr.rpy:225"
     },
     {
       "id": "kaoru_562",
       "character": "kaoru",
-      "text": "I filed the recusal. Deputy Saito reviews your packet now. He is competent and he does not know your coffee order. That is the price of a clean conflict."
+      "text": "I filed the recusal. Deputy Saito reviews your packet now. He is competent and he does not know your coffee order. That is the price of a clean conflict.",
+      "source": "game/au_modern_case3_permits_hr.rpy:232"
     },
     {
       "id": "toa_430",
       "character": "toa",
-      "text": "So you are not my signatory anymore. You are just the man who taught me witness posture and keeps clementines he claims he does not eat."
+      "text": "So you are not my signatory anymore. You are just the man who taught me witness posture and keeps clementines he claims he does not",
+      "source": "game/au_modern_case3_permits_hr.rpy:235"
     },
     {
       "id": "kaoru_563",
       "character": "kaoru",
-      "text": "I wrote the disclosure in my own hand. *Personal relationship. Disclosed. Oversight accepted.* The port owns that sentence now. So, apparently, do I."
+      "text": "I wrote the disclosure in my own hand. *Personal relationship. Disclosed. Oversight accepted.* The port owns that sentence now. So, apparently, do I.",
+      "source": "game/au_modern_case3_permits_hr.rpy:239"
     },
     {
       "id": "toa_431",
       "character": "toa",
-      "text": "You put us on a form and signed it. That is the most romantic thing a deputy director can do. It is also, technically, paperwork. I am crying about paperwork."
+      "text": "You put us on a form and signed it. That is the most romantic thing a deputy director can do. It is also, technically, paperwork. I am crying about paperwork.",
+      "source": "game/au_modern_case3_permits_hr.rpy:262"
     },
     {
       "id": "narrator_437",
       "character": "narrator",
-      "text": "The harbor weekend sits between them unspoken, the after-hours audit neither of them will caption. Her neck remembers a count. His calendar remembers a blank row he left on purpose."
+      "text": "The harbor weekend sits between them unspoken, the night in the western inn neither of them will caption for the internet. Her neck still remembers his mouth on it. His calendar remembers a blank row he left on purpose.",
+      "source": "game/au_modern_case3_permits_hr.rpy:281"
     },
     {
       "id": "toa_432",
       "character": "toa",
-      "text": "If the clip ever finds the ferry receipt, I will deny everything in dates and names only. Saturday. Harbor. Audit. No poetry."
+      "text": "If the clip ever finds the ferry receipt, I will deny everything in dates and names only. Saturday. Harbor. Audit. No poetry.",
+      "source": "game/au_modern_case3_permits_hr.rpy:284"
     },
     {
       "id": "narrator_438",
       "character": "narrator",
-      "text": "Whatever the harbor weekend was, they filed it as debrief and salt air. The clip never reached the ferry receipt. Some rows stay blank because someone chose to leave them blank."
+      "text": "Whatever the harbor weekend was, they filed it as debrief and salt air. The clip never reached the ferry receipt. Some rows stay blank because someone chose to leave them blank.",
+      "source": "game/au_modern_case3_permits_hr.rpy:288"
     },
     {
       "id": "toa_433",
       "character": "toa",
-      "text": "The clip got the conference room and none of the quiet parts. I find I do not want the internet auditing the quiet parts."
+      "text": "The clip got the conference room and none of the quiet parts. I find I do not want the internet auditing the quiet parts.",
+      "source": "game/au_modern_case3_permits_hr.rpy:291"
     },
     {
       "id": "kaoru_564",
       "character": "kaoru",
-      "text": "The quiet parts are not on any portal. Blanket is still a loan against your noise. Clementine is domestic filing. Almost-smile inventory: pending, denied, pending again."
+      "text": "The quiet parts are not on any portal. Blanket is still a loan against your noise. Clementine is domestic filing. Almost-smile inventory: pending, denied, pending again.",
+      "source": "game/au_modern_case3_permits_hr.rpy:294"
     },
     {
       "id": "toa_434",
       "character": "toa",
-      "text": "You almost smiled when I said I cried about paperwork. I have witnesses. The witness is me. I am very reliable."
+      "text": "You almost smiled when I said I cried about paperwork. I have witnesses. The witness is me. I am very reliable.",
+      "source": "game/au_modern_case3_permits_hr.rpy:297"
     },
     {
       "id": "kaoru_565",
       "character": "kaoru",
-      "text": "Motion denied, To-chan. Effective in three business days, like everything I intend to keep. Go home before the building decides we are a story it can stamp."
+      "text": "Motion denied, To-chan. Effective in three business days, like everything I intend to keep.",
+      "source": "game/au_modern_case3_permits_hr.rpy:300"
     },
     {
       "id": "narrator_439",
       "character": "narrator",
-      "text": "She peels a clementine she did not ask permission to take, and the rain keeps its own minutes against the glass. The clip will loop until the channel finds a louder one. The file will close quieter than it opened."
+      "text": "She peels a clementine she did not ask permission to take, and the rain keeps its own minutes against the glass. Whichever way they filed it, the conflict now lives on the record instead of in the gossip, which is the one place the Council cannot use it against them. The clip will loop until the channel finds a louder one. The file will close quieter than it opened.",
+      "source": "game/au_modern_case3_permits_hr.rpy:322"
     },
     {
       "id": "kaoru_566",
@@ -6748,397 +6975,1736 @@
     {
       "id": "narrator_446",
       "character": "narrator",
-      "text": "Months after People and Conduct closed the file, the harbor turned cold and the clip stopped being about her. Ryoko Port moves on the way a feed moves on. It finds a louder fool and forgets the quiet one."
+      "text": "Months after People and Conduct closed the conflict-of-interest file on its own quiet terms, the harbor turned cold and the clip stopped being about her. Ryoko Port moves on the way a feed moves on. It finds a louder fool and forgets the quiet one.",
+      "source": "game/au_modern_epilogue.rpy:40"
     },
     {
       "id": "toa_441",
       "character": "toa",
-      "text": "Deputy Director-sama. You have been replaced. The channel found a louder clip. A councilor narrated nine minutes of a budget meeting with his microphone muted. The internet calls it *muted councilor energy*."
+      "text": "Deputy Director-sama. You have been replaced. The channel found a louder clip. A councilor narrated nine minutes of a budget meeting with his microphone muted. The internet calls it *muted councilor energy*.",
+      "source": "game/au_modern_epilogue.rpy:42"
     },
     {
       "id": "toa_442",
       "character": "toa",
-      "text": "I am no longer the mystery girl. I am, at most, a footnote with good hair."
+      "text": "I am no longer the mystery girl. I am, at most, a footnote with good hair.",
+      "source": "game/au_modern_epilogue.rpy:44"
     },
     {
       "id": "kaoru_572",
       "character": "kaoru",
-      "text": "Footnotes outlive headlines. That is the only fame worth filing."
+      "text": "Footnotes outlive headlines. That is the only fame worth filing.",
+      "source": "game/au_modern_epilogue.rpy:46"
     },
     {
       "id": "narrator_447",
       "character": "narrator",
-      "text": "The crane on her tracksuit catches the lamp, gold over her heart, the same black jacket she wore into the wrong conference room a year of queue ago. She owns newer ones. She keeps wearing this one. It stopped apologizing in the shoulders somewhere around the harbor."
+      "text": "The crane on her tracksuit catches the lamp, gold over her heart, the same black jacket she wore into the wrong conference room a year of queue ago. She owns newer ones. She keeps wearing this one. It stopped apologizing in the shoulders somewhere around the harbor.",
+      "source": "game/au_modern_epilogue.rpy:48"
     },
     {
       "id": "toa_443",
       "character": "toa",
-      "text": "The People and Conduct fishbowl went quiet months back. The folder with two names in it closed, one way or another, on terms the building agreed to carry. The building wanted a story it could stamp. It never got one."
+      "text": "The People and Conduct fishbowl went quiet months back. The folder with two names in it closed, one way or another, on terms the building agreed to carry. The building wanted a story it could stamp. It never got one.",
+      "source": "game/au_modern_epilogue.rpy:53"
     },
     {
       "id": "kaoru_573",
       "character": "kaoru",
-      "text": "The disclosure sits in the permanent file in my own hand. *Personal relationship, disclosed, oversight accepted.* The internet, bored of the truth, went hunting for a man with a muted mic instead."
+      "text": "The disclosure sits in the permanent file in my own hand. *Personal relationship, disclosed, oversight accepted.* The internet, bored of the truth, went hunting for a man with a muted mic instead.",
+      "source": "game/au_modern_epilogue.rpy:56"
     },
     {
       "id": "kaoru_574",
       "character": "kaoru",
-      "text": "We kept it procedural. Another desk reviews your packet now, and the file closed clean. The internet, bored of clean, went hunting for a man with a muted mic instead."
+      "text": "We kept it procedural. Another desk reviews your packet now, and the file closed clean. The internet, bored of clean, went hunting for a man with a muted mic instead.",
+      "source": "game/au_modern_epilogue.rpy:59"
     },
     {
       "id": "narrator_448",
       "character": "narrator",
-      "text": "He turns his monitor toward her, the way he once turned it to show her the gap between two ledgers. The calendar again. Thirty-one applicants, four inspections, a standing Friday row that used to read *audit retreat* in the dry font the portal assigns to everything."
+      "text": "He turns his monitor toward her, the way he once turned it to show her the gap between two ledgers. The calendar again. Thirty-one applicants, four inspections, a standing Friday row that used to read *audit retreat* in the dry font the portal assigns to everything it does not have feelings about.",
+      "source": "game/au_modern_epilogue.rpy:69"
     },
     {
       "id": "narrator_449",
       "character": "narrator",
-      "text": "It does not read *audit retreat* anymore. Someone has written over the row by hand. His hand. The row says, in ink, on a calendar the whole licensing wing can open, a date. Not the noun of it. The plain fact of it."
+      "text": "It does not read *audit retreat* anymore. Someone has written over the row by hand. His hand. The row says, in ink, on a calendar the whole licensing wing can open, a date. Not the noun of it. The plain fact of it.",
+      "source": "game/au_modern_epilogue.rpy:71"
     },
     {
       "id": "toa_444",
       "character": "toa",
-      "text": "You filed a date on letterhead. In your own handwriting. You. The man who spent three cases insisting it was not romance on letterhead."
+      "text": "You filed a date on letterhead. In your own handwriting. You. The man who spent three cases insisting it was not romance on letterhead.",
+      "source": "game/au_modern_epilogue.rpy:73"
     },
     {
       "id": "kaoru_575",
       "character": "kaoru",
-      "text": "It was not, then. It is, now. I amended the filing. The letterhead caught up to the calendar. The calendar caught up to the harbor."
+      "text": "It was not, then. It is, now. I amended the filing. The letterhead caught up to the calendar. The calendar caught up to the harbor.",
+      "source": "game/au_modern_epilogue.rpy:75"
     },
     {
       "id": "toa_445",
       "character": "toa",
-      "text": "Effective when?"
+      "text": "Effective when?",
+      "source": "game/au_modern_epilogue.rpy:88"
     },
     {
       "id": "kaoru_576",
       "character": "kaoru",
-      "text": "Effective immediately. No waiting period. I have run out of business days I am willing to make you wait."
+      "text": "Effective immediately. No waiting period. I have run out of business days I am willing to make you wait.",
+      "source": "game/au_modern_epilogue.rpy:90"
     },
     {
       "id": "toa_446",
       "character": "toa",
-      "text": "Then I accept the filing as written. Effective immediately, no waiting period. For the record, I have wanted it effective immediately since the wrong conference room. I just never filed it."
+      "text": "Then I accept the filing as written. Effective immediately, no waiting period. For the record, I have wanted it effective immediately since the wrong conference room. I just never filed it.",
+      "source": "game/au_modern_epilogue.rpy:96"
     },
     {
       "id": "kaoru_577",
       "character": "kaoru",
-      "text": "Noted. Entered. The record agrees with you, which it rarely does and never out loud."
+      "text": "Noted. Entered. The record agrees with you, which it rarely does and never out loud.",
+      "source": "game/au_modern_epilogue.rpy:98"
     },
     {
       "id": "toa_447",
       "character": "toa",
-      "text": "Objection, Deputy Director-sama. For three cases you told me everything you intended to keep was effective in three business days. I want my waiting period back. I have grown attached to the suspense."
+      "text": "Objection, Deputy Director-sama. For three cases you told me everything you intended to keep was effective in three business days. I want my waiting period back. I have grown attached to the suspense.",
+      "source": "game/au_modern_epilogue.rpy:104"
     },
     {
       "id": "kaoru_578",
       "character": "kaoru",
-      "text": "Overruled. The waiting period was always for the building, not for you. I am done making you wait for the benefit of an audience that muted its own microphone."
+      "text": "Overruled. The waiting period was always for the building, not for you. I am done making you wait for the benefit of an audience that muted its own microphone.",
+      "source": "game/au_modern_epilogue.rpy:109"
     },
     {
       "id": "narrator_450",
       "character": "narrator",
-      "text": "That was when it happened, the thing he had denied for three cases, the motion he had ruled against every time she filed it. The corner of his mouth went, and kept going, and did not stop at almost. It landed."
+      "text": "That was when it happened, the thing he had denied for three cases, the motion he had ruled against every time she filed it. The corner of his mouth went, and kept going, and did not stop at almost. It landed.",
+      "source": "game/au_modern_epilogue.rpy:116"
     },
     {
       "id": "narrator_451",
       "character": "narrator",
-      "text": "A whole one, small and grey-eyed and without precedent in any file she had ever read. She did not breathe."
+      "text": "A whole one, small and grey-eyed and without precedent in any file she had ever read. She did not breathe.",
+      "source": "game/au_modern_epilogue.rpy:121"
     },
     {
       "id": "toa_448",
       "character": "toa",
-      "text": "You smiled. I have witnesses. The witness is me. I am extremely reliable. It has been classified."
+      "text": "You smiled. I have witnesses. The witness is me. I am extremely reliable. It has been classified.",
+      "source": "game/au_modern_epilogue.rpy:123"
     },
     {
       "id": "kaoru_579",
       "character": "kaoru",
-      "text": "Noted."
+      "text": "Noted.",
+      "source": "game/au_modern_epilogue.rpy:125"
     },
     {
       "id": "narrator_452",
       "character": "narrator",
-      "text": "He did not file it away. He did not say *motion denied*. He let it sit on his face where the building could have seen it if the building had cared to look."
+      "text": "He did not file it away. He did not say *motion denied*. He let it sit on his face where the building could have seen it if the building had cared to look.",
+      "source": "game/au_modern_epilogue.rpy:127"
     },
     {
       "id": "kaoru_580",
       "character": "kaoru",
-      "text": "Motion granted, To-chan. On the record."
+      "text": "Motion granted, To-chan. On the record.",
+      "source": "game/au_modern_epilogue.rpy:129"
     },
     {
       "id": "toa_449",
       "character": "toa",
-      "text": "Granted with no waiting period, after I argued for the suspense. I withdraw my objection. Slowly. Under protest. For the record."
+      "text": "Granted with no waiting period, after I argued for the suspense. I withdraw my objection. Slowly. Under protest. For the record.",
+      "source": "game/au_modern_epilogue.rpy:132"
     },
     {
       "id": "kaoru_581",
       "character": "kaoru",
-      "text": "Your protest is noted and overruled. I am keeping the smile and closing the clause."
+      "text": "Your protest is noted and overruled. I am keeping the smile and closing the clause.",
+      "source": "game/au_modern_epilogue.rpy:134"
     },
     {
       "id": "toa_450",
       "character": "toa",
-      "text": "Granted and effective immediately. I accepted the filing and the filing accepted me back. That is not how paperwork usually works."
+      "text": "Granted and effective immediately. I accepted the filing and the filing accepted me back. That is not how paperwork usually works.",
+      "source": "game/au_modern_epilogue.rpy:137"
     },
     {
       "id": "kaoru_582",
       "character": "kaoru",
-      "text": "It is how this one works. I wrote it that way."
+      "text": "It is how this one works. I wrote it that way.",
+      "source": "game/au_modern_epilogue.rpy:139"
     },
     {
       "id": "narrator_453",
       "character": "narrator",
-      "text": "They keep the harbor Airbnb now. Not as a clerical error. A line item with both their names on the booking and a lockbox that has finally learned the two of them. Rain comes back the way it always comes back to Ryoko Port, quietly and in quantity, and files itself against the cedar-framed glass."
+      "text": "They keep the harbor Airbnb now. Not as a clerical error. A line item with both their names on the booking and a lockbox that has finally learned the two of them. Rain comes back the way it always comes back to Ryoko Port, quietly and in quantity, and files itself against the cedar-framed glass.",
+      "source": "game/au_modern_epilogue.rpy:151"
     },
     {
       "id": "toa_451",
       "character": "toa",
-      "text": "You restock the clementines. You have always restocked the clementines. You denied it for a year."
+      "text": "You restock the clementines. You have always restocked the clementines. You denied it for a year.",
+      "source": "game/au_modern_epilogue.rpy:153"
     },
     {
       "id": "kaoru_583",
       "character": "kaoru",
-      "text": "Domestic filing."
+      "text": "Domestic filing.",
+      "source": "game/au_modern_epilogue.rpy:155"
     },
     {
       "id": "narrator_454",
       "character": "narrator",
-      "text": "Which was not a denial, which from him was a confession with the serial numbers left on. The blanket on the harbor sofa is no longer a loan against her noise. It is hers, or theirs, the distinction having quietly collapsed."
+      "text": "Which was not a denial, which from him was a confession with the serial numbers left on. The blanket on the harbor sofa is no longer a loan against her noise. It is hers, or theirs, the distinction having quietly collapsed.",
+      "source": "game/au_modern_epilogue.rpy:175"
     },
     {
       "id": "narrator_455",
       "character": "narrator",
-      "text": "She sits in witness posture out of habit, hands folded, spine honest. He notices, because he notices everything."
+      "text": "She sits in witness posture out of habit, hands folded, spine honest. He notices, because he notices everything.",
+      "source": "game/au_modern_epilogue.rpy:177"
     },
     {
       "id": "kaoru_584",
       "character": "kaoru",
-      "text": "You can sit however you want. You are not a witness here. You are the filing."
+      "text": "You can sit however you want. You are not a witness here. You are the filing.",
+      "source": "game/au_modern_epilogue.rpy:179"
     },
     {
       "id": "toa_452",
       "character": "toa",
-      "text": "I like the posture. It is how I sit when I am paying attention. I am paying attention, Deputy Director-sama."
+      "text": "I like the posture. It is how I sit when I am paying attention. I am paying attention, Deputy Director-sama.",
+      "source": "game/au_modern_epilogue.rpy:185"
     },
     {
       "id": "kaoru_585",
       "character": "kaoru",
-      "text": "Then pay attention to this part. It is the part I did not put on any portal."
+      "text": "Then pay attention to this part. It is the part I did not put on any portal.",
+      "source": "game/au_modern_epilogue.rpy:190"
     },
     {
       "id": "toa_453",
       "character": "toa",
-      "text": "Then I will sit like a woman who stopped reading the plate to confirm she is allowed in the room."
+      "text": "Then I will sit like a woman who stopped reading the plate to confirm she is allowed in the room.",
+      "source": "game/au_modern_epilogue.rpy:194"
     },
     {
       "id": "narrator_456",
       "character": "narrator",
-      "text": "She uncurls, slow, into something with no apology in it at all. He watches her do it the way he watches a tide decide whether to take the lower dock."
+      "text": "She uncurls, slow, into something with no apology in it at all. He watches her do it the way he watches a tide decide whether to take the lower dock.",
+      "source": "game/au_modern_epilogue.rpy:196"
     },
     {
       "id": "narrator_457",
       "character": "narrator",
-      "text": "He takes the clementine peel out of her fingers and sets it on the armrest, bright and forgotten, the way it had been forgotten on a narrower couch in a glass building once."
+      "text": "He takes the clementine peel out of her fingers and sets it on the armrest, bright and forgotten, the way it had been forgotten on a narrower couch in a glass building once.",
+      "source": "game/au_modern_epilogue.rpy:206"
     },
     {
       "id": "kaoru_586",
       "character": "kaoru",
-      "text": "Acceptable noise is still noise. The harbor has ears. The neighbors have a lease. We decide how loud the audit gets tonight, and you decide first."
+      "text": "Acceptable noise is still noise. The harbor has ears. The neighbors have a lease. We decide how loud the audit gets tonight, and you decide first.",
+      "source": "game/au_modern_epilogue.rpy:214"
     },
     {
       "id": "toa_454",
       "character": "toa",
-      "text": "We audited the rider once before, on the island, after hours. My neck still remembers the count. I came back for the rest of it."
+      "text": "We audited the rider once before, on the island, after hours. My neck still remembers the count. I came back for the rest of it.",
+      "source": "game/au_modern_epilogue.rpy:217"
     },
     {
       "id": "toa_455",
       "character": "toa",
-      "text": "We kept the island procedural. I have wondered, on every ferry since, what the unprocedural version files like."
+      "text": "We kept the island procedural. I have wondered, on every ferry since, what the unprocedural version files like.",
+      "source": "game/au_modern_epilogue.rpy:220"
     },
     {
       "id": "kaoru_587",
       "character": "kaoru",
-      "text": "Then choose, on the record. A quiet audit after dark, on your word, or we close the file here, warm and dressed, and let the rain keep its own minutes."
+      "text": "Then choose, on the record. A quiet audit after dark, on your word, or we close the file here, warm and dressed, and let the rain keep its own minutes.",
+      "source": "game/au_modern_epilogue.rpy:222"
     },
     {
       "id": "toa_456",
       "character": "toa",
-      "text": "Audit it. Quietly. On my word, in dates and names only. You taught me the difference."
+      "text": "Audit it. Quietly. On my word, in dates and names only. You taught me the difference.",
+      "source": "game/au_modern_epilogue.rpy:228"
     },
     {
       "id": "toa_457",
       "character": "toa",
-      "text": "Close it here. Warm. Dressed. Your arm, the blanket, the rain. That is the whole filing tonight."
+      "text": "Close it here. Warm. Dressed. Your arm, the blanket, the rain. That is the whole filing tonight.",
+      "source": "game/au_modern_epilogue.rpy:234"
     },
     {
       "id": "narrator_458",
       "character": "narrator",
-      "text": "He draws the zip of her tracksuit down, slow, the way he does everything he intends to keep, knuckles tracing the bare line of her sternum where the gold crane sits warm over her heart."
+      "text": "He draws the zip of her tracksuit down, slow, the way he does everything he intends to keep, knuckles tracing the bare line of her sternum where the gold crane sits warm over her heart.",
+      "source": "game/au_modern_epilogue.rpy:241"
     },
     {
       "id": "kaoru_588",
       "character": "kaoru",
-      "text": "Deliverable one. You beg the only way I allow after dark. Dates and names. Nothing performed for an audience."
+      "text": "Deliverable one. You beg the only way I allow after dark. Dates and names. Nothing performed for an audience.",
+      "source": "game/au_modern_epilogue.rpy:246"
     },
     {
       "id": "toa_458",
       "character": "toa",
-      "text": "Friday. Harbor. Kaoru. Please."
+      "text": "Friday. Harbor. Kaoru. Please.",
+      "source": "game/au_modern_epilogue.rpy:251"
     },
     {
       "id": "narrator_459",
       "character": "narrator",
-      "text": "He counts under his breath, one, two, three, unhurried, refusing her the performance of shame and refusing, also, to stop, until her heel presses a careful bruise into his shoulder and the rain loses track of itself against the glass."
+      "text": "He counts under his breath, one, two, three, matching stroke to count, unhurried, refusing her the performance of shame and refusing, also, to stop, until her heel presses a careful bruise into his shoulder and the rain loses track of itself against the glass. The screen fades on the rest of their coupling.",
+      "source": "game/au_modern_epilogue.rpy:253"
     },
     {
       "id": "kaoru_589",
       "character": "kaoru",
-      "text": "You do not perform gratitude on the furniture. You never did. You file it in the break room. I have the precedent in my own hand."
+      "text": "You do not perform gratitude on the furniture. You never did. You file it in the break room. I have the precedent in my own hand.",
+      "source": "game/au_modern_epilogue.rpy:258"
     },
     {
       "id": "toa_459",
       "character": "toa",
-      "text": "Already filed, Deputy Director-sama. The standing Friday, made flesh. Effective immediately."
+      "text": "Already filed, Deputy Director-sama. The standing Friday, made flesh. Effective immediately.",
+      "source": "game/au_modern_epilogue.rpy:260"
     },
     {
       "id": "narrator_460",
       "character": "narrator",
-      "text": "After, he steadies her with his palm at her hip, the same bracket from a service elevator and a western inn and a couch the city used to own, and pulls her into the curve of his body so she can feel that the audit is, technically, never complete."
+      "text": "After, he steadies her with his palm at her hip, the same bracket from a service elevator and a western inn and a couch the city used to own. They lie spent under the blanket while harbor light slides across the ceiling. The standing Friday audit, he does not say aloud, has begun.",
+      "source": "game/au_modern_epilogue.rpy:262"
     },
     {
       "id": "narrator_461",
       "character": "narrator",
-      "text": "He pulls the blanket up over them both in the same patient order he does everything, and she fits herself into the curve of him while the rain keeps its own minutes on the glass. No audit tonight. Just the bracket of his arm, the one from a service elevator and a western inn and a couch the city used to own."
+      "text": "He pulls the blanket up over them both in the same patient order he does everything, and she fits herself into the curve of him while the rain keeps its own minutes on the glass. No audit tonight. Just the bracket of his arm, the one from a service elevator and a western inn and a couch the city used to own.",
+      "source": "game/au_modern_epilogue.rpy:272"
     },
     {
       "id": "kaoru_590",
       "character": "kaoru",
-      "text": "Acceptable noise is still noise. Tonight the acceptable noise is the rain and you breathing under my arm. The file can stay open until morning."
+      "text": "Acceptable noise is still noise. Tonight the acceptable noise is the rain and you breathing under my arm. The file can stay open until morning.",
+      "source": "game/au_modern_epilogue.rpy:277"
     },
     {
       "id": "toa_460",
       "character": "toa",
-      "text": "I can survive an open file. I have survived worse paperwork. This is the first one I do not want closed."
+      "text": "I can survive an open file. I have survived worse paperwork. This is the first one I do not want closed.",
+      "source": "game/au_modern_epilogue.rpy:279"
     },
     {
       "id": "toa_461",
       "character": "toa",
-      "text": "Three business days used to be how long I had to wait for everything you intended to keep."
+      "text": "Three business days used to be how long I had to wait for everything you intended to keep.",
+      "source": "game/au_modern_epilogue.rpy:289"
     },
     {
       "id": "kaoru_591",
       "character": "kaoru",
-      "text": "You do not wait anymore. That clause is closed. You are not a deliverable with an effective date. You are a standing item."
+      "text": "You do not wait anymore. That clause is closed. You are not a deliverable with an effective date. You are a standing item.",
+      "source": "game/au_modern_epilogue.rpy:291"
     },
     {
       "id": "narrator_462",
       "character": "narrator",
-      "text": "She had argued for the waiting period out of habit and lost on purpose. The suspense had only ever been the building's. He had stopped scheduling her like a deliverable somewhere around the harbor, and she had let him."
+      "text": "She had argued for the waiting period out of habit and lost on purpose. The suspense had only ever been the building's. He had stopped scheduling her like a deliverable somewhere around the harbor, and she had let him.",
+      "source": "game/au_modern_epilogue.rpy:296"
     },
     {
       "id": "narrator_463",
       "character": "narrator",
-      "text": "She had accepted effective immediately the way she accepted most true things, late out loud and early in private. He had stopped scheduling her like a deliverable somewhere around the harbor, and she had let him."
+      "text": "She had accepted effective immediately the way she accepted most true things, late out loud and early in private. He had stopped scheduling her like a deliverable somewhere around the harbor, and she had let him.",
+      "source": "game/au_modern_epilogue.rpy:299"
     },
     {
       "id": "narrator_464",
       "character": "narrator",
-      "text": "On the calendar back at the tower he has left exactly one row blank, the way he used to leave one blank on purpose. A man should keep one row for the thing he has not scheduled yet. The next case. The next door. The next *unless*. He has stopped leaving the rest of them blank."
+      "text": "On the calendar back at the tower he has left exactly one row blank, the way he used to leave one blank on purpose. A man should keep one row for the thing he has not scheduled yet. The next case. The next door. The next *unless*. He has stopped leaving the rest of them blank.",
+      "source": "game/au_modern_epilogue.rpy:304"
     },
     {
       "id": "toa_462",
       "character": "toa",
-      "text": "I still sit in witness posture sometimes. Old habit. It is how I sit when I am paying attention, and I am still paying attention. I read the plate before I open the door. I have for a long time now."
+      "text": "I still sit in witness posture sometimes. Old habit. It is how I sit when I am paying attention, and I am still paying attention. I read the plate before I open the door. I have for a long time now.",
+      "source": "game/au_modern_epilogue.rpy:307"
     },
     {
       "id": "toa_463",
       "character": "toa",
-      "text": "I stopped sitting in witness posture. I sit like the filing now. I still read the plate before I open the door, out of love instead of procedure. I have for a long time now."
+      "text": "I stopped sitting in witness posture. I sit like the filing now. I still read the plate before I open the door, out of love instead of procedure. I have for a long time now.",
+      "source": "game/au_modern_epilogue.rpy:310"
     },
     {
       "id": "narrator_465",
       "character": "narrator",
-      "text": "She had been reading the plate before she opened the door for a long time now, and she no longer pretended she had wandered in by mistake. She had not. Not once since the first."
+      "text": "She had been reading the plate before she opened the door for a long time now, and she no longer pretended she had wandered in by mistake. She had not. Not once since the first.",
+      "source": "game/au_modern_epilogue.rpy:312"
     },
     {
       "id": "toa_464",
       "character": "toa",
-      "text": "I file that under *kept*. In a place no portal can index. And I let the harbor keep its own minutes against the glass."
+      "text": "I file that under *kept*. In a place no portal can index. And I let the harbor keep its own minutes against the glass.",
+      "source": "game/au_modern_epilogue.rpy:314"
     },
     {
       "id": "narrator_466",
       "character": "narrator",
-      "text": "Disclosed. Oversight accepted. Effective immediately."
+      "text": "Disclosed. Oversight accepted. Effective immediately.",
+      "source": "game/au_modern_epilogue.rpy:316"
     },
     {
       "id": "kaoru_593",
       "character": "kaoru",
-      "text": "The fast track your letter promised is not a faster queue. It is a signature. A Council sponsorship is only valid once a deputy director signs for the applicant. I am the deputy director on this floor. That is the line your transfer letter left out."
+      "text": "The fast track your letter promised is not a faster queue. It is a signature. A Council sponsorship is only valid once a deputy director signs for the applicant. I am the deputy director on this floor. That is the line your transfer letter left out.",
+      "source": "game/au_modern_wrong_floor.rpy:159"
     },
     {
       "id": "toa_465",
       "character": "toa",
-      "text": "So the fast track is a person. And I opened his door by accident, on camera."
+      "text": "So the fast track is a person. And I opened his door by accident, on camera.",
+      "source": "game/au_modern_wrong_floor.rpy:161"
     },
     {
       "id": "kaoru_594",
       "character": "kaoru",
-      "text": "If I sign your sponsorship, I swear to the Council that you are an artist and not a story about fraud waiting to happen. The board takes my word because I do not give it cheaply. So give me an artist to swear to."
+      "text": "If I sign your sponsorship, I swear to the Council that you are an artist and not a story about fraud waiting to happen. The board takes my word because I do not give it cheaply. So give me an artist to swear to.",
+      "source": "game/au_modern_wrong_floor.rpy:218"
     },
     {
       "id": "toa_466",
       "character": "toa",
-      "text": "And here I thought I was auditioning for a permit. I am auditioning for your signature."
+      "text": "And here I thought I was auditioning for a permit. I am auditioning for your signature.",
+      "source": "game/au_modern_wrong_floor.rpy:220"
     },
     {
       "id": "toa_467",
       "character": "toa",
-      "text": "I understand paperwork. I am very good at paperwork when someone explains the boxes. *Direct deputy review.* I read that line three times, and my pulse did something unprofessional each time."
+      "text": "I understand paperwork. I am very good at paperwork when someone explains the boxes. *Direct deputy review.* I read that line three times, and my pulse did something unprofessional each time. So that is the trick of the letterhead. We file the courtship as procedure precisely so neither of us has to admit it is one. The clause is the flirting. The filing is the romance. I will not put that in writing. I am, as you keep noting, very good at not putting things in writing.",
+      "source": "game/au_modern_wrong_floor.rpy:279"
     },
     {
       "id": "toa_468",
       "character": "toa",
-      "text": "Favoritism insurance. I document your inspections so the Council can see you are not handing permits to artists you happen to like. The irony writes itself. I am simply not allowed to laugh about it on the record."
+      "text": "Favoritism insurance. I document your inspections so the Council can see you are not handing permits to artists you happen to favor. The irony writes itself. I am simply not allowed to laugh about it on the record.",
+      "source": "game/au_modern_case1_compliance.rpy:49"
     },
     {
       "id": "toa_469",
       "character": "toa",
-      "text": "Everything you offer is a calendar invite. The inspection, the weekend, possibly the rest of my life. I am starting to suspect the calendar is how you say the things you will not put in a sentence."
+      "text": "Everything you offer is a calendar invite. The inspection, the weekend, possibly the rest of my life. I am starting to suspect the calendar is how you say the things you will not put in a sentence.",
+      "source": "game/au_modern_case1_compliance.rpy:561"
     },
     {
       "id": "toa_470",
       "character": "toa",
-      "text": "Witness posture, even here. I document the want and I do not perform it where a listing photo could see. My clause never asked me not to want him. It only forbade me to put it on letterhead."
+      "text": "Witness posture, even here. I document the want and I do not perform it where a listing photo could see. My clause never asked me not to want him. It only forbade me to put it on letterhead.",
+      "source": "game/au_modern_case2_island_weekend.rpy:151"
     },
     {
       "id": "toa_471",
       "character": "toa",
-      "text": "Dependent. Signatory. Two boxes on one form, and a camera that turned them into a couple. I did not understand that my right to dance in this port was also your liability until you said it out loud on a balcony."
+      "text": "Dependent. Signatory. Two boxes on one form, and a camera that turned them into a couple. I did not understand that my right to dance in this port was also your liability until you",
+      "source": "game/au_modern_case2_island_weekend.rpy:235"
     },
     {
       "id": "toa_472",
       "character": "toa",
-      "text": "And if the Council decides the leverage looks like a favor, they can suspend the sponsorship, or revoke it, or hand my file to a deputy who never met me. My whole right to dance in this port is one sentence you signed. I keep forgetting that until a fishbowl reminds me."
+      "text": "And if the Council decides the leverage looks like a favor, they can suspend the sponsorship, or revoke it, or hand my file to a deputy who never met me. My whole right to dance in this port is one sentence you signed. I keep forgetting that until a fishbowl reminds me.",
+      "source": "game/au_modern_case3_permits_hr.rpy:145"
     },
     {
       "id": "toa_473",
       "character": "toa",
-      "text": "A standing item. The Council files those the way it files rent and rain, the recurring things it expects to keep paying attention to. I have been a great many classifications in this building. That is the first one I would frame."
+      "text": "A standing item. The Council files those the way it files rent and rain, the recurring things it expects to keep paying attention to. I have been a great many classifications in this building. That is the first one I would frame.",
+      "source": "game/au_modern_epilogue.rpy:293"
     },
     {
       "id": "narrator_467",
       "character": "narrator",
-      "text": "Three business days after the wrong conference room, Ryoko Port still files rain against every window it owns."
+      "text": "Three business days after the wrong conference room, the sponsorship is signed and Ryoko Port still files rain against every window it owns. The fast track turned out to be a person. The person, it turns out, comes with errands.",
+      "source": "game/au_modern_case1_compliance.rpy:39"
     },
     {
       "id": "narrator_468",
       "character": "narrator",
-      "text": "Kakita Toa's sponsorship packet now carries a deputy director's chop and a witness clause she did not read until it became mandatory."
+      "text": "Kakita Toa's packet carries his chop now, and a witness clause she did not read until it became mandatory. The rider she chose on the contract floor only decided how close he stood. Standard or exclusive, the witness clause came with both.",
+      "source": "game/au_modern_case1_compliance.rpy:41"
     },
     {
       "id": "kaoru_592",
       "character": "kaoru",
-      "text": "It sounds like you attend, you document, and you do not perform gratitude on municipal letterhead. Again."
+      "text": "It sounds like you attend, you document, and you do not perform gratitude on municipal letterhead. Again.",
+      "source": "game/au_modern_case1_compliance.rpy:47"
+    },
+    {
+      "id": "narrator_469",
+      "character": "narrator",
+      "text": "The public elevator lets her out on floor fourteen B, and on the wrong half of it. Intake, the counter where applicants take a number and wait their turn, is one wing over. Toa turns the other way, toward a glass door with a badge reader, and opens it without reading the plate.",
+      "source": "game/au_modern_wrong_floor.rpy:82"
+    },
+    {
+      "id": "narrator_470",
+      "character": "narrator",
+      "text": "Back in the licensing office, the audition behind her, the sponsorship draft waits on his desk. His signature is ready. The only thing still hers to decide is which rider hangs off it. The sponsorship itself is the permission: the Arts Council authorizes her to work as a performing artist in the port, and his chop on the form tells the board she will not embarrass the seal that funds her. That part is already decided. The riders are what hang off the permission and tell the office how she and the deputy who signed her are allowed to occupy the same building afterward.",
+      "source": "game/au_modern_wrong_floor.rpy:247"
+    },
+    {
+      "id": "narrator_471",
+      "character": "narrator",
+      "text": "Inside the Velvet Lantern, the lobby smells of eucalyptus and money pretending to be mindfulness. Soft music hides the diesel and the ferries under panpipes. Toa raises her phone and waits to be told what counts as evidence.",
+      "source": "game/au_modern_case1_compliance.rpy:77"
+    },
+    {
+      "id": "narrator_472",
+      "character": "narrator",
+      "text": "The Arts Council is the body that decides who gets to make art in this port and who only gets the queue. It funds the performing-arts sponsorships, licenses the venues and storefronts, and streams its hearings straight onto the public record. A sponsorship is the Council's permission slip: with one, a transfer dancer may legally rehearse, perform, be paid, and stay. Without one she is a tourist with good posture and a packet six weeks expired.",
+      "source": "game/au_modern_wrong_floor.rpy:45"
+    },
+    {
+      "id": "narrator_473",
+      "character": "narrator",
+      "text": "It is a live Arts Council licensing hearing, the kind Ryoko Port streams straight onto the public record. The board votes on contested permits in full view of anyone bored enough to watch. Whatever the gallery types becomes minutes. Whatever the camera catches becomes, eventually, a clip.",
+      "source": "game/au_modern_wrong_floor.rpy:103"
+    },
+    {
+      "id": "narrator_474",
+      "character": "narrator",
+      "text": "The sponsorship itself is plain enough once someone explains the boxes. The Arts Council authorizes her to work as a performing artist in the port, and the deputy director's signature on the form vouches to the Council that she will not embarrass the seal that funds her. The riders do not change that. They only decide how close the deputy who signed it has to stand while his name is the one on the permit. Both riders carry the same fine print, the witness clause: a fast-tracked artist must attend the deputy's inspections and document living proof for the Council that he does not hand permits to dancers he happens to favor. She does not learn what that costs until later. Today it is only a line she initials. The standard performance rider is the distant one: scheduled compliance reviews during business hours, discretion about municipal accounts, no city seal cropped into a meme. The witness clause still applies: she documents his inspections on the record so the Council can see he is not inventing dancers or playing favorites. Independence stays intact. Proximity stays professional. The queue remembers you as an artist who filed boring paperwork and kept her distance. The exclusive rehearsal sponsor rider is the close one: after-hours studio access when the public rooms go dark, direct deputy review instead of a rotating auditor. Calendar integration, which is bureaucratese for his schedule and hers sharing cells the intake counter never sees. The same witness clause, same favoritism insurance, but the inspections and the rehearsals and the logged hours pile up beside his name. Proximity becomes procedure. Procedure becomes the only language the port allows for wanting someone without filing romance on letterhead. One rider keeps her at arm's length from the man whose signature lets her stay. The other puts her on his calendar and in his after-hours rooms. Both keep her legal. Only one decides whether distance is a comfort or a cost.",
+      "source": "game/au_modern_wrong_floor.rpy:251"
+    },
+    {
+      "id": "narrator_475",
+      "character": "narrator",
+      "text": "The witness clause is the price of a fast Council sponsorship. She attends the deputy's inspections, documents what he points at, and proves on the record that the signatory who vouched for her is not inventing or favoring her. It is favoritism insurance, filed in advance, for a favoritism nobody has committed yet. Skip an inspection and the standing that gets revoked is hers, not his.",
+      "source": "game/au_modern_case1_compliance.rpy:43"
+    },
+    {
+      "id": "narrator_476",
+      "character": "narrator",
+      "text": "The Office of Arts and Licensing signs the artists and licenses the storefronts, both under the same Council seal. The office that stamped her sponsorship is the office that can decide whether this spa keeps its license. Today both halves of the deputy's jurisdiction share one wet sidewalk, and she is standing on the artist half of it.",
+      "source": "game/au_modern_case1_compliance.rpy:67"
+    },
+    {
+      "id": "narrator_477",
+      "character": "narrator",
+      "text": "This is the harbor audit retreat he slid across her municipal portal at the end of the wellness inspection. Ferry slips, one bed filed as clerical error, the whole weekend logged on the Office of Arts and Licensing calendar as continued witness work. She accepted it on the Council form, in the dry font the portal assigns to everything. The form had no box for what she actually wanted, so she filed that part nowhere, which is its own kind of filing.",
+      "source": "game/au_modern_case2_island_weekend.rpy:42"
+    },
+    {
+      "id": "narrator_478",
+      "character": "narrator",
+      "text": "People and Conduct does not investigate feelings. It investigates conflicts of interest, and it has exactly one question about the two of them: whether a deputy who signed an artist's sponsorship had any business signing for an artist the whole channel now assumes he favored. Behind the question sits the Council's full kit of remedies, the ones every sponsorship hangs under: suspend it, revoke it, audit it, reassign the signatory, or compel disclosure. Whatever they choose goes in a permanent file that outlives the clip, the hashtag, and probably the deputy.",
+      "source": "game/au_modern_case3_permits_hr.rpy:55"
+    },
+    {
+      "id": "toa_474",
+      "character": "toa",
+      "text": "Rider compliance. We have a clause for standing this close, a footnote for the elevator, a code for the harbor. The file has a word for everything we do except the one word for what it is.",
+      "source": "game/au_modern_case1_compliance.rpy:583"
+    },
+    {
+      "id": "narrator_479",
+      "character": "narrator",
+      "text": "She will document what he points at and keep her name off his calendar except where the clause requires it. Independence, bought with boredom and a stamp.",
+      "source": "game/au_modern_wrong_floor.rpy:265"
+    },
+    {
+      "id": "kaoru_595",
+      "character": "kaoru",
+      "text": "The file uses the words I can defend. The word you mean stays off letterhead, where the board cannot read it back to us in a hearing. That is not a denial. That is custody.",
+      "source": "game/au_modern_case1_compliance.rpy:586"
+    },
+    {
+      "id": "narrator_480",
+      "character": "narrator",
+      "text": "The Crane Conservatory had sent her off with a transfer letter and a stamp case.",
+      "source": "game/au_modern_wrong_floor.rpy:50"
+    },
+    {
+      "id": "narrator_481",
+      "character": "narrator",
+      "text": "It had not sent her a patron, a roommate with pull,",
+      "source": "game/au_modern_wrong_floor.rpy:52"
+    },
+    {
+      "id": "narrator_482",
+      "character": "narrator",
+      "text": "or a name anyone on floor fourteen B would recognize.",
+      "source": "game/au_modern_wrong_floor.rpy:54"
+    },
+    {
+      "id": "narrator_483",
+      "character": "narrator",
+      "text": "Ryoko Port is a city of introductions, and she had none. No gallery owner waiting at the tram.",
+      "source": "game/au_modern_wrong_floor.rpy:56"
+    },
+    {
+      "id": "narrator_484",
+      "character": "narrator",
+      "text": "No company director who owed the Conservatory a favor.",
+      "source": "game/au_modern_wrong_floor.rpy:58"
+    },
+    {
+      "id": "narrator_485",
+      "character": "narrator",
+      "text": "No aunt in the ward office, no ex-classmate on the Council payroll.",
+      "source": "game/au_modern_wrong_floor.rpy:60"
+    },
+    {
+      "id": "narrator_486",
+      "character": "narrator",
+      "text": "Just talent, paperwork, and a permit date the calendar had already crossed out.",
+      "source": "game/au_modern_wrong_floor.rpy:62"
+    },
+    {
+      "id": "narrator_487",
+      "character": "narrator",
+      "text": "A performing-arts sponsorship from the Arts Council is the only fast path the port offers a",
+      "source": "game/au_modern_wrong_floor.rpy:65"
+    },
+    {
+      "id": "narrator_488",
+      "character": "narrator",
+      "text": "transfer dancer who arrives without institutional backing. Intake can queue you.",
+      "source": "game/au_modern_wrong_floor.rpy:67"
+    },
+    {
+      "id": "narrator_489",
+      "character": "narrator",
+      "text": "A clerk can circle your expiration date in red.",
+      "source": "game/au_modern_wrong_floor.rpy:69"
+    },
+    {
+      "id": "narrator_490",
+      "character": "narrator",
+      "text": "Only a deputy director in the Office of Arts and Licensing can sign the sponsorship and make",
+      "source": "game/au_modern_wrong_floor.rpy:71"
+    },
+    {
+      "id": "narrator_491",
+      "character": "narrator",
+      "text": "you legal again.",
+      "source": "game/au_modern_wrong_floor.rpy:73"
+    },
+    {
+      "id": "narrator_492",
+      "character": "narrator",
+      "text": "She needed a signatory of record before the port decided she had overstayed her welcome.",
+      "source": "game/au_modern_wrong_floor.rpy:75"
+    },
+    {
+      "id": "narrator_493",
+      "character": "narrator",
+      "text": "He does not owe her a signature.",
+      "source": "game/au_modern_wrong_floor.rpy:222"
+    },
+    {
+      "id": "narrator_494",
+      "character": "narrator",
+      "text": "The queue is full of applicants with expired packets and better connections than hers.",
+      "source": "game/au_modern_wrong_floor.rpy:224"
+    },
+    {
+      "id": "narrator_495",
+      "character": "narrator",
+      "text": "He could have sent her back to intake and let the board eat her on the public record she had",
+      "source": "game/au_modern_wrong_floor.rpy:226"
+    },
+    {
+      "id": "narrator_496",
+      "character": "narrator",
+      "text": "already walked into.",
+      "source": "game/au_modern_wrong_floor.rpy:228"
+    },
+    {
+      "id": "narrator_497",
+      "character": "narrator",
+      "text": "Instead he is preparing to sign, because the studio proved what the packet could not,",
+      "source": "game/au_modern_wrong_floor.rpy:230"
+    },
+    {
+      "id": "narrator_498",
+      "character": "narrator",
+      "text": "and because a deputy who vouches for talent the Council has not yet met is doing the job the",
+      "source": "game/au_modern_wrong_floor.rpy:232"
+    },
+    {
+      "id": "narrator_499",
+      "character": "narrator",
+      "text": "fast track was always supposed to do. The bureaucratic lifeline is not kindness.",
+      "source": "game/au_modern_wrong_floor.rpy:234"
+    },
+    {
+      "id": "narrator_500",
+      "character": "narrator",
+      "text": "It is jurisdiction with a chop on it.",
+      "source": "game/au_modern_wrong_floor.rpy:236"
+    },
+    {
+      "id": "narrator_501",
+      "character": "narrator",
+      "text": "She initials the witness clause and the calendar cells both. After-hours access. Direct review.",
+      "source": "game/au_modern_wrong_floor.rpy:284"
+    },
+    {
+      "id": "narrator_502",
+      "character": "narrator",
+      "text": "His name beside hers in the portal where clerks can subpoena schedules but not feelings.",
+      "source": "game/au_modern_wrong_floor.rpy:286"
+    },
+    {
+      "id": "narrator_503",
+      "character": "narrator",
+      "text": "Proximity filed as procedure. The port will call it sponsorship.",
+      "source": "game/au_modern_wrong_floor.rpy:288"
+    },
+    {
+      "id": "narrator_504",
+      "character": "narrator",
+      "text": "She will learn to call it the only door that stayed open.",
+      "source": "game/au_modern_wrong_floor.rpy:290"
+    },
+    {
+      "id": "narrator_505",
+      "character": "narrator",
+      "text": "He brackets her against the glass once more, unfinished business and a promise to finish it",
+      "source": "game/au_modern_wrong_floor.rpy:322"
+    },
+    {
+      "id": "narrator_506",
+      "character": "narrator",
+      "text": "where no badge can call the car. The service lift goes dark on the rest.",
+      "source": "game/au_modern_wrong_floor.rpy:324"
+    },
+    {
+      "id": "narrator_507",
+      "character": "narrator",
+      "text": "The city rents the corner studio by the hour,",
+      "source": "game/au_modern_case1_compliance.rpy:217"
+    },
+    {
+      "id": "narrator_508",
+      "character": "narrator",
+      "text": "the same kind of room he had once made her audition in: mirror wall, a barre bolted along it,",
+      "source": "game/au_modern_case1_compliance.rpy:219"
+    },
+    {
+      "id": "narrator_509",
+      "character": "narrator",
+      "text": "rain ticking the glass like a clerk tapping a stamp.",
+      "source": "game/au_modern_case1_compliance.rpy:221"
+    },
+    {
+      "id": "narrator_510",
+      "character": "narrator",
+      "text": "The only new fact in the room is the upright piano against the far wall, municipal brown,",
+      "source": "game/au_modern_case1_compliance.rpy:223"
+    },
+    {
+      "id": "narrator_511",
+      "character": "narrator",
+      "text": "a half-step out of tune,",
+      "source": "game/au_modern_case1_compliance.rpy:225"
+    },
+    {
+      "id": "narrator_512",
+      "character": "narrator",
+      "text": "the lid already up as if it had been waiting for someone with a reason.",
+      "source": "game/au_modern_case1_compliance.rpy:227"
+    },
+    {
+      "id": "kaoru_596",
+      "character": "kaoru",
+      "text": "Your witness clause runs both directions today. You have documented four of my inspections.",
+      "source": "game/au_modern_case1_compliance.rpy:230"
+    },
+    {
+      "id": "kaoru_597",
+      "character": "kaoru",
+      "text": "An auditor who has never seen the deliverable cannot certify it.",
+      "source": "game/au_modern_case1_compliance.rpy:232"
+    },
+    {
+      "id": "kaoru_598",
+      "character": "kaoru",
+      "text": "So I am here to witness one of yours. Run a class.",
+      "source": "game/au_modern_case1_compliance.rpy:234"
+    },
+    {
+      "id": "kaoru_599",
+      "character": "kaoru",
+      "text": "I will sit where I can see you and the mirror.",
+      "source": "game/au_modern_case1_compliance.rpy:236"
+    },
+    {
+      "id": "toa_475",
+      "character": "toa",
+      "text": "You want to witness a whole ballet class. Barre to reverence.",
+      "source": "game/au_modern_case1_compliance.rpy:239"
+    },
+    {
+      "id": "toa_476",
+      "character": "toa",
+      "text": "Most of it is in French and none of it will hold still for your clipboard.",
+      "source": "game/au_modern_case1_compliance.rpy:241"
+    },
+    {
+      "id": "kaoru_600",
+      "character": "kaoru",
+      "text": "Then translate as you go.",
+      "source": "game/au_modern_case1_compliance.rpy:244"
+    },
+    {
+      "id": "kaoru_601",
+      "character": "kaoru",
+      "text": "I have audited stranger languages than yours,",
+      "source": "game/au_modern_case1_compliance.rpy:246"
+    },
+    {
+      "id": "kaoru_602",
+      "character": "kaoru",
+      "text": "and most of them were also hiding something in the footnotes.",
+      "source": "game/au_modern_case1_compliance.rpy:248"
+    },
+    {
+      "id": "narrator_513",
+      "character": "narrator",
+      "text": "She gave him the structure the way she would have given it to any inspector who asked, because narrating the next step was the only way to keep her hands from apologizing for the room.",
+      "source": "game/au_modern_case1_compliance.rpy:251"
+    },
+    {
+      "id": "toa_477",
+      "character": "toa",
+      "text": "Barre first. It warms the instrument, slow before fast, small before large. Plie, to bend. Tendu, to stretch the foot along the floor without lifting it.",
+      "source": "game/au_modern_case1_compliance.rpy:254"
+    },
+    {
+      "id": "toa_478",
+      "character": "toa",
+      "text": "Degage, the same stretch let off the ground. Rond de jambe, the toe drawing a half circle. Then fondu, frappe, and grand battement, which is the leg thrown up like an objection nobody bothered to sustain.",
+      "source": "game/au_modern_case1_compliance.rpy:256"
+    },
+    {
+      "id": "toa_479",
+      "character": "toa",
+      "text": "The order is not negotiable. Even the Council would approve of the order.",
+      "source": "game/au_modern_case1_compliance.rpy:258"
+    },
+    {
+      "id": "narrator_514",
+      "character": "narrator",
+      "text": "He watched her run the barre with the flat attention he gave a hearing,",
+      "source": "game/au_modern_case1_compliance.rpy:264"
+    },
+    {
+      "id": "narrator_515",
+      "character": "narrator",
+      "text": "counting under his breath, low and even,",
+      "source": "game/au_modern_case1_compliance.rpy:266"
+    },
+    {
+      "id": "narrator_516",
+      "character": "narrator",
+      "text": "the way he had counted her once in this same kind of room. Plie and recover.",
+      "source": "game/au_modern_case1_compliance.rpy:268"
+    },
+    {
+      "id": "narrator_517",
+      "character": "narrator",
+      "text": "Tendu front, side, back.",
+      "source": "game/au_modern_case1_compliance.rpy:270"
+    },
+    {
+      "id": "narrator_518",
+      "character": "narrator",
+      "text": "Somewhere in the rond de jambe she stopped performing for the witness and simply worked,",
+      "source": "game/au_modern_case1_compliance.rpy:272"
+    },
+    {
+      "id": "narrator_519",
+      "character": "narrator",
+      "text": "and he registered the difference the way he registered everything,",
+      "source": "game/au_modern_case1_compliance.rpy:274"
+    },
+    {
+      "id": "narrator_520",
+      "character": "narrator",
+      "text": "and filed it where he filed the things he intended to keep.",
+      "source": "game/au_modern_case1_compliance.rpy:276"
+    },
+    {
+      "id": "narrator_521",
+      "character": "narrator",
+      "text": "She set her phone on the barre to play the centre music,",
+      "source": "game/au_modern_case1_compliance.rpy:279"
+    },
+    {
+      "id": "narrator_522",
+      "character": "narrator",
+      "text": "a tinny recording through a speaker that had survived three tours.",
+      "source": "game/au_modern_case1_compliance.rpy:281"
+    },
+    {
+      "id": "narrator_523",
+      "character": "narrator",
+      "text": "Kaoru looked at it the way he looked at a capacity chart that had already lied to him once.",
+      "source": "game/au_modern_case1_compliance.rpy:283"
+    },
+    {
+      "id": "kaoru_603",
+      "character": "kaoru",
+      "text": "That is a recording.",
+      "source": "game/au_modern_case1_compliance.rpy:286"
+    },
+    {
+      "id": "kaoru_604",
+      "character": "kaoru",
+      "text": "A recording cannot tell whether you are early or whether you are apologizing.",
+      "source": "game/au_modern_case1_compliance.rpy:288"
+    },
+    {
+      "id": "kaoru_605",
+      "character": "kaoru",
+      "text": "It plays the same eight bars at the same tempo whether you are a witness or a liability.",
+      "source": "game/au_modern_case1_compliance.rpy:290"
+    },
+    {
+      "id": "kaoru_606",
+      "character": "kaoru",
+      "text": "It is a metronome that forgot it was supposed to be a human.",
+      "source": "game/au_modern_case1_compliance.rpy:292"
+    },
+    {
+      "id": "toa_480",
+      "character": "toa",
+      "text": "And you could do better, Deputy Director-sama.",
+      "source": "game/au_modern_case1_compliance.rpy:295"
+    },
+    {
+      "id": "toa_481",
+      "character": "toa",
+      "text": "You, who count witness work out loud and call it a duty.",
+      "source": "game/au_modern_case1_compliance.rpy:297"
+    },
+    {
+      "id": "kaoru_607",
+      "character": "kaoru",
+      "text": "I read music.",
+      "source": "game/au_modern_case1_compliance.rpy:300"
+    },
+    {
+      "id": "kaoru_608",
+      "character": "kaoru",
+      "text": "It is mostly counting with better penmanship and a key signature where the case number goes.",
+      "source": "game/au_modern_case1_compliance.rpy:302"
+    },
+    {
+      "id": "narrator_524",
+      "character": "narrator",
+      "text": "He stood, crossed the room,",
+      "source": "game/au_modern_case1_compliance.rpy:305"
+    },
+    {
+      "id": "narrator_525",
+      "character": "narrator",
+      "text": "and did the thing she had never once managed to make him do across a desk.",
+      "source": "game/au_modern_case1_compliance.rpy:307"
+    },
+    {
+      "id": "narrator_526",
+      "character": "narrator",
+      "text": "He took off the charcoal jacket,",
+      "source": "game/au_modern_case1_compliance.rpy:309"
+    },
+    {
+      "id": "narrator_527",
+      "character": "narrator",
+      "text": "folded it over the barre with more care than he gave most applicants,",
+      "source": "game/au_modern_case1_compliance.rpy:311"
+    },
+    {
+      "id": "narrator_528",
+      "character": "narrator",
+      "text": "rolled his sleeves to the forearm,",
+      "source": "game/au_modern_case1_compliance.rpy:313"
+    },
+    {
+      "id": "narrator_529",
+      "character": "narrator",
+      "text": "and sat down at the municipal piano as if it were one more office the Council had assigned him.",
+      "source": "game/au_modern_case1_compliance.rpy:315"
+    },
+    {
+      "id": "narrator_530",
+      "character": "narrator",
+      "text": "He set the stamp down.",
+      "source": "game/au_modern_case1_compliance.rpy:317"
+    },
+    {
+      "id": "narrator_531",
+      "character": "narrator",
+      "text": "He met her on her floor, in her medium, where no signature he owned was worth a single thing.",
+      "source": "game/au_modern_case1_compliance.rpy:319"
+    },
+    {
+      "id": "toa_482",
+      "character": "toa",
+      "text": "Then take a ticket, the way a class accompanist does.",
+      "source": "game/au_modern_case1_compliance.rpy:330"
+    },
+    {
+      "id": "toa_483",
+      "character": "toa",
+      "text": "A repetiteur plays the dancer's instruction the way you read a filing.",
+      "source": "game/au_modern_case1_compliance.rpy:332"
+    },
+    {
+      "id": "toa_484",
+      "character": "toa",
+      "text": "I hand you meter, tempo, quality, count.",
+      "source": "game/au_modern_case1_compliance.rpy:334"
+    },
+    {
+      "id": "toa_485",
+      "character": "toa",
+      "text": "Adagio: a slow waltz, three-four time, smooth, thirty-two counts.",
+      "source": "game/au_modern_case1_compliance.rpy:336"
+    },
+    {
+      "id": "toa_486",
+      "character": "toa",
+      "text": "Then play it like you mean it, not like you are proving the meter is compliant.",
+      "source": "game/au_modern_case1_compliance.rpy:338"
+    },
+    {
+      "id": "kaoru_609",
+      "character": "kaoru",
+      "text": "Three-four. Slow. Thirty-two. Noted.",
+      "source": "game/au_modern_case1_compliance.rpy:341"
+    },
+    {
+      "id": "narrator_532",
+      "character": "narrator",
+      "text": "He played it correctly and without one ounce of feeling,",
+      "source": "game/au_modern_case1_compliance.rpy:344"
+    },
+    {
+      "id": "narrator_533",
+      "character": "narrator",
+      "text": "every bar squared to the edge like a citation,",
+      "source": "game/au_modern_case1_compliance.rpy:346"
+    },
+    {
+      "id": "narrator_534",
+      "character": "narrator",
+      "text": "a man performing the meter to prove the meter existed.",
+      "source": "game/au_modern_case1_compliance.rpy:348"
+    },
+    {
+      "id": "narrator_535",
+      "character": "narrator",
+      "text": "She danced the adagio to it anyway, developpe and promenade and the long arabesque line,",
+      "source": "game/au_modern_case1_compliance.rpy:350"
+    },
+    {
+      "id": "narrator_536",
+      "character": "narrator",
+      "text": "and it was fine, and fine was the most insulting word in either of their vocabularies.",
+      "source": "game/au_modern_case1_compliance.rpy:352"
+    },
+    {
+      "id": "toa_487",
+      "character": "toa",
+      "text": "Adagio first. Slow waltz, three-four, smooth. Thirty-two counts. Try not to file the rests.",
+      "source": "game/au_modern_case1_compliance.rpy:358"
+    },
+    {
+      "id": "narrator_537",
+      "character": "narrator",
+      "text": "He fumbled the first eight bars the way a deputy fumbles a language he has only ever read in",
+      "source": "game/au_modern_case1_compliance.rpy:361"
+    },
+    {
+      "id": "narrator_538",
+      "character": "narrator",
+      "text": "translation, a half beat behind her line, the left hand too literal,",
+      "source": "game/au_modern_case1_compliance.rpy:363"
+    },
+    {
+      "id": "narrator_539",
+      "character": "narrator",
+      "text": "the waltz vamp landing like a stamp instead of a breath. She did not stop.",
+      "source": "game/au_modern_case1_compliance.rpy:365"
+    },
+    {
+      "id": "narrator_540",
+      "character": "narrator",
+      "text": "She lifted into the developpe a fraction early and let her arm finish the phrase his hand had",
+      "source": "game/au_modern_case1_compliance.rpy:367"
+    },
+    {
+      "id": "narrator_541",
+      "character": "narrator",
+      "text": "clipped short, teaching him with her spine the thing the file could not put into French.",
+      "source": "game/au_modern_case1_compliance.rpy:369"
+    },
+    {
+      "id": "narrator_542",
+      "character": "narrator",
+      "text": "And then, somewhere in the second pass, it happened, the small unscheduled thing.",
+      "source": "game/au_modern_case1_compliance.rpy:372"
+    },
+    {
+      "id": "narrator_543",
+      "character": "narrator",
+      "text": "He stopped playing the count and started playing her.",
+      "source": "game/au_modern_case1_compliance.rpy:374"
+    },
+    {
+      "id": "narrator_544",
+      "character": "narrator",
+      "text": "His left hand found the breath underneath the three-four and held the dancer instead of the",
+      "source": "game/au_modern_case1_compliance.rpy:376"
+    },
+    {
+      "id": "narrator_545",
+      "character": "narrator",
+      "text": "meter.",
+      "source": "game/au_modern_case1_compliance.rpy:378"
+    },
+    {
+      "id": "narrator_546",
+      "character": "narrator",
+      "text": "When she suspended at the top of the developpe he waited for her,",
+      "source": "game/au_modern_case1_compliance.rpy:380"
+    },
+    {
+      "id": "narrator_547",
+      "character": "narrator",
+      "text": "the chord hanging until her balance asked for the next one,",
+      "source": "game/au_modern_case1_compliance.rpy:382"
+    },
+    {
+      "id": "narrator_548",
+      "character": "narrator",
+      "text": "and he gave it to her exactly when she needed it and not a beat before.",
+      "source": "game/au_modern_case1_compliance.rpy:384"
+    },
+    {
+      "id": "narrator_549",
+      "character": "narrator",
+      "text": "He was not a metronome anymore. He was listening.",
+      "source": "game/au_modern_case1_compliance.rpy:386"
+    },
+    {
+      "id": "narrator_550",
+      "character": "narrator",
+      "text": "He was, against every clause he had ever drafted, accompanying her.",
+      "source": "game/au_modern_case1_compliance.rpy:388"
+    },
+    {
+      "id": "narrator_551",
+      "character": "narrator",
+      "text": "She felt the shift the way you feel a room change temperature.",
+      "source": "game/au_modern_case1_compliance.rpy:391"
+    },
+    {
+      "id": "narrator_552",
+      "character": "narrator",
+      "text": "The piano stopped telling her what the tempo was and started asking what she wanted it to be,",
+      "source": "game/au_modern_case1_compliance.rpy:393"
+    },
+    {
+      "id": "narrator_553",
+      "character": "narrator",
+      "text": "and answering.",
+      "source": "game/au_modern_case1_compliance.rpy:395"
+    },
+    {
+      "id": "narrator_554",
+      "character": "narrator",
+      "text": "For eight bars the deputy director of the Office of Arts and Licensing was nobody's signatory",
+      "source": "game/au_modern_case1_compliance.rpy:397"
+    },
+    {
+      "id": "narrator_555",
+      "character": "narrator",
+      "text": "of record.",
+      "source": "game/au_modern_case1_compliance.rpy:399"
+    },
+    {
+      "id": "narrator_556",
+      "character": "narrator",
+      "text": "He was the man at the piano who had decided, mid-phrase, to meet her where she actually lived.",
+      "source": "game/au_modern_case1_compliance.rpy:401"
+    },
+    {
+      "id": "toa_488",
+      "character": "toa",
+      "text": "You changed it. You stopped counting and started listening. Those are not the same skill.",
+      "source": "game/au_modern_case1_compliance.rpy:407"
+    },
+    {
+      "id": "toa_489",
+      "character": "toa",
+      "text": "The first one keeps time. The second one keeps me.",
+      "source": "game/au_modern_case1_compliance.rpy:409"
+    },
+    {
+      "id": "kaoru_610",
+      "character": "kaoru",
+      "text": "A recording cannot do the second one.",
+      "source": "game/au_modern_case1_compliance.rpy:412"
+    },
+    {
+      "id": "kaoru_611",
+      "character": "kaoru",
+      "text": "I find I object to being outperformed by a speaker that survived three tours.",
+      "source": "game/au_modern_case1_compliance.rpy:414"
+    },
+    {
+      "id": "kaoru_612",
+      "character": "kaoru",
+      "text": "File it under professional pride and let it stay there.",
+      "source": "game/au_modern_case1_compliance.rpy:416"
+    },
+    {
+      "id": "toa_490",
+      "character": "toa",
+      "text": "I will file it wherever lets you keep doing it.",
+      "source": "game/au_modern_case1_compliance.rpy:419"
+    },
+    {
+      "id": "narrator_557",
+      "character": "narrator",
+      "text": "She ran the rest of the centre to his hands: pirouettes that found their spot because he gave",
+      "source": "game/au_modern_case1_compliance.rpy:422"
+    },
+    {
+      "id": "narrator_558",
+      "character": "narrator",
+      "text": "her the downbeat to spot to, petit allegro snapped tight to a brisk two-four march,",
+      "source": "game/au_modern_case1_compliance.rpy:424"
+    },
+    {
+      "id": "narrator_559",
+      "character": "narrator",
+      "text": "grand allegro carried clear across the floor on a waltz that finally let her leave the ground",
+      "source": "game/au_modern_case1_compliance.rpy:426"
+    },
+    {
+      "id": "narrator_560",
+      "character": "narrator",
+      "text": "like she meant to.",
+      "source": "game/au_modern_case1_compliance.rpy:428"
+    },
+    {
+      "id": "narrator_561",
+      "character": "narrator",
+      "text": "He watched and played at once,",
+      "source": "game/au_modern_case1_compliance.rpy:430"
+    },
+    {
+      "id": "narrator_562",
+      "character": "narrator",
+      "text": "the witness and the accompaniment collapsed into one man in rolled sleeves,",
+      "source": "game/au_modern_case1_compliance.rpy:432"
+    },
+    {
+      "id": "narrator_563",
+      "character": "narrator",
+      "text": "which she would not have believed of him an hour ago.",
+      "source": "game/au_modern_case1_compliance.rpy:434"
+    },
+    {
+      "id": "kaoru_613",
+      "character": "kaoru",
+      "text": "Grand allegro. You travel, I give you the bars to land in. Do not apologize on the descent.",
+      "source": "game/au_modern_case1_compliance.rpy:437"
+    },
+    {
+      "id": "kaoru_614",
+      "character": "kaoru",
+      "text": "The descent is the part the board never watches and the only part that can hurt you.",
+      "source": "game/au_modern_case1_compliance.rpy:439"
+    },
+    {
+      "id": "toa_491",
+      "character": "toa",
+      "text": "Noted, Deputy Director-sama. I will land like I am allowed to be in the room.",
+      "source": "game/au_modern_case1_compliance.rpy:442"
+    },
+    {
+      "id": "narrator_564",
+      "character": "narrator",
+      "text": "When the class wound down he slowed without being asked, into something adagio and low,",
+      "source": "game/au_modern_case1_compliance.rpy:445"
+    },
+    {
+      "id": "narrator_565",
+      "character": "narrator",
+      "text": "and she understood he had read far enough into the file to know what came last.",
+      "source": "game/au_modern_case1_compliance.rpy:447"
+    },
+    {
+      "id": "toa_492",
+      "character": "toa",
+      "text": "Reverence. The end of every class.",
+      "source": "game/au_modern_case1_compliance.rpy:450"
+    },
+    {
+      "id": "toa_493",
+      "character": "toa",
+      "text": "A bow to the teacher, and a bow to the accompanist,",
+      "source": "game/au_modern_case1_compliance.rpy:452"
+    },
+    {
+      "id": "toa_494",
+      "character": "toa",
+      "text": "because a dancer never thanks the audience first.",
+      "source": "game/au_modern_case1_compliance.rpy:454"
+    },
+    {
+      "id": "toa_495",
+      "character": "toa",
+      "text": "She thanks the two people who actually held the room. There is no audience here.",
+      "source": "game/au_modern_case1_compliance.rpy:456"
+    },
+    {
+      "id": "toa_496",
+      "character": "toa",
+      "text": "There is only the accompanist.",
+      "source": "game/au_modern_case1_compliance.rpy:458"
+    },
+    {
+      "id": "narrator_566",
+      "character": "narrator",
+      "text": "She curtsied to the piano. To him.",
+      "source": "game/au_modern_case1_compliance.rpy:464"
+    },
+    {
+      "id": "narrator_567",
+      "character": "narrator",
+      "text": "He let the last chord ring out under the rain and did not deny the bow,",
+      "source": "game/au_modern_case1_compliance.rpy:466"
+    },
+    {
+      "id": "narrator_568",
+      "character": "narrator",
+      "text": "did not rule against it,",
+      "source": "game/au_modern_case1_compliance.rpy:468"
+    },
+    {
+      "id": "narrator_569",
+      "character": "narrator",
+      "text": "did not reach yet for the jacket folded over the barre and the title that lived in its breast",
+      "source": "game/au_modern_case1_compliance.rpy:470"
+    },
+    {
+      "id": "narrator_570",
+      "character": "narrator",
+      "text": "pocket.",
+      "source": "game/au_modern_case1_compliance.rpy:472"
+    },
+    {
+      "id": "narrator_571",
+      "character": "narrator",
+      "text": "For the length of one held chord he was only the man she had thanked,",
+      "source": "game/au_modern_case1_compliance.rpy:474"
+    },
+    {
+      "id": "narrator_572",
+      "character": "narrator",
+      "text": "and he let himself be thanked, on no letterhead at all.",
+      "source": "game/au_modern_case1_compliance.rpy:476"
+    },
+    {
+      "id": "kaoru_615",
+      "character": "kaoru",
+      "text": "I played the first eight bars badly. Strike them from the witness log.",
+      "source": "game/au_modern_case1_compliance.rpy:480"
+    },
+    {
+      "id": "toa_497",
+      "character": "toa",
+      "text": "Denied. The bad eight bars are how I know the good ones were real.",
+      "source": "game/au_modern_case1_compliance.rpy:483"
+    },
+    {
+      "id": "toa_498",
+      "character": "toa",
+      "text": "I am keeping the whole take, Deputy Director-sama.",
+      "source": "game/au_modern_case1_compliance.rpy:485"
+    },
+    {
+      "id": "kaoru_616",
+      "character": "kaoru",
+      "text": "I played it correctly before I played it well. Note the difference in your log.",
+      "source": "game/au_modern_case1_compliance.rpy:488"
+    },
+    {
+      "id": "kaoru_617",
+      "character": "kaoru",
+      "text": "It is the only review I will ever file on myself.",
+      "source": "game/au_modern_case1_compliance.rpy:490"
+    },
+    {
+      "id": "toa_499",
+      "character": "toa",
+      "text": "Noted and entered. The correct version was compliant. The well version was you.",
+      "source": "game/au_modern_case1_compliance.rpy:493"
+    },
+    {
+      "id": "toa_500",
+      "character": "toa",
+      "text": "I can tell them apart now, and I will never be able to stop.",
+      "source": "game/au_modern_case1_compliance.rpy:495"
+    },
+    {
+      "id": "narrator_573",
+      "character": "narrator",
+      "text": "He rolled his sleeves back down, refastened the cuffs,",
+      "source": "game/au_modern_case1_compliance.rpy:498"
+    },
+    {
+      "id": "narrator_574",
+      "character": "narrator",
+      "text": "and reassembled the deputy director one button at a time.",
+      "source": "game/au_modern_case1_compliance.rpy:500"
+    },
+    {
+      "id": "narrator_575",
+      "character": "narrator",
+      "text": "But he was slower about it than the file required, and she saw that too, and said nothing,",
+      "source": "game/au_modern_case1_compliance.rpy:502"
+    },
+    {
+      "id": "narrator_576",
+      "character": "narrator",
+      "text": "because some witness work is kinder kept off the record.",
+      "source": "game/au_modern_case1_compliance.rpy:504"
+    },
+    {
+      "id": "kaoru_618",
+      "character": "kaoru",
+      "text": "We are due back at the tower. The inspection still has to close on paper.",
+      "source": "game/au_modern_case1_compliance.rpy:507"
+    },
+    {
+      "id": "kaoru_619",
+      "character": "kaoru",
+      "text": "None of what just happened goes in that report.",
+      "source": "game/au_modern_case1_compliance.rpy:509"
+    },
+    {
+      "id": "kaoru_620",
+      "character": "kaoru",
+      "text": "A studio with a piano is not a deliverable the Council keeps a box for.",
+      "source": "game/au_modern_case1_compliance.rpy:511"
+    },
+    {
+      "id": "toa_501",
+      "character": "toa",
+      "text": "Then it stays off letterhead. Like everything else you mean.",
+      "source": "game/au_modern_case1_compliance.rpy:514"
+    },
+    {
+      "id": "toa_502",
+      "character": "toa",
+      "text": "I am learning the filing system, Deputy Director-sama.",
+      "source": "game/au_modern_case1_compliance.rpy:516"
+    },
+    {
+      "id": "toa_503",
+      "character": "toa",
+      "text": "The real things go in the drawer with no label,",
+      "source": "game/au_modern_case1_compliance.rpy:518"
+    },
+    {
+      "id": "toa_504",
+      "character": "toa",
+      "text": "and you guard that drawer harder than you guard the seal.",
+      "source": "game/au_modern_case1_compliance.rpy:520"
+    },
+    {
+      "id": "narrator_577",
+      "character": "narrator",
+      "text": "He did not confirm it.",
+      "source": "game/au_modern_case1_compliance.rpy:523"
+    },
+    {
+      "id": "narrator_578",
+      "character": "narrator",
+      "text": "He held the studio door for her the way a gate holds weather,",
+      "source": "game/au_modern_case1_compliance.rpy:525"
+    },
+    {
+      "id": "narrator_579",
+      "character": "narrator",
+      "text": "and the almost-smile got as far as his eyes before he filed it,",
+      "source": "game/au_modern_case1_compliance.rpy:527"
+    },
+    {
+      "id": "narrator_580",
+      "character": "narrator",
+      "text": "and for once the filing took a visible second longer than it should have.",
+      "source": "game/au_modern_case1_compliance.rpy:529"
+    },
+    {
+      "id": "narrator_581",
+      "character": "narrator",
+      "text": "He did not mention the studio on the walk back, and neither did she,",
+      "source": "game/au_modern_case1_compliance.rpy:540"
+    },
+    {
+      "id": "narrator_582",
+      "character": "narrator",
+      "text": "which was its own kind of minutes.",
+      "source": "game/au_modern_case1_compliance.rpy:542"
+    },
+    {
+      "id": "narrator_583",
+      "character": "narrator",
+      "text": "But he booked the harbor weekend that same afternoon, and she would wonder, later,",
+      "source": "game/au_modern_case1_compliance.rpy:544"
+    },
+    {
+      "id": "narrator_584",
+      "character": "narrator",
+      "text": "whether the piano had moved the date up by a week.",
+      "source": "game/au_modern_case1_compliance.rpy:546"
+    },
+    {
+      "id": "narrator_585",
+      "character": "narrator",
+      "text": "After, they lie tangled in the sheets, breath slowing, the exclusive rider finally spent.",
+      "source": "game/au_modern_case2_island_weekend.rpy:206"
+    },
+    {
+      "id": "toa_505",
+      "character": "toa",
+      "text": "I keep thinking about the studio.",
+      "source": "game/au_modern_case2_island_weekend.rpy:240"
+    },
+    {
+      "id": "toa_506",
+      "character": "toa",
+      "text": "The afternoon you put down the clipboard and played the piano so I could take class.",
+      "source": "game/au_modern_case2_island_weekend.rpy:242"
+    },
+    {
+      "id": "toa_507",
+      "character": "toa",
+      "text": "You stopped counting and started listening,",
+      "source": "game/au_modern_case2_island_weekend.rpy:244"
+    },
+    {
+      "id": "toa_508",
+      "character": "toa",
+      "text": "and you have been a different kind of careful with me ever since.",
+      "source": "game/au_modern_case2_island_weekend.rpy:246"
+    },
+    {
+      "id": "toa_509",
+      "character": "toa",
+      "text": "That is also not on any letterhead. I checked the file twice.",
+      "source": "game/au_modern_case2_island_weekend.rpy:248"
+    },
+    {
+      "id": "kaoru_621",
+      "character": "kaoru",
+      "text": "The piano is not in the record. Neither is the reason I sat down at it.",
+      "source": "game/au_modern_case2_island_weekend.rpy:251"
+    },
+    {
+      "id": "kaoru_622",
+      "character": "kaoru",
+      "text": "Some deliverables I keep in the drawer with no label,",
+      "source": "game/au_modern_case2_island_weekend.rpy:253"
+    },
+    {
+      "id": "kaoru_623",
+      "character": "kaoru",
+      "text": "where the board cannot ask me to explain them. You are filed in that drawer.",
+      "source": "game/au_modern_case2_island_weekend.rpy:255"
+    },
+    {
+      "id": "kaoru_624",
+      "character": "kaoru",
+      "text": "So is the afternoon.",
+      "source": "game/au_modern_case2_island_weekend.rpy:257"
+    },
+    {
+      "id": "toa_510",
+      "character": "toa",
+      "text": "On letterhead.",
+      "source": "game/au_modern_case3_permits_hr.rpy:245"
+    },
+    {
+      "id": "toa_511",
+      "character": "toa",
+      "text": "After three cases of *not romance on letterhead,* you wrote the romance onto the letterhead",
+      "source": "game/au_modern_case3_permits_hr.rpy:247"
+    },
+    {
+      "id": "toa_512",
+      "character": "toa",
+      "text": "yourself, in ink, where a clerk can read it.",
+      "source": "game/au_modern_case3_permits_hr.rpy:249"
+    },
+    {
+      "id": "toa_513",
+      "character": "toa",
+      "text": "You spent a year keeping it off the record to protect us.",
+      "source": "game/au_modern_case3_permits_hr.rpy:251"
+    },
+    {
+      "id": "toa_514",
+      "character": "toa",
+      "text": "Today you put it on the record to protect us. The whole metaphor just turned over in its sleep.",
+      "source": "game/au_modern_case3_permits_hr.rpy:253"
+    },
+    {
+      "id": "kaoru_625",
+      "character": "kaoru",
+      "text": "I stopped being able to file you as procedure somewhere around a studio piano.",
+      "source": "game/au_modern_case3_permits_hr.rpy:265"
+    },
+    {
+      "id": "kaoru_626",
+      "character": "kaoru",
+      "text": "A man cannot accompany a woman through a whole class, badly and then well,",
+      "source": "game/au_modern_case3_permits_hr.rpy:267"
+    },
+    {
+      "id": "kaoru_627",
+      "character": "kaoru",
+      "text": "and keep pretending the clause is the true version. So I amended the true version instead.",
+      "source": "game/au_modern_case3_permits_hr.rpy:269"
+    },
+    {
+      "id": "kaoru_628",
+      "character": "kaoru",
+      "text": "It was the only honest filing left on the desk.",
+      "source": "game/au_modern_case3_permits_hr.rpy:271"
+    },
+    {
+      "id": "narrator_586",
+      "character": "narrator",
+      "text": "He draws the zip of her jacket down anyway, slow, knuckles grazing the gold crane at her sternum.",
+      "source": "game/au_modern_case3_permits_hr.rpy:303"
+    },
+    {
+      "id": "toa_515",
+      "character": "toa",
+      "text": "Then audit it. Quietly. The building still has ears.",
+      "source": "game/au_modern_case3_permits_hr.rpy:306"
+    },
+    {
+      "id": "narrator_587",
+      "character": "narrator",
+      "text": "They make love on the municipal couch with the lamp low and the fishbowl dark,",
+      "source": "game/au_modern_case3_permits_hr.rpy:312"
+    },
+    {
+      "id": "narrator_588",
+      "character": "narrator",
+      "text": "counted and unhurried, filed under disclosure on the record and kept off the portal.",
+      "source": "game/au_modern_case3_permits_hr.rpy:314"
+    },
+    {
+      "id": "narrator_589",
+      "character": "narrator",
+      "text": "When it is over, he pulls the blanket up and holds her hip the way he held it in the harbor inn.",
+      "source": "game/au_modern_case3_permits_hr.rpy:316"
+    },
+    {
+      "id": "kaoru_629",
+      "character": "kaoru",
+      "text": "Pack up before the building decides we are a story it can stamp. Go home, To-chan.",
+      "source": "game/au_modern_case3_permits_hr.rpy:319"
+    },
+    {
+      "id": "toa_516",
+      "character": "toa",
+      "text": "You spent three cases teaching me what *on letterhead* meant.",
+      "source": "game/au_modern_epilogue.rpy:77"
+    },
+    {
+      "id": "toa_517",
+      "character": "toa",
+      "text": "That filing us as real was the one motion you would not grant.",
+      "source": "game/au_modern_epilogue.rpy:79"
+    },
+    {
+      "id": "toa_518",
+      "character": "toa",
+      "text": "And now you have granted it in your own hand, on the Council's own grid,",
+      "source": "game/au_modern_epilogue.rpy:81"
+    },
+    {
+      "id": "toa_519",
+      "character": "toa",
+      "text": "where the building keeps the things it cannot take back.",
+      "source": "game/au_modern_epilogue.rpy:83"
+    },
+    {
+      "id": "toa_520",
+      "character": "toa",
+      "text": "You did not keep us off the record to hide. You put us on it so no one could.",
+      "source": "game/au_modern_epilogue.rpy:85"
+    },
+    {
+      "id": "toa_521",
+      "character": "toa",
+      "text": "You still play sometimes. When you think the building has stopped listening.",
+      "source": "game/au_modern_epilogue.rpy:160"
+    },
+    {
+      "id": "toa_522",
+      "character": "toa",
+      "text": "The same out-of-tune municipal piano,",
+      "source": "game/au_modern_epilogue.rpy:162"
+    },
+    {
+      "id": "toa_523",
+      "character": "toa",
+      "text": "moved to the harbor place on a work order nobody questioned.",
+      "source": "game/au_modern_epilogue.rpy:164"
+    },
+    {
+      "id": "toa_524",
+      "character": "toa",
+      "text": "You filed the piano under *equipment,",
+      "source": "game/au_modern_epilogue.rpy:166"
+    },
+    {
+      "id": "toa_525",
+      "character": "toa",
+      "text": "surplus.* I filed it under the afternoon you stopped counting and started listening,",
+      "source": "game/au_modern_epilogue.rpy:168"
+    },
+    {
+      "id": "toa_526",
+      "character": "toa",
+      "text": "which is the afternoon you decided to keep me.",
+      "source": "game/au_modern_epilogue.rpy:170"
+    },
+    {
+      "id": "toa_527",
+      "character": "toa",
+      "text": "We have very different filing systems for the same instrument.",
+      "source": "game/au_modern_epilogue.rpy:172"
     }
   ]
 }

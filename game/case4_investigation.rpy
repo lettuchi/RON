@@ -268,6 +268,8 @@ label case4_milestone_end:
     voice "audio/voice/narrator_268.mp3"
     "By dawn the foreman's manifest sits in custody beside Case Three's saw kerf. The clerk's runner has not vanished, only gone quiet, and in Ryoko Owari that quiet is its own kind of confession."
 
+    "Case Four put steel on the dock where Case Three put silk. The seized manifest and sixteen-petal wax now sit beside Jiro's file, waiting for a hearing bold enough to read them aloud."
+
     voice "audio/voice/kaoru_318.mp3"
     kaoru "Case Four is pinned, not closed. The flower still has its roots."
 
@@ -286,7 +288,7 @@ label case4_milestone_end:
 
     show toa determined
     voice "audio/voice/toa_271.mp3"
-    toa "Case Four's line is written. The city still lies, but I am still at your door."
+    toa "Case Four's line is on the tray with the rest. Four files witnessed, one hearing left. The city still lies, but I am still at your door."
 
     $ case4_closed = True
 

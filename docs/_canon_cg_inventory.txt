@@ -1,0 +1,227 @@
+registry_tags=112
+unique_registry_pngs=111
+wired_tags=124
+wired_unique_pngs=94
+disk_canon_pattern_pngs=162
+wired_not_in_registry=30
+orphan_registry_tags=18
+
+=== WIRED ===
+<tag>	MISSING
+badend_brothel_cart	cg-badend-brothel-cart.png
+badend_brothel_crying	cg-badend-brothel-crying.png
+badend_brothel_grasp	cg-badend-brothel-grasp.png
+badend_brothel_permit	cg-badend-brothel-permit.png
+badend_brothel_ronin	cg-badend-brothel-ronin.png
+badend_brothel_tears	cg-badend-brothel-tears.png
+badend_kaoru_corridor	cg-badend-kaoru-corridor.png
+badend_kaoru_gate	cg-badend-kaoru-gate.png
+badend_kaoru_office	cg-badend-kaoru-office.png
+badend_kaoru_office_floor	cg-badend-kaoru-office-floor.png
+badend_kaoru_office_throw	cg-badend-kaoru-office-throw.png
+badend_kaoru_shoji	cg-badend-kaoru-shoji.png
+badend_kaoru_stamp	cg-badend-kaoru-stamp.png
+badend_kaoru_wrist	cg-badend-kaoru-wrist.png
+canon_afterglow	cg-canon-afterglow.png
+canon_embrace	cg-canon-embrace.png
+canon_proposition	cg-canon-proposition.png
+canon_pull_close	cg-canon-pull-close.png
+canon_signing	cg-canon-signing.png
+canon_three_days	cg-canon-three-days.png
+canon_undressing	cg-canon-undress-toa.png
+case1_5_chamber_corridor	cg-case1_5-chamber-corridor.png
+case1_5_chamber_quilt	cg-case1_5-chamber-quilt.png
+case1_5_chamber_shoji_tea	cg-case1_5-chamber-shoji-tea.png
+case1_5_curry_kitchen	cg-case1_5-curry-kitchen.png
+case1_5_dawn_desk_duo	cg-case1_5-dawn-desk-duo.png
+case1_5_hanko_pot	cg-case1_5-hanko-pot.png
+case1_5_kaoru_curry_bowl	cg-case1_5-kaoru-curry-bowl.png
+case1_5_shoji_tear	cg-case1_5-shoji-tear-closeup.png
+case1_5_shoji_wrist	cg-case1_5-shoji-wrist-closeup.png
+case1_romance_barge_moonlit	cg-case1-romance-barge-moonlit.png
+case1_romance_canal_lantern	cg-case1-romance-canal-lantern.png
+case1_romance_lantern	cg-case1-romance-lantern.png
+case1_romance_office_touch	cg-case1-romance-office-touch.png
+case1_romance_sponsorship	cg-case1-romance-sponsorship.png
+case2_festival_curry_stall	cg-case2-festival-curry-stall.png
+case2_festival_fireworks	cg-case2-festival-fireworks.png
+case2_festival_hill	cg-case2-festival-hill.png
+case2_festival_intimate	cg-case2-festival-intimate.png
+case2_festival_kiss	cg-case2-festival-kiss.png
+case2_romance_morning	MISSING
+case3_5_date_almost_hands	cg-case3_5-date-almost-hands.png
+case3_5_date_arrival	cg-case3_5-date-arrival.png
+case3_5_date_candle_flame	cg-case3_5-date-candle-flame.png
+case3_5_date_gossip	cg-case3_5-date-gossip.png
+case3_5_date_inn_collar_hands	cg-case3_5-date-inn-collar-hands.png
+case3_5_date_inn_exterior	cg-case3_5-date-inn-exterior.png
+case3_5_date_kaiseki_duo	cg-case3_5-date-kaiseki-duo.png
+case3_5_date_kaoru_hand_cup	cg-case3_5-date-kaoru-hand-cup.png
+case3_5_date_lesson	cg-case3_5-date-lesson.png
+case3_5_date_reassurance	cg-case3_5-date-reassurance.png
+case3_5_date_sake_cup	cg-case3_5-date-sake-cup.png
+case3_5_date_silk_fabric	cg-case3_5-date-silk-fabric.png
+case3_5_date_tatami_lanterns	cg-case3_5-date-tatami-lanterns.png
+case3_5_date_toa_lashes	cg-case3_5-date-toa-lashes.png
+case3_5_date_walk_duo	cg-case3_5-date-walk-duo.png
+case3_5_date_watch_dancers	cg-case3_5-date-watch-dancers.png
+case3_accident_moment	cg-case3-accident-moment.png
+case3_fabric_shop	cg-case3-fabric-shop.png
+case3_kaoru_rescue	cg-case3-kaoru-rescue.png
+case4_5_boat_canal_night	cg-case4_5-boat-canal-night.png
+case4_5_boat_duo_tense	cg-case4_5-boat-duo-tense.png
+case4_5_boat_hands_gunwale	cg-case4_5-boat-hands-gunwale-closeup.png
+case4_5_boat_lantern_implied	cg-case4_5-boat-lantern-implied.png
+case4_5_boat_lash_rain	cg-case4_5-boat-lash-rain-closeup.png
+case4_5_boat_throw_splash	cg-case4_5-boat-throw-splash.png
+case4_fight_wide	cg-case4-fight-wide.png
+case4_gritty_establishing	cg-case4-gritty-establishing.png
+case4_romance_defend	cg-case4-romance-defend.png
+case5_bedroom_toy	cg-case5-bedroom-toy.png
+case5_epilogue_week	cg-case5-epilogue-week.png
+case5_false_exit_office	cg-case5-false-exit-office.png
+case5_hearing_hall	cg-case5-hearing-hall.png
+case5_hearing_kaoru_dais	cg-case5-hearing-kaoru-dais.png
+case5_oath_seal_hand	cg-case5-oath-seal-hand-closeup.png
+case5_private_talk	cg-case5-private-talk.png
+case5_scroll_desk	cg-case5-scroll-desk.png
+case5_yoriki_oath	cg-case5-yoriki-oath.png
+case_zero_rain_alley_door	cg-case-zero-rain-alley-door.png
+case_zero_redacted_docket	cg-case-zero-redacted-docket.png
+chair_tension	cg-first-scene-chair-tension.png
+corridor_lost	cg-first-scene-corridor-lost.png
+epilogue_kotatsu_warmth	cg-epilogue-kotatsu-warmth-closeup.png
+epilogue_romance_kotatsu_intimate	cg-epilogue-romance-kotatsu-intimate.png
+gameover_case1_canal	MISSING
+gameover_case1_punishment_desk	cg-case1-bad-punishment-desk.png
+gameover_case1_punishment_floor	cg-case1-bad-punishment-floor.png
+gameover_case1_punishment_hands	cg-case1-bad-punishment-hands.png
+gameover_case1_punishment_shoji	cg-case1-bad-punishment-shoji.png
+gameover_case2_exile	MISSING
+gameover_case3_injury	MISSING
+gameover_case4_5_boat	cg-case4_5-bad-boat-injury.png
+gameover_case4_slayn	cg-case4-bad-slayn.png
+gameover_case5_chained	cg-case5-bad-chained.png
+gameover_case5_quarter_cage	cg-case5-bad-quarter-cage.png
+gameover_rain_alone	MISSING
+gameover_rain_run	MISSING
+moment case1_barge_menu	MISSING
+moment case1_briefing_menu	MISSING
+moment case1_canal_menu	MISSING
+moment case1_companion_accept_menu	MISSING
+moment case1_first_duty_menu	MISSING
+moment case1_kaoru_probe_menu	MISSING
+moment case1_ledger_menu	MISSING
+moment case1_registry_menu	MISSING
+moment case1_witness_menu	MISSING
+moment case2_alley_menu	MISSING
+moment case2_briefing_menu	MISSING
+moment case2_desk_menu	MISSING
+moment case3_accident_menu	MISSING
+moment case3_briefing_menu	MISSING
+moment case3_investigation_menu	MISSING
+moment case4_investigation_menu	MISSING
+moment case4_swordfight_crisis_menu	MISSING
+moment prologue_before_dance_menu	MISSING
+moment prologue_door_second_chance	MISSING
+moment prologue_enter_office_menu	MISSING
+moment prologue_formality_menu	MISSING
+moment prologue_grab_menu	MISSING
+moment prologue_refuse_retry_menu	MISSING
+office_dance	cg-first-scene-office-dance.png
+permit_desk	cg-first-scene-permit-desk.png
+prologue_wrong_door	cg-prologue-wrong-door.png
+
+=== ORPHAN REGISTRY ===
+bent_over_desk	cg-prologue-bent-over-desk.png
+butt_wiggle_grab	cg-prologue-butt-wiggle-grab.png
+canon_permit_signed	cg-canon-signing.png
+canon_steamy_afterglow	cg-canon-steamy-afterglow.png
+canon_steamy_intimacy	cg-canon-steamy-intimacy.png
+canon_steamy_undress_toa	cg-canon-steamy-undress-toa.png
+case1_barge_confront	cg-case1-barge-confrontation.png
+case1_canal_body	cg-case1-canal-body.png
+case1_high_tide_barge	cg-case1-high-tide-barge.png
+case2_academy_desk	cg-case2-academy-desk.png
+case2_alley_courier	cg-case2-alley-courier.png
+case2_warehouse_ash	cg-case2-warehouse-ash.png
+case3_5_date_duo_table	cg-case3_5-date-duo-table.png
+case3_5_date_gossip_shadow	cg-case3_5-date-gossip-shadow.png
+case3_5_date_island_night	cg-case3_5-date-island-night.png
+case3_5_date_kaiseki	cg-case3_5-date-kaiseki.png
+case3_5_date_toa_watching	cg-case3_5-date-toa-watching.png
+dance_disrobe	cg-prologue-dance-disrobe.png
+
+=== WIRED MISSING REGISTRY ===
+<tag>
+case2_romance_morning
+gameover_case1_canal
+gameover_case2_exile
+gameover_case3_injury
+gameover_rain_alone
+gameover_rain_run
+moment case1_barge_menu
+moment case1_briefing_menu
+moment case1_canal_menu
+moment case1_companion_accept_menu
+moment case1_first_duty_menu
+moment case1_kaoru_probe_menu
+moment case1_ledger_menu
+moment case1_registry_menu
+moment case1_witness_menu
+moment case2_alley_menu
+moment case2_briefing_menu
+moment case2_desk_menu
+moment case3_accident_menu
+moment case3_briefing_menu
+moment case3_investigation_menu
+moment case4_investigation_menu
+moment case4_swordfight_crisis_menu
+moment prologue_before_dance_menu
+moment prologue_door_second_chance
+moment prologue_enter_office_menu
+moment prologue_formality_menu
+moment prologue_grab_menu
+moment prologue_refuse_retry_menu
+
+=== DISK NOT IN REGISTRY (sample) ===
+cg-badend-brothel-cart.png
+cg-badend-brothel-crying.png
+cg-badend-brothel-grasp.png
+cg-badend-brothel-permit.png
+cg-badend-brothel-ronin.png
+cg-badend-brothel-tears.png
+cg-badend-kaoru-corridor.png
+cg-badend-kaoru-gate.png
+cg-badend-kaoru-office-floor.png
+cg-badend-kaoru-office-throw.png
+cg-badend-kaoru-office.png
+cg-badend-kaoru-shoji.png
+cg-badend-kaoru-stamp.png
+cg-badend-kaoru-wrist.png
+cg-canon-afterglow.png
+cg-canon-embrace.png
+cg-canon-permit-signed.png
+cg-canon-proposition.png
+cg-canon-pull-close.png
+cg-canon-pull-close_old.png
+cg-canon-pull-close_old2.png
+cg-canon-signing.png
+cg-canon-steamy-afterglow.png
+cg-canon-steamy-intimacy.png
+cg-canon-steamy-undress-toa.png
+cg-canon-three-days.png
+cg-canon-undress-toa.png
+cg-case-zero-rain-alley-door.png
+cg-case-zero-redacted-docket.png
+cg-case1-bad-canal.png
+cg-case1-bad-punishment-desk.png
+cg-case1-bad-punishment-floor.png
+cg-case1-bad-punishment-hands.png
+cg-case1-bad-punishment-shoji.png
+cg-case1-barge-confrontation.png
+cg-case1-canal-body.png
+cg-case1-guesthouse-suzu.png
+cg-case1-high-tide-barge.png
+cg-case1-licensed-quarter.png
+cg-case1-r18-intimacy.png

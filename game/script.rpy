@@ -1,4 +1,4 @@
-﻿# Ryoko Owari Nights, entry point; prologue → Case 1 companion (canon) / investigation stub
+# Ryoko Owari Nights, entry point; prologue → Case 1 companion (canon) / investigation stub
 
 label splashscreen:
     scene black with dissolve

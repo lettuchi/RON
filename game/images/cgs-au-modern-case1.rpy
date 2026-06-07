@@ -18,3 +18,16 @@ image cg au_modern_case1_predawn_tower = At("images/cg/cg-au-modern-case1-predaw
 image cg au_modern_case1_float_tank = At("images/cg/cg-au-modern-case1-float-tank.png", fit_cg)
 image cg au_modern_case1_capacity_count = At("images/cg/cg-au-modern-case1-capacity-count.png", fit_cg)
 image cg au_modern_case1_wrist_pulse = At("images/cg/cg-au-modern-case1-wrist-pulse.png", fit_cg)
+# Added 2026-06-07 (pass 4): dedicated CGs for the NEW studio piano / ballet-class scene
+#   (au_modern_case1_studio_session). Tender répétiteur-accompanist beats, not spicy:
+#   studio+upright-piano establishing, barre two-shot, Kaoru sitting at the piano (stamp down),
+#   the hinge (he stops counting and looks up from the keys), and the closing reverence/bow.
+image cg au_modern_case1_studio_piano = At("images/cg/cg-au-modern-case1-studio-piano.png", fit_cg)
+image cg au_modern_case1_barre_twoshot = At("images/cg/cg-au-modern-case1-barre-twoshot.png", fit_cg)
+image cg au_modern_case1_piano_sit = At("images/cg/cg-au-modern-case1-piano-sit.png", fit_cg)
+image cg au_modern_case1_piano_lookup = At("images/cg/cg-au-modern-case1-piano-lookup.png", fit_cg)
+image cg au_modern_case1_reverence = At("images/cg/cg-au-modern-case1-reverence.png", fit_cg)
+# Added 2026-06-07 (pass 4): non-ballet Case 1 beats - neon wellness corridor walk
+#   (establishing) and Toa filming timestamped video evidence (film witness branch).
+image cg au_modern_case1_corridor_walk = At("images/cg/cg-au-modern-case1-corridor-walk.png", fit_cg)
+image cg au_modern_case1_witness_film = At("images/cg/cg-au-modern-case1-witness-film.png", fit_cg)

@@ -28,14 +28,22 @@ label au_modern_case3_start:
 
     pause 1.0
 
+    $ show_cg_scene("au_modern_case3_trending_office", fade)
+    pause 1.0
+
     voice "audio/voice/narrator_425.mp3"
-    "Tuesday in Ryoko Port opens the way audits open. Not with a knock, with a notification. Weeks after the harbor weekend, rain files itself against the licensing tower while a clip eleven seconds long teaches the whole channel a deputy director's voice."
+    "Tuesday in Ryoko Port opens the way audits open. Not with a knock, with a notification. Weeks after the harbor weekend, rain files itself against the licensing tower while a clip eleven seconds long teaches the"
 
     voice "audio/voice/narrator_426.mp3"
     "Someone screen-recorded the Wrong Floor hearing weeks ago, back when it was only a routine Arts Council licensing stream nobody watched. *If the agenda cannot tolerate a witness, revise the agenda.* The internet revised nothing. It played the line forty thousand times, set it to a beat, and tagged the Council's account until the Council itself had to notice."
 
-    $ show_cg_scene("au_modern_case3_trending_office", fade)
-    pause 2.0
+    jump au_modern_case3_viral_clip
+
+
+label au_modern_case3_viral_clip:
+
+    $ show_cg_scene("au_modern_case3_viral_clip", fade)
+    pause 1.0
 
     voice "audio/voice/toa_417.mp3"
     toa "Deputy Director-sama, you are trending. Your one good sentence has a hashtag and a remix."
@@ -44,15 +52,7 @@ label au_modern_case3_start:
     kaoru "Trending is not a docket. Sit where I can see you and the inbox. People and Conduct, the office the Council refers conflicts to, opened a file at eight this morning, before the coffee was enforceable."
 
     voice "audio/voice/narrator_478.mp3"
-    "People and Conduct does not investigate feelings. It investigates conflicts of interest, and it has exactly one question about the two of them: whether a deputy who signed an artist's sponsorship had any business signing for an artist the whole channel now assumes he favors. Behind the question sits the Council's full kit of remedies, the ones every sponsorship hangs under: suspend it, revoke it, audit it, reassign the signatory, or compel disclosure. Whatever they choose goes in a permanent file that outlives the clip, the hashtag, and probably the deputy."
-
-    jump au_modern_case3_viral_clip
-
-
-label au_modern_case3_viral_clip:
-
-    $ show_cg_scene("au_modern_case3_viral_clip", fade)
-    pause 2.0
+    "People and Conduct does not investigate feelings. It investigates conflicts of interest, and it has exactly one question about the two of them: whether a deputy who signed an artist's sponsorship had any business signing for an artist the whole channel now assumes he favored. Behind the question sits the Council's full kit of remedies, the ones every sponsorship hangs under: suspend it, revoke it, audit it, reassign the signatory, or compel disclosure. Whatever they choose goes in a permanent file that outlives the clip, the hashtag, and probably the deputy."
 
     voice "audio/voice/narrator_427.mp3"
     "On Toa's phone the clip loops in a feed that does not care about packets. A councilor freezes mid-objection. A white-haired applicant sits in the wrong chair. The comments sort themselves into the usual castes."
@@ -74,14 +74,14 @@ label au_modern_case3_viral_clip:
 
 label au_modern_case3_hr_summons:
 
-    scene black with dissolve
-    pause 0.4
-
     $ show_cg_scene("au_modern_case3_fishbowl_exterior", fade)
-    pause 1.5
+    pause 1.0
 
     $ show_cg_scene("au_modern_case3_hr_office", fade)
-    pause 2.0
+    pause 1.0
+
+    $ show_cg_scene("au_modern_case3_hr_folders", fade)
+    pause 1.0
 
     voice "audio/voice/narrator_429.mp3"
     "The HR wing is all glass and acoustic panels, a fishbowl that lets the building watch you stay calm. A liaison named in the calendar only as *People & Conduct* slides two folders across the table with the patience of a fault line."
@@ -129,11 +129,11 @@ label au_modern_case3_hr_summons:
 
 label au_modern_case3_signatory_desk:
 
-    scene black with dissolve
-    pause 0.4
-
     $ show_cg_scene("au_modern_case3_signatory_desk", fade)
-    pause 2.0
+    pause 1.0
+
+    $ show_cg_scene("au_modern_case3_two_boxes", dissolve)
+    pause 1.0
 
     voice "audio/voice/narrator_431.mp3"
     "Back in the licensing wing, the sponsorship packet lies open under the desk lamp. His chop in the signatory box. Her name in the dependent box. Two boxes a camera turned into a couple."
@@ -178,11 +178,11 @@ label au_modern_case3_signatory_desk:
 
 label au_modern_case3_calendar_vs_narrative:
 
+    $ show_cg_scene("au_modern_case3_calendar_monitor", fade)
+    pause 1.0
+
     voice "audio/voice/narrator_435.mp3"
     "He turns his monitor toward her. The public narrative: a deputy and his favorite. The deputy's real calendar: thirty-one applicants, four inspections, a ferry receipt from a harbor weekend filed under *audit retreat*, and one row left blank on purpose."
-
-    $ show_cg_scene("au_modern_case3_calendar_monitor", fade)
-    pause 2.0
 
     voice "audio/voice/kaoru_558.mp3"
     kaoru "The harbor weekend is in the calendar as audit. The internet would call it something else. Both readings are on the same row. That row is what HR will ask me to explain."
@@ -218,11 +218,8 @@ label au_modern_case3_calendar_vs_narrative:
 
 label au_modern_case3_reconcile:
 
-    scene black with fade
-    pause 0.5
-
     $ show_cg_scene("au_modern_case3_reconcile", fade)
-    pause 2.0
+    pause 1.0
 
     voice "audio/voice/narrator_436.mp3"
     "After hours the HR fishbowl goes dark and his office keeps one lamp. The couch remembers them. A blanket, a bowl of clementines someone keeps restocking and denying. Rain reads the window like a slow auditor."
@@ -235,13 +232,25 @@ label au_modern_case3_reconcile:
         kaoru "I filed the recusal. Deputy Saito reviews your packet now. He is competent and he does not know your coffee order. That is the price of a clean conflict."
 
         voice "audio/voice/toa_430.mp3"
-        toa "So you are not my signatory anymore. You are just the man who taught me witness posture and keeps clementines he claims he does not eat."
+        toa "So you are not my signatory anymore. You are just the man who taught me witness posture and keeps clementines he claims he does not"
 
     else:
         voice "audio/voice/kaoru_563.mp3"
         kaoru "I wrote the disclosure in my own hand. *Personal relationship. Disclosed. Oversight accepted.* The port owns that sentence now. So, apparently, do I."
 
-        toa "On letterhead. After three cases of *not romance on letterhead,* you wrote the romance onto the letterhead yourself, in ink, where a clerk can read it. You spent a year keeping it off the record to protect us. Today you put it on the record to protect us. The whole metaphor just turned over in its sleep."
+        $ show_cg_scene("au_modern_case3_disclosure_handwrite", fade)
+        pause 2.0
+
+        voice "audio/voice/toa_510.mp3"
+        toa "On letterhead."
+        voice "audio/voice/toa_511.mp3"
+        toa "After three cases of *not romance on letterhead,* you wrote the romance onto the letterhead"
+        voice "audio/voice/toa_512.mp3"
+        toa "yourself, in ink, where a clerk can read it."
+        voice "audio/voice/toa_513.mp3"
+        toa "You spent a year keeping it off the record to protect us."
+        voice "audio/voice/toa_514.mp3"
+        toa "Today you put it on the record to protect us. The whole metaphor just turned over in its sleep."
 
         $ show_cg_scene("au_modern_case3_disclosure_signed", fade)
         pause 2.0
@@ -252,14 +261,24 @@ label au_modern_case3_reconcile:
         voice "audio/voice/toa_431.mp3"
         toa "You put us on a form and signed it. That is the most romantic thing a deputy director can do. It is also, technically, paperwork. I am crying about paperwork."
 
-        kaoru "I stopped being able to file you as procedure somewhere around a studio piano. A man cannot accompany a woman through a whole class, badly and then well, and keep pretending the clause is the true version. So I amended the true version instead. It was the only honest filing left on the desk."
+        voice "audio/voice/kaoru_625.mp3"
+        kaoru "I stopped being able to file you as procedure somewhere around a studio piano."
+        voice "audio/voice/kaoru_626.mp3"
+        kaoru "A man cannot accompany a woman through a whole class, badly and then well,"
+        voice "audio/voice/kaoru_627.mp3"
+        kaoru "and keep pretending the clause is the true version. So I amended the true version instead."
+        voice "audio/voice/kaoru_628.mp3"
+        kaoru "It was the only honest filing left on the desk."
 
     $ show_cg_scene("au_modern_case3_after_hours", fade)
     pause 2.0
 
+    $ show_cg_scene("au_modern_case3_after_hours_embrace", dissolve)
+    pause 2.0
+
     if au_modern_case2_night_audit:
         voice "audio/voice/narrator_437.mp3"
-        "The harbor weekend sits between them unspoken, the after-hours audit neither of them will caption. Her neck remembers a count. His calendar remembers a blank row he left on purpose."
+        "The harbor weekend sits between them unspoken, the night in the western inn neither of them will caption for the internet. Her neck still remembers his mouth on it. His calendar remembers a blank row he left on purpose."
 
         voice "audio/voice/toa_432.mp3"
         toa "If the clip ever finds the ferry receipt, I will deny everything in dates and names only. Saturday. Harbor. Audit. No poetry."
@@ -278,7 +297,26 @@ label au_modern_case3_reconcile:
     toa "You almost smiled when I said I cried about paperwork. I have witnesses. The witness is me. I am very reliable."
 
     voice "audio/voice/kaoru_565.mp3"
-    kaoru "Motion denied, To-chan. Effective in three business days, like everything I intend to keep. Go home before the building decides we are a story it can stamp."
+    kaoru "Motion denied, To-chan. Effective in three business days, like everything I intend to keep."
+
+    voice "audio/voice/narrator_586.mp3"
+    "He draws the zip of her jacket down anyway, slow, knuckles grazing the gold crane at her sternum."
+
+    voice "audio/voice/toa_515.mp3"
+    toa "Then audit it. Quietly. The building still has ears."
+
+    scene black with fade
+    pause 0.5
+
+    voice "audio/voice/narrator_587.mp3"
+    "They make love on the municipal couch with the lamp low and the fishbowl dark,"
+    voice "audio/voice/narrator_588.mp3"
+    "counted and unhurried, filed under disclosure on the record and kept off the portal."
+    voice "audio/voice/narrator_589.mp3"
+    "When it is over, he pulls the blanket up and holds her hip the way he held it in the harbor inn."
+
+    voice "audio/voice/kaoru_629.mp3"
+    kaoru "Pack up before the building decides we are a story it can stamp. Go home, To-chan."
 
     voice "audio/voice/narrator_439.mp3"
     "She peels a clementine she did not ask permission to take, and the rain keeps its own minutes against the glass. Whichever way they filed it, the conflict now lives on the record instead of in the gossip, which is the one place the Council cannot use it against them. The clip will loop until the channel finds a louder one. The file will close quieter than it opened."

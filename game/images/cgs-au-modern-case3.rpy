@@ -20,3 +20,10 @@ image cg au_modern_case3_trending_office = At("images/cg/cg-au-modern-case3-tren
 image cg au_modern_case3_fishbowl_exterior = At("images/cg/cg-au-modern-case3-fishbowl-exterior.png", fit_cg)
 image cg au_modern_case3_recuse_handover = At("images/cg/cg-au-modern-case3-recuse-handover.png", fit_cg)
 image cg au_modern_case3_paperwork_tears = At("images/cg/cg-au-modern-case3-paperwork-tears.png", fit_cg)
+# Added 2026-06-07 (pass 4): HR liaison sliding two folders (fishbowl), the "two boxes a camera
+#   turned into a couple" macro close-up, after-hours office embrace (tasteful sensual), and
+#   Kaoru writing the disclosure by hand (personal-disclosure branch, emotional).
+image cg au_modern_case3_hr_folders = At("images/cg/cg-au-modern-case3-hr-folders.png", fit_cg)
+image cg au_modern_case3_two_boxes = At("images/cg/cg-au-modern-case3-two-boxes.png", fit_cg)
+image cg au_modern_case3_after_hours_embrace = At("images/cg/cg-au-modern-case3-after-hours-embrace.png", fit_cg)
+image cg au_modern_case3_disclosure_handwrite = At("images/cg/cg-au-modern-case3-disclosure-handwrite.png", fit_cg)

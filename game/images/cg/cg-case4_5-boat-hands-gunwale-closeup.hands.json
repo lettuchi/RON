@@ -1,0 +1,28 @@
+{
+  "generated_at": "2026-06-07T17:19:46.994545+00:00",
+  "mode": "advisory",
+  "min_confidence": 0.5,
+  "summary": {
+    "files": 1,
+    "pass": 1,
+    "warn": 0,
+    "fail": 0
+  },
+  "results": [
+    {
+      "path": "game\\images\\cg\\cg-case4_5-boat-hands-gunwale-closeup.png",
+      "hand_count": 1,
+      "min_confidence": 0.9163535833358765,
+      "max_confidence": 0.9163535833358765,
+      "expected_hands": null,
+      "warnings": [],
+      "status": "pass",
+      "hands": [
+        {
+          "label": "Left",
+          "confidence": 0.9163535833358765
+        }
+      ]
+    }
+  ]
+}

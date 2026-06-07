@@ -1,0 +1,28 @@
+{
+  "generated_at": "2026-06-07T17:20:21.118662+00:00",
+  "mode": "advisory",
+  "min_confidence": 0.5,
+  "summary": {
+    "files": 1,
+    "pass": 1,
+    "warn": 0,
+    "fail": 0
+  },
+  "results": [
+    {
+      "path": "game\\images\\cg\\cg-case5-bad-quarter-cage.png",
+      "hand_count": 1,
+      "min_confidence": 0.9632084369659424,
+      "max_confidence": 0.9632084369659424,
+      "expected_hands": null,
+      "warnings": [],
+      "status": "pass",
+      "hands": [
+        {
+          "label": "Left",
+          "confidence": 0.9632084369659424
+        }
+      ]
+    }
+  ]
+}

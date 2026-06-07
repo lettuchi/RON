@@ -1,0 +1,28 @@
+{
+  "generated_at": "2026-06-07T17:19:35.669020+00:00",
+  "mode": "advisory",
+  "min_confidence": 0.5,
+  "summary": {
+    "files": 1,
+    "pass": 1,
+    "warn": 0,
+    "fail": 0
+  },
+  "results": [
+    {
+      "path": "game\\images\\cg\\cg-case3_5-date-sake-cup.png",
+      "hand_count": 1,
+      "min_confidence": 0.9970269799232483,
+      "max_confidence": 0.9970269799232483,
+      "expected_hands": null,
+      "warnings": [],
+      "status": "pass",
+      "hands": [
+        {
+          "label": "Right",
+          "confidence": 0.9970269799232483
+        }
+      ]
+    }
+  ]
+}

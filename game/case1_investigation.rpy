@@ -92,6 +92,8 @@ label case1_investigation_assign:
     voice "audio/voice/kaoru_121.mp3"
     kaoru "The watch writes drowning whenever the name line stays empty. You'll learn which boxes they'll sign, and which they won't."
 
+    "That is a witness's work here: see what constables will not write, remember what the Plum will not say to men with seals, and let his brush turn it into law."
+
     show toa thinking
     voice "audio/voice/toa_105.mp3"
     toa "Clean water, dirty ledger. Who pulled him out?"
@@ -127,6 +129,8 @@ label case1_investigation_assign:
         show kaoru cold
         voice "audio/voice/kaoru_126.mp3"
         kaoru "Which is why you're not sleeping in my hall yet. Prove you can witness a thing without selling it to the curry shops."
+
+        "No patronage cushion yet. Only the docket: stand where he points, speak plain, and survive what you see without selling it to gossip."
 
         if unless_branch == "walk_out":
             show toa angry
@@ -1205,7 +1209,7 @@ label case1_barge_milestone_end:
     show toa determined at right
 
     play sound audio.paper_shuffle volume 0.45
-    "Morning after the tide. The Scorpion comb, Suzu's testimony, the forged writ, and the barge manifest share one tray. Case One finally has a spine the watch can't call drowning."
+    "Morning after the tide. The Scorpion comb, Suzu's testimony, the forged writ, and the barge manifest share one tray. Case One finally has a spine the watch can't call drowning, and the first link in the season's witness chain: a flower alias, a forged seal, and cargo that never matched its ledger."
 
     voice "audio/voice/kaoru_484.mp3"
     kaoru "The Chrysanthemum is still a cipher. The factor's concern is not. I'll burn his charter before the week is out."
@@ -1230,7 +1234,7 @@ label case1_barge_milestone_end:
 
     show toa determined
     voice "audio/voice/toa_364.mp3"
-    toa "Case One, closed. Then whatever the city decides to throw at us next."
+    toa "Case One, closed. Jiro's name is on the record now, and so is mine as the witness who put it there. Then whatever the city decides to throw at us next."
 
     $ case1_milestone = "case1_closed"
     $ case1_closed = True

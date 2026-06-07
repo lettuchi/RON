@@ -240,6 +240,8 @@ label case2_milestone_end:
     voice "audio/voice/narrator_234.mp3"
     "By afternoon the clerk has given up a warehouse foreman, the foreman has given up the Chrysanthemum factor's cousin, and the cousin has slipped out with the tide. Not before Kaoru inks a duplicate Crane charter on emergency authority, though."
 
+    "Case Two's burned packet proves the flower reaches past the Plum into Crane institutions. Another link for the witness tray Kaoru is building one file at a time."
+
     voice "audio/voice/kaoru_259.mp3"
     kaoru "The Academy gets proof you're still alive, still employed, and still a nuisance. That buys you the season."
 
@@ -267,7 +269,7 @@ label case2_milestone_end:
 
     show toa determined
     voice "audio/voice/toa_229.mp3"
-    toa "Case Two, closed. The city still lies, but my name gets to stay in Ryoko Owari a little longer."
+    toa "Case Two, closed. Tsubaki's ash and the charter fraud join Jiro's seal on the same tray. The city still lies, but my witness line gets to stay in Ryoko Owari a little longer."
 
     $ case2_milestone = "case2_closed"
     $ case2_closed = True

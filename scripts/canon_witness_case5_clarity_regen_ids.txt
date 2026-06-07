@@ -1,0 +1,7 @@
+# Canon witness / Case 5 through-line clarity pass (2026-06-07)
+# Voiced lines materially changed; run voice regen when ready.
+narrator_270
+toa_364
+toa_229
+toa_271
+kaoru_343

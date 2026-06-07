@@ -24,6 +24,8 @@ label case5_investigation_start:
     voice "audio/voice/narrator_272.mp3"
     "Three mornings after the dock finally goes quiet, the runner skips breakfast. He brings a summons instead, ink still wet, pleasure-quarter seal copied twice like the clerk was afraid someone would call it a forgery."
 
+    "Four cases sit filed behind this paper: seal forgery, charter fraud, bolt-room sabotage, dock steel. Case Five is not a new corpse. It is the hall asking whether her witness chain is strong enough to swear."
+
     show toa worried
     voice "audio/voice/toa_281.mp3"
     toa "Magistrate-sama, the runner would not meet my eyes. Does that mean the witness line is finished?"
@@ -98,7 +100,7 @@ label case5_audition_callback:
 
     show kaoru smirk
     voice "audio/voice/kaoru_343.mp3"
-    kaoru "I said provisional attachment until the files close. They were real cases, and they did not close themselves, To-chan. I was not testing you. I was watching what each one revealed."
+    kaoru "I said provisional attachment until the files close. They were real cases, and they did not close themselves, To-chan. I was not testing you. Each one added a link to the witness chain the hall will swear to today."
 
     show toa flustered
     voice "audio/voice/toa_285.mp3"

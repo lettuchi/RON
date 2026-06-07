@@ -4,6 +4,7 @@
 #   • Backgrounds: fit_screen (1280×720 cover): full scene behind dialogue.
 #   • CG illustrations: fit_cg (1280×720 contain): full 1536×1024 frame, letterboxed.
 #   • Full-body sprites: show with `at left` (Kaoru) or `at right` (Toa) on location bgs.
+#     scene_layering.rpy auto-applies those defaults when `at` is omitted after a scene clear.
 #     On CG scenes, sprites use `cg_left` / `cg_right` (~0.38 zoom) via scene_layering.rpy.
 #     `$ set_expression(...)` keeps sprites offstage for bust-only updates when needed.
 #   • Bust portraits: `side toa` / `side kaoru` images (Crop from full sprites)

@@ -1,0 +1,25 @@
+{
+  "generated_at": "2026-06-07T17:20:06.731186+00:00",
+  "mode": "advisory",
+  "min_confidence": 0.5,
+  "summary": {
+    "files": 1,
+    "pass": 0,
+    "warn": 1,
+    "fail": 0
+  },
+  "results": [
+    {
+      "path": "game\\images\\cg\\cg-case-zero-rain-alley-door.png",
+      "hand_count": 0,
+      "min_confidence": null,
+      "max_confidence": null,
+      "expected_hands": null,
+      "warnings": [
+        "zero_hands: no hands detected"
+      ],
+      "status": "warn",
+      "hands": []
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+# AU intimacy prose clarity pass (2026-06-07)
+# Voiced lines with materially changed game_text — regen via scripts/au_modern_voice_ids.txt workflow
+narrator_380
+narrator_384
+narrator_412
+narrator_413
+narrator_414
+narrator_437
+narrator_459
+narrator_460
+kaoru_565

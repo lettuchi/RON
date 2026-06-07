@@ -310,4 +310,6 @@ label case3_milestone_end:
     voice "audio/voice/narrator_259.mp3"
     "Case Three's first line is written into the file. The city still lies, but she is still breathing in Ryoko Owari."
 
+    "The mistagged bolts tie the cousin's silk ledger to the same false cargo math Jiro died for. Pinned beside Case One's seal and Case Two's charter, not closed, like every file this season."
+
     jump case3_post_case3_bridge

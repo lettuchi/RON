@@ -17,3 +17,10 @@ image cg au_modern_case2_rider_doorway = At("images/cg/cg-au-modern-case2-rider-
 image cg au_modern_case2_pier_arrival = At("images/cg/cg-au-modern-case2-pier-arrival.png", fit_cg)
 image cg au_modern_case2_audit_deep = At("images/cg/cg-au-modern-case2-audit-deep.png", fit_cg)
 image cg au_modern_case2_balcony_handclasp = At("images/cg/cg-au-modern-case2-balcony-handclasp.png", fit_cg)
+# Added 2026-06-07 (pass 4): ferry-deck crossing (establishing/transition), sofa-vs-bed
+#   negotiation (comedic two-shot), rider steadying embrace (tasteful sensual), and the Sunday
+#   balcony studio/piano callback (emotional, distinct from balcony_night/balcony_handclasp).
+image cg au_modern_case2_ferry_deck = At("images/cg/cg-au-modern-case2-ferry-deck.png", fit_cg)
+image cg au_modern_case2_sofa_fort = At("images/cg/cg-au-modern-case2-sofa-fort.png", fit_cg)
+image cg au_modern_case2_rider_steady = At("images/cg/cg-au-modern-case2-rider-steady.png", fit_cg)
+image cg au_modern_case2_balcony_studio_talk = At("images/cg/cg-au-modern-case2-balcony-studio-talk.png", fit_cg)

@@ -1,0 +1,25 @@
+{
+  "generated_at": "2026-06-07T17:19:45.713047+00:00",
+  "mode": "advisory",
+  "min_confidence": 0.5,
+  "summary": {
+    "files": 1,
+    "pass": 0,
+    "warn": 1,
+    "fail": 0
+  },
+  "results": [
+    {
+      "path": "game\\images\\cg\\cg-case4_5-boat-duo-tense.png",
+      "hand_count": 0,
+      "min_confidence": null,
+      "max_confidence": null,
+      "expected_hands": null,
+      "warnings": [
+        "zero_hands: no hands detected"
+      ],
+      "status": "warn",
+      "hands": []
+    }
+  ]
+}

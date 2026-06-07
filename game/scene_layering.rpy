@@ -98,6 +98,30 @@ init python:
             return renpy.store.cg_right
         return None
 
+    def _stage_transform(char_tag):
+        """Default location-bg stage position when `at` is omitted after a scene clear."""
+        if char_tag == "kaoru":
+            return renpy.store.left
+        if char_tag == "toa":
+            return renpy.store.right
+        return None
+
+    def _map_at_list_for_stage(char_tag, at_list):
+        """Apply left/right stage transforms when show omits `at` and sprite was cleared."""
+        if _at_list_is_offstage(at_list):
+            return at_list
+        if at_list:
+            return at_list
+        try:
+            if char_tag in renpy.get_showing_tags("master"):
+                return at_list
+        except Exception:
+            pass
+        default = _stage_transform(char_tag)
+        if default is not None:
+            return [default]
+        return at_list
+
     def _map_at_list_for_cg(char_tag, at_list):
         if _at_list_is_offstage(at_list):
             return at_list
@@ -247,14 +271,16 @@ init python:
             atl=atl,
             **kwargs,
         )
-        if at_list:
-            show_kwargs["at_list"] = at_list
         char_tag, expression, outfit = _parse_character_show(name)
         if char_tag == "toa":
             if outfit is not None:
                 renpy.store.toa_outfit = outfit
             elif expression is not None:
                 name = _format_toa_show(expression, renpy.store.toa_outfit)
+        if layer == "master" and char_tag is not None and not _at_list_is_offstage(at_list):
+            at_list = _map_at_list_for_stage(char_tag, at_list)
+        if at_list:
+            show_kwargs["at_list"] = at_list
         return _original_renpy_show(name, **show_kwargs)
 
     renpy.show = cg_safe_show

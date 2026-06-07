@@ -1,0 +1,23 @@
+AU Modern Epilogue Afterglow CG — anatomy redo (3-hands fix) — 2026-06-07
+========================================================================
+Tag: au_modern_epilogue_afterglow
+File: game/images/cg/cg-au-modern-epilogue-afterglow.png
+Registry: game/images/cgs-au-modern-epilogue.rpy (line 11)
+
+Reason for backup/regen:
+  Previous generation had an anatomy defect — Kaoru rendered with THREE hands
+  (an extra/duplicated hand on the lower torso/blanket area). Regenerated with
+  the SAME composition (asleep Toa leaning on Kaoru, dark couch, rainy harbor
+  window, floor lamp at right, clementine bowl lower right, tender afterglow mood)
+  but corrected so Kaoru has exactly TWO hands (one arm around Toa, one resting).
+
+Generator: Cursor GenerateImage (1536x1024 landscape, fit_cg)
+Refs: docs/art-references/au-modern/toa-au-modern-tracksuit-reference.png,
+      docs/art-references/au-modern/kaoru-au-modern-suit-reference.png,
+      (composition anchor: prior defective CG — extra hand explicitly NOT copied)
+Attire (intimate couch beat): Toa black/gold crane tracksuit jacket off-shoulder over
+      black cami; Kaoru open white dress shirt (no tie). Western modern AU only — NO kimono/L5R.
+Anatomy negatives added: extra hands, third hand, duplicated hands, extra limbs,
+      extra arms, malformed hands, fused fingers.
+
+This folder holds the pre-redo PNG (with the 3-hand defect) for reference.

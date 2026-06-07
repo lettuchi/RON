@@ -1,0 +1,32 @@
+{
+  "generated_at": "2026-06-07T17:19:31.427029+00:00",
+  "mode": "advisory",
+  "min_confidence": 0.5,
+  "summary": {
+    "files": 1,
+    "pass": 1,
+    "warn": 0,
+    "fail": 0
+  },
+  "results": [
+    {
+      "path": "game\\images\\cg\\cg-case3_5-date-kaoru-hand-cup.png",
+      "hand_count": 2,
+      "min_confidence": 0.9936801195144653,
+      "max_confidence": 0.9980342388153076,
+      "expected_hands": 2,
+      "warnings": [],
+      "status": "pass",
+      "hands": [
+        {
+          "label": "Left",
+          "confidence": 0.9936801195144653
+        },
+        {
+          "label": "Left",
+          "confidence": 0.9980342388153076
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,3225 @@
+[
+  {
+    "tag": "badend_brothel_cart",
+    "png": "cg-badend-brothel-cart.png",
+    "exists": true,
+    "humans_expected": true,
+    "high_risk": false,
+    "mediapipe": {
+      "generated_at": "2026-06-07T17:18:35.717128+00:00",
+      "mode": "advisory",
+      "min_confidence": 0.5,
+      "summary": {
+        "files": 1,
+        "pass": 0,
+        "warn": 1,
+        "fail": 0
+      },
+      "results": [
+        {
+          "path": "game\\images\\cg\\cg-badend-brothel-cart.png",
+          "hand_count": 0,
+          "min_confidence": null,
+          "max_confidence": null,
+          "expected_hands": 2,
+          "warnings": [
+            "zero_hands: no hands detected",
+            "zero_hands_expected: filename/heuristic expects ~2 visible hand(s)"
+          ],
+          "status": "warn",
+          "hands": []
+        }
+      ]
+    },
+    "visual_status": "PENDING",
+    "hand_counts": null,
+    "notes": ""
+  },
+  {
+    "tag": "badend_brothel_crying",
+    "png": "cg-badend-brothel-crying.png",
+    "exists": true,
+    "humans_expected": true,
+    "high_risk": false,
+    "mediapipe": {
+      "generated_at": "2026-06-07T17:18:36.870406+00:00",
+      "mode": "advisory",
+      "min_confidence": 0.5,
+      "summary": {
+        "files": 1,
+        "pass": 0,
+        "warn": 1,
+        "fail": 0
+      },
+      "results": [
+        {
+          "path": "game\\images\\cg\\cg-badend-brothel-crying.png",
+          "hand_count": 0,
+          "min_confidence": null,
+          "max_confidence": null,
+          "expected_hands": 2,
+          "warnings": [
+            "zero_hands: no hands detected",
+            "zero_hands_expected: filename/heuristic expects ~2 visible hand(s)"
+          ],
+          "status": "warn",
+          "hands": []
+        }
+      ]
+    },
+    "visual_status": "PENDING",
+    "hand_counts": null,
+    "notes": ""
+  },
+  {
+    "tag": "badend_brothel_grasp",
+    "png": "cg-badend-brothel-grasp.png",
+    "exists": true,
+    "humans_expected": true,
+    "high_risk": true,
+    "mediapipe": {
+      "generated_at": "2026-06-07T17:18:38.118957+00:00",
+      "mode": "advisory",
+      "min_confidence": 0.5,
+      "summary": {
+        "files": 1,
+        "pass": 0,
+        "warn": 1,
+        "fail": 0
+      },
+      "results": [
+        {
+          "path": "game\\images\\cg\\cg-badend-brothel-grasp.png",
+          "hand_count": 1,
+          "min_confidence": 0.9691249132156372,
+          "max_confidence": 0.9691249132156372,
+          "expected_hands": 2,
+          "warnings": [
+            "hand_count_mismatch: detected 1, expected 2"
+          ],
+          "status": "warn",
+          "hands": [
+            {
+              "label": "Left",
+              "confidence": 0.9691249132156372
+            }
+          ]
+        }
+      ]
+    },
+    "visual_status": "PENDING",
+    "hand_counts": null,
+    "notes": ""
+  },
+  {
+    "tag": "badend_brothel_permit",
+    "png": "cg-badend-brothel-permit.png",
+    "exists": true,
+    "humans_expected": true,
+    "high_risk": false,
+    "mediapipe": {
+      "generated_at": "2026-06-07T17:18:39.380876+00:00",
+      "mode": "advisory",
+      "min_confidence": 0.5,
+      "summary": {
+        "files": 1,
+        "pass": 0,
+        "warn": 1,
+        "fail": 0
+      },
+      "results": [
+        {
+          "path": "game\\images\\cg\\cg-badend-brothel-permit.png",
+          "hand_count": 1,
+          "min_confidence": 0.7209174633026123,
+          "max_confidence": 0.7209174633026123,
+          "expected_hands": 2,
+          "warnings": [
+            "hand_count_mismatch: detected 1, expected 2"
+          ],
+          "status": "warn",
+          "hands": [
+            {
+              "label": "Left",
+              "confidence": 0.7209174633026123
+            }
+          ]
+        }
+      ]
+    },
+    "visual_status": "PENDING",
+    "hand_counts": null,
+    "notes": ""
+  },
+  {
+    "tag": "badend_brothel_ronin",
+    "png": "cg-badend-brothel-ronin.png",
+    "exists": true,
+    "humans_expected": true,
+    "high_risk": false,
+    "mediapipe": {
+      "generated_at": "2026-06-07T17:18:40.646222+00:00",
+      "mode": "advisory",
+      "min_confidence": 0.5,
+      "summary": {
+        "files": 1,
+        "pass": 0,
+        "warn": 1,
+        "fail": 0
+      },
+      "results": [
+        {
+          "path": "game\\images\\cg\\cg-badend-brothel-ronin.png",
+          "hand_count": 1,
+          "min_confidence": 0.9691826105117798,
+          "max_confidence": 0.9691826105117798,
+          "expected_hands": 2,
+          "warnings": [
+            "hand_count_mismatch: detected 1, expected 2"
+          ],
+          "status": "warn",
+          "hands": [
+            {
+              "label": "Left",
+              "confidence": 0.9691826105117798
+            }
+          ]
+        }
+      ]
+    },
+    "visual_status": "PENDING",
+    "hand_counts": null,
+    "notes": ""
+  },
+  {
+    "tag": "badend_brothel_tears",
+    "png": "cg-badend-brothel-tears.png",
+    "exists": true,
+    "humans_expected": true,
+    "high_risk": true,
+    "mediapipe": {
+      "generated_at": "2026-06-07T17:18:41.889887+00:00",
+      "mode": "advisory",
+      "min_confidence": 0.5,
+      "summary": {
+        "files": 1,
+        "pass": 0,
+        "warn": 1,
+        "fail": 0
+      },
+      "results": [
+        {
+          "path": "game\\images\\cg\\cg-badend-brothel-tears.png",
+          "hand_count": 0,
+          "min_confidence": null,
+          "max_confidence": null,
+          "expected_hands": 2,
+          "warnings": [
+            "zero_hands: no hands detected",
+            "zero_hands_expected: filename/heuristic expects ~2 visible hand(s)"
+          ],
+          "status": "warn",
+          "hands": []
+        }
+      ]
+    },
+    "visual_status": "PENDING",
+    "hand_counts": null,
+    "notes": ""
+  },
+  {
+    "tag": "badend_kaoru_corridor",
+    "png": "cg-badend-kaoru-corridor.png",
+    "exists": true,
+    "humans_expected": true,
+    "high_risk": false,
+    "mediapipe": {
+      "generated_at": "2026-06-07T17:18:43.184508+00:00",
+      "mode": "advisory",
+      "min_confidence": 0.5,
+      "summary": {
+        "files": 1,
+        "pass": 1,
+        "warn": 0,
+        "fail": 0
+      },
+      "results": [
+        {
+          "path": "game\\images\\cg\\cg-badend-kaoru-corridor.png",
+          "hand_count": 1,
+          "min_confidence": 0.9882537126541138,
+          "max_confidence": 0.9882537126541138,
+          "expected_hands": null,
+          "warnings": [],
+          "status": "pass",
+          "hands": [
+            {
+              "label": "Right",
+              "confidence": 0.9882537126541138
+            }
+          ]
+        }
+      ]
+    },
+    "visual_status": "PENDING",
+    "hand_counts": null,
+    "notes": ""
+  },
+  {
+    "tag": "badend_kaoru_gate",
+    "png": "cg-badend-kaoru-gate.png",
+    "exists": true,
+    "humans_expected": true,
+    "high_risk": false,
+    "mediapipe": {
+      "generated_at": "2026-06-07T17:18:44.455845+00:00",
+      "mode": "advisory",
+      "min_confidence": 0.5,
+      "summary": {
+        "files": 1,
+        "pass": 1,
+        "warn": 0,
+        "fail": 0
+      },
+      "results": [
+        {
+          "path": "game\\images\\cg\\cg-badend-kaoru-gate.png",
+          "hand_count": 2,
+          "min_confidence": 0.919274091720581,
+          "max_confidence": 0.9902733564376831,
+          "expected_hands": null,
+          "warnings": [],
+          "status": "pass",
+          "hands": [
+            {
+              "label": "Right",
+              "confidence": 0.9902733564376831
+            },
+            {
+              "label": "Left",
+              "confidence": 0.919274091720581
+            }
+          ]
+        }
+      ]
+    },
+    "visual_status": "PENDING",
+    "hand_counts": null,
+    "notes": ""
+  },
+  {
+    "tag": "badend_kaoru_office",
+    "png": "cg-badend-kaoru-office.png",
+    "exists": true,
+    "humans_expected": true,
+    "high_risk": false,
+    "mediapipe": {
+      "generated_at": "2026-06-07T17:18:45.649521+00:00",
+      "mode": "advisory",
+      "min_confidence": 0.5,
+      "summary": {
+        "files": 1,
+        "pass": 0,
+        "warn": 1,
+        "fail": 0
+      },
+      "results": [
+        {
+          "path": "game\\images\\cg\\cg-badend-kaoru-office.png",
+          "hand_count": 0,
+          "min_confidence": null,
+          "max_confidence": null,
+          "expected_hands": null,
+          "warnings": [
+            "zero_hands: no hands detected"
+          ],
+          "status": "warn",
+          "hands": []
+        }
+      ]
+    },
+    "visual_status": "PENDING",
+    "hand_counts": null,
+    "notes": ""
+  },
+  {
+    "tag": "badend_kaoru_office_floor",
+    "png": "cg-badend-kaoru-office-floor.png",
+    "exists": true,
+    "humans_expected": true,
+    "high_risk": false,
+    "mediapipe": {
+      "generated_at": "2026-06-07T17:18:46.888458+00:00",
+      "mode": "advisory",
+      "min_confidence": 0.5,
+      "summary": {
+        "files": 1,
+        "pass": 0,
+        "warn": 1,
+        "fail": 0
+      },
+      "results": [
+        {
+          "path": "game\\images\\cg\\cg-badend-kaoru-office-floor.png",
+          "hand_count": 0,
+          "min_confidence": null,
+          "max_confidence": null,
+          "expected_hands": null,
+          "warnings": [
+            "zero_hands: no hands detected"
+          ],
+          "status": "warn",
+          "hands": []
+        }
+      ]
+    },
+    "visual_status": "PENDING",
+    "hand_counts": null,
+    "notes": ""
+  },
+  {
+    "tag": "badend_kaoru_office_throw",
+    "png": "cg-badend-kaoru-office-throw.png",
+    "exists": true,
+    "humans_expected": true,
+    "high_risk": false,
+    "mediapipe": {
+      "generated_at": "2026-06-07T17:18:48.131548+00:00",
+      "mode": "advisory",
+      "min_confidence": 0.5,
+      "summary": {
+        "files": 1,
+        "pass": 0,
+        "warn": 1,
+        "fail": 0
+      },
+      "results": [
+        {
+          "path": "game\\images\\cg\\cg-badend-kaoru-office-throw.png",
+          "hand_count": 0,
+          "min_confidence": null,
+          "max_confidence": null,
+          "expected_hands": null,
+          "warnings": [
+            "zero_hands: no hands detected"
+          ],
+          "status": "warn",
+          "hands": []
+        }
+      ]
+    },
+    "visual_status": "PENDING",
+    "hand_counts": null,
+    "notes": ""
+  },
+  {
+    "tag": "badend_kaoru_shoji",
+    "png": "cg-badend-kaoru-shoji.png",
+    "exists": true,
+    "humans_expected": true,
+    "high_risk": true,
+    "mediapipe": {
+      "generated_at": "2026-06-07T17:18:49.386952+00:00",
+      "mode": "advisory",
+      "min_confidence": 0.5,
+      "summary": {
+        "files": 1,
+        "pass": 0,
+        "warn": 1,
+        "fail": 0
+      },
+      "results": [
+        {
+          "path": "game\\images\\cg\\cg-badend-kaoru-shoji.png",
+          "hand_count": 0,
+          "min_confidence": null,
+          "max_confidence": null,
+          "expected_hands": null,
+          "warnings": [
+            "zero_hands: no hands detected"
+          ],
+          "status": "warn",
+          "hands": []
+        }
+      ]
+    },
+    "visual_status": "PENDING",
+    "hand_counts": null,
+    "notes": ""
+  },
+  {
+    "tag": "badend_kaoru_stamp",
+    "png": "cg-badend-kaoru-stamp.png",
+    "exists": true,
+    "humans_expected": true,
+    "high_risk": false,
+    "mediapipe": {
+      "generated_at": "2026-06-07T17:18:50.681301+00:00",
+      "mode": "advisory",
+      "min_confidence": 0.5,
+      "summary": {
+        "files": 1,
+        "pass": 0,
+        "warn": 1,
+        "fail": 0
+      },
+      "results": [
+        {
+          "path": "game\\images\\cg\\cg-badend-kaoru-stamp.png",
+          "hand_count": 0,
+          "min_confidence": null,
+          "max_confidence": null,
+          "expected_hands": null,
+          "warnings": [
+            "zero_hands: no hands detected"
+          ],
+          "status": "warn",
+          "hands": []
+        }
+      ]
+    },
+    "visual_status": "PENDING",
+    "hand_counts": null,
+    "notes": ""
+  },
+  {
+    "tag": "badend_kaoru_wrist",
+    "png": "cg-badend-kaoru-wrist.png",
+    "exists": true,
+    "humans_expected": true,
+    "high_risk": true,
+    "mediapipe": {
+      "generated_at": "2026-06-07T17:18:51.940549+00:00",
+      "mode": "advisory",
+      "min_confidence": 0.5,
+      "summary": {
+        "files": 1,
+        "pass": 0,
+        "warn": 1,
+        "fail": 0
+      },
+      "results": [
+        {
+          "path": "game\\images\\cg\\cg-badend-kaoru-wrist.png",
+          "hand_count": 1,
+          "min_confidence": 0.9402016997337341,
+          "max_confidence": 0.9402016997337341,
+          "expected_hands": 2,
+          "warnings": [
+            "hand_count_mismatch: detected 1, expected 2"
+          ],
+          "status": "warn",
+          "hands": [
+            {
+              "label": "Left",
+              "confidence": 0.9402016997337341
+            }
+          ]
+        }
+      ]
+    },
+    "visual_status": "PENDING",
+    "hand_counts": null,
+    "notes": ""
+  },
+  {
+    "tag": "canon_afterglow",
+    "png": "cg-canon-afterglow.png",
+    "exists": true,
+    "humans_expected": true,
+    "high_risk": true,
+    "mediapipe": {
+      "generated_at": "2026-06-07T17:18:53.239385+00:00",
+      "mode": "advisory",
+      "min_confidence": 0.5,
+      "summary": {
+        "files": 1,
+        "pass": 1,
+        "warn": 0,
+        "fail": 0
+      },
+      "results": [
+        {
+          "path": "game\\images\\cg\\cg-canon-afterglow.png",
+          "hand_count": 1,
+          "min_confidence": 0.9985752701759338,
+          "max_confidence": 0.9985752701759338,
+          "expected_hands": null,
+          "warnings": [],
+          "status": "pass",
+          "hands": [
+            {
+              "label": "Left",
+              "confidence": 0.9985752701759338
+            }
+          ]
+        }
+      ]
+    },
+    "visual_status": "PENDING",
+    "hand_counts": null,
+    "notes": ""
+  },
+  {
+    "tag": "canon_embrace",
+    "png": "cg-canon-embrace.png",
+    "exists": true,
+    "humans_expected": true,
+    "high_risk": true,
+    "mediapipe": {
+      "generated_at": "2026-06-07T17:18:54.543827+00:00",
+      "mode": "advisory",
+      "min_confidence": 0.5,
+      "summary": {
+        "files": 1,
+        "pass": 0,
+        "warn": 1,
+        "fail": 0
+      },
+      "results": [
+        {
+          "path": "game\\images\\cg\\cg-canon-embrace.png",
+          "hand_count": 1,
+          "min_confidence": 0.999305784702301,
+          "max_confidence": 0.999305784702301,
+          "expected_hands": 2,
+          "warnings": [
+            "hand_count_mismatch: detected 1, expected 2"
+          ],
+          "status": "warn",
+          "hands": [
+            {
+              "label": "Left",
+              "confidence": 0.999305784702301
+            }
+          ]
+        }
+      ]
+    },
+    "visual_status": "PENDING",
+    "hand_counts": null,
+    "notes": ""
+  },
+  {
+    "tag": "canon_proposition",
+    "png": "cg-canon-proposition.png",
+    "exists": true,
+    "humans_expected": true,
+    "high_risk": true,
+    "mediapipe": {
+      "generated_at": "2026-06-07T17:18:55.829649+00:00",
+      "mode": "advisory",
+      "min_confidence": 0.5,
+      "summary": {
+        "files": 1,
+        "pass": 1,
+        "warn": 0,
+        "fail": 0
+      },
+      "results": [
+        {
+          "path": "game\\images\\cg\\cg-canon-proposition.png",
+          "hand_count": 1,
+          "min_confidence": 0.9830974340438843,
+          "max_confidence": 0.9830974340438843,
+          "expected_hands": null,
+          "warnings": [],
+          "status": "pass",
+          "hands": [
+            {
+              "label": "Left",
+              "confidence": 0.9830974340438843
+            }
+          ]
+        }
+      ]
+    },
+    "visual_status": "PENDING",
+    "hand_counts": null,
+    "notes": ""
+  },
+  {
+    "tag": "canon_pull_close",
+    "png": "cg-canon-pull-close.png",
+    "exists": true,
+    "humans_expected": true,
+    "high_risk": true,
+    "mediapipe": {
+      "generated_at": "2026-06-07T17:18:57.121597+00:00",
+      "mode": "advisory",
+      "min_confidence": 0.5,
+      "summary": {
+        "files": 1,
+        "pass": 0,
+        "warn": 1,
+        "fail": 0
+      },
+      "results": [
+        {
+          "path": "game\\images\\cg\\cg-canon-pull-close.png",
+          "hand_count": 1,
+          "min_confidence": 0.9849733114242554,
+          "max_confidence": 0.9849733114242554,
+          "expected_hands": 2,
+          "warnings": [
+            "hand_count_mismatch: detected 1, expected 2"
+          ],
+          "status": "warn",
+          "hands": [
+            {
+              "label": "Left",
+              "confidence": 0.9849733114242554
+            }
+          ]
+        }
+      ]
+    },
+    "visual_status": "PENDING",
+    "hand_counts": null,
+    "notes": ""
+  },
+  {
+    "tag": "canon_signing",
+    "png": "cg-canon-signing.png",
+    "exists": true,
+    "humans_expected": true,
+    "high_risk": true,
+    "mediapipe": {
+      "generated_at": "2026-06-07T17:18:58.645586+00:00",
+      "mode": "advisory",
+      "min_confidence": 0.5,
+      "summary": {
+        "files": 1,
+        "pass": 1,
+        "warn": 0,
+        "fail": 0
+      },
+      "results": [
+        {
+          "path": "game\\images\\cg\\cg-canon-signing.png",
+          "hand_count": 2,
+          "min_confidence": 0.94012850522995,
+          "max_confidence": 0.9892380237579346,
+          "expected_hands": null,
+          "warnings": [],
+          "status": "pass",
+          "hands": [
+            {
+              "label": "Left",
+              "confidence": 0.9892380237579346
+            },
+            {
+              "label": "Right",
+              "confidence": 0.94012850522995
+            }
+          ]
+        }
+      ]
+    },
+    "visual_status": "PENDING",
+    "hand_counts": null,
+    "notes": ""
+  },
+  {
+    "tag": "canon_three_days",
+    "png": "cg-canon-three-days.png",
+    "exists": true,
+    "humans_expected": true,
+    "high_risk": false,
+    "mediapipe": {
+      "generated_at": "2026-06-07T17:18:59.978660+00:00",
+      "mode": "advisory",
+      "min_confidence": 0.5,
+      "summary": {
+        "files": 1,
+        "pass": 0,
+        "warn": 1,
+        "fail": 0
+      },
+      "results": [
+        {
+          "path": "game\\images\\cg\\cg-canon-three-days.png",
+          "hand_count": 0,
+          "min_confidence": null,
+          "max_confidence": null,
+          "expected_hands": null,
+          "warnings": [
+            "zero_hands: no hands detected"
+          ],
+          "status": "warn",
+          "hands": []
+        }
+      ]
+    },
+    "visual_status": "PENDING",
+    "hand_counts": null,
+    "notes": ""
+  },
+  {
+    "tag": "canon_undressing",
+    "png": "cg-canon-undress-toa.png",
+    "exists": true,
+    "humans_expected": true,
+    "high_risk": true,
+    "mediapipe": {
+      "generated_at": "2026-06-07T17:19:01.297383+00:00",
+      "mode": "advisory",
+      "min_confidence": 0.5,
+      "summary": {
+        "files": 1,
+        "pass": 1,
+        "warn": 0,
+        "fail": 0
+      },
+      "results": [
+        {
+          "path": "game\\images\\cg\\cg-canon-undress-toa.png",
+          "hand_count": 1,
+          "min_confidence": 0.9982074499130249,
+          "max_confidence": 0.9982074499130249,
+          "expected_hands": null,
+          "warnings": [],
+          "status": "pass",
+          "hands": [
+            {
+              "label": "Left",
+              "confidence": 0.9982074499130249
+            }
+          ]
+        }
+      ]
+    },
+    "visual_status": "PENDING",
+    "hand_counts": null,
+    "notes": ""
+  },
+  {
+    "tag": "case1_5_chamber_corridor",
+    "png": "cg-case1_5-chamber-corridor.png",
+    "exists": true,
+    "humans_expected": true,
+    "high_risk": false,
+    "mediapipe": {
+      "generated_at": "2026-06-07T17:19:02.650418+00:00",
+      "mode": "advisory",
+      "min_confidence": 0.5,
+      "summary": {
+        "files": 1,
+        "pass": 1,
+        "warn": 0,
+        "fail": 0
+      },
+      "results": [
+        {
+          "path": "game\\images\\cg\\cg-case1_5-chamber-corridor.png",
+          "hand_count": 1,
+          "min_confidence": 0.9752227663993835,
+          "max_confidence": 0.9752227663993835,
+          "expected_hands": null,
+          "warnings": [],
+          "status": "pass",
+          "hands": [
+            {
+              "label": "Left",
+              "confidence": 0.9752227663993835
+            }
+          ]
+        }
+      ]
+    },
+    "visual_status": "PENDING",
+    "hand_counts": null,
+    "notes": ""
+  },
+  {
+    "tag": "case1_5_chamber_quilt",
+    "png": "cg-case1_5-chamber-quilt.png",
+    "exists": true,
+    "humans_expected": true,
+    "high_risk": true,
+    "mediapipe": {
+      "generated_at": "2026-06-07T17:19:04.218455+00:00",
+      "mode": "advisory",
+      "min_confidence": 0.5,
+      "summary": {
+        "files": 1,
+        "pass": 0,
+        "warn": 1,
+        "fail": 0
+      },
+      "results": [
+        {
+          "path": "game\\images\\cg\\cg-case1_5-chamber-quilt.png",
+          "hand_count": 0,
+          "min_confidence": null,
+          "max_confidence": null,
+          "expected_hands": null,
+          "warnings": [
+            "zero_hands: no hands detected"
+          ],
+          "status": "warn",
+          "hands": []
+        }
+      ]
+    },
+    "visual_status": "PENDING",
+    "hand_counts": null,
+    "notes": ""
+  },
+  {
+    "tag": "case1_5_chamber_shoji_tea",
+    "png": "cg-case1_5-chamber-shoji-tea.png",
+    "exists": true,
+    "humans_expected": true,
+    "high_risk": true,
+    "mediapipe": {
+      "generated_at": "2026-06-07T17:19:05.561516+00:00",
+      "mode": "advisory",
+      "min_confidence": 0.5,
+      "summary": {
+        "files": 1,
+        "pass": 0,
+        "warn": 1,
+        "fail": 0
+      },
+      "results": [
+        {
+          "path": "game\\images\\cg\\cg-case1_5-chamber-shoji-tea.png",
+          "hand_count": 0,
+          "min_confidence": null,
+          "max_confidence": null,
+          "expected_hands": null,
+          "warnings": [
+            "zero_hands: no hands detected"
+          ],
+          "status": "warn",
+          "hands": []
+        }
+      ]
+    },
+    "visual_status": "PENDING",
+    "hand_counts": null,
+    "notes": ""
+  },
+  {
+    "tag": "case1_5_curry_kitchen",
+    "png": "cg-case1_5-curry-kitchen.png",
+    "exists": true,
+    "humans_expected": true,
+    "high_risk": false,
+    "mediapipe": {
+      "generated_at": "2026-06-07T17:19:06.928268+00:00",
+      "mode": "advisory",
+      "min_confidence": 0.5,
+      "summary": {
+        "files": 1,
+        "pass": 0,
+        "warn": 1,
+        "fail": 0
+      },
+      "results": [
+        {
+          "path": "game\\images\\cg\\cg-case1_5-curry-kitchen.png",
+          "hand_count": 0,
+          "min_confidence": null,
+          "max_confidence": null,
+          "expected_hands": null,
+          "warnings": [
+            "zero_hands: no hands detected"
+          ],
+          "status": "warn",
+          "hands": []
+        }
+      ]
+    },
+    "visual_status": "PENDING",
+    "hand_counts": null,
+    "notes": ""
+  },
+  {
+    "tag": "case1_5_dawn_desk_duo",
+    "png": "cg-case1_5-dawn-desk-duo.png",
+    "exists": true,
+    "humans_expected": true,
+    "high_risk": false,
+    "mediapipe": {
+      "generated_at": "2026-06-07T17:19:08.194826+00:00",
+      "mode": "advisory",
+      "min_confidence": 0.5,
+      "summary": {
+        "files": 1,
+        "pass": 0,
+        "warn": 1,
+        "fail": 0
+      },
+      "results": [
+        {
+          "path": "game\\images\\cg\\cg-case1_5-dawn-desk-duo.png",
+          "hand_count": 0,
+          "min_confidence": null,
+          "max_confidence": null,
+          "expected_hands": null,
+          "warnings": [
+            "zero_hands: no hands detected"
+          ],
+          "status": "warn",
+          "hands": []
+        }
+      ]
+    },
+    "visual_status": "PENDING",
+    "hand_counts": null,
+    "notes": ""
+  },
+  {
+    "tag": "case1_5_hanko_pot",
+    "png": "cg-case1_5-hanko-pot.png",
+    "exists": true,
+    "humans_expected": true,
+    "high_risk": false,
+    "mediapipe": {
+      "generated_at": "2026-06-07T17:19:09.532608+00:00",
+      "mode": "advisory",
+      "min_confidence": 0.5,
+      "summary": {
+        "files": 1,
+        "pass": 1,
+        "warn": 0,
+        "fail": 0
+      },
+      "results": [
+        {
+          "path": "game\\images\\cg\\cg-case1_5-hanko-pot.png",
+          "hand_count": 2,
+          "min_confidence": 0.9381666779518127,
+          "max_confidence": 0.9783538579940796,
+          "expected_hands": null,
+          "warnings": [],
+          "status": "pass",
+          "hands": [
+            {
+              "label": "Right",
+              "confidence": 0.9381666779518127
+            },
+            {
+              "label": "Right",
+              "confidence": 0.9783538579940796
+            }
+          ]
+        }
+      ]
+    },
+    "visual_status": "PENDING",
+    "hand_counts": null,
+    "notes": ""
+  },
+  {
+    "tag": "case1_5_kaoru_curry_bowl",
+    "png": "cg-case1_5-kaoru-curry-bowl.png",
+    "exists": true,
+    "humans_expected": true,
+    "high_risk": false,
+    "mediapipe": {
+      "generated_at": "2026-06-07T17:19:10.830024+00:00",
+      "mode": "advisory",
+      "min_confidence": 0.5,
+      "summary": {
+        "files": 1,
+        "pass": 1,
+        "warn": 0,
+        "fail": 0
+      },
+      "results": [
+        {
+          "path": "game\\images\\cg\\cg-case1_5-kaoru-curry-bowl.png",
+          "hand_count": 2,
+          "min_confidence": 0.9828456044197083,
+          "max_confidence": 0.9931374788284302,
+          "expected_hands": null,
+          "warnings": [],
+          "status": "pass",
+          "hands": [
+            {
+              "label": "Right",
+              "confidence": 0.9828456044197083
+            },
+            {
+              "label": "Left",
+              "confidence": 0.9931374788284302
+            }
+          ]
+        }
+      ]
+    },
+    "visual_status": "PENDING",
+    "hand_counts": null,
+    "notes": ""
+  },
+  {
+    "tag": "case1_5_shoji_tear",
+    "png": "cg-case1_5-shoji-tear-closeup.png",
+    "exists": true,
+    "humans_expected": true,
+    "high_risk": true,
+    "mediapipe": {
+      "generated_at": "2026-06-07T17:19:12.080079+00:00",
+      "mode": "advisory",
+      "min_confidence": 0.5,
+      "summary": {
+        "files": 1,
+        "pass": 0,
+        "warn": 1,
+        "fail": 0
+      },
+      "results": [
+        {
+          "path": "game\\images\\cg\\cg-case1_5-shoji-tear-closeup.png",
+          "hand_count": 0,
+          "min_confidence": null,
+          "max_confidence": null,
+          "expected_hands": null,
+          "warnings": [
+            "zero_hands: no hands detected"
+          ],
+          "status": "warn",
+          "hands": []
+        }
+      ]
+    },
+    "visual_status": "PENDING",
+    "hand_counts": null,
+    "notes": ""
+  },
+  {
+    "tag": "case1_5_shoji_wrist",
+    "png": "cg-case1_5-shoji-wrist-closeup.png",
+    "exists": true,
+    "humans_expected": true,
+    "high_risk": true,
+    "mediapipe": {
+      "generated_at": "2026-06-07T17:19:13.418460+00:00",
+      "mode": "advisory",
+      "min_confidence": 0.5,
+      "summary": {
+        "files": 1,
+        "pass": 0,
+        "warn": 1,
+        "fail": 0
+      },
+      "results": [
+        {
+          "path": "game\\images\\cg\\cg-case1_5-shoji-wrist-closeup.png",
+          "hand_count": 0,
+          "min_confidence": null,
+          "max_confidence": null,
+          "expected_hands": null,
+          "warnings": [
+            "zero_hands: no hands detected"
+          ],
+          "status": "warn",
+          "hands": []
+        }
+      ]
+    },
+    "visual_status": "PENDING",
+    "hand_counts": null,
+    "notes": ""
+  },
+  {
+    "tag": "case1_romance_barge_moonlit",
+    "png": "cg-case1-romance-barge-moonlit.png",
+    "exists": true,
+    "humans_expected": true,
+    "high_risk": true,
+    "mediapipe": {
+      "generated_at": "2026-06-07T17:19:14.737470+00:00",
+      "mode": "advisory",
+      "min_confidence": 0.5,
+      "summary": {
+        "files": 1,
+        "pass": 0,
+        "warn": 1,
+        "fail": 0
+      },
+      "results": [
+        {
+          "path": "game\\images\\cg\\cg-case1-romance-barge-moonlit.png",
+          "hand_count": 0,
+          "min_confidence": null,
+          "max_confidence": null,
+          "expected_hands": null,
+          "warnings": [
+            "zero_hands: no hands detected"
+          ],
+          "status": "warn",
+          "hands": []
+        }
+      ]
+    },
+    "visual_status": "PENDING",
+    "hand_counts": null,
+    "notes": ""
+  },
+  {
+    "tag": "case1_romance_canal_lantern",
+    "png": "cg-case1-romance-canal-lantern.png",
+    "exists": true,
+    "humans_expected": true,
+    "high_risk": false,
+    "mediapipe": {
+      "generated_at": "2026-06-07T17:19:16.022403+00:00",
+      "mode": "advisory",
+      "min_confidence": 0.5,
+      "summary": {
+        "files": 1,
+        "pass": 1,
+        "warn": 0,
+        "fail": 0
+      },
+      "results": [
+        {
+          "path": "game\\images\\cg\\cg-case1-romance-canal-lantern.png",
+          "hand_count": 1,
+          "min_confidence": 0.6869550347328186,
+          "max_confidence": 0.6869550347328186,
+          "expected_hands": null,
+          "warnings": [],
+          "status": "pass",
+          "hands": [
+            {
+              "label": "Left",
+              "confidence": 0.6869550347328186
+            }
+          ]
+        }
+      ]
+    },
+    "visual_status": "PENDING",
+    "hand_counts": null,
+    "notes": ""
+  },
+  {
+    "tag": "case1_romance_lantern",
+    "png": "cg-case1-romance-lantern.png",
+    "exists": true,
+    "humans_expected": true,
+    "high_risk": false,
+    "mediapipe": {
+      "generated_at": "2026-06-07T17:19:17.305682+00:00",
+      "mode": "advisory",
+      "min_confidence": 0.5,
+      "summary": {
+        "files": 1,
+        "pass": 0,
+        "warn": 1,
+        "fail": 0
+      },
+      "results": [
+        {
+          "path": "game\\images\\cg\\cg-case1-romance-lantern.png",
+          "hand_count": 0,
+          "min_confidence": null,
+          "max_confidence": null,
+          "expected_hands": null,
+          "warnings": [
+            "zero_hands: no hands detected"
+          ],
+          "status": "warn",
+          "hands": []
+        }
+      ]
+    },
+    "visual_status": "PENDING",
+    "hand_counts": null,
+    "notes": ""
+  },
+  {
+    "tag": "case1_romance_office_touch",
+    "png": "cg-case1-romance-office-touch.png",
+    "exists": true,
+    "humans_expected": true,
+    "high_risk": true,
+    "mediapipe": {
+      "generated_at": "2026-06-07T17:19:18.614043+00:00",
+      "mode": "advisory",
+      "min_confidence": 0.5,
+      "summary": {
+        "files": 1,
+        "pass": 0,
+        "warn": 1,
+        "fail": 0
+      },
+      "results": [
+        {
+          "path": "game\\images\\cg\\cg-case1-romance-office-touch.png",
+          "hand_count": 1,
+          "min_confidence": 0.9963725805282593,
+          "max_confidence": 0.9963725805282593,
+          "expected_hands": 2,
+          "warnings": [
+            "hand_count_mismatch: detected 1, expected 2"
+          ],
+          "status": "warn",
+          "hands": [
+            {
+              "label": "Left",
+              "confidence": 0.9963725805282593
+            }
+          ]
+        }
+      ]
+    },
+    "visual_status": "PENDING",
+    "hand_counts": null,
+    "notes": ""
+  },
+  {
+    "tag": "case1_romance_sponsorship",
+    "png": "cg-case1-romance-sponsorship.png",
+    "exists": true,
+    "humans_expected": true,
+    "high_risk": true,
+    "mediapipe": {
+      "generated_at": "2026-06-07T17:19:19.897873+00:00",
+      "mode": "advisory",
+      "min_confidence": 0.5,
+      "summary": {
+        "files": 1,
+        "pass": 1,
+        "warn": 0,
+        "fail": 0
+      },
+      "results": [
+        {
+          "path": "game\\images\\cg\\cg-case1-romance-sponsorship.png",
+          "hand_count": 2,
+          "min_confidence": 0.9835541844367981,
+          "max_confidence": 0.9873950481414795,
+          "expected_hands": null,
+          "warnings": [],
+          "status": "pass",
+          "hands": [
+            {
+              "label": "Right",
+              "confidence": 0.9835541844367981
+            },
+            {
+              "label": "Left",
+              "confidence": 0.9873950481414795
+            }
+          ]
+        }
+      ]
+    },
+    "visual_status": "PENDING",
+    "hand_counts": null,
+    "notes": ""
+  },
+  {
+    "tag": "case2_festival_curry_stall",
+    "png": "cg-case2-festival-curry-stall.png",
+    "exists": true,
+    "humans_expected": true,
+    "high_risk": false,
+    "mediapipe": {
+      "generated_at": "2026-06-07T17:19:21.191601+00:00",
+      "mode": "advisory",
+      "min_confidence": 0.5,
+      "summary": {
+        "files": 1,
+        "pass": 0,
+        "warn": 1,
+        "fail": 0
+      },
+      "results": [
+        {
+          "path": "game\\images\\cg\\cg-case2-festival-curry-stall.png",
+          "hand_count": 0,
+          "min_confidence": null,
+          "max_confidence": null,
+          "expected_hands": null,
+          "warnings": [
+            "zero_hands: no hands detected"
+          ],
+          "status": "warn",
+          "hands": []
+        }
+      ]
+    },
+    "visual_status": "PENDING",
+    "hand_counts": null,
+    "notes": ""
+  },
+  {
+    "tag": "case2_festival_fireworks",
+    "png": "cg-case2-festival-fireworks.png",
+    "exists": true,
+    "humans_expected": false,
+    "high_risk": false,
+    "mediapipe": null,
+    "visual_status": "PENDING",
+    "hand_counts": null,
+    "notes": ""
+  },
+  {
+    "tag": "case2_festival_hill",
+    "png": "cg-case2-festival-hill.png",
+    "exists": true,
+    "humans_expected": false,
+    "high_risk": false,
+    "mediapipe": null,
+    "visual_status": "PENDING",
+    "hand_counts": null,
+    "notes": ""
+  },
+  {
+    "tag": "case2_festival_intimate",
+    "png": "cg-case2-festival-intimate.png",
+    "exists": true,
+    "humans_expected": true,
+    "high_risk": true,
+    "mediapipe": {
+      "generated_at": "2026-06-07T17:19:22.500861+00:00",
+      "mode": "advisory",
+      "min_confidence": 0.5,
+      "summary": {
+        "files": 1,
+        "pass": 0,
+        "warn": 1,
+        "fail": 0
+      },
+      "results": [
+        {
+          "path": "game\\images\\cg\\cg-case2-festival-intimate.png",
+          "hand_count": 0,
+          "min_confidence": null,
+          "max_confidence": null,
+          "expected_hands": null,
+          "warnings": [
+            "zero_hands: no hands detected"
+          ],
+          "status": "warn",
+          "hands": []
+        }
+      ]
+    },
+    "visual_status": "PENDING",
+    "hand_counts": null,
+    "notes": ""
+  },
+  {
+    "tag": "case2_festival_kiss",
+    "png": "cg-case2-festival-kiss.png",
+    "exists": true,
+    "humans_expected": true,
+    "high_risk": true,
+    "mediapipe": {
+      "generated_at": "2026-06-07T17:19:23.761323+00:00",
+      "mode": "advisory",
+      "min_confidence": 0.5,
+      "summary": {
+        "files": 1,
+        "pass": 0,
+        "warn": 1,
+        "fail": 0
+      },
+      "results": [
+        {
+          "path": "game\\images\\cg\\cg-case2-festival-kiss.png",
+          "hand_count": 1,
+          "min_confidence": 0.9629494547843933,
+          "max_confidence": 0.9629494547843933,
+          "expected_hands": 2,
+          "warnings": [
+            "hand_count_mismatch: detected 1, expected 2"
+          ],
+          "status": "warn",
+          "hands": [
+            {
+              "label": "Left",
+              "confidence": 0.9629494547843933
+            }
+          ]
+        }
+      ]
+    },
+    "visual_status": "PENDING",
+    "hand_counts": null,
+    "notes": ""
+  },
+  {
+    "tag": "case3_5_date_almost_hands",
+    "png": "cg-case3_5-date-almost-hands.png",
+    "exists": true,
+    "humans_expected": true,
+    "high_risk": true,
+    "mediapipe": {
+      "generated_at": "2026-06-07T17:19:25.056894+00:00",
+      "mode": "advisory",
+      "min_confidence": 0.5,
+      "summary": {
+        "files": 1,
+        "pass": 0,
+        "warn": 1,
+        "fail": 0
+      },
+      "results": [
+        {
+          "path": "game\\images\\cg\\cg-case3_5-date-almost-hands.png",
+          "hand_count": 0,
+          "min_confidence": null,
+          "max_confidence": null,
+          "expected_hands": 2,
+          "warnings": [
+            "zero_hands: no hands detected",
+            "zero_hands_expected: filename/heuristic expects ~2 visible hand(s)"
+          ],
+          "status": "warn",
+          "hands": []
+        }
+      ]
+    },
+    "visual_status": "PENDING",
+    "hand_counts": null,
+    "notes": ""
+  },
+  {
+    "tag": "case3_5_date_arrival",
+    "png": "cg-case3_5-date-arrival.png",
+    "exists": true,
+    "humans_expected": false,
+    "high_risk": false,
+    "mediapipe": null,
+    "visual_status": "PENDING",
+    "hand_counts": null,
+    "notes": ""
+  },
+  {
+    "tag": "case3_5_date_candle_flame",
+    "png": "cg-case3_5-date-candle-flame.png",
+    "exists": true,
+    "humans_expected": false,
+    "high_risk": false,
+    "mediapipe": null,
+    "visual_status": "PENDING",
+    "hand_counts": null,
+    "notes": ""
+  },
+  {
+    "tag": "case3_5_date_gossip",
+    "png": "cg-case3_5-date-gossip.png",
+    "exists": true,
+    "humans_expected": true,
+    "high_risk": false,
+    "mediapipe": {
+      "generated_at": "2026-06-07T17:19:26.313001+00:00",
+      "mode": "advisory",
+      "min_confidence": 0.5,
+      "summary": {
+        "files": 1,
+        "pass": 1,
+        "warn": 0,
+        "fail": 0
+      },
+      "results": [
+        {
+          "path": "game\\images\\cg\\cg-case3_5-date-gossip.png",
+          "hand_count": 2,
+          "min_confidence": 0.8436188697814941,
+          "max_confidence": 0.9718747735023499,
+          "expected_hands": null,
+          "warnings": [],
+          "status": "pass",
+          "hands": [
+            {
+              "label": "Right",
+              "confidence": 0.8436188697814941
+            },
+            {
+              "label": "Left",
+              "confidence": 0.9718747735023499
+            }
+          ]
+        }
+      ]
+    },
+    "visual_status": "PENDING",
+    "hand_counts": null,
+    "notes": ""
+  },
+  {
+    "tag": "case3_5_date_inn_collar_hands",
+    "png": "cg-case3_5-date-inn-collar-hands.png",
+    "exists": true,
+    "humans_expected": true,
+    "high_risk": true,
+    "mediapipe": {
+      "generated_at": "2026-06-07T17:19:27.606850+00:00",
+      "mode": "advisory",
+      "min_confidence": 0.5,
+      "summary": {
+        "files": 1,
+        "pass": 0,
+        "warn": 1,
+        "fail": 0
+      },
+      "results": [
+        {
+          "path": "game\\images\\cg\\cg-case3_5-date-inn-collar-hands.png",
+          "hand_count": 0,
+          "min_confidence": null,
+          "max_confidence": null,
+          "expected_hands": 2,
+          "warnings": [
+            "zero_hands: no hands detected",
+            "zero_hands_expected: filename/heuristic expects ~2 visible hand(s)"
+          ],
+          "status": "warn",
+          "hands": []
+        }
+      ]
+    },
+    "visual_status": "PENDING",
+    "hand_counts": null,
+    "notes": ""
+  },
+  {
+    "tag": "case3_5_date_inn_exterior",
+    "png": "cg-case3_5-date-inn-exterior.png",
+    "exists": true,
+    "humans_expected": true,
+    "high_risk": false,
+    "mediapipe": {
+      "generated_at": "2026-06-07T17:19:28.842380+00:00",
+      "mode": "advisory",
+      "min_confidence": 0.5,
+      "summary": {
+        "files": 1,
+        "pass": 0,
+        "warn": 1,
+        "fail": 0
+      },
+      "results": [
+        {
+          "path": "game\\images\\cg\\cg-case3_5-date-inn-exterior.png",
+          "hand_count": 0,
+          "min_confidence": null,
+          "max_confidence": null,
+          "expected_hands": null,
+          "warnings": [
+            "zero_hands: no hands detected"
+          ],
+          "status": "warn",
+          "hands": []
+        }
+      ]
+    },
+    "visual_status": "PENDING",
+    "hand_counts": null,
+    "notes": ""
+  },
+  {
+    "tag": "case3_5_date_kaiseki_duo",
+    "png": "cg-case3_5-date-kaiseki-duo.png",
+    "exists": true,
+    "humans_expected": true,
+    "high_risk": false,
+    "mediapipe": {
+      "generated_at": "2026-06-07T17:19:30.170385+00:00",
+      "mode": "advisory",
+      "min_confidence": 0.5,
+      "summary": {
+        "files": 1,
+        "pass": 1,
+        "warn": 0,
+        "fail": 0
+      },
+      "results": [
+        {
+          "path": "game\\images\\cg\\cg-case3_5-date-kaiseki-duo.png",
+          "hand_count": 2,
+          "min_confidence": 0.9963944554328918,
+          "max_confidence": 0.9976793527603149,
+          "expected_hands": null,
+          "warnings": [],
+          "status": "pass",
+          "hands": [
+            {
+              "label": "Right",
+              "confidence": 0.9963944554328918
+            },
+            {
+              "label": "Left",
+              "confidence": 0.9976793527603149
+            }
+          ]
+        }
+      ]
+    },
+    "visual_status": "PENDING",
+    "hand_counts": null,
+    "notes": ""
+  },
+  {
+    "tag": "case3_5_date_kaoru_hand_cup",
+    "png": "cg-case3_5-date-kaoru-hand-cup.png",
+    "exists": true,
+    "humans_expected": true,
+    "high_risk": false,
+    "mediapipe": {
+      "generated_at": "2026-06-07T17:19:31.427029+00:00",
+      "mode": "advisory",
+      "min_confidence": 0.5,
+      "summary": {
+        "files": 1,
+        "pass": 1,
+        "warn": 0,
+        "fail": 0
+      },
+      "results": [
+        {
+          "path": "game\\images\\cg\\cg-case3_5-date-kaoru-hand-cup.png",
+          "hand_count": 2,
+          "min_confidence": 0.9936801195144653,
+          "max_confidence": 0.9980342388153076,
+          "expected_hands": 2,
+          "warnings": [],
+          "status": "pass",
+          "hands": [
+            {
+              "label": "Left",
+              "confidence": 0.9936801195144653
+            },
+            {
+              "label": "Left",
+              "confidence": 0.9980342388153076
+            }
+          ]
+        }
+      ]
+    },
+    "visual_status": "PENDING",
+    "hand_counts": null,
+    "notes": ""
+  },
+  {
+    "tag": "case3_5_date_lesson",
+    "png": "cg-case3_5-date-lesson.png",
+    "exists": true,
+    "humans_expected": true,
+    "high_risk": true,
+    "mediapipe": {
+      "generated_at": "2026-06-07T17:19:32.923959+00:00",
+      "mode": "advisory",
+      "min_confidence": 0.5,
+      "summary": {
+        "files": 1,
+        "pass": 0,
+        "warn": 1,
+        "fail": 0
+      },
+      "results": [
+        {
+          "path": "game\\images\\cg\\cg-case3_5-date-lesson.png",
+          "hand_count": 0,
+          "min_confidence": null,
+          "max_confidence": null,
+          "expected_hands": null,
+          "warnings": [
+            "zero_hands: no hands detected"
+          ],
+          "status": "warn",
+          "hands": []
+        }
+      ]
+    },
+    "visual_status": "PENDING",
+    "hand_counts": null,
+    "notes": ""
+  },
+  {
+    "tag": "case3_5_date_reassurance",
+    "png": "cg-case3_5-date-reassurance.png",
+    "exists": true,
+    "humans_expected": true,
+    "high_risk": true,
+    "mediapipe": {
+      "generated_at": "2026-06-07T17:19:34.335951+00:00",
+      "mode": "advisory",
+      "min_confidence": 0.5,
+      "summary": {
+        "files": 1,
+        "pass": 0,
+        "warn": 1,
+        "fail": 0
+      },
+      "results": [
+        {
+          "path": "game\\images\\cg\\cg-case3_5-date-reassurance.png",
+          "hand_count": 0,
+          "min_confidence": null,
+          "max_confidence": null,
+          "expected_hands": null,
+          "warnings": [
+            "zero_hands: no hands detected"
+          ],
+          "status": "warn",
+          "hands": []
+        }
+      ]
+    },
+    "visual_status": "PENDING",
+    "hand_counts": null,
+    "notes": ""
+  },
+  {
+    "tag": "case3_5_date_sake_cup",
+    "png": "cg-case3_5-date-sake-cup.png",
+    "exists": true,
+    "humans_expected": true,
+    "high_risk": false,
+    "mediapipe": {
+      "generated_at": "2026-06-07T17:19:35.669020+00:00",
+      "mode": "advisory",
+      "min_confidence": 0.5,
+      "summary": {
+        "files": 1,
+        "pass": 1,
+        "warn": 0,
+        "fail": 0
+      },
+      "results": [
+        {
+          "path": "game\\images\\cg\\cg-case3_5-date-sake-cup.png",
+          "hand_count": 1,
+          "min_confidence": 0.9970269799232483,
+          "max_confidence": 0.9970269799232483,
+          "expected_hands": null,
+          "warnings": [],
+          "status": "pass",
+          "hands": [
+            {
+              "label": "Right",
+              "confidence": 0.9970269799232483
+            }
+          ]
+        }
+      ]
+    },
+    "visual_status": "PENDING",
+    "hand_counts": null,
+    "notes": ""
+  },
+  {
+    "tag": "case3_5_date_silk_fabric",
+    "png": "cg-case3_5-date-silk-fabric.png",
+    "exists": true,
+    "humans_expected": false,
+    "high_risk": false,
+    "mediapipe": null,
+    "visual_status": "PENDING",
+    "hand_counts": null,
+    "notes": ""
+  },
+  {
+    "tag": "case3_5_date_tatami_lanterns",
+    "png": "cg-case3_5-date-tatami-lanterns.png",
+    "exists": true,
+    "humans_expected": true,
+    "high_risk": false,
+    "mediapipe": {
+      "generated_at": "2026-06-07T17:19:36.985219+00:00",
+      "mode": "advisory",
+      "min_confidence": 0.5,
+      "summary": {
+        "files": 1,
+        "pass": 0,
+        "warn": 1,
+        "fail": 0
+      },
+      "results": [
+        {
+          "path": "game\\images\\cg\\cg-case3_5-date-tatami-lanterns.png",
+          "hand_count": 0,
+          "min_confidence": null,
+          "max_confidence": null,
+          "expected_hands": null,
+          "warnings": [
+            "zero_hands: no hands detected"
+          ],
+          "status": "warn",
+          "hands": []
+        }
+      ]
+    },
+    "visual_status": "PENDING",
+    "hand_counts": null,
+    "notes": ""
+  },
+  {
+    "tag": "case3_5_date_toa_lashes",
+    "png": "cg-case3_5-date-toa-lashes.png",
+    "exists": true,
+    "humans_expected": true,
+    "high_risk": false,
+    "mediapipe": {
+      "generated_at": "2026-06-07T17:19:38.250947+00:00",
+      "mode": "advisory",
+      "min_confidence": 0.5,
+      "summary": {
+        "files": 1,
+        "pass": 0,
+        "warn": 1,
+        "fail": 0
+      },
+      "results": [
+        {
+          "path": "game\\images\\cg\\cg-case3_5-date-toa-lashes.png",
+          "hand_count": 0,
+          "min_confidence": null,
+          "max_confidence": null,
+          "expected_hands": null,
+          "warnings": [
+            "zero_hands: no hands detected"
+          ],
+          "status": "warn",
+          "hands": []
+        }
+      ]
+    },
+    "visual_status": "PENDING",
+    "hand_counts": null,
+    "notes": ""
+  },
+  {
+    "tag": "case3_5_date_walk_duo",
+    "png": "cg-case3_5-date-walk-duo.png",
+    "exists": true,
+    "humans_expected": true,
+    "high_risk": false,
+    "mediapipe": {
+      "generated_at": "2026-06-07T17:19:39.546677+00:00",
+      "mode": "advisory",
+      "min_confidence": 0.5,
+      "summary": {
+        "files": 1,
+        "pass": 0,
+        "warn": 1,
+        "fail": 0
+      },
+      "results": [
+        {
+          "path": "game\\images\\cg\\cg-case3_5-date-walk-duo.png",
+          "hand_count": 0,
+          "min_confidence": null,
+          "max_confidence": null,
+          "expected_hands": null,
+          "warnings": [
+            "zero_hands: no hands detected"
+          ],
+          "status": "warn",
+          "hands": []
+        }
+      ]
+    },
+    "visual_status": "PENDING",
+    "hand_counts": null,
+    "notes": ""
+  },
+  {
+    "tag": "case3_5_date_watch_dancers",
+    "png": "cg-case3_5-date-watch-dancers.png",
+    "exists": true,
+    "humans_expected": true,
+    "high_risk": true,
+    "mediapipe": {
+      "generated_at": "2026-06-07T17:19:40.835560+00:00",
+      "mode": "advisory",
+      "min_confidence": 0.5,
+      "summary": {
+        "files": 1,
+        "pass": 0,
+        "warn": 1,
+        "fail": 0
+      },
+      "results": [
+        {
+          "path": "game\\images\\cg\\cg-case3_5-date-watch-dancers.png",
+          "hand_count": 0,
+          "min_confidence": null,
+          "max_confidence": null,
+          "expected_hands": 2,
+          "warnings": [
+            "zero_hands: no hands detected",
+            "zero_hands_expected: filename/heuristic expects ~2 visible hand(s)"
+          ],
+          "status": "warn",
+          "hands": []
+        }
+      ]
+    },
+    "visual_status": "PENDING",
+    "hand_counts": null,
+    "notes": ""
+  },
+  {
+    "tag": "case3_accident_moment",
+    "png": "cg-case3-accident-moment.png",
+    "exists": true,
+    "humans_expected": true,
+    "high_risk": false,
+    "mediapipe": {
+      "generated_at": "2026-06-07T17:19:42.062547+00:00",
+      "mode": "advisory",
+      "min_confidence": 0.5,
+      "summary": {
+        "files": 1,
+        "pass": 0,
+        "warn": 1,
+        "fail": 0
+      },
+      "results": [
+        {
+          "path": "game\\images\\cg\\cg-case3-accident-moment.png",
+          "hand_count": 0,
+          "min_confidence": null,
+          "max_confidence": null,
+          "expected_hands": null,
+          "warnings": [
+            "zero_hands: no hands detected"
+          ],
+          "status": "warn",
+          "hands": []
+        }
+      ]
+    },
+    "visual_status": "PENDING",
+    "hand_counts": null,
+    "notes": ""
+  },
+  {
+    "tag": "case3_fabric_shop",
+    "png": "cg-case3-fabric-shop.png",
+    "exists": true,
+    "humans_expected": false,
+    "high_risk": false,
+    "mediapipe": null,
+    "visual_status": "PENDING",
+    "hand_counts": null,
+    "notes": ""
+  },
+  {
+    "tag": "case3_kaoru_rescue",
+    "png": "cg-case3-kaoru-rescue.png",
+    "exists": true,
+    "humans_expected": true,
+    "high_risk": false,
+    "mediapipe": {
+      "generated_at": "2026-06-07T17:19:43.231504+00:00",
+      "mode": "advisory",
+      "min_confidence": 0.5,
+      "summary": {
+        "files": 1,
+        "pass": 1,
+        "warn": 0,
+        "fail": 0
+      },
+      "results": [
+        {
+          "path": "game\\images\\cg\\cg-case3-kaoru-rescue.png",
+          "hand_count": 2,
+          "min_confidence": 0.9944583773612976,
+          "max_confidence": 0.9958428144454956,
+          "expected_hands": null,
+          "warnings": [],
+          "status": "pass",
+          "hands": [
+            {
+              "label": "Right",
+              "confidence": 0.9958428144454956
+            },
+            {
+              "label": "Right",
+              "confidence": 0.9944583773612976
+            }
+          ]
+        }
+      ]
+    },
+    "visual_status": "PENDING",
+    "hand_counts": null,
+    "notes": ""
+  },
+  {
+    "tag": "case4_5_boat_canal_night",
+    "png": "cg-case4_5-boat-canal-night.png",
+    "exists": true,
+    "humans_expected": true,
+    "high_risk": false,
+    "mediapipe": {
+      "generated_at": "2026-06-07T17:19:44.459745+00:00",
+      "mode": "advisory",
+      "min_confidence": 0.5,
+      "summary": {
+        "files": 1,
+        "pass": 0,
+        "warn": 1,
+        "fail": 0
+      },
+      "results": [
+        {
+          "path": "game\\images\\cg\\cg-case4_5-boat-canal-night.png",
+          "hand_count": 0,
+          "min_confidence": null,
+          "max_confidence": null,
+          "expected_hands": null,
+          "warnings": [
+            "zero_hands: no hands detected"
+          ],
+          "status": "warn",
+          "hands": []
+        }
+      ]
+    },
+    "visual_status": "PENDING",
+    "hand_counts": null,
+    "notes": ""
+  },
+  {
+    "tag": "case4_5_boat_duo_tense",
+    "png": "cg-case4_5-boat-duo-tense.png",
+    "exists": true,
+    "humans_expected": true,
+    "high_risk": false,
+    "mediapipe": {
+      "generated_at": "2026-06-07T17:19:45.713047+00:00",
+      "mode": "advisory",
+      "min_confidence": 0.5,
+      "summary": {
+        "files": 1,
+        "pass": 0,
+        "warn": 1,
+        "fail": 0
+      },
+      "results": [
+        {
+          "path": "game\\images\\cg\\cg-case4_5-boat-duo-tense.png",
+          "hand_count": 0,
+          "min_confidence": null,
+          "max_confidence": null,
+          "expected_hands": null,
+          "warnings": [
+            "zero_hands: no hands detected"
+          ],
+          "status": "warn",
+          "hands": []
+        }
+      ]
+    },
+    "visual_status": "PENDING",
+    "hand_counts": null,
+    "notes": ""
+  },
+  {
+    "tag": "case4_5_boat_hands_gunwale",
+    "png": "cg-case4_5-boat-hands-gunwale-closeup.png",
+    "exists": true,
+    "humans_expected": true,
+    "high_risk": true,
+    "mediapipe": {
+      "generated_at": "2026-06-07T17:19:46.994545+00:00",
+      "mode": "advisory",
+      "min_confidence": 0.5,
+      "summary": {
+        "files": 1,
+        "pass": 1,
+        "warn": 0,
+        "fail": 0
+      },
+      "results": [
+        {
+          "path": "game\\images\\cg\\cg-case4_5-boat-hands-gunwale-closeup.png",
+          "hand_count": 1,
+          "min_confidence": 0.9163535833358765,
+          "max_confidence": 0.9163535833358765,
+          "expected_hands": null,
+          "warnings": [],
+          "status": "pass",
+          "hands": [
+            {
+              "label": "Left",
+              "confidence": 0.9163535833358765
+            }
+          ]
+        }
+      ]
+    },
+    "visual_status": "PENDING",
+    "hand_counts": null,
+    "notes": ""
+  },
+  {
+    "tag": "case4_5_boat_lantern_implied",
+    "png": "cg-case4_5-boat-lantern-implied.png",
+    "exists": true,
+    "humans_expected": true,
+    "high_risk": false,
+    "mediapipe": {
+      "generated_at": "2026-06-07T17:19:50.022181+00:00",
+      "mode": "advisory",
+      "min_confidence": 0.5,
+      "summary": {
+        "files": 1,
+        "pass": 0,
+        "warn": 1,
+        "fail": 0
+      },
+      "results": [
+        {
+          "path": "game\\images\\cg\\cg-case4_5-boat-lantern-implied.png",
+          "hand_count": 0,
+          "min_confidence": null,
+          "max_confidence": null,
+          "expected_hands": null,
+          "warnings": [
+            "zero_hands: no hands detected"
+          ],
+          "status": "warn",
+          "hands": []
+        }
+      ]
+    },
+    "visual_status": "PENDING",
+    "hand_counts": null,
+    "notes": ""
+  },
+  {
+    "tag": "case4_5_boat_lash_rain",
+    "png": "cg-case4_5-boat-lash-rain-closeup.png",
+    "exists": true,
+    "humans_expected": true,
+    "high_risk": false,
+    "mediapipe": {
+      "generated_at": "2026-06-07T17:19:51.119224+00:00",
+      "mode": "advisory",
+      "min_confidence": 0.5,
+      "summary": {
+        "files": 1,
+        "pass": 0,
+        "warn": 1,
+        "fail": 0
+      },
+      "results": [
+        {
+          "path": "game\\images\\cg\\cg-case4_5-boat-lash-rain-closeup.png",
+          "hand_count": 0,
+          "min_confidence": null,
+          "max_confidence": null,
+          "expected_hands": null,
+          "warnings": [
+            "zero_hands: no hands detected"
+          ],
+          "status": "warn",
+          "hands": []
+        }
+      ]
+    },
+    "visual_status": "PENDING",
+    "hand_counts": null,
+    "notes": ""
+  },
+  {
+    "tag": "case4_5_boat_throw_splash",
+    "png": "cg-case4_5-boat-throw-splash.png",
+    "exists": true,
+    "humans_expected": true,
+    "high_risk": false,
+    "mediapipe": {
+      "generated_at": "2026-06-07T17:19:52.321546+00:00",
+      "mode": "advisory",
+      "min_confidence": 0.5,
+      "summary": {
+        "files": 1,
+        "pass": 0,
+        "warn": 1,
+        "fail": 0
+      },
+      "results": [
+        {
+          "path": "game\\images\\cg\\cg-case4_5-boat-throw-splash.png",
+          "hand_count": 0,
+          "min_confidence": null,
+          "max_confidence": null,
+          "expected_hands": null,
+          "warnings": [
+            "zero_hands: no hands detected"
+          ],
+          "status": "warn",
+          "hands": []
+        }
+      ]
+    },
+    "visual_status": "PENDING",
+    "hand_counts": null,
+    "notes": ""
+  },
+  {
+    "tag": "case4_fight_wide",
+    "png": "cg-case4-fight-wide.png",
+    "exists": true,
+    "humans_expected": true,
+    "high_risk": true,
+    "mediapipe": {
+      "generated_at": "2026-06-07T17:19:53.529104+00:00",
+      "mode": "advisory",
+      "min_confidence": 0.5,
+      "summary": {
+        "files": 1,
+        "pass": 0,
+        "warn": 1,
+        "fail": 0
+      },
+      "results": [
+        {
+          "path": "game\\images\\cg\\cg-case4-fight-wide.png",
+          "hand_count": 0,
+          "min_confidence": null,
+          "max_confidence": null,
+          "expected_hands": null,
+          "warnings": [
+            "zero_hands: no hands detected"
+          ],
+          "status": "warn",
+          "hands": []
+        }
+      ]
+    },
+    "visual_status": "PENDING",
+    "hand_counts": null,
+    "notes": ""
+  },
+  {
+    "tag": "case4_gritty_establishing",
+    "png": "cg-case4-gritty-establishing.png",
+    "exists": true,
+    "humans_expected": false,
+    "high_risk": false,
+    "mediapipe": null,
+    "visual_status": "PENDING",
+    "hand_counts": null,
+    "notes": ""
+  },
+  {
+    "tag": "case4_romance_defend",
+    "png": "cg-case4-romance-defend.png",
+    "exists": true,
+    "humans_expected": true,
+    "high_risk": true,
+    "mediapipe": {
+      "generated_at": "2026-06-07T17:19:54.852987+00:00",
+      "mode": "advisory",
+      "min_confidence": 0.5,
+      "summary": {
+        "files": 1,
+        "pass": 1,
+        "warn": 0,
+        "fail": 0
+      },
+      "results": [
+        {
+          "path": "game\\images\\cg\\cg-case4-romance-defend.png",
+          "hand_count": 1,
+          "min_confidence": 0.9606464505195618,
+          "max_confidence": 0.9606464505195618,
+          "expected_hands": null,
+          "warnings": [],
+          "status": "pass",
+          "hands": [
+            {
+              "label": "Left",
+              "confidence": 0.9606464505195618
+            }
+          ]
+        }
+      ]
+    },
+    "visual_status": "PENDING",
+    "hand_counts": null,
+    "notes": ""
+  },
+  {
+    "tag": "case5_bedroom_toy",
+    "png": "cg-case5-bedroom-toy.png",
+    "exists": true,
+    "humans_expected": true,
+    "high_risk": true,
+    "mediapipe": {
+      "generated_at": "2026-06-07T17:19:56.005869+00:00",
+      "mode": "advisory",
+      "min_confidence": 0.5,
+      "summary": {
+        "files": 1,
+        "pass": 0,
+        "warn": 1,
+        "fail": 0
+      },
+      "results": [
+        {
+          "path": "game\\images\\cg\\cg-case5-bedroom-toy.png",
+          "hand_count": 0,
+          "min_confidence": null,
+          "max_confidence": null,
+          "expected_hands": null,
+          "warnings": [
+            "zero_hands: no hands detected"
+          ],
+          "status": "warn",
+          "hands": []
+        }
+      ]
+    },
+    "visual_status": "PENDING",
+    "hand_counts": null,
+    "notes": ""
+  },
+  {
+    "tag": "case5_epilogue_week",
+    "png": "cg-case5-epilogue-week.png",
+    "exists": true,
+    "humans_expected": true,
+    "high_risk": false,
+    "mediapipe": {
+      "generated_at": "2026-06-07T17:19:57.213956+00:00",
+      "mode": "advisory",
+      "min_confidence": 0.5,
+      "summary": {
+        "files": 1,
+        "pass": 0,
+        "warn": 1,
+        "fail": 0
+      },
+      "results": [
+        {
+          "path": "game\\images\\cg\\cg-case5-epilogue-week.png",
+          "hand_count": 0,
+          "min_confidence": null,
+          "max_confidence": null,
+          "expected_hands": null,
+          "warnings": [
+            "zero_hands: no hands detected"
+          ],
+          "status": "warn",
+          "hands": []
+        }
+      ]
+    },
+    "visual_status": "PENDING",
+    "hand_counts": null,
+    "notes": ""
+  },
+  {
+    "tag": "case5_false_exit_office",
+    "png": "cg-case5-false-exit-office.png",
+    "exists": true,
+    "humans_expected": true,
+    "high_risk": false,
+    "mediapipe": {
+      "generated_at": "2026-06-07T17:19:58.565615+00:00",
+      "mode": "advisory",
+      "min_confidence": 0.5,
+      "summary": {
+        "files": 1,
+        "pass": 0,
+        "warn": 1,
+        "fail": 0
+      },
+      "results": [
+        {
+          "path": "game\\images\\cg\\cg-case5-false-exit-office.png",
+          "hand_count": 0,
+          "min_confidence": null,
+          "max_confidence": null,
+          "expected_hands": null,
+          "warnings": [
+            "zero_hands: no hands detected"
+          ],
+          "status": "warn",
+          "hands": []
+        }
+      ]
+    },
+    "visual_status": "PENDING",
+    "hand_counts": null,
+    "notes": ""
+  },
+  {
+    "tag": "case5_hearing_hall",
+    "png": "cg-case5-hearing-hall.png",
+    "exists": true,
+    "humans_expected": true,
+    "high_risk": false,
+    "mediapipe": {
+      "generated_at": "2026-06-07T17:19:59.785773+00:00",
+      "mode": "advisory",
+      "min_confidence": 0.5,
+      "summary": {
+        "files": 1,
+        "pass": 0,
+        "warn": 1,
+        "fail": 0
+      },
+      "results": [
+        {
+          "path": "game\\images\\cg\\cg-case5-hearing-hall.png",
+          "hand_count": 0,
+          "min_confidence": null,
+          "max_confidence": null,
+          "expected_hands": null,
+          "warnings": [
+            "zero_hands: no hands detected"
+          ],
+          "status": "warn",
+          "hands": []
+        }
+      ]
+    },
+    "visual_status": "PENDING",
+    "hand_counts": null,
+    "notes": ""
+  },
+  {
+    "tag": "case5_hearing_kaoru_dais",
+    "png": "cg-case5-hearing-kaoru-dais.png",
+    "exists": true,
+    "humans_expected": true,
+    "high_risk": false,
+    "mediapipe": {
+      "generated_at": "2026-06-07T17:20:00.968496+00:00",
+      "mode": "advisory",
+      "min_confidence": 0.5,
+      "summary": {
+        "files": 1,
+        "pass": 1,
+        "warn": 0,
+        "fail": 0
+      },
+      "results": [
+        {
+          "path": "game\\images\\cg\\cg-case5-hearing-kaoru-dais.png",
+          "hand_count": 1,
+          "min_confidence": 0.998039186000824,
+          "max_confidence": 0.998039186000824,
+          "expected_hands": null,
+          "warnings": [],
+          "status": "pass",
+          "hands": [
+            {
+              "label": "Left",
+              "confidence": 0.998039186000824
+            }
+          ]
+        }
+      ]
+    },
+    "visual_status": "PENDING",
+    "hand_counts": null,
+    "notes": ""
+  },
+  {
+    "tag": "case5_oath_seal_hand",
+    "png": "cg-case5-oath-seal-hand-closeup.png",
+    "exists": true,
+    "humans_expected": true,
+    "high_risk": false,
+    "mediapipe": {
+      "generated_at": "2026-06-07T17:20:02.193741+00:00",
+      "mode": "advisory",
+      "min_confidence": 0.5,
+      "summary": {
+        "files": 1,
+        "pass": 1,
+        "warn": 0,
+        "fail": 0
+      },
+      "results": [
+        {
+          "path": "game\\images\\cg\\cg-case5-oath-seal-hand-closeup.png",
+          "hand_count": 1,
+          "min_confidence": 0.9799108505249023,
+          "max_confidence": 0.9799108505249023,
+          "expected_hands": null,
+          "warnings": [],
+          "status": "pass",
+          "hands": [
+            {
+              "label": "Right",
+              "confidence": 0.9799108505249023
+            }
+          ]
+        }
+      ]
+    },
+    "visual_status": "PENDING",
+    "hand_counts": null,
+    "notes": ""
+  },
+  {
+    "tag": "case5_private_talk",
+    "png": "cg-case5-private-talk.png",
+    "exists": true,
+    "humans_expected": true,
+    "high_risk": false,
+    "mediapipe": {
+      "generated_at": "2026-06-07T17:20:04.408076+00:00",
+      "mode": "advisory",
+      "min_confidence": 0.5,
+      "summary": {
+        "files": 1,
+        "pass": 0,
+        "warn": 1,
+        "fail": 0
+      },
+      "results": [
+        {
+          "path": "game\\images\\cg\\cg-case5-private-talk.png",
+          "hand_count": 0,
+          "min_confidence": null,
+          "max_confidence": null,
+          "expected_hands": null,
+          "warnings": [
+            "zero_hands: no hands detected"
+          ],
+          "status": "warn",
+          "hands": []
+        }
+      ]
+    },
+    "visual_status": "PENDING",
+    "hand_counts": null,
+    "notes": ""
+  },
+  {
+    "tag": "case5_scroll_desk",
+    "png": "cg-case5-scroll-desk.png",
+    "exists": true,
+    "humans_expected": false,
+    "high_risk": false,
+    "mediapipe": null,
+    "visual_status": "PENDING",
+    "hand_counts": null,
+    "notes": ""
+  },
+  {
+    "tag": "case5_yoriki_oath",
+    "png": "cg-case5-yoriki-oath.png",
+    "exists": true,
+    "humans_expected": true,
+    "high_risk": false,
+    "mediapipe": {
+      "generated_at": "2026-06-07T17:20:05.575948+00:00",
+      "mode": "advisory",
+      "min_confidence": 0.5,
+      "summary": {
+        "files": 1,
+        "pass": 1,
+        "warn": 0,
+        "fail": 0
+      },
+      "results": [
+        {
+          "path": "game\\images\\cg\\cg-case5-yoriki-oath.png",
+          "hand_count": 2,
+          "min_confidence": 0.9871383905410767,
+          "max_confidence": 0.989736795425415,
+          "expected_hands": null,
+          "warnings": [],
+          "status": "pass",
+          "hands": [
+            {
+              "label": "Right",
+              "confidence": 0.989736795425415
+            },
+            {
+              "label": "Left",
+              "confidence": 0.9871383905410767
+            }
+          ]
+        }
+      ]
+    },
+    "visual_status": "PENDING",
+    "hand_counts": null,
+    "notes": ""
+  },
+  {
+    "tag": "case_zero_rain_alley_door",
+    "png": "cg-case-zero-rain-alley-door.png",
+    "exists": true,
+    "humans_expected": true,
+    "high_risk": false,
+    "mediapipe": {
+      "generated_at": "2026-06-07T17:20:06.731186+00:00",
+      "mode": "advisory",
+      "min_confidence": 0.5,
+      "summary": {
+        "files": 1,
+        "pass": 0,
+        "warn": 1,
+        "fail": 0
+      },
+      "results": [
+        {
+          "path": "game\\images\\cg\\cg-case-zero-rain-alley-door.png",
+          "hand_count": 0,
+          "min_confidence": null,
+          "max_confidence": null,
+          "expected_hands": null,
+          "warnings": [
+            "zero_hands: no hands detected"
+          ],
+          "status": "warn",
+          "hands": []
+        }
+      ]
+    },
+    "visual_status": "PENDING",
+    "hand_counts": null,
+    "notes": ""
+  },
+  {
+    "tag": "case_zero_redacted_docket",
+    "png": "cg-case-zero-redacted-docket.png",
+    "exists": true,
+    "humans_expected": false,
+    "high_risk": false,
+    "mediapipe": null,
+    "visual_status": "PENDING",
+    "hand_counts": null,
+    "notes": ""
+  },
+  {
+    "tag": "chair_tension",
+    "png": "cg-first-scene-chair-tension.png",
+    "exists": true,
+    "humans_expected": true,
+    "high_risk": false,
+    "mediapipe": {
+      "generated_at": "2026-06-07T17:20:08.118453+00:00",
+      "mode": "advisory",
+      "min_confidence": 0.5,
+      "summary": {
+        "files": 1,
+        "pass": 0,
+        "warn": 1,
+        "fail": 0
+      },
+      "results": [
+        {
+          "path": "game\\images\\cg\\cg-first-scene-chair-tension.png",
+          "hand_count": 0,
+          "min_confidence": null,
+          "max_confidence": null,
+          "expected_hands": null,
+          "warnings": [
+            "zero_hands: no hands detected"
+          ],
+          "status": "warn",
+          "hands": []
+        }
+      ]
+    },
+    "visual_status": "PENDING",
+    "hand_counts": null,
+    "notes": ""
+  },
+  {
+    "tag": "corridor_lost",
+    "png": "cg-first-scene-corridor-lost.png",
+    "exists": true,
+    "humans_expected": true,
+    "high_risk": false,
+    "mediapipe": {
+      "generated_at": "2026-06-07T17:20:09.330571+00:00",
+      "mode": "advisory",
+      "min_confidence": 0.5,
+      "summary": {
+        "files": 1,
+        "pass": 1,
+        "warn": 0,
+        "fail": 0
+      },
+      "results": [
+        {
+          "path": "game\\images\\cg\\cg-first-scene-corridor-lost.png",
+          "hand_count": 1,
+          "min_confidence": 0.9956594109535217,
+          "max_confidence": 0.9956594109535217,
+          "expected_hands": null,
+          "warnings": [],
+          "status": "pass",
+          "hands": [
+            {
+              "label": "Right",
+              "confidence": 0.9956594109535217
+            }
+          ]
+        }
+      ]
+    },
+    "visual_status": "PENDING",
+    "hand_counts": null,
+    "notes": ""
+  },
+  {
+    "tag": "epilogue_kotatsu_warmth",
+    "png": "cg-epilogue-kotatsu-warmth-closeup.png",
+    "exists": true,
+    "humans_expected": true,
+    "high_risk": true,
+    "mediapipe": {
+      "generated_at": "2026-06-07T17:20:10.640080+00:00",
+      "mode": "advisory",
+      "min_confidence": 0.5,
+      "summary": {
+        "files": 1,
+        "pass": 0,
+        "warn": 1,
+        "fail": 0
+      },
+      "results": [
+        {
+          "path": "game\\images\\cg\\cg-epilogue-kotatsu-warmth-closeup.png",
+          "hand_count": 0,
+          "min_confidence": null,
+          "max_confidence": null,
+          "expected_hands": null,
+          "warnings": [
+            "zero_hands: no hands detected"
+          ],
+          "status": "warn",
+          "hands": []
+        }
+      ]
+    },
+    "visual_status": "PENDING",
+    "hand_counts": null,
+    "notes": ""
+  },
+  {
+    "tag": "epilogue_romance_kotatsu_intimate",
+    "png": "cg-epilogue-romance-kotatsu-intimate.png",
+    "exists": true,
+    "humans_expected": true,
+    "high_risk": true,
+    "mediapipe": {
+      "generated_at": "2026-06-07T17:20:11.891562+00:00",
+      "mode": "advisory",
+      "min_confidence": 0.5,
+      "summary": {
+        "files": 1,
+        "pass": 0,
+        "warn": 1,
+        "fail": 0
+      },
+      "results": [
+        {
+          "path": "game\\images\\cg\\cg-epilogue-romance-kotatsu-intimate.png",
+          "hand_count": 0,
+          "min_confidence": null,
+          "max_confidence": null,
+          "expected_hands": null,
+          "warnings": [
+            "zero_hands: no hands detected"
+          ],
+          "status": "warn",
+          "hands": []
+        }
+      ]
+    },
+    "visual_status": "PENDING",
+    "hand_counts": null,
+    "notes": ""
+  },
+  {
+    "tag": "gameover_case1_punishment_desk",
+    "png": "cg-case1-bad-punishment-desk.png",
+    "exists": true,
+    "humans_expected": true,
+    "high_risk": true,
+    "mediapipe": {
+      "generated_at": "2026-06-07T17:20:13.235442+00:00",
+      "mode": "advisory",
+      "min_confidence": 0.5,
+      "summary": {
+        "files": 1,
+        "pass": 1,
+        "warn": 0,
+        "fail": 0
+      },
+      "results": [
+        {
+          "path": "game\\images\\cg\\cg-case1-bad-punishment-desk.png",
+          "hand_count": 1,
+          "min_confidence": 0.9743092060089111,
+          "max_confidence": 0.9743092060089111,
+          "expected_hands": null,
+          "warnings": [],
+          "status": "pass",
+          "hands": [
+            {
+              "label": "Right",
+              "confidence": 0.9743092060089111
+            }
+          ]
+        }
+      ]
+    },
+    "visual_status": "PENDING",
+    "hand_counts": null,
+    "notes": ""
+  },
+  {
+    "tag": "gameover_case1_punishment_floor",
+    "png": "cg-case1-bad-punishment-floor.png",
+    "exists": true,
+    "humans_expected": true,
+    "high_risk": true,
+    "mediapipe": {
+      "generated_at": "2026-06-07T17:20:14.586250+00:00",
+      "mode": "advisory",
+      "min_confidence": 0.5,
+      "summary": {
+        "files": 1,
+        "pass": 1,
+        "warn": 0,
+        "fail": 0
+      },
+      "results": [
+        {
+          "path": "game\\images\\cg\\cg-case1-bad-punishment-floor.png",
+          "hand_count": 1,
+          "min_confidence": 0.916773796081543,
+          "max_confidence": 0.916773796081543,
+          "expected_hands": null,
+          "warnings": [],
+          "status": "pass",
+          "hands": [
+            {
+              "label": "Right",
+              "confidence": 0.916773796081543
+            }
+          ]
+        }
+      ]
+    },
+    "visual_status": "PENDING",
+    "hand_counts": null,
+    "notes": ""
+  },
+  {
+    "tag": "gameover_case1_punishment_hands",
+    "png": "cg-case1-bad-punishment-hands.png",
+    "exists": true,
+    "humans_expected": true,
+    "high_risk": true,
+    "mediapipe": {
+      "generated_at": "2026-06-07T17:20:15.891429+00:00",
+      "mode": "advisory",
+      "min_confidence": 0.5,
+      "summary": {
+        "files": 1,
+        "pass": 0,
+        "warn": 1,
+        "fail": 0
+      },
+      "results": [
+        {
+          "path": "game\\images\\cg\\cg-case1-bad-punishment-hands.png",
+          "hand_count": 0,
+          "min_confidence": null,
+          "max_confidence": null,
+          "expected_hands": 2,
+          "warnings": [
+            "zero_hands: no hands detected",
+            "zero_hands_expected: filename/heuristic expects ~2 visible hand(s)"
+          ],
+          "status": "warn",
+          "hands": []
+        }
+      ]
+    },
+    "visual_status": "PENDING",
+    "hand_counts": null,
+    "notes": ""
+  },
+  {
+    "tag": "gameover_case1_punishment_shoji",
+    "png": "cg-case1-bad-punishment-shoji.png",
+    "exists": true,
+    "humans_expected": true,
+    "high_risk": true,
+    "mediapipe": {
+      "generated_at": "2026-06-07T17:20:17.378981+00:00",
+      "mode": "advisory",
+      "min_confidence": 0.5,
+      "summary": {
+        "files": 1,
+        "pass": 0,
+        "warn": 1,
+        "fail": 0
+      },
+      "results": [
+        {
+          "path": "game\\images\\cg\\cg-case1-bad-punishment-shoji.png",
+          "hand_count": 0,
+          "min_confidence": null,
+          "max_confidence": null,
+          "expected_hands": null,
+          "warnings": [
+            "zero_hands: no hands detected"
+          ],
+          "status": "warn",
+          "hands": []
+        }
+      ]
+    },
+    "visual_status": "PENDING",
+    "hand_counts": null,
+    "notes": ""
+  },
+  {
+    "tag": "gameover_case4_5_boat",
+    "png": "cg-case4_5-bad-boat-injury.png",
+    "exists": true,
+    "humans_expected": true,
+    "high_risk": false,
+    "mediapipe": {
+      "generated_at": "2026-06-07T17:20:18.684227+00:00",
+      "mode": "advisory",
+      "min_confidence": 0.5,
+      "summary": {
+        "files": 1,
+        "pass": 0,
+        "warn": 1,
+        "fail": 0
+      },
+      "results": [
+        {
+          "path": "game\\images\\cg\\cg-case4_5-bad-boat-injury.png",
+          "hand_count": 0,
+          "min_confidence": null,
+          "max_confidence": null,
+          "expected_hands": null,
+          "warnings": [
+            "zero_hands: no hands detected"
+          ],
+          "status": "warn",
+          "hands": []
+        }
+      ]
+    },
+    "visual_status": "PENDING",
+    "hand_counts": null,
+    "notes": ""
+  },
+  {
+    "tag": "gameover_case4_slayn",
+    "png": "cg-case4-bad-slayn.png",
+    "exists": true,
+    "humans_expected": true,
+    "high_risk": false,
+    "mediapipe": {
+      "generated_at": "2026-06-07T17:20:19.937541+00:00",
+      "mode": "advisory",
+      "min_confidence": 0.5,
+      "summary": {
+        "files": 1,
+        "pass": 1,
+        "warn": 0,
+        "fail": 0
+      },
+      "results": [
+        {
+          "path": "game\\images\\cg\\cg-case4-bad-slayn.png",
+          "hand_count": 1,
+          "min_confidence": 0.992314338684082,
+          "max_confidence": 0.992314338684082,
+          "expected_hands": null,
+          "warnings": [],
+          "status": "pass",
+          "hands": [
+            {
+              "label": "Left",
+              "confidence": 0.992314338684082
+            }
+          ]
+        }
+      ]
+    },
+    "visual_status": "PENDING",
+    "hand_counts": null,
+    "notes": ""
+  },
+  {
+    "tag": "gameover_case5_chained",
+    "png": "cg-case5-bad-chained.png",
+    "exists": true,
+    "humans_expected": false,
+    "high_risk": false,
+    "mediapipe": null,
+    "visual_status": "PENDING",
+    "hand_counts": null,
+    "notes": ""
+  },
+  {
+    "tag": "gameover_case5_quarter_cage",
+    "png": "cg-case5-bad-quarter-cage.png",
+    "exists": true,
+    "humans_expected": true,
+    "high_risk": false,
+    "mediapipe": {
+      "generated_at": "2026-06-07T17:20:21.118662+00:00",
+      "mode": "advisory",
+      "min_confidence": 0.5,
+      "summary": {
+        "files": 1,
+        "pass": 1,
+        "warn": 0,
+        "fail": 0
+      },
+      "results": [
+        {
+          "path": "game\\images\\cg\\cg-case5-bad-quarter-cage.png",
+          "hand_count": 1,
+          "min_confidence": 0.9632084369659424,
+          "max_confidence": 0.9632084369659424,
+          "expected_hands": null,
+          "warnings": [],
+          "status": "pass",
+          "hands": [
+            {
+              "label": "Left",
+              "confidence": 0.9632084369659424
+            }
+          ]
+        }
+      ]
+    },
+    "visual_status": "PENDING",
+    "hand_counts": null,
+    "notes": ""
+  },
+  {
+    "tag": "office_dance",
+    "png": "cg-first-scene-office-dance.png",
+    "exists": true,
+    "humans_expected": true,
+    "high_risk": true,
+    "mediapipe": {
+      "generated_at": "2026-06-07T17:20:22.347704+00:00",
+      "mode": "advisory",
+      "min_confidence": 0.5,
+      "summary": {
+        "files": 1,
+        "pass": 0,
+        "warn": 1,
+        "fail": 0
+      },
+      "results": [
+        {
+          "path": "game\\images\\cg\\cg-first-scene-office-dance.png",
+          "hand_count": 1,
+          "min_confidence": 0.98566734790802,
+          "max_confidence": 0.98566734790802,
+          "expected_hands": 2,
+          "warnings": [
+            "hand_count_mismatch: detected 1, expected 2"
+          ],
+          "status": "warn",
+          "hands": [
+            {
+              "label": "Left",
+              "confidence": 0.98566734790802
+            }
+          ]
+        }
+      ]
+    },
+    "visual_status": "PENDING",
+    "hand_counts": null,
+    "notes": ""
+  },
+  {
+    "tag": "permit_desk",
+    "png": "cg-first-scene-permit-desk.png",
+    "exists": true,
+    "humans_expected": true,
+    "high_risk": false,
+    "mediapipe": {
+      "generated_at": "2026-06-07T17:20:23.596521+00:00",
+      "mode": "advisory",
+      "min_confidence": 0.5,
+      "summary": {
+        "files": 1,
+        "pass": 0,
+        "warn": 1,
+        "fail": 0
+      },
+      "results": [
+        {
+          "path": "game\\images\\cg\\cg-first-scene-permit-desk.png",
+          "hand_count": 0,
+          "min_confidence": null,
+          "max_confidence": null,
+          "expected_hands": null,
+          "warnings": [
+            "zero_hands: no hands detected"
+          ],
+          "status": "warn",
+          "hands": []
+        }
+      ]
+    },
+    "visual_status": "PENDING",
+    "hand_counts": null,
+    "notes": ""
+  },
+  {
+    "tag": "prologue_wrong_door",
+    "png": "cg-prologue-wrong-door.png",
+    "exists": true,
+    "humans_expected": true,
+    "high_risk": false,
+    "mediapipe": {
+      "generated_at": "2026-06-07T17:20:24.833946+00:00",
+      "mode": "advisory",
+      "min_confidence": 0.5,
+      "summary": {
+        "files": 1,
+        "pass": 1,
+        "warn": 0,
+        "fail": 0
+      },
+      "results": [
+        {
+          "path": "game\\images\\cg\\cg-prologue-wrong-door.png",
+          "hand_count": 1,
+          "min_confidence": 0.9963081479072571,
+          "max_confidence": 0.9963081479072571,
+          "expected_hands": null,
+          "warnings": [],
+          "status": "pass",
+          "hands": [
+            {
+              "label": "Left",
+              "confidence": 0.9963081479072571
+            }
+          ]
+        }
+      ]
+    },
+    "visual_status": "PENDING",
+    "hand_counts": null,
+    "notes": ""
+  }
+]

@@ -21,3 +21,11 @@ image cg au_modern_epilogue_replaced_phone = At("images/cg/cg-au-modern-epilogue
 image cg au_modern_epilogue_witness_posture = At("images/cg/cg-au-modern-epilogue-witness-posture.png", fit_cg)
 image cg au_modern_epilogue_audit_count = At("images/cg/cg-au-modern-epilogue-audit-count.png", fit_cg)
 image cg au_modern_epilogue_blank_row = At("images/cg/cg-au-modern-epilogue-blank-row.png", fit_cg)
+# Added 2026-06-07 (pass 4): harbor-home piano callback (the kept surplus studio piano; ties to
+#   the Case 1 ballet scene), clementine-peel hand-off (about-to-kiss), curve-pull (tasteful
+#   sensual), "standing item" settled close, and the three-business-days joke-branch banter.
+image cg au_modern_epilogue_harbor_piano = At("images/cg/cg-au-modern-epilogue-harbor-piano.png", fit_cg)
+image cg au_modern_epilogue_clementine_peel = At("images/cg/cg-au-modern-epilogue-clementine-peel.png", fit_cg)
+image cg au_modern_epilogue_curve_pull = At("images/cg/cg-au-modern-epilogue-curve-pull.png", fit_cg)
+image cg au_modern_epilogue_standing_item = At("images/cg/cg-au-modern-epilogue-standing-item.png", fit_cg)
+image cg au_modern_epilogue_three_days_joke = At("images/cg/cg-au-modern-epilogue-three-days-joke.png", fit_cg)

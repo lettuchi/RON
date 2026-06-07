@@ -1,0 +1,30 @@
+{
+  "generated_at": "2026-06-07T17:18:38.118957+00:00",
+  "mode": "advisory",
+  "min_confidence": 0.5,
+  "summary": {
+    "files": 1,
+    "pass": 0,
+    "warn": 1,
+    "fail": 0
+  },
+  "results": [
+    {
+      "path": "game\\images\\cg\\cg-badend-brothel-grasp.png",
+      "hand_count": 1,
+      "min_confidence": 0.9691249132156372,
+      "max_confidence": 0.9691249132156372,
+      "expected_hands": 2,
+      "warnings": [
+        "hand_count_mismatch: detected 1, expected 2"
+      ],
+      "status": "warn",
+      "hands": [
+        {
+          "label": "Left",
+          "confidence": 0.9691249132156372
+        }
+      ]
+    }
+  ]
+}

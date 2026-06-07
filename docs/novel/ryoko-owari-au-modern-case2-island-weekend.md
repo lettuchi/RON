@@ -54,7 +54,7 @@ Toa laughed into her palm and then swallowed the laugh, because Kaoru was watchi
 
 She typed: *not a date. contract says not romance on letterhead. send snacks.*
 
-Sango sent back a string of emojis that translated, in any language and any jurisdiction, as *sure, Jan.* Toa locked the phone and turned to face the weekend like a witness who had been called but not yet sworn in.
+Sango sent back a string of emojis that translated, in any language and any jurisdiction, as *sure, Jan.* And she was not wrong, which was the whole joke and the whole ache of it. The contract said *not romance on letterhead*, and the contract was the most romantic thing anyone had ever written about Toa in her life. That was the trick she had finally learned to read: they filed the courtship as procedure precisely so that neither of them ever had to admit it was a courtship. The rider was the flirting. The audit was the date. *Not romance on letterhead* was simply the most elaborate way two careful people had ever found to keep from saying a word out loud, and she had stopped being insulted by it somewhere around the service elevator, because she had started to understand it as a kind of custody instead of a kind of lie. Toa locked the phone and turned to face the weekend like a witness who had been called but not yet sworn in.
 
 ---
 
@@ -147,6 +147,10 @@ On the balcony his blanket from the sofa draped her shoulders, a loan against th
 "And none of that is romance on letterhead," Toa said.
 
 "None of it is romance on letterhead," he agreed. "Which happens to be the only sentence in the entire file that is true, and the only one the internet refuses to read."
+
+"I keep thinking about the studio," she said, because the salt air made her braver than the tower ever did. "The afternoon you put down the clipboard and played the piano so I could take class. You stopped counting and started listening, and you have been a different kind of careful with me ever since. That is also not on any letterhead. I checked the file twice."
+
+He was quiet long enough that the harbor filed three more waves against the pilings. "The piano is not in the record," he said at last. "Neither is the reason I sat down at it. Some deliverables I keep in the drawer with no label, where the board cannot ask me to explain them." A pause, which from him was a paragraph. "You are filed in that drawer. So is the afternoon. I do not intend to move either of you out of it for anyone holding a clip."
 
 His fingers found hers on the cold railing, laced for a moment, then separated as if the gesture had been caught on a feed. "Do not post *is this a date* with my badge in the frame," he said. "The board can survive a rumor. It cannot survive a caption."
 

@@ -94,7 +94,77 @@ When she chose soft instead, on that same private replay, the corridor still fil
 
 There was no body in the aromatherapy closet. No scandal worth a tram ad, no headline about fraud, none of the television violence Toa had braced for on the walk over. That was the point, and it took her half the morning to recognize it as a point and not an anticlimax. Modern Ryoko Port saved its drama for permits. The danger here was not a knife. The danger was a clause. Toa filmed a mislabeled fire exit, a cluster of candles arranged to be, technically, not seating, and a staff break room where someone's actual lunch smelled like real curry instead of wellness tea, a small honest crime she filed with private affection. Kaoru wrote citations the way other people wrote grocery lists, one line each, no adjectives, every one of them a thread running straight up from his clipboard to the board that could vote a storefront's license closed.
 
-Back at the licensing tower, the inspection closed without blood and without bodies, with three minor citations that would leave the office as polite emails and arrive at Scorpion-grey Holdings LLC as the first soft knock of an enforcement file. Nothing revoked today. Everything noted, for the day it might be.
+---
+
+He did not take her back to the tower right away. He took her to a studio.
+
+It was the city's, rented by the hour, the same kind of room he had once made her audition in to earn the signature she now carried: a mirror wall, a barre bolted along it, rain ticking the glass like a clerk tapping a stamp against an ink pad. The only thing in it she had not seen in a hundred rooms exactly like it was the upright piano against the far wall, municipal brown, a half-step out of tune, the lid already up as if it had been waiting all morning for someone with a reason.
+
+"Your witness clause runs both directions today," Kaoru said, which was not a sentence she had ever expected to hear in his voice. "You have documented four of my inspections. An auditor who has never seen the deliverable cannot certify it. So I am here to witness one of yours. Run a class. I will sit where I can see you and the mirror."
+
+She stared at him. "You want to witness a whole ballet class. Barre to reverence. Most of it is in French and none of it will hold still for your clipboard."
+
+"Then translate as you go. I have audited stranger languages than yours, and most of them were also hiding something in the footnotes."
+
+So she gave him the structure, the way she would have given it to any inspector who asked, because narrating the next step was the only thing that kept her hands from apologizing for the room. Barre first, she told him, because the barre warms the instrument, slow before fast and small before large. Plié, to bend. Tendu, to stretch the foot along the floor without lifting it. Dégagé, the same stretch let off the ground. Rond de jambe, the toe drawing its patient half circle on the floor. Then fondu and frappé, and grand battement at the very end, the leg thrown up and snapped down like an objection nobody bothered to sustain. The order was not negotiable, she said. Even the Council would approve of the order.
+
+He counted her under his breath, low and even, the way he had counted her once before in this exact kind of room, the way he counted witnesses through a doorway and never the way an audience counted down to applause. Plié and recover. Tendu front, side, back. Somewhere in the rond de jambe she stopped dancing *at* the witness and simply worked, honest as the mirror, and she watched him register the difference in the glass and file it where he filed the things he had decided to keep.
+
+For the centre she set her phone on the barre to play the accompaniment, a tinny recording through a speaker that had survived three tours and two airport security bins. Kaoru looked at it the way he looked at a capacity chart that had already lied to him once.
+
+"That is a recording," he said. "A recording cannot tell whether you are early or whether you are apologizing. It plays the same eight bars at the same tempo whether you are a witness or a liability. It is a metronome that forgot it was ever supposed to be a human."
+
+"And you could do better, Deputy Director-sama." She propped a hand on the barre. "You, who count witness work out loud and call it a duty."
+
+"I read music. It is mostly counting with better penmanship and a key signature where the case number goes."
+
+And then he did the thing she had spent two episodes failing to make him do across a desk. He stood, crossed the room, took off the charcoal jacket and folded it over the barre with more care than he gave most applicants, rolled his sleeves to the forearm, and sat down at the municipal piano as if it were one more office the Council had assigned him. He set the stamp down, figuratively and then, when he laid his phone face-down on the lid, very nearly literally. He met her on her floor, in her medium, in the one room in Ryoko Port where no signature he owned was worth a single thing.
+
+"Then take a ticket, the way a class accompanist does," she said, and her voice did something unsteady on the word *ticket*, because handing Kitsu Kaoru a form to fill out was the most natural intimacy she had. "A répétiteur plays the dancer's instruction the way you read a filing. I hand you meter, tempo, quality, count. Adagio: a slow waltz, three-four time, smooth, thirty-two counts. Then play it like you mean it, not like you are proving the meter is compliant."
+
+"Three-four," he repeated. "Slow. Thirty-two. Noted."
+
+He played it correctly. That was the first and worst thing about it. Every bar squared to the edge like a citation, the left-hand vamp landing flat on the downbeat like a stamp instead of a breath, a man performing the meter to prove the meter existed and could be enforced. She danced the adagio to it anyway, développé and promenade and the long arabesque line drawn out to where balance turned honest, and it was *fine*, and *fine* was the single most insulting word in either of their vocabularies.
+
+She did not stop to correct him. She corrected him the way the body corrects, which is the only way that ever takes. She lifted into the développé a fraction early and let her arm finish the phrase his hand had clipped short, teaching him with her spine the thing the file could not put into French: that the music was not the count. The music was what the count was *for*.
+
+And somewhere in the second pass, it happened. The small unscheduled thing. He stopped playing the count and started playing *her*. His left hand found the breath underneath the three-four and held the dancer instead of the meter. When she suspended at the top of the développé he waited for her, the chord hanging in the rain-light until her balance asked for the next one, and he gave it to her exactly when she needed it and not a beat before. He was not a metronome anymore. He was listening. He was, against every clause he had ever drafted, *accompanying* her.
+
+She felt it the way you feel a room change temperature. The piano stopped telling her what the tempo was and started asking her what she wanted it to be, and then answering. For eight bars the Deputy Director of the Office of Arts & Licensing was nobody's signatory of record. He was only the man at the piano who had decided, mid-phrase, to meet her where she actually lived, and the meeting cost him something she could see in his jaw and would never be allowed to log.
+
+"You changed it," she said, when the phrase resolved. Her chest hurt in a way that had nothing to do with the cardio. "You stopped counting and started listening. Those are not the same skill. The first one keeps time. The second one keeps *me*."
+
+"A recording cannot do the second one," he said, not looking up from the keys. "I find I object to being outperformed by a speaker that survived three tours. File it under professional pride and let it stay there."
+
+"I will file it wherever lets you keep doing it."
+
+She ran the rest of the centre to his hands, because his hands had become the only accompaniment she wanted: pirouettes that found their spot because he gave her a downbeat clean enough to spot to, petit allegro snapped tight to a brisk two-four march, grand allegro carried clear across the floor on a waltz that finally let her leave the ground like she meant it instead of like she was apologizing for the lift. He watched and played at once, witness and accompaniment collapsed into one man in rolled sleeves, which she would not have believed of him ninety minutes ago.
+
+"Grand allegro," he said. "You travel, I give you the bars to land in. Do not apologize on the descent. The descent is the part the board never watches and the only part that can hurt you."
+
+"Noted, Deputy Director-sama. I will land like I am allowed to be in the room."
+
+When the class wound down he slowed without being asked, into something low and adagio, and she understood that he had read far enough into the file to know what came last.
+
+Reverence. The end of every class. A bow to the teacher, and a bow to the accompanist, because a dancer never thanks the audience first; she thanks the two people who actually held the room. There was no audience here. There was no teacher. There was only the accompanist, in a charcoal waistcoat with his sleeves rolled, letting the last chord ring out under the rain.
+
+She curtsied to the piano. To him. And he did not deny the bow. He did not rule against it, did not reach yet for the jacket folded over the barre or the title that lived in its breast pocket. For the length of one held chord he was only the man she had thanked, and he let himself be thanked, on no letterhead at all.
+
+"I played the first eight bars badly," he said, finally lifting his hands.
+
+"The bad eight bars are how I know the good ones were real," she said. "Motion to strike denied. I am keeping the whole take."
+
+He rolled his sleeves back down and refastened the cuffs and reassembled the Deputy Director one button at a time, but he was slower about it than the file required, and she saw that too, and said nothing, because some witness work is kinder kept off the record.
+
+"None of what just happened goes in the report," he said at the door. "A studio with a piano is not a deliverable the Council keeps a box for."
+
+"Then it stays off letterhead," she said. "Like everything else you actually mean. I am learning the filing system. The real things go in the drawer with no label, and you guard that drawer harder than you guard the seal."
+
+He did not confirm it. He held the studio door for her the way a gate holds weather, and the almost-smile got as far as his eyes before he filed it, and for once the filing took a visible second longer than it should have.
+
+---
+
+Back at the licensing tower, the inspection closed without blood and without bodies, with three minor citations that would leave the office as polite emails and arrive at Scorpion-grey Holdings LLC as the first soft knock of an enforcement file. Nothing revoked today. Everything noted, for the day it might be. He booked the harbor weekend that same afternoon, and she would wonder, much later, whether the piano had moved the date up by a week.
 
 "You passed witness work," Kaoru said, capping his pen. "That is not a compliment. It is a classification. The office classifies. It does not applaud."
 
@@ -158,7 +228,13 @@ He could have run the inspection alone. Deputy Saito would have signed off on a 
 
 She had filed three rooms in the time the host took to find a sprinkler map. She had held firm with her hands shaking and had not once tried to hide the shaking, which was the entire difference between a witness and a liability. He had noticed. He had said so. He had then, with considerable administrative discipline, declined to say the rest.
 
-The harbor invite he would defend, if anyone asked, as continued witness-work and a compliance audit, hours logged, line item clean. That was even true. It was also the most honest thing he had done in a year, because he had filed it where the city could see it instead of in the dark: on the portal, on the office calendar, on the Council calendar, where it would sit until someone, someday, pulled the record and read his Saturday on official letterhead. Let them. He had decided he would rather be audited than be a secret. He had not yet decided to say that part out loud, so he filed the decision under *later*, next to the almost-smile, next to the clementines he kept on the armrest and denied noticing, next to every other thing he intended to keep until the port stopped trying to sell it.
+He had not planned the studio. That was the part that bothered him, afterward, more than the harbor invite. He planned everything; it was the only verb his title truly required. He had taken her there telling himself it was the clause, the witness running both directions, a deliverable he had a defensible reason to certify. Then she had handed him the recording and he had heard a metronome that had forgotten it was supposed to be a human, and some part of him that he had spent a career filing under *not applicable* had stood up, crossed the room, and taken off the jacket.
+
+He had played it correctly first. Correctly was safe. Correctly was a man proving the meter existed and could be enforced, the same thing he did to a hearing, to a corridor, to her. And then she had lifted early and finished his clipped phrase with her own arm, and he had understood, with the cold clarity he usually reserved for spotting the lie in a capacity chart, that *correct* was the insult and not the standard. So he had stopped keeping time and started keeping her. He had no form for what that was. He knew only that the recording could not do it, and that he had objected, on instinct, to being outperformed by a speaker, and that the objection had been a lie covering something he was not prepared to file yet.
+
+She had curtsied to the piano. To him. A bow to the accompanist, she had explained, because a dancer never thanks the audience first. He had let himself be thanked, on no letterhead at all, for the length of one held chord, and then he had put the Deputy Director back on one button at a time, slower than the file required. That was the moment, if anyone ever subpoenaed him for one, that the sponsorship stopped being the reason. He did not write it down. He drove the date up by a week instead, and called that scheduling, the way he called everything that frightened him scheduling.
+
+The harbor invite he would defend, if anyone asked, as continued witness-work and a compliance audit, hours logged, line item clean. That was even true. It was also the most honest thing he had done in a year, because he had filed it where the city could see it instead of in the dark: on the portal, on the office calendar, on the Council calendar, where it would sit until someone, someday, pulled the record and read his Saturday on official letterhead. Let them. He had decided he would rather be audited than be a secret. He had not yet decided to say that part out loud, so he filed the decision under *later*, next to the almost-smile, next to the clementines he kept on the armrest and denied noticing, next to the out-of-tune studio piano he was already, privately, thinking of as his, next to every other thing he intended to keep until the port stopped trying to sell it.
 
 ---
 

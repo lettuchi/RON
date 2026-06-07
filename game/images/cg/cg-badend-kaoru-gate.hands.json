@@ -1,0 +1,32 @@
+{
+  "generated_at": "2026-06-07T17:18:44.455845+00:00",
+  "mode": "advisory",
+  "min_confidence": 0.5,
+  "summary": {
+    "files": 1,
+    "pass": 1,
+    "warn": 0,
+    "fail": 0
+  },
+  "results": [
+    {
+      "path": "game\\images\\cg\\cg-badend-kaoru-gate.png",
+      "hand_count": 2,
+      "min_confidence": 0.919274091720581,
+      "max_confidence": 0.9902733564376831,
+      "expected_hands": null,
+      "warnings": [],
+      "status": "pass",
+      "hands": [
+        {
+          "label": "Right",
+          "confidence": 0.9902733564376831
+        },
+        {
+          "label": "Left",
+          "confidence": 0.919274091720581
+        }
+      ]
+    }
+  ]
+}
