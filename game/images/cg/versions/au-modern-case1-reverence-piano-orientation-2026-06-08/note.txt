@@ -1,0 +1,5 @@
+﻿Regen 2026-06-08: piano orientation fix for au_modern_case1_reverence.
+Wrong: bench on centre-floor side of keyboard (pianist back to mirror wall) OR keyboard/piano flipped.
+Correct: brown upright back on RIGHT wall, keyboard faces LEFT, bench between keys and rain windows, Kaoru back to windows facing keys (matches piano-lookup).
+Final art: GenerateImage with piano-lookup + piano-sit + AU turnaround refs (NovelAI presets added but GenerateImage pass selected for composition).
+Preset: scripts/novelai_prompts.json -> au_modern_case1_reverence

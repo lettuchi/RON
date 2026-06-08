@@ -46,7 +46,9 @@ If `NOVELAI_API_KEY` is missing: explain setup, run `--dry-run` only, do **not**
 
 **Resolution:** Wallpaper landscape `1920×1088` (NovelAI max wallpaper; within 2048×1536 cap). Do not assume arbitrary 1920×1080 unless API accepts it; script defaults to 1920×1088.
 
-**Parameters used:** `width`, `height`, `steps`, `scale` (CFG), `sampler` (`k_euler_ancestral`), `negative_prompt`, `n_samples: 1`, `qualityToggle: true`. SMEA auto-applies at high res per NovelAI docs.
+**Parameters used:** `width`, `height`, `steps`, `scale` (CFG), `sampler` (`k_euler_ancestral`), `negative_prompt`, `n_samples: 1`, `qualityToggle: true`. **SMEA off** in this CLI (`sm: false`, `sm_dyn: false`) — NovelAI’s web UI can auto-enable SMEA above 1024×1024; our 1536×1024 runs use standard sampling unless you change the script.
+
+**Character Precise Reference defaults:** `ref_strength` / `ref_fidelity` = **1.0** (max; `director_reference_strength_values` and `1 - fidelity` → secondary 0.0). Style refs use `_meta.style_ref_strength` / `style_ref_fidelity` separately.
 
 **Style tags:** `_meta.style_tags` / `style_negative` prepended to all presets — painterly dark otome look, anti-chibi/cartoon. See [docs/novelai-image-pipeline.md](../../docs/novelai-image-pipeline.md#painterly-style-anti-cartoon).
 
@@ -127,25 +129,39 @@ Override generation: `--width`, `--height`, `--steps`, `--scale`, `--sampler`, `
 
 | Character | Path | Size |
 |-----------|------|------|
-| Toa | `game/images/reference/toa-precise-reference.png` | 1536×1024 |
-| Kaoru | `game/images/reference/kaoru-precise-reference.png` | 1536×1024 |
+| Toa (work) | `game/images/reference/toa-precise-reference.png` | 1536×1024 |
+| Toa (date) | `game/images/reference/toa-date-precise-reference.png` | 1536×1024 |
+| Kaoru (ponytail) | `game/images/reference/kaoru-precise-reference.png` | 1536×1024 |
+| Kaoru (hair-down) | `game/images/reference/kaoru-hair-down-precise-reference.png` | 1536×1024 |
+| Toa (Modern AU tracksuit) | `docs/art-references/au-modern/toa-au-modern-tracksuit-turnaround-reference.png` | 1536×1024 |
+| Kaoru (Modern AU suit) | `docs/art-references/au-modern/kaoru-au-modern-suit-turnaround-reference.png` | 1536×1024 |
+
+All Precise Reference sheets use a **2×2 turnaround** (front / back / side / face) on plain grey — see `vn-art-pipeline` skill.
 
 `_meta.char_ref_sprites` in `novelai_prompts.json` points here (not neutral sprites). Regenerate when sprites/outfits change — see [docs/novelai-image-pipeline.md](../../docs/novelai-image-pipeline.md#character-precise-reference-files-canonical).
 
-**Regen via Cursor:** `GenerateImage` + `reference_image_paths`: `game/images/sprites/toa/toa-neutral.png`, `game/images/sprites/kaoru/kaoru-smirk.png` — full-body neutral, plain background, Hakuoki style.
+**Regen via Cursor:** `GenerateImage` + sprite/CG anchors — turnaround model sheet, plain background, Hakuoki style.
 
 **Regen via NovelAI:**
 
 ```bash
 python scripts/generate_novelai_image.py --dry-run --preset toa_ref
 python scripts/generate_novelai_image.py --preset toa_ref
+python scripts/generate_novelai_image.py --dry-run --preset toa_date_ref
+python scripts/generate_novelai_image.py --preset toa_date_ref
 python scripts/generate_novelai_image.py --dry-run --preset kaoru_ref
 python scripts/generate_novelai_image.py --preset kaoru_ref
+python scripts/generate_novelai_image.py --dry-run --preset kaoru_hair_down_ref
+python scripts/generate_novelai_image.py --preset kaoru_hair_down_ref
+python scripts/generate_novelai_image.py --dry-run --preset toa_au_ref
+python scripts/generate_novelai_image.py --preset toa_au_ref
+python scripts/generate_novelai_image.py --dry-run --preset kaoru_au_ref
+python scripts/generate_novelai_image.py --preset kaoru_au_ref
 
 # Romance CGs: both precise refs by default (see _meta.char_ref_sprites)
 python scripts/generate_novelai_image.py --dry-run --preset prologue_embrace
 python scripts/generate_novelai_image.py --preset prologue_embrace --no-char-ref --toa-ref
-python scripts/generate_novelai_image.py --char-ref game/images/reference/toa-precise-reference.png --ref-strength 0.8 --ref-fidelity 0.5 --ref-type character
+python scripts/generate_novelai_image.py --char-ref game/images/reference/toa-precise-reference.png --ref-strength 1.0 --ref-fidelity 1.0 --ref-type character
 
 # Painterly style: tags auto-prepended; optional style Precise Reference (mixes with char refs)
 python scripts/generate_novelai_image.py --preset test_festival
@@ -153,7 +169,7 @@ python scripts/generate_novelai_image.py --preset prologue_embrace --style-ref
 python scripts/generate_novelai_image.py --no-char-ref --no-style-ref --vibe
 ```
 
-Preset JSON keys: boolean `toa_ref` / `kaoru_ref` / `style_ref` on romance presets; dedicated presets `toa_ref` / `kaoru_ref` / `test_festival`. Also: `char_refs`, `ref_strength`, `ref_fidelity`, `style_ref_strength`, `style_ref_fidelity`, `ref_type`. Style sheet: `_meta.style_ref_sprite` → `game/images/reference/style-painterly-reference.png`. Vibe mood board: `assets/reference/yone-style-vibe-source.png` (use with `--no-char-ref --vibe` only).
+Preset JSON keys: boolean `toa_ref` / `kaoru_ref` / `style_ref` on romance presets; dedicated presets `toa_ref` / `toa_date_ref` / `toa_au_ref` / `kaoru_ref` / `kaoru_hair_down_ref` / `kaoru_au_ref` / `test_festival`. Hair-down Kaoru CGs: pass `--char-ref game/images/reference/kaoru-hair-down-precise-reference.png` or use `{kaoru_hair_down_tags}` in custom prompts. Modern AU uses `_meta.au_modern_char_refs`, not `char_ref_sprites`. Also: `char_refs`, `ref_strength`, `ref_fidelity`, `style_ref_strength`, `style_ref_fidelity`, `ref_type`. Style sheet: `_meta.style_ref_sprite` → `game/images/reference/style-painterly-reference.png`. Vibe mood board: `assets/reference/yone-style-vibe-source.png` (use with `--no-char-ref --vibe` only).
 
 ## Editing prompts
 

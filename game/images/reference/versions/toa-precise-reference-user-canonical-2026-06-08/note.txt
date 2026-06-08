@@ -1,0 +1,3 @@
+﻿Backup before user-provided canonical normal-Toa precise reference install 2026-06-08.
+Prior sheet: post-turnaround-redo canonical (2x2 turnaround layout).
+Replaced by user-supplied reference image.

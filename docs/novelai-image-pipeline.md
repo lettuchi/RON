@@ -31,7 +31,7 @@ python scripts/generate_novelai_image.py --dry-run --preset prologue_embrace
 python scripts/generate_novelai_image.py --preset prologue_embrace
 
 # V4.5 Precise Reference (Character Reference) — uses director_reference_* API fields
-python scripts/generate_novelai_image.py --preset prologue_embrace --toa-ref --ref-strength 0.75 --ref-fidelity 0.35
+python scripts/generate_novelai_image.py --preset prologue_embrace --toa-ref --ref-strength 1.0 --ref-fidelity 1.0
 python scripts/generate_novelai_image.py --preset prologue_embrace --no-char-ref   # tags only, no sprite refs
 
 # Character + Style Precise Reference (same request; per-ref type in director_reference_descriptions)
@@ -63,8 +63,8 @@ Maps to `parameters` on the generate request (reverse-engineered from NovelAI’
 |--------------|-----------|--------|
 | Reference image(s) | `director_reference_images` | Base64 PNG per image |
 | Character / Style / both | `director_reference_descriptions[].caption.base_caption` | `"character"`, `"style"`, or `"character&style"` |
-| Strength | `director_reference_strength_values` | 0–1 per reference |
-| Fidelity | `director_reference_secondary_strength_values` | `1 - fidelity` per reference |
+| Strength | `director_reference_strength_values` | 0–1 per reference (project default **1.0**) |
+| Fidelity | `director_reference_secondary_strength_values` | `1 - fidelity` per reference (project default **1.0** → secondary **0.0**) |
 | (fixed) | `director_reference_information_extracted` | `[1.0, …]` per reference |
 
 **Incompatible with Vibe Transfer** (`reference_image_multiple`, etc.) in the same request. The CLI omits vibe fields when Precise Reference is active.
@@ -74,6 +74,14 @@ Romance presets auto-attach Toa + Kaoru **Precise Reference** sheets from `novel
 **Character + Style in one request:** attach character refs with `type=character` and a style mood sheet with `type=style` in the same `director_reference_*` arrays (NovelAI allows mixing reference types). Enable via preset `style_ref: true`, `--style-ref`, or `_meta.romance_presets_style_ref`. Default style sheet: `game/images/reference/style-painterly-reference.png`.
 
 Extra Anlas cost applies per NovelAI docs (+5 per reference).
+
+**Character ref defaults:** `_meta.ref_strength` / `_meta.ref_fidelity` and CLI `--ref-strength` / `--ref-fidelity` default to **1.0** (max). Both Toa and Kaoru refs in a preset share the same strength and fidelity. Style refs use separate `_meta.style_ref_*` knobs (unchanged).
+
+### SMEA (project status: off)
+
+**SMEA** (Sinusoidal Multipass Euler Ancestral) is a NovelAI high-resolution sampling mode that runs multiple UNet passes with a sine-based schedule so the model attends to both local detail and global composition. It reduces common hi-res artifacts (duplicate characters, warped anatomy). **SMEA DYN** is the dynamic variant: less softening, more mid/high-range detail and composition variety. NovelAI recommends SMEA for images above 1024×1024; the web UI can auto-enable it at that threshold.
+
+This CLI sets `parameters.sm: false` and `parameters.sm_dyn: false` (standard `k_euler_ancestral` only). At **1536×1024** we rely on Precise Reference and prompt tags rather than SMEA. Enable SMEA in the script only if you deliberately want to experiment with hi-res sampling behavior.
 
 ## Painterly style (anti-cartoon)
 
@@ -102,11 +110,22 @@ Compare outputs in `assets/cg/` before promoting to `game/images/cg/`.
 
 | Character | Path | Size | Role |
 |-----------|------|------|------|
-| Kakita Toa | `game/images/reference/toa-precise-reference.png` | 1536×1024 | NovelAI V4.5 `director_reference_*` default for Toa |
-| Kitsu Kaoru | `game/images/reference/kaoru-precise-reference.png` | 1536×1024 | Same for Kaoru |
+| Kakita Toa (work) | `game/images/reference/toa-precise-reference.png` | 1536×1024 | NovelAI V4.5 `director_reference_*` default for Toa |
+| Kakita Toa (date) | `game/images/reference/toa-date-precise-reference.png` | 1536×1024 | Case 3.5 furisode outfit; use `--preset toa_date_ref` or `_meta.char_ref_sprites.toa_date` |
+| Kitsu Kaoru | `game/images/reference/kaoru-precise-reference.png` | 1536×1024 | Default ponytail; same for Kaoru |
+| Kitsu Kaoru (hair-down) | `game/images/reference/kaoru-hair-down-precise-reference.png` | 1536×1024 | Intimate/off-duty beats; use `_meta.char_ref_sprites.kaoru_hair_down` or `--preset kaoru_hair_down_ref` |
 | Style (painterly) | `game/images/reference/style-painterly-reference.png` | 1536×1024 | `type=style` Precise Reference — no characters |
 
-**Best practices (NovelAI):** full-body or upper-body standing, neutral pose, plain/simple background, character large on canvas, clean Hakuoki otome illustration. Landscape **1536×1024** matches existing `game/images/cg/*.png`. Style reference should be a **scenic mood board** (canals, lanterns, painterly texture) with no people.
+**Modern AU** (tracksuit / suit — not `_meta.char_ref_sprites`):
+
+| Character | Path | Preset |
+|-----------|------|--------|
+| Toa (tracksuit turnaround) | `docs/art-references/au-modern/toa-au-modern-tracksuit-turnaround-reference.png` | `--preset toa_au_ref` |
+| Kaoru (suit turnaround) | `docs/art-references/au-modern/kaoru-au-modern-suit-turnaround-reference.png` | `--preset kaoru_au_ref` |
+
+Full AU ref table: [au-modern-character-references.md](au-modern-character-references.md).
+
+**Best practices (NovelAI):** Precise Reference sheets use a **2×2 turnaround layout** on landscape **1536×1024**: full-body **front**, **back**, **side** profile, and **face** close-up (small panel labels OK). Plain grey gradient background, neutral standing pose, clean Hakuoki otome illustration. Style reference should be a **scenic mood board** (canals, lanterns, painterly texture) with no people.
 
 **When to regenerate**
 
@@ -117,6 +136,6 @@ Compare outputs in `assets/cg/` before promoting to `game/images/cg/`.
 **How to regenerate**
 
 1. **Cursor (free, no Anlas):** Agent uses `GenerateImage` with sprite paths in `reference_image_paths`, saves to the table paths above, verifies 1536×1024 (resize with Pillow if needed).
-2. **NovelAI (optional):** `python scripts/generate_novelai_image.py --preset toa_ref` or `--preset kaoru_ref` — presets anchor on sprites via `char_refs`, output overwrites the precise-reference PNGs. Dry-run first.
+2. **NovelAI (optional):** `python scripts/generate_novelai_image.py --preset toa_ref`, `--preset toa_date_ref`, `--preset toa_au_ref`, `--preset kaoru_ref`, `--preset kaoru_hair_down_ref`, or `--preset kaoru_au_ref` — presets anchor on sprites/CG refs via `char_refs`, output overwrites the precise-reference PNGs. Dry-run first.
 
 After regen, `_meta.char_ref_sprites` should already point at these files; no preset edits required unless paths change.

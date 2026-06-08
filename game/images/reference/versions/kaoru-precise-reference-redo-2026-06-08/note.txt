@@ -1,0 +1,19 @@
+Kaoru Precise Reference regen — Normal Game (L5R canon magistrate)
+Date: 2026-06-08
+Tool: Cursor GenerateImage (vn-art-pipeline skill)
+Reason: Prior sheet had emerald-green outer robe; drifted from sprite/CG gold-mustard ochre haori.
+
+Output: game/images/reference/kaoru-precise-reference.png (1536x1024)
+Staging: assets/kaoru-precise-reference.png
+
+Refs (reference_image_paths):
+  game/images/reference/style-painterly-reference.png
+  game/images/cg/cg-case2-festival-kiss.png
+  game/images/op/op-festival.png
+  game/images/sprites/kaoru/kaoru-smirk.png
+
+Panels: full-body front, face close-up, back view (leaf embroidery), festival balcony vignette.
+Outfit: mustard-gold magistrate haori, gold leaf brocade, maroon inner layer, brown hakama, investigation catalog at hip.
+No oni mask. Normal Game = L5R magistrate (not Modern AU suit).
+
+Prior backup: kaoru-precise-reference.png (this folder)

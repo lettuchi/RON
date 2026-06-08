@@ -32,6 +32,7 @@ Municipal Arts & Licensing **corner practice studio** — same room as Wrong Flo
 | **Mirrors** | Full-height ballet mirrors on **left/long wall**; visible frames; reflections must show **actual scene** (Toa at barre, Kaoru at piano, barre, room — never blank gray) |
 | **Barre** | Wooden barre **mounted on mirror wall** (not floating in front of back windows only) |
 | **Piano** | **Brown wooden upright** (municipal, slightly worn). **Same model, wood tone, and position every shot** — **right wall**, below/right of mirror corner. **NOT** black grand, NOT digital keyboard |
+| **Piano orientation** | Upright **back panel flush against RIGHT wall** (rain windows on right behind piano). **Keyboard faces LEFT** into open floor toward mirror wall. **Bench between keyboard and right windows** — Kaoru sits **facing the keys (body facing LEFT) with BACK toward RIGHT rain windows**, same seat as `piano-lookup` / `piano-sit`; he turns head left over shoulder to watch Toa at centre-left. **NOT** bench on centre-floor side only (pianist back to mirrors), NOT keyboard facing right wall, NOT piano backwards (keyboard against wall) |
 | **Floor** | Dark polished wood |
 | **Walls** | Neutral/cream where visible; back may have **small high windows** with rain — do not replace entire left wall with harbor glass |
 | **Light** | Afternoon studio light (fluorescent + warm window spill); readable, not night-only |
@@ -63,7 +64,8 @@ Municipal Arts & Licensing **corner practice studio** — same room as Wrong Flo
 municipal ballet practice studio, afternoon light, cream neutral walls, dark wooden floor,
 full-wall ballet mirrors on LEFT with visible frames and accurate reflections of dancers and piano,
 wooden barre mounted on mirror wall,
-brown wooden upright piano on RIGHT wall same position every shot municipal brown wood NOT black grand,
+brown wooden upright piano on RIGHT wall back panel against right wall keyboard faces LEFT into room municipal brown wood NOT black grand,
+piano bench between keyboard and right rain windows accompanist seated facing keyboard body facing LEFT back toward right wall and window glass NOT bench centre-floor side only,
 rain streaks on high back windows only
 ```
 

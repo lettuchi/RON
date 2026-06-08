@@ -1,0 +1,4 @@
+Kaoru precise reference turnaround redo — 2026-06-08
+Replaced single-pose + festival vignette sheet with 2×2 turnaround (FRONT/BACK/SIDE/FACE).
+Layout standard: toa-date-precise-reference.png
+Backup: kaoru-precise-reference.png (pre-regen)

@@ -8,7 +8,7 @@ See docs/novelai-image-pipeline.md and .cursor/skills/novelai-image-gen/SKILL.md
 Usage (project root):
     python scripts/generate_novelai_image.py --dry-run --preset prologue_embrace
     python scripts/generate_novelai_image.py --preset case1_lantern
-    python scripts/generate_novelai_image.py --preset prologue_embrace --toa-ref --ref-strength 0.7
+    python scripts/generate_novelai_image.py --preset prologue_embrace --toa-ref --ref-strength 1.0
     python scripts/generate_novelai_image.py --preset test_festival
     python scripts/generate_novelai_image.py --preset prologue_embrace --style-ref
     python scripts/generate_novelai_image.py --no-char-ref --vibe
@@ -49,8 +49,8 @@ REQUEST_TIMEOUT = 300
 
 DEFAULT_TOA_REF = "game/images/reference/toa-precise-reference.png"
 DEFAULT_KAORU_REF = "game/images/reference/kaoru-precise-reference.png"
-DEFAULT_REF_STRENGTH = 0.75
-DEFAULT_REF_FIDELITY = 0.35
+DEFAULT_REF_STRENGTH = 1.0
+DEFAULT_REF_FIDELITY = 1.0
 DEFAULT_REF_TYPE: Literal["character", "style", "character&style"] = "character"
 DEFAULT_STYLE_REF = "game/images/reference/style-painterly-reference.png"
 DEFAULT_VIBE_SOURCE = "assets/reference/yone-style-vibe-source.png"
@@ -759,7 +759,7 @@ def main() -> None:
         else (
             resolved.get("ref_strength")
             if resolved.get("ref_strength") is not None
-            else DEFAULT_REF_STRENGTH
+            else meta.get("ref_strength", DEFAULT_REF_STRENGTH)
         )
     )
     ref_fidelity = (
@@ -768,7 +768,7 @@ def main() -> None:
         else (
             resolved.get("ref_fidelity")
             if resolved.get("ref_fidelity") is not None
-            else DEFAULT_REF_FIDELITY
+            else meta.get("ref_fidelity", DEFAULT_REF_FIDELITY)
         )
     )
     ref_type: RefType = args.ref_type or resolved.get("ref_type") or DEFAULT_REF_TYPE

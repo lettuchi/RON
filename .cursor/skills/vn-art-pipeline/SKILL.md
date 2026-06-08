@@ -33,10 +33,10 @@ Use these in `reference_image_paths` for every **canon** (L5R) character generat
 
 For **Modern AU** CGs, do **not** rely on sprites alone (they wear kimono/robes). Attach outfit refs first, then sprites for face/hair:
 
-| Character | AU outfit ref (full) | AU outfit ref (waist-up) |
-|-----------|----------------------|--------------------------|
-| Toa | `docs/art-references/au-modern/toa-au-modern-tracksuit-reference.png` | `docs/art-references/au-modern/toa-au-modern-tracksuit-waistup-reference.png` |
-| Kaoru | `docs/art-references/au-modern/kaoru-au-modern-suit-reference.png` | `docs/art-references/au-modern/kaoru-au-modern-suit-waistup-reference.png` |
+| Character | AU outfit ref (full) | AU turnaround (2×2) | AU outfit ref (waist-up) |
+|-----------|----------------------|---------------------|--------------------------|
+| Toa | `docs/art-references/au-modern/toa-au-modern-tracksuit-reference.png` | `docs/art-references/au-modern/toa-au-modern-tracksuit-turnaround-reference.png` | `docs/art-references/au-modern/toa-au-modern-tracksuit-waistup-reference.png` |
+| Kaoru | `docs/art-references/au-modern/kaoru-au-modern-suit-reference.png` | `docs/art-references/au-modern/kaoru-au-modern-suit-turnaround-reference.png` | `docs/art-references/au-modern/kaoru-au-modern-suit-waistup-reference.png` |
 
 Full rules, negatives, and workflow: [docs/au-modern-character-references.md](../../../docs/au-modern-character-references.md). Copy-paste tags: `scripts/au_modern_cg_prompt_block.txt`.
 
@@ -66,6 +66,7 @@ Full rules, negatives, and workflow: [docs/au-modern-character-references.md](..
 
 ### Kitsu Kaoru — primary dark route LI
 - Mid-thirties, brown hair slicked back (short ponytail), grey eyes, 5'8"
+- **Hair-down variant (additive):** released loose medium-short brown; high forehead visible; both ears covered; face-framing layers past jawline toward collarbone; soft nape volume; NO ponytail. Locked concepts: `assets/kaoru-hair-down-concept-front-v5-long-framing.png`, `assets/kaoru-hair-down-concept-back-v4.png`, `assets/kaoru-hair-down-concept-front-v4-both-ears.png`. Precise Reference: `game/images/reference/kaoru-hair-down-precise-reference.png` — use **in addition to** ponytail `kaoru-precise-reference.png`.
 - Opulent gold/maroon magistrate robes, gold leaf patterns; carries worn investigation catalog
 - **Sprite pose: waist-up, facing slightly RIGHT** (Toa faces left — they converse across dialog box)
 - **NO oni mask, NO demon mask, NO face coverings, NO Kitsu spirit imagery on sprites**
@@ -127,6 +128,17 @@ Copy finalized assets from cursor `assets/` into `game/images/` subfolders. Char
 - Backgrounds: 1920×1080 (16:9)
 - Sprites: ~800–1200 px tall, character centered, simple background or white (chroma-key in post if needed)
 - CGs: 1920×1080 or 1280×720
+
+## Character reference sheets (Precise Reference)
+
+Turnaround model sheets for Toa/Kaoru (and Kaoru hair-down variant) must include **four panels** on one landscape PNG (1536×1024):
+
+1. Full-body **front** (neutral standing)
+2. Full-body **back**
+3. Full-body **side** profile
+4. **Face** close-up (head/shoulders)
+
+Plain grey gradient background; small panel labels (FRONT / BACK / SIDE / FACE) are fine. Not a single-pose sheet or scenic vignette.
 
 ## Prompt template
 

@@ -10,10 +10,14 @@
 
 | Role | Path |
 |------|------|
-| Toa — witness / default outfit | `game/images/sprites/toa/toa-neutral.png` |
-| Toa — Case 3.5 date furisode | `game/images/reference/case3_5-toa-date-lock.png` |
+| Toa — witness / default outfit (sprite) | `game/images/sprites/toa/toa-neutral.png` |
+| Toa — work outfit (solo Precise Reference, 2×2 turnaround) | `game/images/reference/toa-precise-reference.png` |
+| Toa — Case 3.5 date furisode (solo Precise Reference, 2×2 turnaround) | `game/images/reference/toa-date-precise-reference.png` |
+| Toa — Case 3.5 date duo crop lock | `game/images/reference/case3_5-toa-date-lock.png` |
 | Toa — date sprite set | `game/images/sprites/toa/date/toa-date-neutral.png` |
-| Kaoru — default smirk (faces **right**) | `game/images/sprites/kaoru/kaoru-smirk.png` |
+| Kaoru — default smirk (faces **right**, sprite) | `game/images/sprites/kaoru/kaoru-smirk.png` |
+| Kaoru — magistrate robes ponytail (solo Precise Reference, 2×2 turnaround) | `game/images/reference/kaoru-precise-reference.png` |
+| Kaoru — magistrate robes hair-down (solo Precise Reference, 2×2 turnaround) | `game/images/reference/kaoru-hair-down-precise-reference.png` |
 | Duo lighting / wardrobe gold standard | `game/images/cg/cg-case2-festival-kiss.png` |
 | Case 3.5 duo (date outfits) | `game/images/cg/cg-case3_5-date-kaiseki-duo.png` |
 | Painterly style anchor | `game/images/reference/style-painterly-reference.png` |
@@ -37,7 +41,8 @@ Use **real-world cm** as the rig scale; 1 Blender unit = 1 m is recommended.
 **Hair volume (approx. bounding boxes for blocking):**
 
 - **Toa:** White hair, shoulder-to-mid-back length when loose; witness outfit often down; date furisode uses **pinned updo + kanzashi** (add ~6 cm height).
-- **Kaoru:** Brown, slicked back, **short ponytail** at nape; low profile above skull, tail ~15 cm.
+- **Kaoru (default):** Brown, slicked back, **short ponytail** at nape; low profile above skull, tail ~15 cm.
+- **Kaoru (hair-down variant):** Released from ponytail; medium-short loose brown; **high forehead visible**; **both ears covered**; face-framing side layers past jawline toward collarbone; soft nape volume; **no ponytail**, no heavy bangs, no short bob. Locked design: `assets/kaoru-hair-down-concept-front-v5-long-framing.png`, `assets/kaoru-hair-down-concept-back-v4.png`. Precise Reference: `game/images/reference/kaoru-hair-down-precise-reference.png`.
 
 ---
 
@@ -99,7 +104,7 @@ Derived from VN dialogue colors, art-direction docs, and CG outfit locks. Sample
 - Pinned updo; light rouge on lips/eyes per script.
 - **No hakama** — full kimono layers, zori.
 - Toggle in Ren'Py: `$ set_toa_outfit("date")` / `"work"`.
-- Master lock: `game/images/reference/case3_5-toa-date-lock.png`.
+- Solo Precise Reference: `game/images/reference/toa-date-precise-reference.png`. Duo crop lock: `game/images/reference/case3_5-toa-date-lock.png`.
 
 ### Kaoru — magistrate (all scenes)
 
@@ -107,6 +112,7 @@ Derived from VN dialogue colors, art-direction docs, and CG outfit locks. Sample
 - **Gold/mustard ochre haori** for festival and Case 3.5 date CG lock (match `cg-case2-festival-kiss.png`).
 - Worn investigation catalog (prop — separate mesh).
 - **NO oni mask, NO demon mask, NO face coverings, NO Kitsu spirit imagery** on character mesh.
+- **Hair:** default **ponytail** (`kaoru-precise-reference.png`). **Hair-down** variant for intimate/off-duty beats — same outfit, loose hair per `kaoru-hair-down-precise-reference.png` (additive; do not replace ponytail sheet).
 
 ---
 

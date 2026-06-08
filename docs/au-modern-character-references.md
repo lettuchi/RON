@@ -8,10 +8,10 @@
 
 ## Reference images (mandatory for AU CGs)
 
-| Character | Full / 3/4 | Waist-up (closeups) |
-|-----------|------------|---------------------|
-| **Kakita Toa** | `docs/art-references/au-modern/toa-au-modern-tracksuit-reference.png` | `docs/art-references/au-modern/toa-au-modern-tracksuit-waistup-reference.png` |
-| **Kitsu Kaoru** | `docs/art-references/au-modern/kaoru-au-modern-suit-reference.png` | `docs/art-references/au-modern/kaoru-au-modern-suit-waistup-reference.png` |
+| Character | Full / 3/4 | Turnaround (2×2) | Waist-up (closeups) |
+|-----------|------------|------------------|---------------------|
+| **Kakita Toa** | `docs/art-references/au-modern/toa-au-modern-tracksuit-reference.png` | `docs/art-references/au-modern/toa-au-modern-tracksuit-turnaround-reference.png` | `docs/art-references/au-modern/toa-au-modern-tracksuit-waistup-reference.png` |
+| **Kitsu Kaoru** | `docs/art-references/au-modern/kaoru-au-modern-suit-reference.png` | `docs/art-references/au-modern/kaoru-au-modern-suit-turnaround-reference.png` | `docs/art-references/au-modern/kaoru-au-modern-suit-waistup-reference.png` |
 
 ---
 

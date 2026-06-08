@@ -29,6 +29,12 @@ kimono, kosode, furisode, hakama, obi, zori, tabi, geta, magistrate robes, maroo
 
 masterpiece, best quality, very aesthetic, absurdres, anime otome visual novel CG, Hakuoki polished shoujo art, Modern AU Ryoko Port city, 21st century western office and dance wear, 16:9 cinematic, rain on glass, municipal licensing tower mood
 
+## STUDIO PIANO ORIENTATION (Case 1 ballet session — LOCK with piano-sit anchor)
+
+brown wooden upright piano on RIGHT wall, upright back panel flush against right wall, keyboard faces LEFT into open floor toward mirror wall,
+piano bench between keyboard and right rain windows, accompanist seated facing keys body facing LEFT back toward right wall and window glass same as piano-lookup,
+pianist turns head left over shoulder to watch dancer centre-left, NOT bench centre-floor side only, NOT keyboard facing right wall, NOT piano installed backwards, NOT black grand piano
+
 ## EXAMPLE SCENE LINE (studio audition — drift-prone test)
 
 1girl 1boy, mirror dance studio, barre, floor-to-ceiling mirrors, {toa_au_tags} port de bras at barre in tracksuit, {kaoru_au_tags} standing at mirror edge with clipboard witnessing audition, rain streaks on high windows, fluorescent and warm mirror lights, sponsorship inspection mood, no text
@@ -36,7 +42,9 @@ masterpiece, best quality, very aesthetic, absurdres, anime otome visual novel C
 ## REF PATHS (NovelAI Precise Reference / GenerateImage reference_image_paths)
 
 toa_au_ref=docs/art-references/au-modern/toa-au-modern-tracksuit-reference.png
+toa_au_turnaround=docs/art-references/au-modern/toa-au-modern-tracksuit-turnaround-reference.png
 kaoru_au_ref=docs/art-references/au-modern/kaoru-au-modern-suit-reference.png
+kaoru_au_turnaround=docs/art-references/au-modern/kaoru-au-modern-suit-turnaround-reference.png
 toa_au_waistup=docs/art-references/au-modern/toa-au-modern-tracksuit-waistup-reference.png
 kaoru_au_waistup=docs/art-references/au-modern/kaoru-au-modern-suit-waistup-reference.png
 style_ref=game/images/reference/style-painterly-reference.png
